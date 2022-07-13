@@ -1,0 +1,7240 @@
+{
+  "201": {
+    "description": {
+      "ja": "[開幕時][特殊]キラめき獲得 %opt1_value% "
+    },
+    "icon_id": 89,
+    "id": 201,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20001": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% "
+    },
+    "icon_id": 89,
+    "id": 20001,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      11,
+      12,
+      13,
+      14,
+      16
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20002": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 30,
+    "id": 20002,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      270,
+      480,
+      680,
+      890,
+      1090
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20003": {
+    "description": {
+      "ja": "[開幕時]特殊バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 31,
+    "id": 20003,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      270,
+      480,
+      680,
+      890,
+      1090
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20004": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% "
+    },
+    "icon_id": 89,
+    "id": 20004,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20005": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 30,
+    "id": 20005,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      390,
+      690,
+      990,
+      1290,
+      1590
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20006": {
+    "description": {
+      "ja": "[開幕時]特殊バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 31,
+    "id": 20006,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      390,
+      690,
+      990,
+      1290,
+      1590
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20007": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% "
+    },
+    "icon_id": 89,
+    "id": 20007,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20008": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 30,
+    "id": 20008,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      560,
+      980,
+      1410,
+      1830,
+      2260
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20009": {
+    "description": {
+      "ja": "[開幕時]特殊バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 31,
+    "id": 20009,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      560,
+      980,
+      1410,
+      1830,
+      2260
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20012": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 通常バリア獲得 %opt2_value% %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 20012,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      390,
+      690,
+      990,
+      1290,
+      1590
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20013": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 特殊バリア獲得 %opt2_value% %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 20013,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      390,
+      690,
+      990,
+      1290,
+      1590
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20014": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 回避獲得 %opt2_time%回"
+    },
+    "icon_id": 89,
+    "id": 20014,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20015": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 不屈獲得 %opt2_time%回"
+    },
+    "icon_id": 89,
+    "id": 20015,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20016": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン& 特殊バリア獲得 %opt2_value% %opt2_time%ターン"
+    },
+    "icon_id": 30,
+    "id": 20016,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      390,
+      690,
+      990,
+      1290,
+      1590
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      390,
+      690,
+      990,
+      1290,
+      1590
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20017": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン& 回避獲得 %opt2_time%回"
+    },
+    "icon_id": 30,
+    "id": 20017,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      390,
+      690,
+      990,
+      1290,
+      1590
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20018": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン& 不屈獲得 %opt2_time%回"
+    },
+    "icon_id": 30,
+    "id": 20018,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      390,
+      690,
+      990,
+      1290,
+      1590
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20019": {
+    "description": {
+      "ja": "[開幕時]特殊バリア獲得 %opt1_value% %opt1_time%ターン& 回避獲得 %opt2_time%回"
+    },
+    "icon_id": 31,
+    "id": 20019,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      390,
+      690,
+      990,
+      1290,
+      1590
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20020": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% "
+    },
+    "icon_id": 89,
+    "id": 20020,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      28,
+      31,
+      34,
+      37,
+      40
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20021": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 30,
+    "id": 20021,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      750,
+      1320,
+      1890,
+      2460,
+      3030
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20022": {
+    "description": {
+      "ja": "[開幕時]特殊バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 31,
+    "id": 20022,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      750,
+      1320,
+      1890,
+      2460,
+      3030
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20023": {
+    "description": {
+      "ja": "[開幕時]回避獲得 %opt1_time%回"
+    },
+    "icon_id": 34,
+    "id": 20023,
+    "skill_option1_times": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20024": {
+    "description": {
+      "ja": "[開幕時]不屈獲得 %opt1_time%回"
+    },
+    "icon_id": 36,
+    "id": 20024,
+    "skill_option1_times": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20025": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 通常バリア獲得 %opt2_value% %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 20025,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      560,
+      980,
+      1410,
+      1830,
+      2260
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20026": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 特殊バリア獲得 %opt2_value% %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 20026,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      560,
+      980,
+      1410,
+      1830,
+      2260
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20027": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 回避獲得 %opt2_time%回"
+    },
+    "icon_id": 89,
+    "id": 20027,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20028": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 不屈獲得 %opt2_time%回"
+    },
+    "icon_id": 89,
+    "id": 20028,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20029": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン& 特殊バリア獲得 %opt2_value% %opt2_time%ターン"
+    },
+    "icon_id": 30,
+    "id": 20029,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      560,
+      980,
+      1410,
+      1830,
+      2260
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      560,
+      980,
+      1410,
+      1830,
+      2260
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20030": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン& 回避獲得 %opt2_time%回"
+    },
+    "icon_id": 30,
+    "id": 20030,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      560,
+      980,
+      1410,
+      1830,
+      2260
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20031": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン& 不屈獲得 %opt2_time%回"
+    },
+    "icon_id": 30,
+    "id": 20031,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      560,
+      980,
+      1410,
+      1830,
+      2260
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20032": {
+    "description": {
+      "ja": "[開幕時]特殊バリア獲得 %opt1_value% %opt1_time%ターン& 回避獲得 %opt2_time%回"
+    },
+    "icon_id": 31,
+    "id": 20032,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      560,
+      980,
+      1410,
+      1830,
+      2260
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20033": {
+    "description": {
+      "ja": "[開幕時]毎ターンHP回復 %opt1_value% %opt2_time%ターン & 通常バリア獲得 %opt2_value% %opt2_time%ターン"
+    },
+    "icon_id": 28,
+    "id": 20033,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      400,
+      400,
+      400,
+      400,
+      1000
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      600,
+      600,
+      600,
+      600,
+      1500
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20034": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & すばやさアップ %opt2_value%% %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 20034,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20035": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & すばやさアップ %opt2_value%% %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 20035,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      6,
+      6,
+      7,
+      8,
+      9
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28001": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 8,
+    "id": 28001,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28002": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 10,
+    "id": 28002,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      50,
+      50,
+      50,
+      100,
+      200
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28003": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 12,
+    "id": 28003,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      50,
+      50,
+      50,
+      100,
+      200
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28004": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 10,
+    "id": 28004,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      25,
+      25,
+      25,
+      50,
+      100
+    ],
+    "skill_option2_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option2_values": [
+      25,
+      25,
+      25,
+      50,
+      100
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28005": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 22,
+    "id": 28005,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      20,
+      40,
+      60,
+      60,
+      60
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28006": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 20,
+    "id": 28006,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      10,
+      15,
+      20,
+      20,
+      20
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28007": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 28,
+    "id": 28007,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      300,
+      600,
+      900,
+      1500,
+      3000
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28008": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 30,
+    "id": 28008,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      900,
+      1800,
+      2700,
+      4500,
+      9000
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28009": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 31,
+    "id": 28009,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      900,
+      1800,
+      2700,
+      4500,
+      9000
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28010": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 30,
+    "id": 28010,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      450,
+      900,
+      1350,
+      2250,
+      4500
+    ],
+    "skill_option2_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option2_values": [
+      450,
+      900,
+      1350,
+      2250,
+      4500
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28011": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 35,
+    "id": 28011,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28012": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 34,
+    "id": 28012,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      4,
+      5
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28013": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 8,
+    "id": 28013,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28014": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 10,
+    "id": 28014,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      50,
+      50,
+      50,
+      100,
+      200
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28015": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 12,
+    "id": 28015,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      50,
+      50,
+      50,
+      100,
+      200
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28016": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 10,
+    "id": 28016,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      25,
+      25,
+      25,
+      50,
+      100
+    ],
+    "skill_option2_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option2_values": [
+      25,
+      25,
+      25,
+      50,
+      100
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28017": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 22,
+    "id": 28017,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      20,
+      40,
+      60,
+      60,
+      60
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28018": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 20,
+    "id": 28018,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      10,
+      15,
+      20,
+      20,
+      20
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28019": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 28,
+    "id": 28019,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      150,
+      300,
+      450,
+      750,
+      1500
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28020": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 30,
+    "id": 28020,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      450,
+      900,
+      1350,
+      2250,
+      4500
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28021": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 31,
+    "id": 28021,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      450,
+      900,
+      1350,
+      2250,
+      4500
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28022": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 30,
+    "id": 28022,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      225,
+      450,
+      675,
+      1125,
+      2250
+    ],
+    "skill_option2_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option2_values": [
+      225,
+      450,
+      675,
+      1125,
+      2250
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28023": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 35,
+    "id": 28023,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28024": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 34,
+    "id": 28024,
+    "skill_option1_times": [
+      2,
+      2,
+      2,
+      3,
+      4
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28025": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 8,
+    "id": 28025,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28026": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 10,
+    "id": 28026,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      50,
+      50,
+      50,
+      100,
+      200
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28027": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 12,
+    "id": 28027,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      50,
+      50,
+      50,
+      100,
+      200
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28028": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 10,
+    "id": 28028,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      25,
+      25,
+      25,
+      50,
+      100
+    ],
+    "skill_option2_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option2_values": [
+      25,
+      25,
+      25,
+      50,
+      100
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28029": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 22,
+    "id": 28029,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      20,
+      40,
+      60,
+      60,
+      60
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28030": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 20,
+    "id": 28030,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      10,
+      15,
+      20,
+      20,
+      20
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28031": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 28,
+    "id": 28031,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      100,
+      200,
+      300,
+      500,
+      1000
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28032": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 30,
+    "id": 28032,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      300,
+      600,
+      900,
+      1500,
+      3000
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28033": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 31,
+    "id": 28033,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      300,
+      600,
+      900,
+      1500,
+      3000
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28034": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 30,
+    "id": 28034,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      150,
+      300,
+      450,
+      750,
+      1500
+    ],
+    "skill_option2_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option2_values": [
+      150,
+      300,
+      450,
+      750,
+      1500
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28035": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 35,
+    "id": 28035,
+    "skill_option1_times": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28036": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 34,
+    "id": 28036,
+    "skill_option1_times": [
+      1,
+      1,
+      1,
+      2,
+      3
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28037": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 10,
+    "id": 28037,
+    "skill_option1_times": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "skill_option1_values": [
+      500,
+      500,
+      500,
+      500,
+      500
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28038": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 12,
+    "id": 28038,
+    "skill_option1_times": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "skill_option1_values": [
+      500,
+      500,
+      500,
+      500,
+      500
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28039": {
+    "description": {
+      "ja": "-"
+    },
+    "icon_id": 34,
+    "id": 28039,
+    "skill_option1_times": [
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28040": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% "
+    },
+    "icon_id": 89,
+    "id": 28040,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28041": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 30,
+    "id": 28041,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      2270,
+      3980,
+      5690,
+      7400,
+      9110
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28042": {
+    "description": {
+      "ja": "[開幕時]特殊バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 31,
+    "id": 28042,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      2270,
+      3980,
+      5690,
+      7400,
+      9110
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28043": {
+    "description": {
+      "ja": "[開幕時]敵全体に挑発を付与 %opt1_time%ターン"
+    },
+    "icon_id": 56,
+    "id": 28043,
+    "skill_option1_times": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28044": {
+    "description": {
+      "ja": "[開幕時]通常バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 30,
+    "id": 28044,
+    "skill_option1_times": [
+      12,
+      12,
+      12,
+      12,
+      12
+    ],
+    "skill_option1_values": [
+      15000,
+      15000,
+      15000,
+      15000,
+      15000
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28045": {
+    "description": {
+      "ja": "[開幕時]特殊バリア獲得 %opt1_value% %opt1_time%ターン"
+    },
+    "icon_id": 31,
+    "id": 28045,
+    "skill_option1_times": [
+      12,
+      12,
+      12,
+      12,
+      12
+    ],
+    "skill_option1_values": [
+      15000,
+      15000,
+      15000,
+      15000,
+      15000
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28046": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 吸収付与 %opt2_value%% %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 28046,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      5,
+      5,
+      5,
+      5,
+      10
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28047": {
+    "description": {
+      "ja": "[開幕時]宙属性ダメージ軽減 %opt1_value%% %opt1_time%ターン"
+    },
+    "icon_id": 70,
+    "id": 28047,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28048": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 必中を付与 %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 28048,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28049": {
+    "description": {
+      "ja": "[開幕時]宙属性ダメージ軽減 %opt1_value%% %opt1_time%ターン"
+    },
+    "icon_id": 70,
+    "id": 28049,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28050": {
+    "description": {
+      "ja": "[開幕時]必中獲得  %opt1_time%ターン"
+    },
+    "icon_id": 35,
+    "id": 28050,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28051": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 必中を付与 %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 28051,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28052": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 不屈獲得 %opt2_time%回 & 回避獲得 %opt3_time%回"
+    },
+    "icon_id": 89,
+    "id": 28052,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "skill_option2_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28053": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 与ダメージアップ %opt2_value%% %opt2_time%ターン & 被ダメージダウン %opt3_value%% %opt3_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 28053,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "skill_option2_times": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "skill_option2_values": [
+      5,
+      6,
+      6,
+      7,
+      8
+    ],
+    "skill_option3_times": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "skill_option3_values": [
+      5,
+      6,
+      6,
+      7,
+      8
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28054": {
+    "description": {
+      "ja": "[開幕時]凍結以外の行動制限、行動不能、dotの耐性獲得(解除不可)"
+    },
+    "icon_id": 91,
+    "id": 28054,
+    "skill_option1_times": [
+      99,
+      99,
+      99,
+      99,
+      99
+    ],
+    "skill_option1_values": [
+      191,
+      191,
+      191,
+      191,
+      191
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28055": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & クリティカル率アップ %opt2_value%% %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 28055,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      11,
+      12,
+      13,
+      14,
+      16
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28056": {
+    "description": {
+      "ja": "[開幕時]キラめき獲得 %opt1_value% & 与ダメージアップ %opt2_value%% %opt2_time%ターン"
+    },
+    "icon_id": 89,
+    "id": 28056,
+    "skill_option1_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option1_values": [
+      22,
+      24,
+      27,
+      29,
+      32
+    ],
+    "skill_option2_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option2_values": [
+      7,
+      7,
+      8,
+      9,
+      10
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28057": {
+    "description": {
+      "ja": "[開幕時]味方全体に混乱無効を付与  %opt1_time%ターン"
+    },
+    "icon_id": 96,
+    "id": 28057,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28058": {
+    "description": {
+      "ja": "[開幕時]味方全体に暗闇無効を付与  %opt1_time%ターン"
+    },
+    "icon_id": 99,
+    "id": 28058,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28059": {
+    "description": {
+      "ja": "[開幕時]自身にターゲット固定無効を付与  %opt1_time%ターン"
+    },
+    "icon_id": 153,
+    "id": 28059,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28060": {
+    "description": {
+      "ja": "[開幕時]味方全体に火傷無効を付与  %opt1_time%ターン"
+    },
+    "icon_id": 92,
+    "id": 28060,
+    "skill_option1_times": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "skill_option1_values": [
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "skill_option2_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option2_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option3_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option4_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_times": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "skill_option5_values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

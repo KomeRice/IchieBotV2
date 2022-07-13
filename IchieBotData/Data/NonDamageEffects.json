@@ -1,0 +1,498 @@
+[
+  {
+    "Name": "",
+    "JpName": "",
+    "altNames": [],
+    "IconId": "",
+    "Verbose": "",
+    "Quality": -1,
+    "Type": -1,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased MaxHP",
+    "JpName": "最大HPアップ",
+    "altNames": [],
+    "IconId": "223",
+    "Verbose": "$mgn$% increased MaxHP $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced MaxHP",
+    "JpName": "最大HPダウン",
+    "altNames": [],
+    "IconId": "224",
+    "Verbose": "$mgn$% reduced MaxHP $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased ACT",
+    "JpName": "ACTアップ",
+    "altNames": [],
+    "IconId": "8",
+    "Verbose": "$mgn$% increased ACT $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced ACT",
+    "JpName": "ACTダウン",
+    "altNames": [],
+    "IconId": "9",
+    "Verbose": "$mgn$% reduced ACT $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased NormDef",
+    "JpName": "通常防御アップ",
+    "altNames": [
+      "Increased PhysDef"
+    ],
+    "IconId": "9",
+    "Verbose": "$mgn$% increased NormDef $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced NormDef",
+    "JpName": "通常防御ダウン",
+    "altNames": [
+      "Reduced PhysDef"
+    ],
+    "IconId": "11",
+    "Verbose": "$mgn$% reduced NormDef $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased SpDef",
+    "JpName": "特殊防御アップ",
+    "altNames": [],
+    "IconId": "13",
+    "Verbose": "$mgn$% increased SpDef $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },  
+  {
+    "Name": "Reduced SpDef",
+    "JpName": "特殊防御ダウン",
+    "altNames": [],
+    "IconId": "13",
+    "Verbose": "$mgn$% reduced SpDef $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased Agility",
+    "JpName": "すばやさアップ",
+    "altNames": [
+      "Speed Up"
+    ],
+    "IconId": "14",
+    "Verbose": "$mgn$% increased Agility $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced Agility",
+    "JpName": "すばやさダウン",
+    "altNames": [
+      "Speed Down"
+    ],
+    "IconId": "15",
+    "Verbose": "$mgn$% reduced Agility $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased Crit Rate",
+    "JpName": "クリティカル率アップ",
+    "altNames": [
+      "Dexterity Up"
+    ],
+    "IconId": "20",
+    "Verbose": "+$mgn$% to Crit Rate $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced Crit Rate",
+    "JpName": "クリティカル率ダウン",
+    "altNames": [
+      "Dexterity Down"
+    ],
+    "IconId": "21",
+    "Verbose": "-$mgn$% to Crit Rate $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased Crit Dmg",
+    "JpName": "クリティカル威力アップ",
+    "altNames": [
+      "Critical Up"
+    ],
+    "IconId": "22",
+    "Verbose": "+$mgn$% to Crit Dmg $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced Crit Dmg",
+    "JpName": "クリティカル威力ダウン",
+    "altNames": [
+      "Critical Down"
+    ],
+    "IconId": "23",
+    "Verbose": "-$mgn$% to Crit Dmg $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced AP Cost",
+    "JpName": "AP減少",
+    "altNames": [
+      "AP Reduction"
+    ],
+    "IconId": "157",
+    "Verbose": "$mgn$ AP Reduction $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased AP Cost",
+    "JpName": "AP増加",
+    "altNames": [
+      "AP Increase"
+    ],
+    "IconId": "173",
+    "Verbose": "$mgn$ AP Increase $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased Accuracy",
+    "JpName": "命中率アップ",
+    "altNames": [],
+    "IconId": "16",
+    "Verbose": "+$mgn$% to Accuracy $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced Accuracy",
+    "JpName": "命中率ダウン",
+    "altNames": [],
+    "IconId": "17",
+    "Verbose": "-$mgn$% to Accuracy $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased Evasion",
+    "JpName": "回避率アップ",
+    "altNames": [],
+    "IconId": "18",
+    "Verbose": "+$mgn$% to Evasion $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced Evasion",
+    "JpName": "回避率ダウン",
+    "altNames": [],
+    "IconId": "19",
+    "Verbose": "-$mgn$% to Evasion $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased Damage",
+    "JpName": "与ダメージアップ",
+    "altNames": [],
+    "IconId": "111",
+    "Verbose": "$mgn$% increased Damage $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced Damage Taken",
+    "JpName": "被ダメージダウン",
+    "altNames": [],
+    "IconId": "114",
+    "Verbose": "$mgn$% reduced Damage taken $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Increased Brilliance Recovery",
+    "JpName": "キラめき獲得アップ",
+    "altNames": [],
+    "IconId": "251",
+    "Verbose": "$mgn$% increased Brilliance recovery $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced Brilliance Gain",
+    "JpName": "キラめき獲得ダウン",
+    "altNames": [],
+    "IconId": "192",
+    "Verbose": "$mgn$% reduced Brilliance recovery $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Reduced HP Recovery",
+    "JpName": "HP回復量ダウン",
+    "altNames": [],
+    "IconId": "65",
+    "Verbose": "$mgn$% reduced HP recovery $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Flat HP Heal",
+    "JpName": "HP回復",
+    "altNames": [],
+    "IconId": "6",
+    "Verbose": "Heal $mgn$ HP",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Relative HP Heal",
+    "JpName": "HP回復",
+    "altNames": [],
+    "IconId": "6",
+    "Verbose": "Heal $mgn$% of MaxHP",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Brilliance Gain",
+    "JpName": "キラめき回復",
+    "altNames": [],
+    "IconId": "89",
+    "Verbose": "Gain $mgn$ Brilliance",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Brilliance Loss",
+    "JpName": "キラめき減少",
+    "altNames": [],
+    "IconId": "89",
+    "Verbose": "Lose $mgn$ Brilliance",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Normal Barrier",
+    "JpName": "通常バリア",
+    "altNames": [],
+    "IconId": "30",
+    "Verbose": "$mgn$ Normal Barrier $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Special Barrier",
+    "JpName": "特殊バリア",
+    "altNames": [],
+    "IconId": "31",
+    "Verbose": "$mgn$ Special Barrier $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Provoke",
+    "JpName": "挑発",
+    "altNames": [
+      "Taunt"
+    ],
+    "IconId": "56",
+    "Verbose": "Taunt $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Aggro",
+    "JpName": "ターゲット固定",
+    "altNames": [
+      "Fix Target"
+    ],
+    "IconId": "152",
+    "Verbose": "Aggro $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Poison",
+    "JpName": "毒",
+    "altNames": [],
+    "IconId": "54",
+    "Verbose": "$mgn$ Poison $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Strong Poison",
+    "JpName": "猛毒",
+    "altNames": [],
+    "IconId": "54",
+    "Verbose": "$mgn$% of MaxHP Poison $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Burn",
+    "JpName": "火傷",
+    "altNames": [],
+    "IconId": "55",
+    "Verbose": "$mgn$% Burn $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Heavy Burn",
+    "JpName": "大火傷",
+    "altNames": [],
+    "IconId": "54",
+    "Verbose": "$mgn$% of MaxHP Burn $turns$",
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Continuous Positive Effects removal",
+    "JpName": "永続プラス効果を解除",
+    "altNames": [],
+    "IconId": "10006",
+    "Verbose": "Remove all Continuous Positive Effects",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Continuous Negative Effects removal",
+    "JpName": "永続マイナス効果を解除",
+    "altNames": [],
+    "IconId": "10005",
+    "Verbose": "Remove all Continuous Negative Effects",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Stat buff removal",
+    "JpName": "ステータス上昇を解除",
+    "altNames": [],
+    "IconId": "10006",
+    "Verbose": "Remove all Stat buffs",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Total Countable Positive Effects removal",
+    "JpName": "回数プラス効果を解除",
+    "altNames": [],
+    "IconId": "10006",
+    "Verbose": "Remove all Stacks of all Countable Positive Effects",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Limited Countable Positive Effects removal",
+    "JpName": "回数プラス効果を解除",
+    "altNames": [],
+    "IconId": "252",
+    "Verbose": "-$mgn$ to a Countable Positive Effect",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Limited Countable Negative Effects removal",
+    "JpName": "回数マイナス効果を解除",
+    "altNames": [],
+    "IconId": "249",
+    "Verbose": "-$mgn$ to a Countable Negative Effect",
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": ""
+  },
+  {
+    "Name": "Perfect Aim",
+    "JpName": "必中",
+    "altNames": [
+      "Focus"
+    ],
+    "IconId": "35",
+    "Verbose": "Perfect Aim $turns$",
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": ""
+  },
+  {
+    "Name": "Evasion",
+    "JpName": "回避",
+    "altNames": [],
+    "IconId": "34",
+    "Verbose": "+$mgn$ Evasion",
+    "Quality": 0,
+    "Type": 1,
+    "Explanation": ""
+  },
+  {
+    "Name": "Fortitude",
+    "JpName": "不屈",
+    "altNames": [],
+    "IconId": "36",
+    "Verbose": "+$mgn$ Fortitude",
+    "Quality": 0,
+    "Type": 1,
+    "Explanation": ""
+  }
+]

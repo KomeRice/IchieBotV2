@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IchieBotV2", "IchieBotV2\IchieBotV2.csproj", "{1B1D7B31-B6E2-4FEB-821D-11858B4EBB1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IchieBotData", "IchieBotData\IchieBotData.csproj", "{29055A2C-7DC5-4B24-A2BC-107E88DE2A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldJsonFormatParser", "OldJsonFormatParser\OldJsonFormatParser.csproj", "{676D2CDB-59B1-459C-8473-F5DAED5F764E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B1D7B31-B6E2-4FEB-821D-11858B4EBB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1D7B31-B6E2-4FEB-821D-11858B4EBB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1D7B31-B6E2-4FEB-821D-11858B4EBB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1D7B31-B6E2-4FEB-821D-11858B4EBB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29055A2C-7DC5-4B24-A2BC-107E88DE2A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29055A2C-7DC5-4B24-A2BC-107E88DE2A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29055A2C-7DC5-4B24-A2BC-107E88DE2A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29055A2C-7DC5-4B24-A2BC-107E88DE2A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676D2CDB-59B1-459C-8473-F5DAED5F764E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676D2CDB-59B1-459C-8473-F5DAED5F764E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676D2CDB-59B1-459C-8473-F5DAED5F764E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676D2CDB-59B1-459C-8473-F5DAED5F764E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3647 @@
+{
+    "1": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 1,
+        "id": 1,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACTパワーアップ"
+        },
+        "priority": 99
+    },
+    "2": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 2,
+        "id": 2,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACTパワーダウン"
+        },
+        "priority": 99
+    },
+    "3": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 3,
+        "id": 3,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "通常防御力アップ"
+        },
+        "priority": 99
+    },
+    "4": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 4,
+        "id": 4,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "通常防御力ダウン"
+        },
+        "priority": 99
+    },
+    "5": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 5,
+        "id": 5,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "特殊防御力アップ"
+        },
+        "priority": 99
+    },
+    "6": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 6,
+        "id": 6,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "特殊防御力ダウン"
+        },
+        "priority": 99
+    },
+    "7": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 7,
+        "id": 7,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "すばやさアップ"
+        },
+        "priority": 99
+    },
+    "8": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 8,
+        "id": 8,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "すばやさダウン"
+        },
+        "priority": 99
+    },
+    "9": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 9,
+        "id": 9,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "命中アップ"
+        },
+        "priority": 99
+    },
+    "10": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 10,
+        "id": 10,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "命中ダウン"
+        },
+        "priority": 99
+    },
+    "11": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 11,
+        "id": 11,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "回避アップ"
+        },
+        "priority": 99
+    },
+    "12": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 12,
+        "id": 12,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "回避ダウン"
+        },
+        "priority": 99
+    },
+    "13": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 13,
+        "id": 13,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "クリティカル率アップ"
+        },
+        "priority": 99
+    },
+    "14": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 14,
+        "id": 14,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "クリティカル率ダウン"
+        },
+        "priority": 99
+    },
+    "15": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 15,
+        "id": 15,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "クリティカル威力アップ"
+        },
+        "priority": 99
+    },
+    "16": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 16,
+        "id": 16,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "クリティカル威力ダウン"
+        },
+        "priority": 99
+    },
+    "17": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 17,
+        "id": 17,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "最大HPアップ"
+        },
+        "priority": 99
+    },
+    "18": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 18,
+        "id": 18,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "最大HPダウン"
+        },
+        "priority": 99
+    },
+    "19": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 19,
+        "id": 19,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "全状態異常耐性アップ"
+        },
+        "priority": 99
+    },
+    "20": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 1,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 20,
+        "id": 20,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "全状態異常耐性ダウン"
+        },
+        "priority": 99
+    },
+    "21": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 21,
+        "id": 21,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_regeneration_loop",
+        "name": {
+            "ja": "毎ターンHP回復"
+        },
+        "priority": 3
+    },
+    "22": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 22,
+        "id": 22,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "毎ターンキラめき回復"
+        },
+        "priority": 4
+    },
+    "23": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 4,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 23,
+        "id": 23,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_def_barrier_loop",
+        "name": {
+            "ja": "通常バリア"
+        },
+        "priority": 99
+    },
+    "24": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 4,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 24,
+        "id": 24,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_mdef_barrier_loop",
+        "name": {
+            "ja": "特殊バリア"
+        },
+        "priority": 99
+    },
+    "25": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 4,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 25,
+        "id": 25,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_def_reflect_loop",
+        "name": {
+            "ja": "通常ダメージ反射"
+        },
+        "priority": 99
+    },
+    "26": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 4,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 26,
+        "id": 26,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_mdef_reflect_loop",
+        "name": {
+            "ja": "特殊ダメージ反射"
+        },
+        "priority": 99
+    },
+    "27": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 27,
+        "id": 27,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "回避"
+        },
+        "priority": 99
+    },
+    "28": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 28,
+        "id": 28,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "必中"
+        },
+        "priority": 99
+    },
+    "29": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 29,
+        "id": 29,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "不屈"
+        },
+        "priority": 99
+    },
+    "30": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 30,
+        "id": 30,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "通常防御力固定値アップ"
+        },
+        "priority": 99
+    },
+    "31": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 31,
+        "id": 31,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "特殊防御力固定値アップ"
+        },
+        "priority": 99
+    },
+    "32": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 32,
+        "id": 32,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "属性有利ダメージUP"
+        },
+        "priority": 99
+    },
+    "33": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 33,
+        "id": 33,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "クライマックスACT威力上昇"
+        },
+        "priority": 99
+    },
+    "34": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 34,
+        "id": 34,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "被クリティカルダメージダウン"
+        },
+        "priority": 99
+    },
+    "35": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 35,
+        "id": 35,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACTパワー固定値アップ"
+        },
+        "priority": 99
+    },
+    "37": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 37,
+        "id": 37,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "吸収"
+        },
+        "priority": 99
+    },
+    "38": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 38,
+        "id": 38,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "カウンターヒール"
+        },
+        "priority": 99
+    },
+    "39": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 39,
+        "id": 39,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "花属性特攻"
+        },
+        "priority": 99
+    },
+    "40": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 40,
+        "id": 40,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "風属性特攻"
+        },
+        "priority": 99
+    },
+    "41": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 41,
+        "id": 41,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "雪属性特攻"
+        },
+        "priority": 99
+    },
+    "42": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 42,
+        "id": 42,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "月属性特攻"
+        },
+        "priority": 99
+    },
+    "43": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 43,
+        "id": 43,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "宙属性特攻"
+        },
+        "priority": 99
+    },
+    "44": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 44,
+        "id": 44,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "雲属性特攻"
+        },
+        "priority": 99
+    },
+    "45": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 45,
+        "id": 45,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "夢属性特攻"
+        },
+        "priority": 99
+    },
+    "46": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 46,
+        "id": 46,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ボス特攻"
+        },
+        "priority": 99
+    },
+    "47": {
+        "base_point": 3,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 3,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 47,
+        "id": 47,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_poison_loop",
+        "name": {
+            "ja": "毒"
+        },
+        "priority": 3
+    },
+    "48": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 48,
+        "id": 48,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_fire_loop",
+        "name": {
+            "ja": "火傷"
+        },
+        "priority": 3
+    },
+    "49": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 49,
+        "id": 49,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "挑発"
+        },
+        "priority": 99
+    },
+    "50": {
+        "base_point": 2,
+        "card_abnormal_priority": 2,
+        "card_abnormal_type": 2,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 50,
+        "id": 50,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_para_loop",
+        "name": {
+            "ja": "スタン"
+        },
+        "priority": 1
+    },
+    "51": {
+        "base_point": 3,
+        "card_abnormal_priority": 1,
+        "card_abnormal_type": 1,
+        "category": 3,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 51,
+        "id": 51,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_sleep_loop",
+        "name": {
+            "ja": "睡眠"
+        },
+        "priority": 1
+    },
+    "52": {
+        "base_point": 3,
+        "card_abnormal_priority": 2,
+        "card_abnormal_type": 2,
+        "category": 3,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 52,
+        "id": 52,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_confusion_loop",
+        "name": {
+            "ja": "混乱"
+        },
+        "priority": 2
+    },
+    "53": {
+        "base_point": 2,
+        "card_abnormal_priority": 1,
+        "card_abnormal_type": 1,
+        "category": 5,
+        "chara_add_color": [
+            0.227,
+            0.227,
+            0.227
+        ],
+        "chara_color": [
+            0.384,
+            0.384,
+            0.384
+        ],
+        "chara_gray_scale": 1,
+        "icon_id": 53,
+        "id": 53,
+        "is_lock": 0,
+        "is_motion_stop": 1,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ストップ"
+        },
+        "priority": 1
+    },
+    "54": {
+        "base_point": 2,
+        "card_abnormal_priority": 1,
+        "card_abnormal_type": 1,
+        "category": 5,
+        "chara_add_color": [
+            0.288,
+            0.482,
+            0.522
+        ],
+        "chara_color": [
+            0.529,
+            0.859,
+            0.852
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 54,
+        "id": 54,
+        "is_lock": 0,
+        "is_motion_stop": 1,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "凍結"
+        },
+        "priority": 2
+    },
+    "55": {
+        "base_point": 2,
+        "card_abnormal_priority": 2,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 55,
+        "id": 55,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_dark_loop",
+        "name": {
+            "ja": "暗闇"
+        },
+        "priority": 2
+    },
+    "58": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 58,
+        "id": 58,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "HP回復量低下"
+        },
+        "priority": 99
+    },
+    "59": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 59,
+        "id": 59,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "花属性ダメージ軽減"
+        },
+        "priority": 99
+    },
+    "60": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 60,
+        "id": 60,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "風属性ダメージ軽減"
+        },
+        "priority": 99
+    },
+    "61": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 61,
+        "id": 61,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "雪属性ダメージ軽減"
+        },
+        "priority": 99
+    },
+    "62": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 62,
+        "id": 62,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "月属性ダメージ軽減"
+        },
+        "priority": 99
+    },
+    "63": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 63,
+        "id": 63,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "宙属性ダメージ軽減"
+        },
+        "priority": 99
+    },
+    "64": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 64,
+        "id": 64,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "雲属性ダメージ軽減"
+        },
+        "priority": 99
+    },
+    "65": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 65,
+        "id": 65,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "夢属性ダメージ軽減"
+        },
+        "priority": 99
+    },
+    "66": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 66,
+        "id": 66,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "花属性ダメージUP"
+        },
+        "priority": 99
+    },
+    "67": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 67,
+        "id": 67,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "風属性ダメージUP"
+        },
+        "priority": 99
+    },
+    "68": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 68,
+        "id": 68,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "雪属性ダメージUP"
+        },
+        "priority": 99
+    },
+    "69": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 69,
+        "id": 69,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "月属性ダメージUP"
+        },
+        "priority": 99
+    },
+    "70": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 70,
+        "id": 70,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "宙属性ダメージUP"
+        },
+        "priority": 99
+    },
+    "71": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 71,
+        "id": 71,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "雲属性ダメージUP"
+        },
+        "priority": 99
+    },
+    "72": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 72,
+        "id": 72,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "夢属性ダメージUP"
+        },
+        "priority": 99
+    },
+    "73": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 73,
+        "id": 73,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "行動制限/行動不能耐性自動獲得"
+        },
+        "priority": 99
+    },
+    "74": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 74,
+        "id": 74,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "行動制限/行動不能耐性"
+        },
+        "priority": 99
+    },
+    "75": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 75,
+        "id": 75,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "毒耐性"
+        },
+        "priority": 99
+    },
+    "76": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 76,
+        "id": 76,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "火傷耐性"
+        },
+        "priority": 99
+    },
+    "77": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 77,
+        "id": 77,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "挑発耐性"
+        },
+        "priority": 99
+    },
+    "78": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 78,
+        "id": 78,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "スタン耐性"
+        },
+        "priority": 99
+    },
+    "79": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 79,
+        "id": 79,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "睡眠耐性"
+        },
+        "priority": 99
+    },
+    "80": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 80,
+        "id": 80,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "混乱耐性"
+        },
+        "priority": 99
+    },
+    "81": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 81,
+        "id": 81,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ストップ耐性"
+        },
+        "priority": 99
+    },
+    "82": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 82,
+        "id": 82,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "凍結耐性"
+        },
+        "priority": 99
+    },
+    "83": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 83,
+        "id": 83,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "暗闇耐性"
+        },
+        "priority": 99
+    },
+    "84": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 84,
+        "id": 84,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "回復量低下耐性"
+        },
+        "priority": 99
+    },
+    "85": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 85,
+        "id": 85,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ソルジャーキラー"
+        },
+        "priority": 99
+    },
+    "86": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 86,
+        "id": 86,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ランサーキラー"
+        },
+        "priority": 99
+    },
+    "87": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 87,
+        "id": 87,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "フェンサーキラー"
+        },
+        "priority": 99
+    },
+    "88": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 88,
+        "id": 88,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "マジシャンキラー"
+        },
+        "priority": 99
+    },
+    "89": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 89,
+        "id": 89,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "シールダーキラー"
+        },
+        "priority": 99
+    },
+    "90": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 90,
+        "id": 90,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ガンナーキラー"
+        },
+        "priority": 99
+    },
+    "91": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 91,
+        "id": 91,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "奇術師キラー"
+        },
+        "priority": 99
+    },
+    "92": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 92,
+        "id": 92,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ビーストキラー"
+        },
+        "priority": 99
+    },
+    "93": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 93,
+        "id": 93,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "？？？キラー"
+        },
+        "priority": 99
+    },
+    "94": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 94,
+        "id": 94,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "マテリアルキラー"
+        },
+        "priority": 99
+    },
+    "95": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 95,
+        "id": 95,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "与ダメージ上昇"
+        },
+        "priority": 99
+    },
+    "96": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 96,
+        "id": 96,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "与ダメージダウン"
+        },
+        "priority": 99
+    },
+    "97": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 97,
+        "id": 97,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "被ダメージ上昇"
+        },
+        "priority": 99
+    },
+    "98": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 98,
+        "id": 98,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "被ダメージダウン"
+        },
+        "priority": 99
+    },
+    "99": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 99,
+        "id": 99,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "刻印"
+        },
+        "priority": 99
+    },
+    "100": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 100,
+        "id": 100,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "刻印(反転)"
+        },
+        "priority": 99
+    },
+    "101": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 101,
+        "id": 101,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ターゲット固定"
+        },
+        "priority": 99
+    },
+    "102": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 102,
+        "id": 102,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ターゲット固定耐性"
+        },
+        "priority": 99
+    },
+    "103": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 103,
+        "id": 103,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "退場回避"
+        },
+        "priority": 99
+    },
+    "104": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 104,
+        "id": 104,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_invincible_loop",
+        "name": {
+            "ja": "無敵"
+        },
+        "priority": 99
+    },
+    "105": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 105,
+        "id": 105,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "AP減少"
+        },
+        "priority": 99
+    },
+    "106": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 106,
+        "id": 106,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "AP増加"
+        },
+        "priority": 99
+    },
+    "107": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 107,
+        "id": 107,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "AP増加耐性"
+        },
+        "priority": 99
+    },
+    "110": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 106,
+        "id": 110,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_invincible_loop",
+        "name": {
+            "ja": "(解除不可)AP増加"
+        },
+        "priority": 99
+    },
+    "111": {
+        "base_point": 2,
+        "card_abnormal_priority": 2,
+        "card_abnormal_type": 2,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 50,
+        "id": 111,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_para_loop",
+        "name": {
+            "ja": "(解除不可)スタン"
+        },
+        "priority": 1
+    },
+    "112": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 21,
+        "id": 112,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_regeneration_loop",
+        "name": {
+            "ja": "(解除不可)毎ターンHP回復"
+        },
+        "priority": 3
+    },
+    "113": {
+        "base_point": 2,
+        "card_abnormal_priority": 1,
+        "card_abnormal_type": 1,
+        "category": 5,
+        "chara_add_color": [
+            0.227,
+            0.227,
+            0.227
+        ],
+        "chara_color": [
+            0.384,
+            0.384,
+            0.384
+        ],
+        "chara_gray_scale": 1,
+        "icon_id": 53,
+        "id": 113,
+        "is_lock": 1,
+        "is_motion_stop": 1,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)ストップ"
+        },
+        "priority": 1
+    },
+    "114": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 38,
+        "id": 114,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)カウンターヒール"
+        },
+        "priority": 99
+    },
+    "117": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 117,
+        "id": 117,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "全バフ・デバフ耐性"
+        },
+        "priority": 99
+    },
+    "118": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 118,
+        "id": 118,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "刻印耐性"
+        },
+        "priority": 99
+    },
+    "119": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 119,
+        "id": 119,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "イベントボスダメージ軽減"
+        },
+        "priority": 99
+    },
+    "120": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 122,
+        "id": 120,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACT1封印"
+        },
+        "priority": 99
+    },
+    "121": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 122,
+        "id": 121,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACT2封印"
+        },
+        "priority": 99
+    },
+    "122": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 122,
+        "id": 122,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACT3封印"
+        },
+        "priority": 99
+    },
+    "123": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 123,
+        "id": 123,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACT1封印耐性"
+        },
+        "priority": 99
+    },
+    "124": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 124,
+        "id": 124,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACT2封印耐性"
+        },
+        "priority": 99
+    },
+    "125": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 125,
+        "id": 125,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACT3封印耐性"
+        },
+        "priority": 99
+    },
+    "126": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 126,
+        "id": 126,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "キラめき獲得減少"
+        },
+        "priority": 99
+    },
+    "127": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 74,
+        "id": 127,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "キラめき獲得減少耐性"
+        },
+        "priority": 99
+    },
+    "128": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 75,
+        "id": 128,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)毒耐性"
+        },
+        "priority": 99
+    },
+    "129": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 76,
+        "id": 129,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)火傷耐性"
+        },
+        "priority": 99
+    },
+    "130": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 78,
+        "id": 130,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)スタン耐性"
+        },
+        "priority": 99
+    },
+    "131": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 79,
+        "id": 131,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)睡眠耐性"
+        },
+        "priority": 99
+    },
+    "132": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 80,
+        "id": 132,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)混乱耐性"
+        },
+        "priority": 99
+    },
+    "133": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 81,
+        "id": 133,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)ストップ耐性"
+        },
+        "priority": 99
+    },
+    "134": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 82,
+        "id": 134,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)凍結耐性"
+        },
+        "priority": 99
+    },
+    "135": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 83,
+        "id": 135,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "(解除不可)暗闇耐性"
+        },
+        "priority": 99
+    },
+    "136": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 127,
+        "id": 136,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACTチェンジ（回数）"
+        },
+        "priority": 99
+    },
+    "137": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 127,
+        "id": 137,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "ACTチェンジ（ターン）"
+        },
+        "priority": 99
+    },
+    "138": {
+        "base_point": 3,
+        "card_abnormal_priority": 2,
+        "card_abnormal_type": 2,
+        "category": 3,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 52,
+        "id": 138,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_confusion_loop",
+        "name": {
+            "ja": "(解除不可)混乱"
+        },
+        "priority": 2
+    },
+    "139": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 128,
+        "id": 139,
+        "is_lock": 0,
+        "is_motion_stop": 0,
+        "loop": 0,
+        "loop_filename": "",
+        "name": {
+            "ja": "不倒"
+        },
+        "priority": 99
+    },
+    "140": {
+        "base_point": 3,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 3,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 47,
+        "id": 140,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_poison_loop",
+        "name": {
+            "ja": "(解除不可)毒を付与"
+        },
+        "priority": 3
+    },
+    "141": {
+        "base_point": 2,
+        "card_abnormal_priority": 99,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 48,
+        "id": 141,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_fire_loop",
+        "name": {
+            "ja": "(解除不可)火傷を付与"
+        },
+        "priority": 3
+    },
+    "142": {
+        "base_point": 2,
+        "card_abnormal_priority": 2,
+        "card_abnormal_type": 0,
+        "category": 2,
+        "chara_add_color": [
+            0,
+            0,
+            0
+        ],
+        "chara_color": [
+            1,
+            1,
+            1
+        ],
+        "chara_gray_scale": 0,
+        "icon_id": 55,
+        "id": 142,
+        "is_lock": 1,
+        "is_motion_stop": 0,
+        "loop": 1,
+        "loop_filename": "hit_dark_loop",
+        "name": {
+            "ja": "(解除不可)暗闇を付与"
+        },
+        "priority": 2
+    }
+}

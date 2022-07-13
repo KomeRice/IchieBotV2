@@ -1,0 +1,324 @@
+{
+  "tags": [
+    {
+      "Name": "Accuracy",
+      "jpName": "命中率",
+      "Description": "[Base stat]Directs the chance of landing a hit.",
+      "ExtDescription": "[Base stat]Directs the chance of landing a hit.\nEffects still apply regardless of hits missed.\nHaving Focus makes this stat have no effect.\nThis effect stacks multiplicatively with Blind and additively with Evasion, meaning a character with -50% accuracy and Blind will have a 15% chance to hit an enemy with 0% evasion.\nA character with -40% accuracy will have 10% chance to land a hit against a character with +50% Evasion.\nAccuracy Down doesn't stack with itself."
+    },
+    {
+      "Name": "AP Reduction",
+      "jpName": "AP減少",
+      "Description": "[Timed Plus]Reduces AP cost of ACTs that cost more than 1 by a certain amount.",
+      "ExtDescription": "[Timed Plus]Reduces AP cost of ACTs that cost more than 1 by certain amount.\nThis effect can be stacked."
+    },
+    {
+      "Name": "AP Increase",
+      "jpName": "AP増加",
+      "Description": "[Timed Minus]Increases AP cost of all ACTs by a certain amount.",
+      "ExtDescription": "[Timed Minus]Increases AP cost of all ACTs by certain amount.\nThis effect can be stacked."
+    },
+    {
+      "Name": "Agony",
+      "jpName": "悶絶",
+      "Description": "[Timed Minus]100% chance of preventing ACT activation. Prevents kirameki generation. Increases damage taken by 30% (Does not affect damage inflicted by the likes of Burn and Poison). Gains no further effect when stacked.",
+      "ExtDescription": "[Timed Minus]100% chance of preventing ACT activation. Prevents kirameki generation. Increases damage taken by 30% (Does not affect damage inflicted by the likes of Burn and Poison). Gains no further effect when stacked.",
+    },
+    {
+      "Name": "Barriers",
+      "jpName": "(通常/特殊)バリア",
+      "Description": "[Timed Plus]Blocks a set amount of incoming damage of the relevant type.",
+      "ExtDescription": "[Timed Plus]Blocks a set amount of incoming damage of the relevant type.\nThis effect can be stacked.\nThe damage blocked by barriers won't generate kirameki."
+    },
+    {
+      "Name": "Barrier Ignore",
+      "jpName": "バリア無視",
+      "AltName": "Barrier Bypass",
+      "Description": "Attacks with this mention deal damage regardless of target barriers.",
+      "ExtDescription": "Attacks with this mention deal damage regardless of target barriers, the barrier's value is still reduced accordingly."
+    },
+    {
+      "Name": "Blind",
+      "jpName": "暗闇",
+      "Description": "[Timed Minus]Hits have 70% chance to miss.",
+      "ExtDescription": "[Timed Minus]Hits have 70% chance to miss.\nMissed hits won't take out Dodge stacks.\nEffects still apply accordingly."
+    },
+    {
+      "Name": "(Super)Burn",
+      "jpName": "(大)火傷",
+      "Description": "[Timed Minus]Reduces ACT by 10%, deals a specified amount of damage at the end of each turn.",
+      "ExtDescription": "[Timed Minus]Reduces ACT by 10%, deals a specified amount of damage at the end of each turn.\nFurther burns afflictions won't reduce ACT more, the damage dealt will however increase accordingly.\nThe number of damage ticks remains the same, meaning that Burn will always deal damage once. Other Damage over Time instances will tick separately."
+    },
+    {
+      "Name": "Confusion",
+      "jpName": "混乱",
+      "Description": "[Timed Minus]30% chance to hit a random ally instead of acting.",
+      "ExtDescription": "[Timed Minus]30% chance of replacing actions taken with:\n<Basic Attack>\nDeal 88% of damage: Random ally"
+    },
+    {
+      "Name": "Counter-Heal",
+      "jpName": "カウンターヒール",
+      "Description": "[Timed Plus]Heals a specified amount after taking any hit while it's active.",
+      "ExtDescription": "[Timed Plus]Heals a specified amount after taking any hit while it's active.\nThis effect can be stacked.\nWill activate if the hit is registered but does not deal any damage, for example through Barriers or Invincible.\nWon't activate when the hit is missed through the likes of Dodge or Blind; if the hit is from indirect sources such as Burn or Poison, is lethal, activates Guts or Exit Evade."
+    },
+    {
+      "Name": "Curtains Closed",
+      "jpName": "幕引き",
+      "Description": "[Timed Minus]On effect end, automatically Exit the Stage. This effect cannot be stacked. This effect can only be applied to targets in VS Revue and Star Arena modes.",
+      "ExtDescription": "[Timed Minus]On effect end, automatically Exit the Stage. This effect cannot be stacked. This effect can only be applied to targets in VS Revue and Star Arena modes."
+    },
+    {
+      "Name": "Dodge",
+      "jpName": "回避",
+      "AltName": "Evade",
+      "Description": "[Stack Plus]Makes next hit taken miss.",
+      "ExtDescription": "[Stack Plus]Makes next hit taken miss.\nHits dealt from enemies with Focus will deal damage and consume a stack.\nEffects still apply accordingly."
+    },
+    {
+      "Name": "Drain",
+      "jpName": "吸収",
+	  "AltName": "Absorb",
+      "Description": "[(Timed) Plus]Heals by a specified portion of the damage dealt by hits.",
+      "ExtDescription": "[(Timed) Plus]Heals by a specified portion of the damage dealt by hits."
+    },
+    {
+      "Name": "Effective damage",
+      "jpName": "有利属性ダメージ",
+      "Description": "[(Timed) Plus]Refers to damage dealt by hits that exploit one of the target's weaknesses.",
+      "ExtDescription": "[(Timed) Plus]Refers to damage dealt by hits that exploit one of the target's weaknesses.\nThis stacks multiplicatively with the damage boost granted by weakness exploitation."
+    },
+    {
+      "Name": "Enmity",
+      "Description": "Attacks with this mention deal additional damage depending on how low the user's CurHP% is.",
+      "ExtDescription": "Attacks with this mention deal additional damage depending on how low the user's CurHP% is."
+    },
+    {
+      "Name": "Possession",
+      "jpName": "神がかり",
+      "Description": "[Timed Plus]Timed Minus effects cannot be applied.\nUpon taking ACT Damage that would drop HP below 0, remain on Stage with 1 HP instead.\nOn effect end, automatically Exit the Stage.\nThis effect cannot be stacked.",
+      "ExtDescription": "[Timed Plus]Timed Minus effects cannot be applied.\nUpon taking ACT Damage that would drop HP below 0, remain on Stage with 1 HP instead.\nOn effect end, automatically Exit the Stage.\nThis effect cannot be stacked."
+    },
+    {
+      "Name": "Flip",
+      "Description": "Turns stat modifiers, AP Cost modifiers, Mark and generic and elemental damage increase or reduction into their opposite.",
+      "ExtDescription": "Turns stat modifiers, AP Cost modifiers, Mark and generic and elemental damage increase or reduction into their opposite."
+    },
+    {
+      "Name": "Focus",
+      "jpName": "必中",
+      "AltName": "Perfect Aim",
+      "Description": "[(Timed) Plus]Hits cannot miss.",
+      "ExtDescription": "[(Timed) Plus]Hits cannot miss, meaning they'll ignore Blind and Dodge stacks.\nDodge stacks are still consumed by hits without preventing damage.\nThe likes of Invincible and Barriers will still function normally."
+    },
+    {
+      "Name": "Freeze",
+      "jpName": "凍結",
+      "Description": "[Timed Minus]Prevents all actions.\nNext hit taken will remove Freeze and deal 30% increased damage.",
+      "ExtDescription": "[Timed Minus]Prevents all actions.\nNext hit taken will remove Freeze and deal 30% increased damage."
+    },
+    {
+      "Name": "Frostbite",
+      "jpName": "凍傷",
+      "Description": "[Timed Minus]Prevents all actions and take specified damage as Fixed damage at the end of each turn.\nNext hit taken will remove Freeze and deal 30% increased damage.",
+      "ExtDescription": "[Timed Minus]Prevents all actions and take specified damage as Fixed damage at the end of each turn.\nNext hit taken will remove Freeze and deal 30% increased damage."
+    },
+    {
+      "Name": "Guts",
+      "jpName": "不屈",
+      "AltName": "Fortitude",
+      "Description": "[Stack Plus]Survive next lethal hit with 1HP.",
+      "ExtDescription": "[Stack Plus]Survive next lethal hit with 1HP.\nThe hit that activates this effect won't cause any Kirameki gain and won't trigger Counter-Heal."
+    },
+    {
+      "Name": "Exit Evade",
+      "jpName": "退場回避",
+      "AltName": "Superguts",
+      "Description": "[Timed Plus]If HP reaches 0, remove Exit Evade, set CurHP to 50% of MaxHP & gain 100 Kirameki Regen (2t).",
+      "ExtDescription": "[Timed Plus]If HP reaches 0, remove Exit Evade, set CurHP to 50% of MaxHP & gain 100 Kirameki Regen (2t).\nGuts takes priority over this effect.\nOther effects will remain after this effect's activation."
+    },
+	{
+      "Name": "Exit Removal",
+      "jpName": "退場解除",
+      "AltName": "Revive",
+      "Description": "Brings a girl back to the stage with specified HP and Invincible (1t).",
+      "ExtDescription": "Brings a girl back to the stage with specified HP and Invincible (1t)."
+    },
+	{
+      "Name": "Groping in the Dark",
+      "jpName": "暗中模索",
+      "Description": "Hides 3 ACT Panels. Hidden ACT Panels' Cost will remain visible. Hidden ACT Panels cannot be Held or Discarded.",
+      "ExtDescription": "Hides 3 ACT Panels. Hidden ACT Panels' Cost will remain visible. Hidden ACT Panels cannot be Held or Discarded."
+    },
+	{
+      "Name": "Unfortunate Soul",
+      "jpName": "厄魂",
+      "Description": "Replaces ACT panels with a 2AP Unfortunate Soul Panel which causes an attack towards a random ally. Unfortunate Soul Panels cannot be Held or Discarded.",
+      "ExtDescription": "Replaces ACT panels with a 2AP Unfortunate Soul Panel which causes an attack towards a random ally. Unfortunate Soul Panels cannot be Held or Discarded."
+    },
+	{
+      "Name": "Hope",
+      "jpName": "希望",
+      "Description": "[Stack Plus] Grants 20% increased ACT, +20% Crit Rate & Crit Dmg and 20% increased Speed.",
+      "ExtDescription": "[Stack Plus] Grants 20% increased ACT, +20% Crit Rate & Crit Dmg and 20% increased Speed."
+    },
+    {
+      "Name": "Regen",
+      "Description": "[Timed Plus]Regain specified amount of HP at the end of each turn.",
+      "ExtDescription": "[Timed Plus]Regain specified amount of HP at the end of each turn."
+    },
+    {
+      "Name": "Invincible",
+      "jpName": "無敵",
+      "Description": "[Timed Plus]Reduces all enemy direct damage to 0.",
+      "ExtDescription": "[Timed Plus]Reduces all enemy direct damage to 0.\nThis includes the Finish ACT damage and excludes Reflected damage and Damage over Time such as Poison.\nThis effect doesn't prevent incoming effects from being applied."
+    },
+    {
+      "Name": "Seal",
+      "jpName": "封印",
+      "altName": "Lock",
+      "Description": "[Timed Minus]Prevents interaction with specified abilities.",
+      "ExtDescription": "[Timed Minus]Prevents the selection, holding and swapping of specified abilities.\nWon't prevent the use of the abilities already selected the turn it applied on."
+    },
+    {
+      "Name": "Block All-Effects",
+      "Description": "Prevents all effects from being applied.",
+      "ExtDescription": "Prevents all effects from being applied."
+    },
+    {
+      "Name": "Poison",
+      "jpName": "(猛)毒",
+      "Description": "[Timed Minus]Deals a specified amount of damage at the end of each turn.",
+      "ExtDescription": "[Timed Minus]Deals a specified amount of damage at the end of each turn.\nThis effect can be stacked, increasing the damage of the poison instance.\nFurther Poison afflictions won't increase the number of ticks, meaning that Poison will always deal damage once. Other Damage over Time instances will tick separately."
+    },
+    {
+      "Name": "Reflect",
+      "jpName": "(通常/特殊)ダメージ反射",
+      "Description": "[Timed Plus]Reflects a portion of damage of a specific type to the damage dealer.",
+      "ExtDescription": "[Timed Plus]Reflects a portion of damage of a specific type to the damage dealer.\nReflected damage is indirect and thus bypasses Invincible.\nThe damage reflected is deducted from the damage dealt by the hit.\nIf the reflected damage kills the damage dealer during an attack, everything happening after the lethal reflected hit will be cancelled.\nLikewise, if a girl with this effect dies during an attack, they won't reflect any more damage from hits following the lethal one."
+    },
+    {
+      "Name": "Mark",
+      "jpName": "刻印",
+      "AltName": "Sealed",
+      "Description": "[Timed Minus]Increases damage taken by 30%.",
+      "ExtDescription": "[Timed Minus]Increases damage taken by 30%.\nDespite not being a stat debuff, this effect will be turned by Flip into Anti-Mark: 30% reduced damage taken."
+    },
+    {
+      "Name": "Sleep",
+      "jpName": "睡眠",
+      "Description": "[Timed Minus]Prevents all actions.\nHas a 80% chance of wearing off upon taking direct damage.",
+      "ExtDescription": "[Timed Minus]Prevents all actions.\nHas a 80% chance of wearing off upon taking direct damage."
+    },
+    {
+      "Name": "Nightmare",
+      "jpName": "悪夢",
+      "Description": "[Timed Minus]Prevents all actions and deals a specified amount of damage at the end of each turn.\nHas a 80% chance of wearing off upon taking direct damage.",
+      "ExtDescription": "[Timed Minus]Prevents all actions and deals a specified amount of damage at the end of each turn.\nHas a 80% chance of wearing off upon taking direct damage."
+    },
+    {
+      "Name": "Stop",
+      "jpName": "ストップ",
+      "Description": "[Timed Minus]Prevents all actions and kirameki gain.",
+      "ExtDescription": "[Timed Minus]Prevents all actions and kirameki gain."
+    },
+    {
+      "Name": "Stun",
+      "jpName": "スタン",
+      "Description": "[Timed Minus]50% chance of preventing action.",
+      "ExtDescription": "[Timed Minus]50% chance of preventing action."
+    },
+	{
+      "Name": "Lovesickness",
+      "jpName": "恋わずらい",
+      "Description": "[Timed Minus]50% chance of preventing action.",
+      "ExtDescription": "[Timed Minus]50% chance of preventing action."
+    },
+    {
+      "Name": "Taunt",
+      "jpName": "挑発",
+      "AltName": "Provoke",
+      "Description": "[Timed Minus]Redirects moves targetting the enemy (Excluding AoE) towards the debuff source.",
+      "ExtDescription": "[Timed Minus]Redirects single target moves targetting the enemy team and specific enemy targetting (Such as 3 frontmost enemies) to debuff source.\nThe latter type of attacks act as if they were single target attacks (e.g. an attack that deals 2 hits to the three frontmost enemies will only hit the debuff source twice instead).\nGroup attacks are redirected to the debuff source's group.\nAoE attacks aren't affected.\nFurther Taunt effects from the debuff source's team will replace this effect.\nEffects are still applied depending on who they hit.\nIn the event that a team uses both Taunt and Fix Target, whichever user of either effect is frontmost will take precedence when applicable.\nIf the same character uses both Fix Target and Taunt and both are applicable to incoming ACT, Fix Target will take precedence over Taunt."
+    },
+    {
+      "Name": "Fix Target",
+      "jpName": "ターゲット固定",
+      "AltName": "Supertaunt / Aggro",
+      "Description": "[Timed Minus]Changes the target of any move targetting the enemy in any way (including AoE) to the debuff source.",
+      "ExtDescription": "[Timed Minus]Changes the target of any move targetting the enemy in any way (including AoE) to the debuff source.\nFurther Fix Target effects from the debuff source's team will replace this effect.\nEffects targetting the enemy are also redirected to the debuff source and will stack with eachother if applicable, e.g. 5 instances of 510 Poison will create a 2550 Poison on the source.\nThis effect preserves the amount of hits that attacks are supposed to deal, e.g. an attack that deals 4 hits to a full (5 Girls) unit will deal 20 hits to the debuff source.\nIn the event that a team uses both Taunt and Fix Target, whichever user of either effect is frontmost will take precedence when applicable.\nIf the same character uses both Fix Target and Taunt and both are applicable to incoming ACT, Fix Target will take precedence over Taunt."
+    },
+    {
+      "Name": "Mitigation",
+      "jpName": "被ダメージダウン",
+      "Description": "[Timed Plus]Reduces incoming damage by a certain amount.",
+      "ExtDescription": "[Timed Plus]Reduces incoming damage by a certain amount."
+    },
+    {
+      "Name": "Kirameki Reduction",
+      "jpName": "キラめき獲得減少",
+      "Description": "[Timed Minus]Reduces Kirameki gained from all sources by a specified amount.",
+      "ExtDescription": "[Timed Minus]Reduces Kirameki gained from all sources by a specified amount.\nThis effect can be stacked, meaning it is possible to completely prevent kirameki gain for characters."
+    },
+    {
+      "Name": "ACT Change",
+      "jpName": "ACTチェンジ",
+      "Description": "[Stack Plus]Wielder uses Mode 2 of moves instead of Mode 1.",
+      "ExtDescription": "[Stack Plus]Wielder uses Mode 2 of moves instead of Mode 1."
+    },
+    {
+      "Name": "Resilience",
+      "jpName": "不倒",
+      "Description": "[Timed Plus]Direct damage cannot bring HP below 1.",
+      "ExtDescription": "[Timed Plus]Direct damage cannot bring HP below 1.\nThis effect takes place before Guts, meaning that Guts stacks won't be expended by hits.\nDamage Over Time effects still apply normally.\nReflected damage doesn't bypass this effect."
+    },
+    {
+      "Name": "Evasion",
+      "jpName": "回避率",
+      "Description": "[Base stat]Directs the chance of avoiding hits (Including Finish ACT).",
+      "ExtDescription": "[Base stat]Directs the chance of avoiding hits (Including Finish ACT).\nEffects will still apply regardless of hits avoided. This stat affects Blind multiplicatively (Meaning a girl with 50% Evasion will have a 15% chance of getting hit by a blinded enemy).\nThis stat takes precedence over Dodge, meaning a hit evaded with this stat will prevent a Dodge stack from getting consumed.\nThis stat has no effect against hits from enemies with Focus.\nEvasion Up doesn't stack with itself."
+    },
+	{
+	  "Name": "[Timed Plus]/[Timed Minus] Effects",
+	  "jpName": "継続[プラス／マイナス]効果",
+	  "AltName": "Continuous [Positive / Negative] effects",
+	  "Description": "[Game Terminology] All Positive /  Effects with turn limits, excluding Block All-Effects (Seen in Rapunzel Hoshimi Junna's Climax ACT) and Status Guard (Seen on Event bosses).",
+	  "ExtDescription": "[Game Terminology] All Positive /  Effects with turn limits, excluding Block All-Effects (Seen in Rapunzel Hoshimi Junna's Climax ACT) and Status Guard (Seen on Event bosses)."
+	},
+	{
+	  "Name": "Stage Effects",
+	  "jpName": "舞台効果",
+	  "Description": "[Game Terminology] Grants various effects to all girls standing on affected stage. Cannot be removed.",
+	  "ExtDescription": "[Game Terminology] Grants various effects to all girls standing on affected stage. Cannot be removed."
+    },
+	{
+	  "Name": "Electric Shock",
+	  "jpName": "感電",
+	  "Description": "[Minus] 30% chance of preventing action and taking 7500 damage.",
+	  "ExtDescription": "[Minus] 30% chance of preventing action and taking 7500 damage."
+    },
+	{
+	  "Name": "Resurrection",
+	  "jpName": "起死回生",
+	  "Description": "[Stack Plus] Upon Exit, remove a Resurrection stack and gain 50% of MaxHP.",
+	  "ExtDescription": "[Stack Plus] Upon Exit, remove a Resurrection stack and gain 50% of MaxHP."
+    },
+	{
+	  "Name": "Daze",
+	  "jpName": "錯乱",
+	  "Description": "[Stack Minus] Cancels an ACT and deal damage to a random ally instead. One stack is consumed on use unless the attack misses.",
+	  "ExtDescription": "[Stack Minus] Cancels an ACT and deal damage to a random ally instead. One stack is consumed on use unless the attack misses."
+    },
+	{
+	  "Name": "Impudence",
+	  "jpName": "慢心",
+	  "Description": "[Stack Minus] Cancels an ACT and heal a specified amount to an enemy instead, ignoring HP recovery. One stack is consumed on use.",
+	  "ExtDescription": "[Stack Minus] Cancels an ACT and heal a specified amount to an enemy instead, ignoring HP recovery. One stack is consumed on use."
+    },
+	{
+	  "Name": "Weak Spot",
+	  "jpName": "急所",
+	  "Description": "[Stack Minus] Increases damage taken by a specified amount, has no further effect when stacked and doesn't affect damage dealt by Burn and Poison.",
+	  "ExtDescription": "[Stack Minus] Increases damage taken by a specified amount, has no further effect when stacked and doesn't affect damage dealt by Burn and Poison."
+    }
+  ]
+}

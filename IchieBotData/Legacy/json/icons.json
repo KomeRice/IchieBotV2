@@ -1,0 +1,1058 @@
+{
+  "Icons": [
+    {
+      "Name": "accDown",
+      "Path": "resources/img/effects/accDown.png",
+      "EmoteCode": "<:accDown:680401320657944590>"
+    },
+    {
+      "Name": "accUp",
+      "Path": "resources/img/effects/accUp.png",
+      "EmoteCode": "<:accUp:680401320968323337>"
+    },
+    {
+      "Name": "actUp2",
+      "Path": "resources/img/effects/actUp2.png",
+      "EmoteCode": "<:actUp2:993215342698561627>"
+    },
+    {
+      "Name": "actDown",
+      "Path": "resources/img/effects/actDown.png",
+      "EmoteCode": "<:actDown:680401321123381268>"
+    },
+    {
+      "Name": "actUp",
+      "Path": "resources/img/effects/actUp.png",
+      "EmoteCode": "<:actUp:680401320909340683>"
+    },
+    {
+      "Name": "agony",
+      "Path": "resources/img/effects/agony.png",
+      "EmoteCode": "<:agony:939165149045063700>"
+    },
+    {
+      "Name": "amplifyBlind",
+      "Path": "resources/img/effects/amplifyBlind.png",
+      "EmoteCode": "<:amplifyBlind:680401320795963416>"
+    },
+    {
+      "Name": "amplifyBurn",
+      "Path": "resources/img/effects/amplifyBurn.png",
+      "EmoteCode": "<:amplifyBurn:695562800617095168>"
+    },
+    {
+      "Name": "amplifyConfuse",
+      "Path": "resources/img/effects/amplifyConfuse.png",
+      "EmoteCode": "<:amplifyConfuse:680401321081307136>"
+    },
+    {
+      "Name": "amplifyFreeze",
+      "Path": "resources/img/effects/amplifyFreeze.png",
+      "EmoteCode": "<:amplifyFreeze:680401321064398901>"
+    },
+    {
+      "Name": "amplifyLovesickness",
+      "Path": "resources/img/effects/amplifyLovesickness.png",
+      "EmoteCode": "<:amplifyLovesickness:900850360334290974>"
+    },
+    {
+      "Name": "amplifyPhys",
+      "Path": "resources/img/effects/amplifyPhys.png",
+      "EmoteCode": "<:amplifyPhys:690728385814593606>"
+    },
+    {
+      "Name": "amplifyPoison",
+      "Path": "resources/img/effects/amplifyPoison.png",
+      "EmoteCode": "<:amplifyPoison:680401320976711734>"
+    },
+    {
+      "Name": "amplifySpecial",
+      "Path": "resources/img/effects/amplifySpecial.png",
+      "EmoteCode": "<:amplifySpecial:690728385504346154>"
+    },
+    {
+      "Name": "amplifyStun",
+      "Path": "resources/img/effects/amplifyStun.png",
+      "EmoteCode": "<:amplifyStun:680401320708276233>"
+    },
+    {
+      "Name": "amplifySeisho",
+      "Path": "resources/img/effects/amplifySeisho.png",
+      "EmoteCode": "<:amplifySeisho:860460405801222144>"
+    },
+    {
+      "Name": "amplifyRinmeikan",
+      "Path": "resources/img/effects/amplifyRinmeikan.png",
+      "EmoteCode": "<:amplifyRinmeikan:860460405791785000>"
+    },
+    {
+      "Name": "amplifyFrontier",
+      "Path": "resources/img/effects/amplifyFrontier.png",
+      "EmoteCode": "<:amplifyFrontier:860460405810003978>"
+    },
+    {
+      "Name": "amplifySiegfeld",
+      "Path": "resources/img/effects/amplifySiegfeld.png",
+      "EmoteCode": "<:amplifySiegfeld:860460405972926505>"
+    },
+    {
+      "Name": "amplifySeiran",
+      "Path": "resources/img/effects/amplifySeiran.png",
+      "EmoteCode": "<:amplifySeiran:860460405721530389>"
+    },
+    {
+      "Name": "antiHeal",
+      "Path": "resources/img/effects/antiHeal.png",
+      "EmoteCode": "<:antiHeal:680401321064398889>"
+    },
+    {
+      "Name": "apDown",
+      "Path": "resources/img/effects/apDown.png",
+      "EmoteCode": "<:apDown:680401321169256485>"
+    },
+    {
+      "Name": "apUp",
+      "Path": "resources/img/effects/apUp.png",
+      "EmoteCode": "<:apUp:680401321131507712>"
+    },
+    {
+      "Name": "avoidExit",
+      "Path": "resources/img/effects/avoidExit.png",
+      "EmoteCode": "<:avoidExit:680401321236627480>"
+    },
+    {
+      "Name": "removeExit",
+      "Path": "resources/img/effects/removeExit.png",
+      "EmoteCode": "<:removeExit:700296386524217395>"
+    },
+    {
+      "Name": "barrierBreak",
+      "Path": "resources/img/effects/barrierBreak.png",
+      "EmoteCode": "<:barrierBreak:680401321026650113>"
+    },
+    {
+      "Name": "barrierP",
+      "Path": "resources/img/effects/barrierP.png",
+      "EmoteCode": "<:barrierP:680401321480028201>"
+    },
+    {
+      "Name": "barrierS",
+      "Path": "resources/img/effects/barrierS.png",
+      "EmoteCode": "<:barrierS:680401320842362925>"
+    },
+    {
+      "Name": "blind",
+      "Path": "resources/img/effects/blind.png",
+      "EmoteCode": "<:blind:680401321152610330>"
+    },
+    {
+      "Name": "burn",
+      "Path": "resources/img/effects/burn.png",
+      "EmoteCode": "<:burn:680401321341485084>"
+    },
+    {
+      "Name": "confuse",
+      "Path": "resources/img/effects/confuse.png",
+      "EmoteCode": "<:confuse:680401321068593303>"
+    },
+    {
+      "Name": "daze",
+      "Path": "resources/img/effects/daze.png",
+      "EmoteCode": "<:daze:870623719616290838>"
+    },
+    {
+      "Name": "pride",
+      "Path": "resources/img/effects/pride.png",
+      "EmoteCode": "<:pride:878348954251706379>"
+    },
+    {
+      "Name": "counterHeal",
+      "Path": "resources/img/effects/counterHeal.png",
+      "EmoteCode": "<:counterHeal:680401321169518602>"
+    },
+    {
+      "Name": "critDmgDown",
+      "Path": "resources/img/effects/critDmgDown.png",
+      "EmoteCode": "<:critDmgDown:680401320934637655>"
+    },
+    {
+      "Name": "critDmgUp",
+      "Path": "resources/img/effects/critDmgUp.png",
+      "EmoteCode": "<:critDmgUp:680401321219719168>"
+    },
+    {
+      "Name": "critRateDown",
+      "Path": "resources/img/effects/critRateDown.png",
+      "EmoteCode": "<:critRateDown:680401321341485068>"
+    },
+    {
+      "Name": "critRateUp",
+      "Path": "resources/img/effects/critRateUp.png",
+      "EmoteCode": "<:critRateUp:680401320745762984>"
+    },
+    {
+      "Name": "curtainCall",
+      "Path": "resources/img/effects/curtainCall.png",
+      "EmoteCode": "<:curtainCall:950052458208567396>"
+    },
+    {
+      "Name": "cutInUp",
+      "Path": "resources/img/effects/cutInUp.png",
+      "EmoteCode": "<:cutInUp:993215345731059872>"
+    },
+    {
+      "Name": "cxDmg",
+      "Path": "resources/img/effects/cxDmg.png",
+      "EmoteCode": "<:cxDmg:680401321400336409>"
+    },
+    {
+      "Name": "cxDown",
+      "Path": "resources/img/effects/cxDown.png",
+      "EmoteCode": "<:cxDown:826407820378374165>"
+    },
+    {
+      "Name": "dmgMitigation",
+      "Path": "resources/img/effects/dmgMitigation.png",
+      "EmoteCode": "<:dmgMitigation:680401321043820551>"
+    },
+    {
+      "Name": "dmgUp",
+      "Path": "resources/img/effects/dmgUp.png",
+      "EmoteCode": "<:dmgUp:680401321198747653>"
+    },
+    {
+      "Name": "dodge",
+      "Path": "resources/img/effects/dodge.png",
+      "EmoteCode": "<:dodge:680401321223913548>"
+    },
+    {
+      "Name": "drain",
+      "Path": "resources/img/effects/drain.png",
+      "EmoteCode": "<:drain:680401321014329349>"
+    },
+    {
+      "Name": "effectiveDmg",
+      "Path": "resources/img/effects/effectiveDmg.png",
+      "EmoteCode": "<:effectiveDmg:680401321215524888>"
+    },
+    {
+      "Name": "endure",
+      "Path": "resources/img/effects/endure.png",
+      "EmoteCode": "<:endure:680401321303605311>"
+    },
+    {
+      "Name": "enmity",
+      "Path": "resources/img/effects/enmity.png",
+      "EmoteCode": "<:enmity:680401321219719171>"
+    },
+    {
+      "Name": "evaDown",
+      "Path": "resources/img/effects/evaDown.png",
+      "EmoteCode": "<:evaDown:680401321232433159>"
+    },
+    {
+      "Name": "evaUp",
+      "Path": "resources/img/effects/evaUp.png",
+      "EmoteCode": "<:evaUp:680401321224044576>"
+    },
+    {
+      "Name": "fanaticism",
+      "Path": "resources/img/effects/fanaticism.png",
+      "EmoteCode": "<:fanaticism:950052458250506250>"
+    },
+    {
+      "Name": "fixTarget",
+      "Path": "resources/img/effects/fixTarget.png",
+      "EmoteCode": "<:fixTarget:680401320846688333>"
+    },
+    {
+      "Name": "flip",
+      "Path": "resources/img/effects/flip.png",
+      "EmoteCode": "<:flip:680401322679599169>"
+    },
+    {
+      "Name": "focus",
+      "Path": "resources/img/effects/focus.png",
+      "EmoteCode": "<:focus:680401320989032475>"
+    },
+    {
+      "Name": "freeze",
+      "Path": "resources/img/effects/freeze.png",
+      "EmoteCode": "<:freeze:680401321076981791>"
+    },
+    {
+      "Name": "frostbite",
+      "Path": "resources/img/effects/frostbite.png",
+      "EmoteCode": "<:frostbite:922921361742118953>"
+    },
+    {
+      "Name": "guts",
+      "Path": "resources/img/effects/guts.png",
+      "EmoteCode": "<:guts:680401321240952904>"
+    },
+    {
+      "Name": "heal",
+      "Path": "resources/img/effects/heal.png",
+      "EmoteCode": "<:heal:680401321232302090>"
+    },
+    {
+      "Name": "hitAoe",
+      "Path": "resources/img/effects/hitAoe.png",
+      "EmoteCode": "<:hitAoe:680401321408331841>"
+    },
+    {
+      "Name": "hitGroup",
+      "Path": "resources/img/effects/hitGroup.png",
+      "EmoteCode": "<:hitGroup:680401321240821761>"
+    },
+    {
+      "Name": "hitSingle",
+      "Path": "resources/img/effects/hitSingle.png",
+      "EmoteCode": "<:hitSingle:680401321081307177>"
+    },
+    {
+      "Name": "hpDown",
+      "Path": "resources/img/effects/hpDown.png",
+      "EmoteCode": "<:hpDown:839781340907831297>"
+    },
+    {
+      "Name": "hpRegen",
+      "Path": "resources/img/effects/hpRegen.png",
+      "EmoteCode": "<:hpRegen:680401320817066003>"
+    },
+    {
+      "Name": "hpUp",
+      "Path": "resources/img/effects/hpUp.png",
+      "EmoteCode": "<:hpUp:839781341192519680>"
+    },
+    {
+      "Name": "hope",
+      "Path": "resources/img/effects/hope.png",
+      "EmoteCode": "<:hope:903354936031600742>"
+    },
+    {
+      "Name": "invincible",
+      "Path": "resources/img/effects/invincible.png",
+      "EmoteCode": "<:invincible:680401321383297058>"
+    },
+    {
+      "Name": "killerEffect",
+      "Path": "resources/img/effects/killerEffect.png",
+      "EmoteCode": "<:killerEffect:680401321471246537>"
+    },{
+      "Name": "kiraLoss",
+      "Path": "resources/img/effects/kiraLoss.png",
+      "EmoteCode": "<:kiraLoss:836892956392423465>"
+    },
+    {
+      "Name": "kiraDown",
+      "Path": "resources/img/effects/kiraDown.png",
+      "EmoteCode": "<:kiraDown:680401321286959145>"
+    },
+    {
+      "Name": "kiraUp",
+      "Path": "resources/img/effects/kiraUp.png",
+      "EmoteCode": "<:kiraUp:958845380534079508>"
+    },
+    {
+      "Name": "kirameki",
+      "Path": "resources/img/effects/kirameki.png",
+      "EmoteCode": "<:kirameki:680401321354068024>"
+    },
+    {
+      "Name": "kiramekiRegen",
+      "Path": "resources/img/effects/kiramekiRegen.png",
+      "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+    },
+    {
+      "Name": "lock",
+      "Path": "resources/img/effects/lock.png",
+      "EmoteCode": "<:lockAP:680401895122141216>"
+    },
+    {
+      "Name": "neutralise",
+      "Path": "resources/img/effects/neutralise.png",
+      "EmoteCode": "<:neutralise:680401895369736203>"
+    },
+    {
+      "Name": "pDefDown",
+      "Path": "resources/img/effects/pDefDown.png",
+      "EmoteCode": "<:pDefDown:680401895046905887>"
+    },
+    {
+      "Name": "pDefUp",
+      "Path": "resources/img/effects/pDefUp.png",
+      "EmoteCode": "<:pDefUp:680401895180730401>"
+    },
+    {
+      "Name": "pierce",
+      "Path": "resources/img/effects/pierce.png",
+      "EmoteCode": "<:pierce:680401895122403329>"
+    },
+    {
+      "Name": "poison",
+      "Path": "resources/img/effects/poison.png",
+      "EmoteCode": "<:poison:680401896288026647>"
+    },
+    {
+      "Name": "reflect",
+      "Path": "resources/img/effects/reflect.png",
+      "EmoteCode": "<:reflect:680401895012958219>"
+    },
+    {
+      "Name": "reflectS",
+      "Path": "resources/img/effects/reflectS.png",
+      "EmoteCode": "<:reflectS:680401894858162188>"
+    },
+    {
+      "Name": "resAntiHeal",
+      "Path": "resources/img/effects/resAntiHeal.png",
+      "EmoteCode": "<:resAntiHeal:680401895134724116>"
+    },
+    {
+      "Name": "resBlind",
+      "Path": "resources/img/effects/resBlind.png",
+      "EmoteCode": "<:resBlind:680401895117947042>"
+    },
+    {
+      "Name": "resBurn",
+      "Path": "resources/img/effects/resBurn.png",
+      "EmoteCode": "<:resBurn:680401895139049494>"
+    },
+    {
+      "Name": "resConfuse",
+      "Path": "resources/img/effects/resConfuse.png",
+      "EmoteCode": "<:resConfuse:680401895143243777>"
+    },
+	{
+      "Name": "resDoT",
+      "Path": "resources/img/effects/resDoT.png",
+      "EmoteCode": "<:resDoT:741243325990043729>"
+    },
+    {
+      "Name": "resFixTarget",
+      "Path": "resources/img/effects/resFixTarget.png",
+      "EmoteCode": "<:resFixTarget:680401895134724096>"
+    },
+    {
+      "Name": "resFreeze",
+      "Path": "resources/img/effects/resFreeze.png",
+      "EmoteCode": "<:resFreeze:680401895113883670>"
+    },
+	{
+	  "Name": "resMinus",
+      "Path": "resources/img/effects/resMinus.png",
+      "EmoteCode": "<:resMinus:705357033888809040>"
+	},
+	{
+	  "Name": "resStackMinus",
+      "Path": "resources/img/effects/resStackMinus.png",
+      "EmoteCode": "<:resStackMinus:956602021060956180>"
+	},
+	{
+	  "Name": "resPlus",
+      "Path": "resources/img/effects/resPlus.png",
+      "EmoteCode": "<:resPlus:865631229764042772>"
+	},
+    {
+      "Name": "resPoison",
+      "Path": "resources/img/effects/resPoison.png",
+      "EmoteCode": "<:resPoison:680401895134724102>"
+    },
+    {
+      "Name": "resSeal",
+      "Path": "resources/img/effects/resSeal.png",
+      "EmoteCode": "<:resSeal:680401895143112756>"
+    },
+    {
+      "Name": "resSleep",
+      "Path": "resources/img/effects/resSleep.png",
+      "EmoteCode": "<:resSleep:680401895139180554>"
+    },
+    {
+      "Name": "resStop",
+      "Path": "resources/img/effects/resStop.png",
+      "EmoteCode": "<:resStop:680401894895911003>"
+    },
+    {
+      "Name": "resStun",
+      "Path": "resources/img/effects/resStun.png",
+      "EmoteCode": "<:resStun:680401894841122855>"
+    },
+    {
+      "Name": "resTaunt",
+      "Path": "resources/img/effects/resTaunt.png",
+      "EmoteCode": "<:resTaunt:680401894941786171>"
+    },
+    {
+      "Name": "rmvBuffs",
+      "Path": "resources/img/effects/rmvBuffs.png",
+      "EmoteCode": "<:rmvBuffs:680401895285719040>"
+    },
+    {
+      "Name": "rmvDebuffs",
+      "Path": "resources/img/effects/rmvDebuffs.png",
+      "EmoteCode": "<:rmvDebuffs:680401895168147495>"
+    },
+    {
+      "Name": "rmvRevive",
+      "Path": "resources/img/effects/rmvRevive.png",
+      "EmoteCode": "<:rmvRevive:980783014902636564>"
+    },
+    {
+      "Name": "rmvStackBuffs",
+      "Path": "resources/img/effects/rmvStackBuffs.png",
+      "EmoteCode": "<:rmvStackBuffs:968840685992149003>"
+    },
+    {
+      "Name": "rmvStackDebuffs",
+      "Path": "resources/img/effects/rmvStackDebuffs.png",
+      "EmoteCode": "<:rmvStackDebuffs:956602021178388541>"
+    },
+    {
+      "Name": "sDefDown",
+      "Path": "resources/img/effects/sDefDown.png",
+      "EmoteCode": "<:sDefDown:680401895118077955>"
+    },
+    {
+      "Name": "sDefUp",
+      "Path": "resources/img/effects/sDefUp.png",
+      "EmoteCode": "<:sDefUp:680401894807437315>"
+    },
+    {
+      "Name": "seal",
+      "Path": "resources/img/effects/seal.png",
+      "EmoteCode": "<:seal:680401895197638662>"
+    },
+    {
+      "Name": "resurrection",
+      "Path": "resources/img/effects/resurrection.png",
+      "EmoteCode": "<:resurrection:859411404154339348>"
+    },
+    {
+      "Name": "weakspot",
+      "Path": "resources/img/effects/resurrection.png",
+      "EmoteCode": "<:weakspot:911051826726596638>"
+    },
+    {
+      "Name": "sleep",
+      "Path": "resources/img/effects/sleep.png",
+      "EmoteCode": "<:sleep:680401895264747618>"
+    },
+    {
+      "Name": "spdDown",
+      "Path": "resources/img/effects/spdDown.png",
+      "EmoteCode": "<:spdDown:680401894899843190>"
+    },
+    {
+      "Name": "spdUp",
+      "Path": "resources/img/effects/spdUp.png",
+      "EmoteCode": "<:spdUp:680401894979797023>"
+    },
+    {
+      "Name": "stop",
+      "Path": "resources/img/effects/stop.png",
+      "EmoteCode": "<:stop:680401895369736263>"
+    },
+    {
+      "Name": "stun",
+      "Path": "resources/img/effects/stun.png",
+      "EmoteCode": "<:stun:680401895181123607>"
+    },
+	{
+      "Name": "lovesickness",
+      "Path": "resources/img/effects/lovesick.png",
+      "EmoteCode": "<:lovesick:835105911143923712>"
+    },
+    {
+      "Name": "taunt",
+      "Path": "resources/img/effects/taunt.png",
+      "EmoteCode": "<:taunt:680401894963019861>"
+    },
+    {
+      "Name": "shock",
+      "Path": "resources/img/effects/shock.png",
+      "EmoteCode": "<:shock:855056273006526475>"
+    },
+    {
+      "Name": "nightmare",
+      "Path": "resources/img/effects/nightmare.png",
+      "EmoteCode": "<:nightmare:864481856493584444>"
+    },
+    {
+      "Name": "unknown",
+      "Path": "resources/img/effects/unknown.png",
+      "EmoteCode": "<:please_ping_if_you_see_this:670781960800698378>"
+    },
+    {
+      "Name": "cloud",
+      "Path": "resources/img/elements/cloud.png",
+      "EmoteCode": "<:clouds:670777678739144725>"
+    },
+    {
+      "Name": "cosmos",
+      "Path": "resources/img/elements/cosmos.png",
+      "EmoteCode": "<:cosmos:670777678697201708>"
+    },
+    {
+      "Name": "dream",
+      "Path": "resources/img/elements/dream.png",
+      "EmoteCode": "<:dream:670777678772830219>"
+    },
+    {
+      "Name": "flower",
+      "Path": "resources/img/elements/flower.png",
+      "EmoteCode": "<:flower:670777678676230174>"
+    },
+    {
+      "Name": "moon",
+      "Path": "resources/img/elements/moon.png",
+      "EmoteCode": "<:moon:670777678693138432>"
+    },
+    {
+      "Name": "snow",
+      "Path": "resources/img/elements/snow.png",
+      "EmoteCode": "<:snow:670777678483161102>"
+    },
+    {
+      "Name": "wind",
+      "Path": "resources/img/elements/wind.png",
+      "EmoteCode": "<:wind:670777678764179478>"
+    },
+    {
+      "Name": "back",
+      "Path": "resources/img/rows/back.png",
+      "EmoteCode": "<:icon_position_back:670780625560666136>"
+    },
+    {
+      "Name": "front",
+      "Path": "resources/img/rows/front.png",
+      "EmoteCode": "<:icon_position_front:670780625657266186>"
+    },
+    {
+      "Name": "middle",
+      "Path": "resources/img/rows/middle.png",
+      "EmoteCode": "<:icon_position_middle:670780625581506621>"
+    },
+    {
+      "Name": "frontier",
+      "Path": "resources/img/schools/frontier.jpg",
+      "EmoteCode": "<:please_ping_if_you_see_this:670781960800698378>"
+    },
+    {
+      "Name": "rinmeikan",
+      "Path": "resources/img/schools/rinmeikan.jpg",
+      "EmoteCode": "<:please_ping_if_you_see_this:670781960800698378>"
+    },
+    {
+      "Name": "siegfeld",
+      "Path": "resources/img/schools/seekfelt.jpg",
+      "EmoteCode": "<:please_ping_if_you_see_this:670781960800698378>"
+    },
+    {
+      "Name": "seisho",
+      "Path": "resources/img/schools/seisho.jpg",
+      "EmoteCode": "<:please_ping_if_you_see_this:670781960800698378>"
+    },
+	{
+      "Name": "seishoGlobalOffense",
+      "Path": "resources/img/schools/seisho.jpg",
+      "EmoteCode": "<:seishoGlobalOffense:716564242580635760>"
+    },
+	{
+      "Name": "seishoGlobalDefense",
+      "Path": "resources/img/schools/seisho.jpg",
+      "EmoteCode": "<:seishoGlobalDefense:716564243012649000>"
+    },
+	{
+      "Name": "rmkGlobalOffense",
+      "Path": "resources/img/schools/rinmeikan.jpg",
+      "EmoteCode": "<:rmkGlobalOffense:716564242668585052> "
+    },
+	{
+      "Name": "rmkGlobalDefense",
+      "Path": "resources/img/schools/rinmeikan.jpg",
+      "EmoteCode": "<:rmkGlobalDefense:716564242991415346>"
+    },
+	{
+      "Name": "frontierGlobalOffense",
+      "Path": "resources/img/schools/frontier.jpg",
+      "EmoteCode": "<:frontierGlobalOffense:716564242874105877> "
+    },
+	{
+      "Name": "frontierGlobalDefense",
+      "Path": "resources/img/schools/frontier.jpg",
+      "EmoteCode": "<:frontierGlobalDefense:716564242710659114>"
+    },
+    {
+      "Name": "seiranGlobalOffense",
+      "Path": "resources/img/unitSkills/seiranGlobalOffense.png",
+      "EmoteCode": "<:seiranGlobalOffense:786143026648580096>"
+    },
+    {
+      "Name": "seiranGlobalDefense",
+      "Path": "resources/img/unitSkills/seiranGlobalDefense.png",
+      "EmoteCode": "<:seiranGlobalDefense:786143026727616532>"
+    },
+	{
+      "Name": "siegfeldGlobalOffense",
+      "Path": "resources/img/schools/seekfelt.jpg",
+      "EmoteCode": "<:siegfeldGlobalOffense:716564243008192612>"
+    },
+	{
+      "Name": "siegfeldGlobaldefense",
+      "Path": "resources/img/schools/seekfelt.jpg",
+      "EmoteCode": "<:siegfeldGlobalDefense:716564242987483136>"
+    },
+	{
+      "Name": "effectIgnore",
+      "Path": "resources/img/effects/effectIgnore.png",
+      "EmoteCode": "<:effectIgnore:716565402846756875>"
+    },
+	{
+      "Name": "stageEffect1",
+      "Path": "resources/img/effects/stageEffect1.png",
+      "EmoteCode": "<:stageEffect1:833716333606207578>"
+    },
+	{
+      "Name": "stageEffect2",
+      "Path": "resources/img/effects/stageEffect2.png",
+      "EmoteCode": "<:stageEffect2:844619448853463042>"
+    },
+    {
+      "Name": "stageEffect3",
+      "Path": "resources/img/effects/stageEffect3.png",
+      "EmoteCode": "<:stageEffect3:847426983679361074>"
+    },
+	{
+      "Name": "stageEffect4",
+      "Path": "resources/img/effects/stageEffect4.png",
+      "EmoteCode": "<:stageEffect4:849961734672351252>"
+    },
+	{
+      "Name": "stageEffect5",
+      "Path": "resources/img/effects/stageEffect5.png",
+      "EmoteCode": "<:stageEffect5:854289787627503637>"
+    },
+	{
+      "Name": "stageEffect6",
+      "Path": "resources/img/effects/stageEffect6.png",
+      "EmoteCode": "<:stageEffect6:854289787342684171>"
+    },
+	{
+      "Name": "stageEffect7",
+      "Path": "resources/img/effects/stageEffect7.png",
+      "EmoteCode": "<:stageEffect7:855051119692087307>"
+    },
+	{
+      "Name": "stageEffect8",
+      "Path": "resources/img/effects/stageEffect8.png",
+      "EmoteCode": "<:stageEffect8:857274577931599913>"
+    },
+	{
+      "Name": "stageEffect9",
+      "Path": "resources/img/effects/stageEffect9.png",
+      "EmoteCode": "<:stageEffect9:861906333107617813>"
+    },
+	{
+      "Name": "stageEffect10",
+      "Path": "resources/img/effects/stageEffect10.png",
+      "EmoteCode": "<:stageEffect10:870623720027328552>"
+    },
+	{
+      "Name": "stageEffect11",
+      "Path": "resources/img/effects/stageEffect11.png",
+      "EmoteCode": "<:stageEffect11:874590121750560808>"
+    },
+	{
+      "Name": "stageEffect12",
+      "Path": "resources/img/effects/stageEffect12.png",
+      "EmoteCode": "<:stageEffect12:879679995675566190>"
+    },
+	{
+      "Name": "stageEffect13",
+      "Path": "resources/img/effects/stageEffect13.png",
+      "EmoteCode": "<:stageEffect13:888425425016086559>"
+    },
+	{
+      "Name": "stageEffect14",
+      "Path": "resources/img/effects/stageEffect14.png",
+      "EmoteCode": "<:stageEffect14:889991176843853884>"
+    },
+	{
+      "Name": "stageEffect15",
+      "Path": "resources/img/effects/stageEffect15.png",
+      "EmoteCode": "<:stageEffect15:892852108599123969>"
+    },
+	{
+      "Name": "stageEffect16",
+      "Path": "resources/img/effects/stageEffect16.png",
+      "EmoteCode": "<:stageEffect16:897972568340959252>"
+    },
+	{
+      "Name": "stageEffect17",
+      "Path": "resources/img/effects/stageEffect17.png",
+      "EmoteCode": "<:stageEffect17:906276078723686460>"
+    },
+	{
+      "Name": "stageEffect18",
+      "Path": "resources/img/effects/stageEffect18.png",
+      "EmoteCode": "<:stageEffect18:925713707265310750>"
+    },
+	{
+      "Name": "stageEffect19",
+      "Path": "resources/img/effects/stageEffect19.png",
+      "EmoteCode": "<:stageEffect19:925713707261120512>"
+    },
+	{
+      "Name": "stageEffect20",
+      "Path": "resources/img/effects/stageEffect20.png",
+      "EmoteCode": "<:stageEffect20:946868689054081096>"
+    },
+	{
+      "Name": "stageEffect21",
+      "Path": "resources/img/effects/stageEffect21.png",
+      "EmoteCode": "<:stageEffect21:958845380576026644>"
+    },
+	{
+      "Name": "stageEffect22",
+      "Path": "resources/img/effects/stageEffect22.png",
+      "EmoteCode": "<:stageEffect22:961609747537199205>"
+    },
+	{
+      "Name": "stageEffect23",
+      "Path": "resources/img/effects/stageEffect23.png",
+      "EmoteCode": "<:stageEffect23:968841097986072576>"
+    },
+	{
+      "Name": "stageEffect24",
+      "Path": "resources/img/effects/stageEffect24.png",
+      "EmoteCode": "<:stageEffect24:980782820278546444>"
+    },
+	{
+      "Name": "stageEffect25",
+      "Path": "resources/img/effects/stageEffect25.png",
+      "EmoteCode": "<:stageEffect25:989504184296558592>"
+    },
+	{
+      "Name": "stageEffect26",
+      "Path": "resources/img/effects/stageEffect26.png",
+      "EmoteCode": "<:stageEffect26:991065606969241650>"
+    },
+	{
+      "Name": "seCloud",
+      "Path": "resources/img/effects/seCloud.png",
+      "EmoteCode": "<:seCloud:844619449214697493>"
+    },
+	{
+      "Name": "seWind",
+      "Path": "resources/img/effects/seWind.png",
+      "EmoteCode": "<:seWind:844619449851969566>"
+    },
+	{
+      "Name": "seCosmos",
+      "Path": "resources/img/effects/seCosmos.png",
+      "EmoteCode": "<:seCosmos:844619448987418715>"
+    },
+	{
+      "Name": "seSnow",
+      "Path": "resources/img/effects/seSnow.png",
+      "EmoteCode": "<:seSnow:844619448957534250>"
+    },
+	{
+      "Name": "seMoon",
+      "Path": "resources/img/effects/seMoon.png",
+      "EmoteCode": "<:seMoon:844619449352323083>"
+    },
+	{
+      "Name": "seFlower",
+      "Path": "resources/img/effects/seFlower.png",
+      "EmoteCode": "<:seFlower:844619449264504872>"
+    },
+	{
+      "Name": "seConcCosmos",
+      "Path": "resources/img/effects/seConcCosmos.png",
+      "EmoteCode": "<:seConcCosmos:875843979223126036>"
+    },
+	{
+      "Name": "seConcSnow",
+      "Path": "resources/img/effects/seConcSnow.png",
+      "EmoteCode": "<:seConcSnow:875843979239911464>"
+    },
+	{
+      "Name": "seConcWind",
+      "Path": "resources/img/effects/seConcWind.png",
+      "EmoteCode": "<:seConcWind:875843979197968454>"
+    },
+    {
+      "Name": "physical",
+      "Path": "resources/img/types/physical.png",
+      "EmoteCode": "<:physical:670777678676099081>"
+    },
+    {
+      "Name": "special",
+      "Path": "resources/img/types/special.png",
+      "EmoteCode": "<:special:670777678483161125>"
+    },
+    {
+      "Name": "backDefense",
+      "Path": "resources/img/unitSkills/backDefense.png",
+      "EmoteCode": "<:backDefense:680402138295304305>"
+    },
+    {
+      "Name": "backGlobalDefense",
+      "Path": "resources/img/unitSkills/backDefense.png",
+      "EmoteCode": "<:backDefense:680402138295304305>"
+    },
+    {
+      "Name": "backOffense",
+      "Path": "resources/img/unitSkills/backOffense.png",
+      "EmoteCode": "<:backOffense:680402138857472012>"
+    },
+    {
+      "Name": "backGlobalOffense",
+      "Path": "resources/img/unitSkills/backOffense.png",
+      "EmoteCode": "<:backOffense:680402138857472012>"
+    },
+    {
+      "Name": "cloudDefense",
+      "Path": "resources/img/unitSkills/cloudDefense.png",
+      "EmoteCode": "<:cloudDefense:680402210349383731>"
+    },
+    {
+      "Name": "cloudOffense",
+      "Path": "resources/img/unitSkills/cloudOffense.png",
+      "EmoteCode": "<:cloudOffense:680402210361835542>"
+    },
+    {
+      "Name": "cosmosDefense",
+      "Path": "resources/img/unitSkills/cosmosDefense.png",
+      "EmoteCode": "<:cosmosDefense:680402210714025994>"
+    },
+    {
+      "Name": "cosmosReduction",
+      "Path": "resources/img/unitSkills/cosmosDefense.png",
+      "EmoteCode": "<:cosmosDefense:680402210714025994>"
+    },
+    {
+      "Name": "cosmosOffense",
+      "Path": "resources/img/unitSkills/cosmosOffense.png",
+      "EmoteCode": "<:cosmosOffense:680402210462498817>"
+    },
+    {
+      "Name": "dreamDefense",
+      "Path": "resources/img/unitSkills/dreamDefense.png",
+      "EmoteCode": "<:dreamDefense:680402210688860253>"
+    },
+    {
+      "Name": "dreamOffense",
+      "Path": "resources/img/unitSkills/dreamOffense.png",
+      "EmoteCode": "<:dreamOffense:680402210491990128>"
+    },
+    {
+      "Name": "flowerDefense",
+      "Path": "resources/img/unitSkills/flowerDefense.png",
+      "EmoteCode": "<:flowerDefense:680402210781397090>"
+    },
+    {
+      "Name": "flowerOffense",
+      "Path": "resources/img/unitSkills/flowerOffense.png",
+      "EmoteCode": "<:flowerOffense:680402210688860192>"
+    },
+    {
+      "Name": "frontDefense",
+      "Path": "resources/img/unitSkills/frontDefense.png",
+      "EmoteCode": "<:frontDefense:680402138505281585>"
+    },
+    {
+      "Name": "frontOffense",
+      "Path": "resources/img/unitSkills/frontOffense.png",
+      "EmoteCode": "<:frontOffense:680402138261618689>"
+    },
+    {
+      "Name": "frontGlobalOffense",
+      "Path": "resources/img/unitSkills/frontOffense.png",
+      "EmoteCode": "<:frontOffense:680402138261618689>"
+    },
+    {
+      "Name": "midDefense",
+      "Path": "resources/img/unitSkills/midDefense.png",
+      "EmoteCode": "<:midDefense:680402138505150488>"
+    },
+    {
+      "Name": "midGlobalDefense",
+      "Path": "resources/img/unitSkills/midDefense.png",
+      "EmoteCode": "<:midDefense:680402138505150488>"
+    },
+    {
+      "Name": "midOffense",
+      "Path": "resources/img/unitSkills/midOffense.png",
+      "EmoteCode": "<:midOffense:680402138571997185>"
+    },
+    {
+      "Name": "midGlobalOffense",
+      "Path": "resources/img/unitSkills/midOffense.png",
+      "EmoteCode": "<:midOffense:680402138571997185>"
+    },
+    {
+      "Name": "moonDefense",
+      "Path": "resources/img/unitSkills/moonDefense.png",
+      "EmoteCode": "<:moonDefense:680402210688991232>"
+    },
+    {
+      "Name": "moonOffense",
+      "Path": "resources/img/unitSkills/moonOffense.png",
+      "EmoteCode": "<:moonOffense:680402210487795784>"
+    },
+    {
+      "Name": "snowDefense",
+      "Path": "resources/img/unitSkills/snowDefense.png",
+      "EmoteCode": "<:snowDefense:680402210735128607>"
+    },
+    {
+      "Name": "snowOffense",
+      "Path": "resources/img/unitSkills/snowOffense.png",
+      "EmoteCode": "<:snowOffense:680402210768945205>"
+    },
+    {
+      "Name": "windDefense",
+      "Path": "resources/img/unitSkills/windDefense.png",
+      "EmoteCode": "<:windDefense:680402210747711538>"
+    },
+    {
+      "Name": "windOffense",
+      "Path": "resources/img/unitSkills/windOffense.png",
+      "EmoteCode": "<:windOffense:680402210760556599>"
+    },
+    {
+      "Name": "physOffense",
+      "Path": "resources/img/unitSkills/physOffense.png",
+      "EmoteCode": "<:physOffense:794166503062241300>"
+    },
+    {
+      "Name": "physDefense",
+      "Path": "resources/img/unitSkills/physDefense.png",
+      "EmoteCode": "<:physDefense:794166503066173440>"
+    },
+    {
+      "Name": "selfishOffense",
+      "Path": "resources/img/unitSkills/selfishOffense.png",
+      "EmoteCode": "<:selfishOffense:844619449054396478>"
+    },
+    {
+      "Name": "selfishDefense",
+      "Path": "resources/img/unitSkills/selfishDefense.png",
+      "EmoteCode": "<:selfishDefense:844619449251921930>"
+    },
+    {
+      "Name": "spOffense",
+      "Path": "resources/img/unitSkills/spOffense.png",
+      "EmoteCode": "<:spOffense:794166503121223700>"
+    },
+    {
+      "Name": "spDefense",
+      "Path": "resources/img/unitSkills/spDefense.png",
+      "EmoteCode": "<:spDefense:794166503053459476>"
+    }
+  ]
+}

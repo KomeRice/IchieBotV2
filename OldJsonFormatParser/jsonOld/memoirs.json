@@ -1,0 +1,6403 @@
+[
+  {
+    "Id": 0,
+    "Name": "Cute Chick Towel",
+    "Effect": {
+      "Description": "4% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/D6mQES7t.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      899,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 1,
+    "Name": "Fumi's Favorite Chilled Ponzu",
+    "Effect": {
+      "Description": "4% reduced damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/6eKuPpTB.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "dmgDown"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 2,
+    "Name": "Cactus in a Cat Pot",
+    "Effect": {
+      "Description": "6% increased CA damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/9m0Qc2sN.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "cxDmg"
+    ],
+    "MaxStats": [
+      449,
+      22,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 3,
+    "Name": "Classic Treasure Chest",
+    "Effect": {
+      "Description": "200 Regen",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/MJXGlCQr.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "hpRegen"
+    ],
+    "MaxStats": [
+      629,
+      0,
+      53,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 4,
+    "Name": "Ultimate Yakisoba & Bun",
+    "Effect": {
+      "Description": "At the end of each turn, gain 2 kirameki",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/msuIBRXb.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      629,
+      0,
+      0,
+      53
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 5,
+    "Name": "Aruru's Notebook Scribblings",
+    "Effect": {
+      "Description": "+15% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/VPUmlMP5.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      0,
+      26,
+      53,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 6,
+    "Name": "Tools for Making Dreams",
+    "Effect": {
+      "Description": "+8% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/SN3eAyzS.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      26,
+      0,
+      53
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 7,
+    "Name": "Mei Fan's Capsule Toys",
+    "Effect": {
+      "Description": "5% increased Speed",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/hs14M10E.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "spdUp"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      89,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 8,
+    "Name": "Stage Girl Recovery Set",
+    "Effect": {
+      "Description": "6% increased effective damage",
+      "AbilityIcon": {
+        "Name": "effectiveDmg",
+        "Path": "resources/img/effects/effectiveDmg.png",
+        "EmoteCode": "<:effectiveDmg:680401321215524888>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/jWHOTWjq.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      899,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 9,
+    "Name": "Golden Opera Glasses",
+    "Effect": {
+      "Description": "Start: 16 kirameki",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/NTMKdzn2.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "kiraStart",
+      "start16"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 10,
+    "Name": "Position Zero in the Rehearsal Room",
+    "Effect": {
+      "Description": "Start: 1090 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/Nt9rQUOc.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "barrierP"
+    ],
+    "MaxStats": [
+      449,
+      22,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 11,
+    "Name": "A New Roommate?",
+    "Effect": {
+      "Description": "Start: 1090 SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierS",
+        "Path": "resources/img/effects/barrierS.png",
+        "EmoteCode": "<:barrierS:680401320842362925>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/E1ITInn0.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "barrierS"
+    ],
+    "MaxStats": [
+      629,
+      0,
+      53,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 12,
+    "Name": "Play Ball!",
+    "Effect": {
+      "Description": "200 Regen",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/XYjtAAwp.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "hpRegen"
+    ],
+    "MaxStats": [
+      629,
+      0,
+      0,
+      53
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 13,
+    "Name": "Warm Kitsune Udon",
+    "Effect": {
+      "Description": "At the end of each turn, gain 2 kirameki",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/M7Wuve2b.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      0,
+      26,
+      53,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 14,
+    "Name": "Hikari's Barrette",
+    "Effect": {
+      "Description": "+15% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/wJAHPiYe.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      0,
+      26,
+      0,
+      53
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 15,
+    "Name": "The 100th Seisho Festival is Soon",
+    "Effect": {
+      "Description": "+8% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/BSZIuklI.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      89,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 16,
+    "Name": "The Play \\”Starlight\"",
+    "Effect": {
+      "Description": "5% increased Speed",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/BSZIuklI.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "spdUp"
+    ],
+    "MaxStats": [
+      899,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 17,
+    "Name": "Kagura Hikari's Stage of Fate",
+    "Effect": {
+      "Description": "6% increased effective damage",
+      "AbilityIcon": {
+        "Name": "effectiveDmg",
+        "Path": "resources/img/effects/effectiveDmg.png",
+        "EmoteCode": "<:effectiveDmg:680401321215524888>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/FbR7LUYX.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 18,
+    "Name": "Waiting for Them",
+    "Effect": {
+      "Description": "Start: 16 kirameki",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 1,
+    "ThumbUrl": "https://kome.s-ul.eu/zANb38rZ.png",
+    "Pool": "FP Gacha",
+    "Taglist": [
+      "kiraStart",
+      "start16"
+    ],
+    "MaxStats": [
+      449,
+      22,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 19,
+    "Name": "Elegant Tea Set",
+    "Effect": {
+      "Description": "6% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/lAj1MB7I.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      1049,
+      0,
+      89,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 20,
+    "Name": "Great Harp of Elysion",
+    "Effect": {
+      "Description": "6% reduced damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/8iXdfttd.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown"
+    ],
+    "MaxStats": [
+      1049,
+      0,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 21,
+    "Name": "Marilyn, the Captain's Parrot Pal",
+    "Effect": {
+      "Description": "9% increased CA damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/ASblo39n.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      89,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 22,
+    "Name": "Ghost Patrol Story Props",
+    "Effect": {
+      "Description": "240 Regen",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/pBiKgNJ1.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "hpRegen"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 23,
+    "Name": "The Wartime of Farewells Flag",
+    "Effect": {
+      "Description": "At the end of each turn, gain 3 kirameki",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/dtFwJiZO.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      149,
+      149
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 24,
+    "Name": "Laurels of Kira",
+    "Effect": {
+      "Description": "+22% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/nP5K3KPw.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      1499,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 25,
+    "Name": "Sushi",
+    "Effect": {
+      "Description": "+12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/WhIZ5ftZ.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 26,
+    "Name": "The Underground Theater",
+    "Effect": {
+      "Description": "7% increased Speed",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/IsJMSD6K.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "spdUp"
+    ],
+    "MaxStats": [
+      749,
+      36,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 27,
+    "Name": "Gratitude or a Challenge?",
+    "Effect": {
+      "Description": "Start: 24 kirameki",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/WI6zBsNU.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24"
+    ],
+    "MaxStats": [
+      1049,
+      0,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 28,
+    "Name": "Dance Practice",
+    "Effect": {
+      "Description": "Start: 1590 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/U2uCI33K.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      89,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 29,
+    "Name": "Head of the 99th Class",
+    "Effect": {
+      "Description": "Start: 1590 SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierS",
+        "Path": "resources/img/effects/barrierS.png",
+        "EmoteCode": "<:barrierS:680401320842362925>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/cRGqWH5x.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierS"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 30,
+    "Name": "To The Stage",
+    "Effect": {
+      "Description": "6% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/7riBkF5d.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      149,
+      149
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 31,
+    "Name": "The Day Fates were Traded",
+    "Effect": {
+      "Description": "6% reduced damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/gf3CvH9v.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown"
+    ],
+    "MaxStats": [
+      1499,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 32,
+    "Name": "Unexpected Ally",
+    "Effect": {
+      "Description": "9% increased CA damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/3Ze8cJ3V.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg"
+    ],
+    "MaxStats": [
+      0,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 33,
+    "Name": "50 Yen Taxi Fare!",
+    "Effect": {
+      "Description": "240 Regen",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/Ox6Boyuw.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "hpRegen"
+    ],
+    "MaxStats": [
+      749,
+      36,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 34,
+    "Name": "The Face Under the Helmet",
+    "Effect": {
+      "Description": "At the start of each turn, gain 3 kirameki",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/u9vbDX6y.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      1049,
+      0,
+      89,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 35,
+    "Name": "It's So Bright...",
+    "Effect": {
+      "Description": "+22% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/qVeUIJFe.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      1049,
+      0,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 36,
+    "Name": "The Repeat Performance She Wants",
+    "Effect": {
+      "Description": "+12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/tvcL3IPx.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      89,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 37,
+    "Name": "Even If We're Apart",
+    "Effect": {
+      "Description": "7% increased Speed",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/sUHfWFxe.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "spdUp"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 38,
+    "Name": "Oui!",
+    "Effect": {
+      "Description": "9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "effectiveDmg",
+        "Path": "resources/img/effects/effectiveDmg.png",
+        "EmoteCode": "<:effectiveDmg:680401321215524888>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/zLsMTgTw.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      149,
+      149
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 39,
+    "Name": "Searching for Her",
+    "Effect": {
+      "Description": "Start: 24 kirameki",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/QHWWGd8l.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24"
+    ],
+    "MaxStats": [
+      1499,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 40,
+    "Name": "Until the World is Turned to Ash",
+    "Effect": {
+      "Description": "Start: 1590 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/sCrberSp.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP"
+    ],
+    "MaxStats": [
+      0,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 41,
+    "Name": "Revue of Jealousy",
+    "Effect": {
+      "Description": "Start: 1590 SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierS",
+        "Path": "resources/img/effects/barrierS.png",
+        "EmoteCode": "<:barrierS:680401320842362925>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/WIeldW6a.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierS"
+    ],
+    "MaxStats": [
+      749,
+      36,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 42,
+    "Name": "The Star Knows",
+    "Effect": {
+      "Description": "6% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/qL381z73.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      1049,
+      0,
+      89,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 43,
+    "Name": "After the Curtain Goes Down",
+    "Effect": {
+      "Description": "6% reduced damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/iAzrWbUH.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown"
+    ],
+    "MaxStats": [
+      1049,
+      0,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 44,
+    "Name": "Six Sinful Goddesses",
+    "Effect": {
+      "Description": "9% increased CA damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/paK4RwjZ.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      89,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 45,
+    "Name": "Pride and Arrogance",
+    "Effect": {
+      "Description": "240 Regen",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/R5N26Qef.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "hpRegen"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 46,
+    "Name": "Bana-nice!",
+    "Effect": {
+      "Description": "At the end of each turn, gain 3 kirameki",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/WRPBa55C.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      149,
+      149
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 47,
+    "Name": "Stage Left for Two",
+    "Effect": {
+      "Description": "+12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/1M0u1cbh.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 48,
+    "Name": "We Know",
+    "Effect": {
+      "Description": "+22% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/GdE4aiEx.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      1499,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 49,
+    "Name": "Our Promise",
+    "Effect": {
+      "Description": "7% increased Speed",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/l42Fhg1x.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "spdUp"
+    ],
+    "MaxStats": [
+      749,
+      36,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 50,
+    "Name": "Our Starlight",
+    "Effect": {
+      "Description": "9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "effectiveDmg",
+        "Path": "resources/img/effects/effectiveDmg.png",
+        "EmoteCode": "<:effectiveDmg:680401321215524888>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/DnpVGmVu.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      1049,
+      0,
+      89,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 51,
+    "Name": "Revue Duet",
+    "Effect": {
+      "Description": "Start: 24 kirameki",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/sLZ22m30.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24"
+    ],
+    "MaxStats": [
+      1049,
+      0,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 52,
+    "Name": "Maya Tendo Has Lost to No One",
+    "Effect": {
+      "Description": "Start: 1590 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/0bAWtMfq.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      89,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 53,
+    "Name": "Revue of Tragedy",
+    "Effect": {
+      "Description": "Start: 1590 SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierS",
+        "Path": "resources/img/effects/barrierS.png",
+        "EmoteCode": "<:barrierS:680401320842362925>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/J4Ix9eM0.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierS"
+    ],
+    "MaxStats": [
+      0,
+      44,
+      0,
+      89
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 54,
+    "Name": "Our Star, Our Fate",
+    "Effect": {
+      "Description": "6% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 2,
+    "ThumbUrl": "https://kome.s-ul.eu/15Mbp9O5.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      149,
+      149
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 55,
+    "Name": "Futaba's Gift",
+    "Effect": {
+      "Description": "8% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/Qyyb8cST.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 56,
+    "Name": "Sunlit Milk Break",
+    "Effect": {
+      "Description": "8% reduced damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/2kERgrG0.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 57,
+    "Name": "Smirking Behind the Pillar",
+    "Effect": {
+      "Description": "12% increased CA damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/m8eJ19RM.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg"
+    ],
+    "MaxStats": [
+      1049,
+      52,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 58,
+    "Name": "A Sunny Day for Laundry",
+    "Effect": {
+      "Description": "290 Regen",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/9vsMvfcs.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "hpRegen"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 59,
+    "Name": "A Passionate Gaze",
+    "Effect": {
+      "Description": "At the end of each turn, gain 4 kirameki",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/i5wGXDYs.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 60,
+    "Name": "A Surprising Skill",
+    "Effect": {
+      "Description": "+30% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/EyP1msX5.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 61,
+    "Name": "Balancing the Budget",
+    "Effect": {
+      "Description": "+16% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/1nDB1YQU.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 62,
+    "Name": "Looking Fresh in the Mirror",
+    "Effect": {
+      "Description": "10% increased Speed",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/usvt5GJe.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "spdUp"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 63,
+    "Name": "Platinum on Ice",
+    "Effect": {
+      "Description": "12% increased effective damage",
+      "AbilityIcon": {
+        "Name": "effectiveDmg",
+        "Path": "resources/img/effects/effectiveDmg.png",
+        "EmoteCode": "<:effectiveDmg:680401321215524888>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/ReW8WjzO.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 64,
+    "Name": "Sewing's My Forte",
+    "Effect": {
+      "Description": "8% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/t7XythSJ.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 65,
+    "Name": "Flexible Girl from China",
+    "Effect": {
+      "Description": "6% increased damage & reduced damage taken",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/Csblwn0g.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "dmgDown"
+    ],
+    "MaxStats": [
+      1049,
+      52,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 66,
+    "Name": "A Fan-tea-stic Tasting",
+    "Effect": {
+      "Description": "6% increased damage & 9% increased CA damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/odlnVKqT.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "cxDmg"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 67,
+    "Name": "Glittering Fish Tanks, Glittering Eyes",
+    "Effect": {
+      "Description": "6% increased damage & 240 Regen",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/t6QZyLP6.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "hpRegen"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 68,
+    "Name": "Sweet but Dangerous",
+    "Effect": {
+      "Description": "6% increased damage & At the end of each turn, gain 3 kirameki",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/Fn6MMaf4.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 69,
+    "Name": "Trendy Snacks",
+    "Effect": {
+      "Description": "6% increased damage & +22% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/mIBc7nfI.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 70,
+    "Name": "Empress of the Digital World",
+    "Effect": {
+      "Description": "6% increased damage & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/2Q6DGkbp.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 71,
+    "Name": "Bunnies Everywhere!",
+    "Effect": {
+      "Description": "6% increased damage & 7% increased Speed",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/Hj5A3uv7.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "spdup"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 72,
+    "Name": "A Green Thumb's Delight",
+    "Effect": {
+      "Description": "6% increased damage & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/uaXPw6hZ.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 73,
+    "Name": "Martial and Dramatic Arts",
+    "Effect": {
+      "Description": "6% increased damage & Focus",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/fbUvbvCT.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "permFocus"
+    ],
+    "MaxStats": [
+      1049,
+      52,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 74,
+    "Name": "Not a Late Riser, Just a Night Owl",
+    "Effect": {
+      "Description": "Start: 32 kirameki",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/f682ufqt.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      125,
+      0
+    ],
+    "Aliases": [
+      "Sleepy Yuyuko"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 75,
+    "Name": "The Idol of the Room",
+    "Effect": {
+      "Description": "Start: 2260 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/PnG4mmoL.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 76,
+    "Name": "Intruder in the Girls' Changing Room!?",
+    "Effect": {
+      "Description": "Start: 2260 SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierS",
+        "Path": "resources/img/effects/barrierS.png",
+        "EmoteCode": "<:barrierS:680401320842362925>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/UaYq3r8O.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierS"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 77,
+    "Name": "Ample Athletic Ability",
+    "Effect": {
+      "Description": "8% reduced damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/LTagshcA.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 78,
+    "Name": "Just the Thing After Practice",
+    "Effect": {
+      "Description": "12% increased CA damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/liVm9v3l.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 79,
+    "Name": "After-School Boot Camp",
+    "Effect": {
+      "Description": "Start: 24 kirameki & 1590 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/WTvlzwe1.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "barrierP"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 80,
+    "Name": "Hard Work Behind the Scenes",
+    "Effect": {
+      "Description": "Start: 24 kirameki & 1590 SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/h6JDXUfX.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "barrierS"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 81,
+    "Name": "The Allure of Anmitsu",
+    "Effect": {
+      "Description": "Start: 24 kirameki & 1 dodge",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/FDVYVJt4.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "dodge"
+    ],
+    "MaxStats": [
+      1049,
+      52,
+      0,
+      0
+    ],
+    "Aliases": [
+      "KiraDodge"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 82,
+    "Name": "A Mild-Mannered Girl's Getting Heated Up!",
+    "Effect": {
+      "Description": "Start: 24 kirameki & 1 guts",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/vShkFUT0.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "guts"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      125,
+      0
+    ],
+    "Aliases": [
+      "Mahiru Baseball",
+      "KiraGuts"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 83,
+    "Name": "Screams Echoing Through the Night",
+    "Effect": {
+      "Description": "Start: 1590 PhysBarrier & SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/WhKDmgVS.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP",
+      "barrierS"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 84,
+    "Name": "So Many Frogs to Choose From",
+    "Effect": {
+      "Description": "Start: 1590 PhysBarrier (3t) & 1 dodge",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/xc3Nk7Vs.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP",
+      "dodge"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 85,
+    "Name": "Thorough Maintenance",
+    "Effect": {
+      "Description": "Start: 1590 PhysBarrier & 1 guts",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/kCGnxQxj.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP",
+      "guts"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 86,
+    "Name": "Choosing a Frame Carefully",
+    "Effect": {
+      "Description": "Start: 1590 SpBarrier (3t) & 1 dodge",
+      "AbilityIcon": {
+        "Name": "barrierS",
+        "Path": "resources/img/effects/barrierS.png",
+        "EmoteCode": "<:barrierS:680401320842362925>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/3rBn6Doi.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierS",
+      "dodge"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 87,
+    "Name": "A Gift for Someone Precious",
+    "Effect": {
+      "Description": "8% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/N4NYgvc5.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 88,
+    "Name": "Witch Twins Unite!",
+    "Effect": {
+      "Description": "6% increased damage & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/sHSwJIrB.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "dmgUp",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 89,
+    "Name": "Banana's Pumpkins",
+    "Effect": {
+      "Description": "9% increased CA damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/xNGrBX9J.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "cxDmg"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 90,
+    "Name": "The Opera House Expert",
+    "Effect": {
+      "Description": "6% increased damage & reduced damage taken",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/GBTSDvls.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "dmgDown"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 91,
+    "Name": "Trying Out the Mask",
+    "Effect": {
+      "Description": "+22% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/KkAGO6mE.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 92,
+    "Name": "The School Trip",
+    "Effect": {
+      "Description": "Start: 24 kirameki & 1590 SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/x7DjeMMF.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "barrierS"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 93,
+    "Name": "Tengu's Handiwork",
+    "Effect": {
+      "Description": "+12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/PPUomV85.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "critRateUp"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 94,
+    "Name": "A Moment in the Living Room",
+    "Effect": {
+      "Description": "Start: 1590 PhysBarrier & SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/sHwYHZjF.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP",
+      "barrierS"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 95,
+    "Name": "Making Progress",
+    "Effect": {
+      "Description": "6% reduced damage taken & 7% increased Speed",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/5ZIHvqoe.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown",
+      "spdUp"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 96,
+    "Name": "Gekkan Bushiroad December Coop Commemoration",
+    "Effect": {
+      "Description": "6% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/7ms3OuG8.png",
+    "Pool": "Special",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 97,
+    "Name": "Arabian Scarves",
+    "Effect": {
+      "Description": "9% increased CA damage & 7% increased Speed",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/XlheKuZd.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg",
+      "spdUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 98,
+    "Name": "Recreating that Play?",
+    "Effect": {
+      "Description": "6% reduced damage taken & 9% increased CA damage",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/rEQ9XGUZ.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "dmgDown",
+      "cxDmg"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 99,
+    "Name": "Trimming the Tree",
+    "Effect": {
+      "Description": "240 Regen & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/dYzpJ63c.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "hpRegen",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 100,
+    "Name": "Nana's Special Christmas Lunch",
+    "Effect": {
+      "Description": "6% reduced damage taken & +22% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/KNGUOcON.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "dmgDown",
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 101,
+    "Name": "Wrapping Up the Year",
+    "Effect": {
+      "Description": "9% increased CA damage & 7% increased Speed",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/ymItXCtW.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg",
+      "spdUp"
+    ],
+    "MaxStats": [
+      1049,
+      52,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 102,
+    "Name": "Dynamic Mochi Making",
+    "Effect": {
+      "Description": "6% reduced damage taken & 9% increased CA damage",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/RMnOSYDj.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "dmgDown",
+      "cxDmg"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 103,
+    "Name": "Testing Luck in the New Year",
+    "Effect": {
+      "Description": "9% increased CA damage & +22% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/4NWii7LH.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "cxDmg",
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 104,
+    "Name": "Idle Banter for Two",
+    "Effect": {
+      "Description": "6% increased damage & Focus",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/KGOXGFJU.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "permFocus"
+    ],
+    "MaxStats": [
+      0,
+      79,
+      0,
+      159
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 105,
+    "Name": "The Glass Slipper's Unchosen",
+    "Effect": {
+      "Description": "240 Regen & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/iyZ4ioKm.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "hpRegen",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 106,
+    "Name": "Realistic Even During Rehearsals",
+    "Effect": {
+      "Description": "+12% Crit Rate & 7% increased Speed",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/HTt74JG8.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "critRateUp",
+      "spdUp"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 107,
+    "Name": "A Little Friend on a Snowy Day",
+    "Effect": {
+      "Description": "+22% Crit Dmg & Focus",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/dXXBZznX.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critDmgUp",
+      "permFocus"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 108,
+    "Name": "Stretching Help... ?",
+    "Effect": {
+      "Description": "9% increased effective damage & Focus",
+      "AbilityIcon": {
+        "Name": "effectiveDmg",
+        "Path": "resources/img/effects/effectiveDmg.png",
+        "EmoteCode": "<:effectiveDmg:680401321215524888>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/zK6Gjjk2.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "effectiveDmg",
+      "permFocus"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 109,
+    "Name": "Sweet Days",
+    "Effect": {
+      "Description": "At the end of each turn, gain 3 kirameki & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/bP8LQDFU.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "kiraRegen",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 110,
+    "Name": "Midnight Sewing",
+    "Effect": {
+      "Description": "6% reduced damage taken & 240 Regen",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/LzCQi2n9.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown",
+      "hpRegen"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 111,
+    "Name": "Surprise Chocolate",
+    "Effect": {
+      "Description": "7% increased Speed & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/pmpIkxo6.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "spdUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 112,
+    "Name": "A Mysterious Second-hand Shop",
+    "Effect": {
+      "Description": "9% increased CA damage & effective damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/r1Btzauc.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "cxDmg",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 113,
+    "Name": "Moment of Relaxation on a Trip",
+    "Effect": {
+      "Description": "+22% Crit Dmg & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/jTjpatdn.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critDmgUp",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 114,
+    "Name": "Cooking Class, Now in Session ♪",
+    "Effect": {
+      "Description": "At the end of each turn, gain 3 kirameki & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/3govjaKl.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "kiraRegen",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 115,
+    "Name": "A Heartfelt Message",
+    "Effect": {
+      "Description": "7% increased Speed & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/40j3iGs0.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "spdUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 116,
+    "Name": "The Costume Shop's Etude",
+    "Effect": {
+      "Description": "6% reduced damage taken & At the end of each turn, gain 3 kirameki",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/yrBOa7u1.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown",
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 117,
+    "Name": "Sunset Mirage",
+    "Effect": {
+      "Description": "290 Regen",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/7VxNCQC4.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "hpRegen"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 118,
+    "Name": "I Found the Eggs!",
+    "Effect": {
+      "Description": "240 Regen & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/7IbbROpA.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "hpRegen",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 119,
+    "Name": "Eggs I Painted with my Colors",
+    "Effect": {
+      "Description": "6% reduced damage taken & 9% increased CA damage",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/042xwWlG.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "dmgDown",
+      "cxDmg"
+    ],
+    "MaxStats": [
+      1049,
+      52,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 120,
+    "Name": "Player-Manager Mahiru Tsuyuzaki",
+    "Effect": {
+      "Description": "240 Regen & At the end of each turn, gain 3 kirameki",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/TCqwh5Jb.png",
+    "Pool": "Special",
+    "Taglist": [
+      "regen",
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      1086,
+      0,
+      92,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 121,
+    "Name": "Adorning Her Feet",
+    "Effect": {
+      "Description": "Start: 32 kirameki",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/BFAlxyYU.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 122,
+    "Name": "Solo Show Under the Cherry Blossoms!",
+    "Effect": {
+      "Description": "Start: 24 kirameki & 1 guts",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/F4ffDP3F.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "guts"
+    ],
+    "MaxStats": [
+      1049,
+      52,
+      0,
+      0
+    ],
+    "Aliases": [
+      "Ichie KiraGuts"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 123,
+    "Name": "Present for the Detective",
+    "Effect": {
+      "Description": "6% reduced damage taken & Focus",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/ERz2D6DS.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown",
+      "permFocus"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 124,
+    "Name": "Karen the Great Detective!",
+    "Effect": {
+      "Description": "6% reduced damage taken & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/kqk12lUt.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "dmgDown",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 125,
+    "Name": "I'm waiting. Station front.",
+    "Effect": {
+      "Description": "7% increased Speed & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/jH3k7az7.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "spdUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 126,
+    "Name": "Moment at Dusk",
+    "Effect": {
+      "Description": "Start: 1590 PhysBarrier (3t) & 1 guts",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/lpO9uJ64.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP",
+      "guts"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 127,
+    "Name": "This'll Make You Feel Better",
+    "Effect": {
+      "Description": "240 Regen & 7% increased Speed",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/4tn26IsH.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "hpRegen",
+      "spdUp"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 128,
+    "Name": "It'd be Nice to Get Better Soon",
+    "Effect": {
+      "Description": "At the end of each turn, gain 3 kirameki & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/2oVY5Uk7.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "kiraRegen",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 129,
+    "Name": "Our Clara",
+    "Effect": {
+      "Description": "Start: 24 kirameki & 1590 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/b7lC4Qp1.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "barrierP"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 130,
+    "Name": "Naughty Ninja on the Run!",
+    "Effect": {
+      "Description": "240 Regen & Focus",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/8j2ycjBz.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "hpRegen",
+      "permFocus"
+    ],
+    "MaxStats": [
+      1049,
+      52,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 131,
+    "Name": "The Truth of Ninja Water-Walking Shoes?",
+    "Effect": {
+      "Description": "9% increased CA damage & At the end of each turn, gain 3 kirameki",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/O2TQXycr.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg",
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 132,
+    "Name": "Carry the Hopes...?",
+    "Effect": {
+      "Description": "Start: 24 kirameki & Focus (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/rrW9C6Em.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "tempFocus"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [
+      "KiraFocus"
+    ],
+    "IsEvent": true
+  },
+  {
+    "Id": 133,
+    "Name": "The Best Bride",
+    "Effect": {
+      "Description": "At the end of each turn, gain 3 kirameki & Focus",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/NZThWLnu.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "kiraRegen",
+      "permFocus"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 134,
+    "Name": "Cat Research!",
+    "Effect": {
+      "Description": "9% increased CA damage & 7% increased Speed",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/8F29jt3L.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg",
+      "spdUp"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 135,
+    "Name": "Tower of Cards",
+    "Effect": {
+      "Description": "6% increased damage & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/v6EVYara.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "dmgUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      104,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 136,
+    "Name": "Legendary Trial - Suzudaru Cat",
+    "Effect": {
+      "Description": "Start: 24 kirameki & 9% increased Speed (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/pM7F8NE9.png",
+    "Pool": "Twilight Theater",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "spdUp"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [
+      "KiraSpeed",
+      "Raid Memoir"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 137,
+    "Name": "Stage Girls' Desires",
+    "Effect": {
+      "Description": "6% reduced damage taken & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/hbGXFNdF.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "dmgDown",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      1469,
+      0,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 138,
+    "Name": "Helping Hikoboshi",
+    "Effect": {
+      "Description": "+12% Crit Rate & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/54i9JmC5.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "critRateUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 139,
+    "Name": "Poolside Improv",
+    "Effect": {
+      "Description": "6% reduced damage taken & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/TYNaNq7S.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "dmgDown",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 140,
+    "Name": "Secret Swimming Practice",
+    "Effect": {
+      "Description": "+12% increased Crit Rate & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/dpmhE24g.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "critRateUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      0,
+      125
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 141,
+    "Name": "I Can’t Help that I Had Fun",
+    "Effect": {
+      "Description": "9% increased CA damage & +12% Crit Rate",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/olARWy8j.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 142,
+    "Name": "Exciting Lunchbox",
+    "Effect": {
+      "Description": "At the end of each turn, gain 3 kirameki & 7% increased Speed",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/nu2xHgMu.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "kiraRegen",
+      "spdUp"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 143,
+    "Name": "Contagious Passion",
+    "Effect": {
+      "Description": "25% Confusion resistance",
+      "AbilityIcon": {
+        "Name": "resConfuse",
+        "Path": "resources/img/effects/resConfuse.png",
+        "EmoteCode": "<:resConfuse:680401895143243777>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/L8RBjLeT.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "resConfuse"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 144,
+    "Name": "Renaissance Croquette...!?",
+    "Effect": {
+      "Description": "25% Sleep resistance",
+      "AbilityIcon": {
+        "Name": "resSleep",
+        "Path": "resources/img/effects/resSleep.png",
+        "EmoteCode": "<:resSleep:680401895139180554>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/DbcZTLi6.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "resSleep"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      209,
+      209
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 145,
+    "Name": "With All Her Heart",
+    "Effect": {
+      "Description": "25% Poison resistance",
+      "AbilityIcon": {
+        "Name": "resPoison",
+        "Path": "resources/img/effects/resPoison.png",
+        "EmoteCode": "<:resPoison:680401895134724102>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/1i6zvIn2.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "resPoison"
+    ],
+    "MaxStats": [
+      0,
+      62,
+      125,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 146,
+    "Name": "Visit the Shrine in Kimono",
+    "Effect": {
+      "Description": "20% Burn resistance",
+      "AbilityIcon": {
+        "Name": "resBurn",
+        "Path": "resources/img/effects/resBurn.png",
+        "EmoteCode": "<:resBurn:680401895139049494>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/lKyiHc4a.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "resBurn"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 147,
+    "Name": "After all at the party... !?",
+    "Effect": {
+      "Description": "25% Freeze Resistance",
+      "AbilityIcon": {
+        "Name": "resFreeze",
+        "Path": "resources/img/effects/resFreeze.png",
+        "EmoteCode": "<:resFreeze:680401895113883670>"
+      }
+    },
+    "Rarity": 3,
+    "ThumbUrl": "https://kome.s-ul.eu/9VjHjgnJ.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "resFreeze"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 148,
+    "Name": "Clear Skies over Tea Time",
+    "Effect": {
+      "Description": "10% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/C4yMAQk7.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 149,
+    "Name": "Summertime Pool Cleaning",
+    "Effect": {
+      "Description": "10% reduced damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/wj9VTTN6.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 150,
+    "Name": "Banana's Strawberry Sweets",
+    "Effect": {
+      "Description": "15% increased CA damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/MiER1jfF.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 151,
+    "Name": "Exhibition or Not, I'm Coming For You!",
+    "Effect": {
+      "Description": "340 Regen",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/wBz4cm7u.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "hpRegen"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      179
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 152,
+    "Name": "Knights of Friendship and Sorrow",
+    "Effect": {
+      "Description": "At the end of each turn, gain 5 kirameki",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/AwIaxX2c.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 153,
+    "Name": "One for All",
+    "Effect": {
+      "Description": "+37% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/zscDcCrE.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      0,
+      179
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 154,
+    "Name": "Keepers of the Peace",
+    "Effect": {
+      "Description": "+20% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/L8TGbBbR.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      299,
+      299
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 155,
+    "Name": "The Riches of the World Belong to Us",
+    "Effect": {
+      "Description": "12% increased Speed",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/44Y3o1WH.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "spdUp"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [
+      "Pirates"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 156,
+    "Name": "A Day in the Goddesses' Life",
+    "Effect": {
+      "Description": "15% increased effective damage",
+      "AbilityIcon": {
+        "Name": "effectiveDmg",
+        "Path": "resources/img/effects/effectiveDmg.png",
+        "EmoteCode": "<:effectiveDmg:680401321215524888>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/OsYkfbXz.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 157,
+    "Name": "You Haven't Changed a Bit",
+    "Effect": {
+      "Description": "8% increased damage & reduced damage taken",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/bsY3ztsi.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "dmgDown"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 158,
+    "Name": "Friends at the Aquarium",
+    "Effect": {
+      "Description": "Start: 40 kirameki",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ixhYsPGR.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start40"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 159,
+    "Name": "Good Service, Good Acting",
+    "Effect": {
+      "Description": "Start: 3030 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/Jr9Zj5Yc.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      179
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 160,
+    "Name": "You Need Friends for Clothes Shopping",
+    "Effect": {
+      "Description": "Start: 3030 SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "barrierS",
+        "Path": "resources/img/effects/barrierS.png",
+        "EmoteCode": "<:barrierS:680401320842362925>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/p3xSMwdO.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierS"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 161,
+    "Name": "Confidants on a Date",
+    "Effect": {
+      "Description": "Start: 2 dodge",
+      "AbilityIcon": {
+        "Name": "dodge",
+        "Path": "resources/img/effects/dodge.png",
+        "EmoteCode": "<:dodge:680401321223913548>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/SnuAxAmN.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dodge"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      0,
+      179
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 162,
+    "Name": "Recharging the Jellyfish Meter",
+    "Effect": {
+      "Description": "Start: 2 guts",
+      "AbilityIcon": {
+        "Name": "guts",
+        "Path": "resources/img/effects/guts.png",
+        "EmoteCode": "<:guts:680401321240952904>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/VQ1drLLQ.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "guts"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      299,
+      299
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 163,
+    "Name": "Trick-or-Treat 2018",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 2260 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/kcMbQwNv.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "barrierP"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 164,
+    "Name": "The First Snow",
+    "Effect": {
+      "Description": "15% reduced Flower damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/BF6yCTYE.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      0,
+      0,
+      299,
+      299
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 165,
+    "Name": "The Phantom and Christine",
+    "Effect": {
+      "Description": "8% increased damage & +30% Crit Dmg",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/HjRFBlW0.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "critDmgUp"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 166,
+    "Name": "Starry Sky After the Rain",
+    "Effect": {
+      "Description": "1000 Regen (3t) & 1500 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ufQhLZvY.png",
+    "Pool": "Stage of Dreams",
+    "Taglist": [
+      "hpRegen",
+      "barrierP"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 167,
+    "Name": "New Growth Takes Flight",
+    "Effect": {
+      "Description": "8% reduced damage taken & 10% increased Speed",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/lceX57Hg.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown",
+      "spdUp"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 168,
+    "Name": "Admiration for Yoshitsune",
+    "Effect": {
+      "Description": "At the end of each turn, gain 4 kirameki & 12% increased effective damage",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ZYG8xppI.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraRegen",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      179
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 169,
+    "Name": "Mei Fan's Day Off",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 1 dodge",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/M9hbLS2J.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "dodge"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [
+      "KiraDodge"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 170,
+    "Name": "Delightful Detour",
+    "Effect": {
+      "Description": "15% reduced Wind damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/5xzWKdww.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      0,
+      0,
+      299,
+      299
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 171,
+    "Name": "Enjoying Winter",
+    "Effect": {
+      "Description": "+30% Crit Dmg & Focus",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/LYIz5lPv.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critDmgUp",
+      "permFocus"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 172,
+    "Name": "Duet in the Moonlight",
+    "Effect": {
+      "Description": "290 Regen & 12% increased effective damage",
+      "AbilityIcon": {
+        "Name": "hpRegen",
+        "Path": "resources/img/effects/hpRegen.png",
+        "EmoteCode": "<:hpRegen:680401320817066003>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ET0NxwPs.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "hpRegen",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 173,
+    "Name": "Merry Christmas 2018",
+    "Effect": {
+      "Description": "12% increased CA damage & +16% Crit Rate",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/X7d3T1ky.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "cxDmg",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      0,
+      179
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 174,
+    "Name": "The Great Year-End Cleanup",
+    "Effect": {
+      "Description": "Start: 2260 PhysBarrier (3t) & 1 dodge",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/XFQQKKyZ.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP",
+      "dodge"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      179
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 175,
+    "Name": "Hairdress to Success",
+    "Effect": {
+      "Description": "15% reduced Snow damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/jdPCyofY.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 176,
+    "Name": "Exciting Paddle Battle",
+    "Effect": {
+      "Description": "At the end of each turn, gain 4 kirameki & Focus",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/WY7IJ2BJ.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "kiraRegen",
+      "permFocus"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 177,
+    "Name": "New Year Essentials",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 1 dodge",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/vQxRnXZ7.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "dodge"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [
+      "KiraDodge"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 178,
+    "Name": "The Hotpot Master",
+    "Effect": {
+      "Description": "8% reduced damage taken & 290 Regen",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/K1zyQwk6.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown",
+      "hpRegen"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      299,
+      299
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 179,
+    "Name": "The New Cinderella: Champion of Justice!",
+    "Effect": {
+      "Description": "8% increased damage & 10% increased Speed",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/r3ChJkzE.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "spdUp"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 180,
+    "Name": "A Warmed-up Engine",
+    "Effect": {
+      "Description": "+30% Crit Dmg & 10% increased Speed",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/DWMEYFVR.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "critDmgUp",
+      "spdUp"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 181,
+    "Name": "Arthur, King of the Prop Room!?",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 1 guts",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/JPlDBz1s.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "guts"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [
+      "Excalibur",
+      "KiraGuts"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 182,
+    "Name": "The Selfie-Master’s Seminar",
+    "Effect": {
+      "Description": "15% reduced Moon damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/jAhjtuBi.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      2099,
+      0,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 183,
+    "Name": "A Valentine's Ensemble",
+    "Effect": {
+      "Description": "8% reduced damage taken & At the end of each turn, gain 4 kirameki",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/SbnYjCpL.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "dmgDown",
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 184,
+    "Name": "Beauty and the Elegant Beast",
+    "Effect": {
+      "Description": "8% increased damage & At the end of each turn, gain 4 kirameki",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/offQnULN.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 185,
+    "Name": "Searching for A Four-Leaf Clover",
+    "Effect": {
+      "Description": "15% reduced Cosmos damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/Mop2cFG5.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      0,
+      0,
+      299,
+      299
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 186,
+    "Name": "New Pop Music?",
+    "Effect": {
+      "Description": "8% increased damage & Focus",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/BQ9Bmp6G.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "permFocus"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 187,
+    "Name": "Hear My Angelic Song!",
+    "Effect": {
+      "Description": "8% reduced damage taken & At the end of each turn, gain 4 kirameki",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/6RdeDlDa.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "dmgDown",
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 188,
+    "Name": "What's My Neighbour Reading?",
+    "Effect": {
+      "Description": "15% reduced Cloud damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ZuCd2Y8u.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 189,
+    "Name": "The Young Lady's Knight",
+    "Effect": {
+      "Description": "12% increased CA damage & At the end of each turn, gain 4 kirameki",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/SLdIpMOM.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg",
+      "kiraRegen"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 190,
+    "Name": "Until the Others Arrive",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 2260 SpBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/fUBVyiTP.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "barrierS"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      299,
+      299
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 191,
+    "Name": "Happy Easter!",
+    "Effect": {
+      "Description": "8% increased damage & 12% increased effective damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/tbLa11C1.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "dmgUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      0,
+      179
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 192,
+    "Name": "Cherry Blossoms in the Bento",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 10% Drain (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/kLXHNH9n.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "drain"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [
+      "KiraDrain"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 193,
+    "Name": "Challenge for the Detective",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 2260 PhysBarrier (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/KyOqOz9E.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "barrierP"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 194,
+    "Name": "Instant of Stillness and Motion",
+    "Effect": {
+      "Description": "15% reduced Dream damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ZpiCHjdK.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 195,
+    "Name": "Different Expressions",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 1 dodge",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/5m9jVeGH.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "dodge"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [
+      "KiraDodge"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 196,
+    "Name": "Siegfeld General Hospital",
+    "Effect": {
+      "Description": "8% increased damage & 290 Regen",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/jPK0Ryxj.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "hpRegen"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 197,
+    "Name": "Like a Butterfly, Like a Flower",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 12% increased Speed (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/fgTAFCCw.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "spdUp"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [
+      "KiraSpeed"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 198,
+    "Name": "Turbulent Ninja",
+    "Effect": {
+      "Description": "12% increased CA damage & effective damage",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ZcEKrXvx.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 199,
+    "Name": "The Frog Goods Are Here ♪",
+    "Effect": {
+      "Description": "Start: 2260 PhysBarrier (3t) & 1 guts",
+      "AbilityIcon": {
+        "Name": "barrierP",
+        "Path": "resources/img/effects/barrierP.png",
+        "EmoteCode": "<:barrierP:680401321480028201>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/hH2PnBD8.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "barrierP",
+      "guts"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 200,
+    "Name": "Deux JUNO!? -June Bride-",
+    "Effect": {
+      "Description": "+30% Crit Dmg & +16% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/0TWC0J6x.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "critDmgUp",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 201,
+    "Name": "Fun on a Day Off",
+    "Effect": {
+      "Description": "At the end of each turn, gain 4 kirameki & Focus",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/BgRxhGuK.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraRegen",
+      "permFocus"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 202,
+    "Name": "Two in Wonderland",
+    "Effect": {
+      "Description": "7% increased Speed & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "spdUp",
+        "Path": "resources/img/effects/spdUp.png",
+        "EmoteCode": "<:spdUp:680401894979797023>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/0qNMCfxX.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "spdUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 203,
+    "Name": "Kaoruko's Prized Treasure",
+    "Effect": {
+      "Description": "15% reduced Flower damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/LofolRYO.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 204,
+    "Name": "Sudden Rain",
+    "Effect": {
+      "Description": "8% reduced damage taken & Focus",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/uoKXtDNt.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgDown",
+      "permFocus"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      299,
+      299
+    ],
+    "Aliases": [
+      "Misora Umbrella"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 205,
+    "Name": "Garupa x Starira Collab",
+    "Effect": {
+      "Description": "8% increased damage",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/y9qmTcK8.png",
+    "Pool": "Special",
+    "Taglist": [
+      "dmgUp"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 206,
+    "Name": "Starira Festival 2019 in Ikebukuro",
+    "Effect": {
+      "Description": "9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "effectiveDmg",
+        "Path": "resources/img/effects/effectiveDmg.png",
+        "EmoteCode": "<:effectiveDmg:680401321215524888>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/VHnO6QUf.png",
+    "Pool": "Special",
+    "Taglist": [
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 207,
+    "Name": "Day Off for Two",
+    "Effect": {
+      "Description": "15% reduced Wind damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/XIGIBnLS.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 208,
+    "Name": "Cardcaptor Sakura Costume",
+    "Effect": {
+      "Description": "+16% Crit Rate",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/6nHC5bDF.png",
+    "Pool": "Special",
+    "Taglist": [
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 209,
+    "Name": "The Day Their Wish Comes True",
+    "Effect": {
+      "Description": "8% reduced damage taken & +16% Crit Rate",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/pgKAFl5O.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "dmgDown",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 210,
+    "Name": "-The LIVE- # 2 Revival Performance Memorial",
+    "Effect": {
+      "Description": "+22% Crit Dmg & 9% increased effective damage",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/VGz2qeYa.png",
+    "Pool": "Special",
+    "Taglist": [
+      "critDmgUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 211,
+    "Name": "All Starira Distribution Material",
+    "Effect": {
+      "Description": "+22% Crit Dmg & 7% increased Speed",
+      "AbilityIcon": {
+        "Name": "critDmgUp",
+        "Path": "resources/img/effects/critDmgUp.png",
+        "EmoteCode": "<:critDmgUp:680401321219719168>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/nY5TIvA4.png",
+    "Pool": "Special",
+    "Taglist": [
+      "critDmgUp",
+      "spdUp"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 212,
+    "Name": "Summer Holiday",
+    "Effect": {
+      "Description": "15% reduced Snow damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/Juk4wQZ9.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      2099,
+      0,
+      179,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 213,
+    "Name": "Ichie's Cool Hospitality☆",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 1 guts",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ZptvNRQI.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "guts"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [
+      "Ichie KiraGuts"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 214,
+    "Name": "Synchro Girls!",
+    "Effect": {
+      "Description": "8% reduced damage taken & +16% Crit Rate",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/haXaVt7l.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "dmgDown",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 215,
+    "Name": "Tamao's Summer Preparations",
+    "Effect": {
+      "Description": "12% increased CA damage & 290 Regen",
+      "AbilityIcon": {
+        "Name": "cxDmg",
+        "Path": "resources/img/effects/cxDmg.png",
+        "EmoteCode": "<:cxDmg:680401321400336409>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/shr7n3AL.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "cxDmg",
+      "hpRegen"
+    ],
+    "MaxStats": [
+      0,
+      0,
+      299,
+      299
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 216,
+    "Name": "Urashima Taro Performance Flyer",
+    "Effect": {
+      "Description": "8% increased damage & +16% Crit Rate",
+      "AbilityIcon": {
+        "Name": "actUp",
+        "Path": "resources/img/effects/actUp.png",
+        "EmoteCode": "<:actUp:680401320909340683>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/OLwIy9KV.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "dmgUp",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 217,
+    "Name": "Lured by Festival Music",
+    "Effect": {
+      "Description": "15% reduced Moon damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/3l4QkhOu.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 218,
+    "Name": "Poolside Incident",
+    "Effect": {
+      "Description": "Start: 32 kirameki & Focus (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/7RWeh1xN.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "tempFocus"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [
+      "KiraFocus",
+      "Poolside Happening"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 219,
+    "Name": "Welcome Everyone!",
+    "Effect": {
+      "Description": "At the end of each turn, gain 3 kirameki & Focus",
+      "AbilityIcon": {
+        "Name": "kiramekiRegen",
+        "Path": "resources/img/effects/kiramekiRegen.png",
+        "EmoteCode": "<:kiramekiRegen:680401895260815361>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/5gpEo1cO.png",
+    "Pool": "Special",
+    "Taglist": [
+      "kiraRegen",
+      "permFocus"
+    ],
+    "MaxStats": [
+      0,
+      89,
+      0,
+      179
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 220,
+    "Name": "Senki Zessho Symphogear AXZ",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 1 dodge",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/1XAtvPly.png",
+    "Pool": "Special",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "dodge"
+    ],
+    "MaxStats": [
+      2099,
+      0,
+      0,
+      179
+    ],
+    "Aliases": [
+      "KiraDodge"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 221,
+    "Name": "Back to the Renaissance 2019",
+    "Effect": {
+      "Description": "30% Confusion resistance",
+      "AbilityIcon": {
+        "Name": "resConfuse",
+        "Path": "resources/img/effects/resConfuse.png",
+        "EmoteCode": "<:resConfuse:680401895143243777>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/1fDe4QM9.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "resConfuse"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 222,
+    "Name": "Moon Viewing",
+    "Effect": {
+      "Description": "15% reduced Cosmos damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/aLH9vsSc.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 223,
+    "Name": "Sailor’s Call",
+    "Effect": {
+      "Description": "30% Stun resistance",
+      "AbilityIcon": {
+        "Name": "resStun",
+        "Path": "resources/img/effects/resStun.png",
+        "EmoteCode": "<:resStun:680401894841122855>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/XFjwV538.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "resStun"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 224,
+    "Name": "Time is Money!",
+    "Effect": {
+      "Description": "30% Stop resistance",
+      "AbilityIcon": {
+        "Name": "resStop",
+        "Path": "resources/img/effects/resStop.png",
+        "EmoteCode": "<:resStop:680401894895911003>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/MDi28fhD.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "resStop"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 225,
+    "Name": "Stage Girls Don't Know Compromise",
+    "Effect": {
+      "Description": "30% Blind resistance",
+      "AbilityIcon": {
+        "Name": "resBlind",
+        "Path": "resources/img/effects/resBlind.png",
+        "EmoteCode": "<:resBlind:680401895117947042>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/amXTRPvi.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "resBlind"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 226,
+    "Name": "Halloween Through the Glass",
+    "Effect": {
+      "Description": "30% Mark resistance",
+      "AbilityIcon": {
+        "Name": "resSeal",
+        "Path": "resources/img/effects/resSeal.png",
+        "EmoteCode": "<:resSeal:680401895143112756>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/w2SUcwZf.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "resMark"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 227,
+    "Name": "(1st Anniv.) Seisho Music Academy",
+    "Effect": {
+      "Description": "7% increased ACT: Seisho girls in Unit",
+      "AbilityIcon": {
+        "Name": "seishoGlobalOffense",
+        "Path": "resources/img/schools/seisho.jpg",
+        "EmoteCode": "<:seishoGlobalOffense:716564242580635760>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/IgKVXS1H.png",
+    "Pool": "Seasonal",
+    "Taglist": [],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 228,
+    "Name": "(1st Anniv.) Siegfeld Institute of Music",
+    "Effect": {
+      "Description": "7% increased ACT: Siegfeld girls in Unit",
+      "AbilityIcon": {
+        "Name": "siegfeldGlobalOffense",
+        "Path": "resources/img/schools/seekfelt.jpg",
+        "EmoteCode": "<:siegfeldGlobalOffense:716564243008192612>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/lWGtd4pQ.png",
+    "Pool": "Seasonal",
+    "Taglist": [],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 229,
+    "Name": "(1st Anniv.) Rinmeikan Girls School",
+    "Effect": {
+      "Description": "7% increased ACT: Rinmeikan girls in Unit",
+      "AbilityIcon": {
+        "Name": "rmkGlobalOffense",
+        "Path": "resources/img/schools/rinmeikan.jpg",
+        "EmoteCode": "<:rmkGlobalOffense:716564242668585052> "
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ZKmrZnkY.png",
+    "Pool": "Seasonal",
+    "Taglist": [],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 230,
+    "Name": "(1st Anniv.) Frontier School of Arts",
+    "Effect": {
+      "Description": "7% increased ACT: Frontier girls in Unit",
+      "AbilityIcon": {
+        "Name": "frontierGlobalOffense",
+        "Path": "resources/img/schools/frontier.jpg",
+        "EmoteCode": "<:frontierGlobalOffense:716564242874105877> "
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/m5UzfXin.png",
+    "Pool": "Seasonal",
+    "Taglist": [],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 231,
+    "Name": "The Horse is a Friend!",
+    "Effect": {
+      "Description": "15% reduced Cloud damage taken",
+      "AbilityIcon": {
+        "Name": "pDefUp",
+        "Path": "resources/img/effects/pDefUp.png",
+        "EmoteCode": "<:pDefUp:680401895180730401>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/auSqCnIx.png",
+    "Pool": "VS Reward",
+    "Taglist": [],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 232,
+    "Name": "Starry Diamond Commemoration",
+    "Effect": {
+      "Description": "Start: 24 kirameki, 1 guts & 1 dodge",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ynnB7buC.png",
+    "Pool": "Special",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "guts",
+      "dodge"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 233,
+    "Name": "Brilliance of 24",
+    "Effect": {
+      "Description": "Start: 24 kirameki, 8% reduced damage taken & increased damage (2t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/24xZJGql.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "kiraStart",
+      "start24",
+      "dmgUp",
+      "dmgDown"
+    ],
+    "MaxStats": [
+      1499,
+      74,
+      0,
+      0
+    ],
+    "Aliases": [
+      "24 no kirameki"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 234,
+    "Name": "Merry Christmas 2019",
+    "Effect": {
+      "Description": "Start: 32 Kirameki & +16% Crit Rate (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/I92pkyWr.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "critRateUp"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 235,
+    "Name": "Dance for the Gods",
+    "Effect": {
+      "Description": "Start: 32 kirameki & 10% increased damage (3t)",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/rpJhzBJr.png",
+    "Pool": "Seasonal",
+    "Taglist": [
+      "kiraStart",
+      "start32",
+      "dmgUp"
+    ],
+    "MaxStats": [
+      5999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  },
+  {
+    "Id": 236,
+    "Name": "Secret Sewing Class",
+    "Effect": {
+      "Description": "30% Freeze resistance",
+      "AbilityIcon": {
+        "Name": "resFreeze",
+        "Path": "resources/img/effects/resFreeze.png",
+        "EmoteCode": "<:resFreeze:680401895113883670>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/JjIO4bn1.png",
+    "Pool": "Permanent",
+    "Taglist": [
+      "resFreeze"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 237,
+    "Name": "Big Catch!",
+    "Effect": {
+      "Description": "+16% Crit Rate & Focus",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/ZZCBxYDN.png",
+    "Pool": "Special",
+    "Taglist": [
+      "critRateUp",
+      "permFocus"
+    ],
+    "MaxStats": [
+      2999,
+      0,
+      0,
+      0
+    ],
+    "Aliases": [
+      "Kuro Fishing"
+    ],
+    "IsEvent": false
+  },
+  {
+    "Id": 238,
+    "Name": "Prince and Princess' Etude",
+    "Effect": {
+      "Description": "+16% Crit Rate & 12% increased effective damage",
+      "AbilityIcon": {
+        "Name": "critRateUp",
+        "Path": "resources/img/effects/critRateUp.png",
+        "EmoteCode": "<:critRateUp:680401320745762984>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/YrGtgNcC.png",
+    "Pool": "Special",
+    "Taglist": [
+      "critRateUp",
+      "effectiveDmg"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": false
+  },
+  {
+    "Id": 239,
+    "Name": "Dream Appearance with Hatsune Miku!",
+    "Effect": {
+      "Description": "Start: 40 kirameki",
+      "AbilityIcon": {
+        "Name": "kirameki",
+        "Path": "resources/img/effects/kirameki.png",
+        "EmoteCode": "<:kirameki:680401321354068024>"
+      }
+    },
+    "Rarity": 4,
+    "ThumbUrl": "https://kome.s-ul.eu/7if5eAcG.png",
+    "Pool": "Welfare",
+    "Taglist": [
+      "kiraStart",
+      "start40"
+    ],
+    "MaxStats": [
+      0,
+      149,
+      0,
+      0
+    ],
+    "Aliases": [],
+    "IsEvent": true
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Damage",
+    "JpName": "",
+    "AltNames": [],
+    "IconId": "1",
+    "Verbose": "Deal $amp$*{$mgn$/$amp$}% ($mgn$)% of $elem$ damage"
+  },
+  {
+    "Name": "Fixed Damage",
+    "JpName": "固定ダメージ",
+    "AltNames": [],
+    "IconId": "1",
+    "Verbose": "Deal $amp$*{$mgn$/$amp$} ($mgn$) of Fixed $elem$ damage"
+  }
+]
