@@ -3,6 +3,7 @@ using Discord.Interactions;
 using Discord.WebSocket;
 using IchieBotV2.Modules;
 using IchieBotV2.Services;
+using IchieBotV2.Utils;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Linq;
 
@@ -70,6 +71,7 @@ namespace IchieBotV2
                 .AddSingleton(x => new InteractionService(x.GetRequiredService<DiscordSocketClient>()))
                 .AddSingleton<CommandHandler>()
                 .AddSingleton<DatabaseService>()
+                .AddSingleton<EmbedGenerator>()
                 .AddSingleton<DressLegacyModule.DressCompleteHandler>()
                 .BuildServiceProvider();
         }

@@ -9,9 +9,12 @@ namespace IchieBotV2.Modules;
 public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
 {
     private DatabaseService Database { get; set; }
-    public DressLegacyModule(DatabaseService db)
+    private EmbedGenerator EmbedGenerator { get; set; }
+    
+    public DressLegacyModule(DatabaseService db, EmbedGenerator embedGenerator)
     {
         Database = db;
+        EmbedGenerator = embedGenerator;
     }
 
     [SlashCommand("dresslegacy", "Shows a Stage Girl in Legacy format")]

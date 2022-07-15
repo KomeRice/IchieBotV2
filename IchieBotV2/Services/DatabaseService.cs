@@ -2,6 +2,7 @@ using System.Collections;
 using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
+using IchieBotData.Common;
 using Newtonsoft.Json;
 using OldJsonFormatParser.LegacyClass;
 
@@ -13,43 +14,57 @@ public class DatabaseService
     private readonly InteractionService _commands;
     private readonly IServiceProvider _services;
     private List<StageGirl> Dress { get; set; }
-    private Dictionary<string,StageGirl> Dict { get; set; }
+    private Dictionary<string,StageGirl> DressDict { get; set; }
+    
+    private Dictionary<string,string> IconsDict { get; set; }
 
     public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services)
     {
         _client = client;
         _commands = commands;
         _services = services;
-        Dict = new Dictionary<string, StageGirl>();
+        DressDict = new Dictionary<string, StageGirl>();
 
-        Dress = DeserializeJson(@"Legacy/json/stagegirls.json");
+        Dress = DeserializeJson<StageGirl>(@"Legacy/json/stagegirls.json");
         foreach(var d in Dress)
         {
-            Dict.Add(d.DressId[2..], d);
+            DressDict.Add(d.DressId[2..], d);
+        }
+
+        IconsDict = new Dictionary<string, string>();
+        
+        foreach (var i in DeserializeJson<Icon>(@"Data/Icons.json"))
+        {
+            IconsDict[i.Name] = i.Emote;
         }
     }
 
     public StageGirl GetFromDressId(string other)
     {
-        return Dict[other];
+        return DressDict[other];
+    }
+
+    public string GetEmoteFromIcon(string name)
+    {
+        return IconsDict.ContainsKey(name) ? IconsDict[name] : "<:please_ping_if_you_see_this:670781960800698378>";
     }
     
-    private List<StageGirl> DeserializeJson(string path)
+    private static List<T> DeserializeJson<T>(string path)
     {
         var f = File.ReadAllText(path);
-        var dressList = JsonConvert.DeserializeObject<List<StageGirl>>(f);
+        var jsonList = JsonConvert.DeserializeObject<List<T>>(f);
 
-        if (dressList is not null) return dressList;
+        if (jsonList is not null) return jsonList;
         Console.WriteLine($"Failed to open file '{path}'"); 
-        return new List<StageGirl>();
+        return new List<T>();
     }
 
     public async Task<IEnumerable<AutocompleteResult>> AutoCompleteFilter(string other)
     {
         await Program.LogAsync(new LogMessage(LogSeverity.Debug, "autocomp", "Generating autocomplete results..."));
         
-        var a = Dict.Keys.Where(s => s.StartsWith(other)).Take(10).ToList();
+        var a = DressDict.Keys.Where(s => s.StartsWith(other)).Take(10).ToList();
 
-        return a.Select(c => new AutocompleteResult(Dict[c].Name, c)).ToList();
+        return a.Select(c => new AutocompleteResult(DressDict[c].Name, c)).ToList();
     }
 }

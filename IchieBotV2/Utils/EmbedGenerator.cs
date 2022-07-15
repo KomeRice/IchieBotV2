@@ -1,12 +1,20 @@
 using Discord;
 using IchieBotData.Legacy;
+using IchieBotV2.Services;
 using OldJsonFormatParser.LegacyClass;
 
 namespace IchieBotV2.Utils
 {
     public class EmbedGenerator
     {
-        public static Embed LegacyToEmbedOverview(StageGirl dress)
+        private readonly DatabaseService _db;
+        
+        public EmbedGenerator(DatabaseService db)
+        {
+            _db = db;
+        }
+        
+        public Embed LegacyToEmbedOverview(StageGirl dress)
         {
             var tagFooter = "";
             /*
@@ -18,8 +26,8 @@ namespace IchieBotV2.Utils
                 IconUrl = dress.ThumbUrl,
                 Name = $"{dress.Rarity}★ {dress.Name} [{dress.Pool}"
             };
-            var desc = $"{dress.Element.EmoteCode} {FirstCharToUpper(dress.Element.Name)} | " +
-                       $"{dress.Row.EmoteCode} {FirstCharToUpper(dress.Row.Name)}" +
+            var desc = $"{_db.GetEmoteFromIcon(dress.Element.Name)} {FirstCharToUpper(dress.Element.Name)} | " +
+                       $"{_db.GetEmoteFromIcon(dress.Row.Name)} {FirstCharToUpper(dress.Row.Name)} | " +
                        $"{TypeToDisplayString(dress.Special)}";
 
             var embedFieldBuilders = new List<EmbedFieldBuilder>()
@@ -41,14 +49,14 @@ namespace IchieBotV2.Utils
                 var curMove = dress.Moves[i];
                 embedFieldBuilders.Add(new EmbedFieldBuilder()
                 {
-                    Name = $"{curMove.AttackIcon.EmoteCode} ACT{i} [{curMove.Cost}AP]{curMove.Name}",
+                    Name = $"{_db.GetEmoteFromIcon(curMove.AttackIcon.Name)} ACT{i} [{curMove.Cost}AP]{curMove.Name}",
                     Value = curMove.Description
                 });
             }
             
             embedFieldBuilders.Add(new EmbedFieldBuilder()
             {
-                Name = $"{dress.Climax.AttackIcon.EmoteCode} CA [{dress.Climax.Cost}AP]{dress.Climax.Name}",
+                Name = $"{_db.GetEmoteFromIcon(dress.Climax.AttackIcon.Name)} CA [{dress.Climax.Cost}AP]{dress.Climax.Name}",
                 Value = dress.Climax.Description
             });
 
@@ -56,7 +64,7 @@ namespace IchieBotV2.Utils
             {
                 embedFieldBuilders.Add(new EmbedFieldBuilder()
                 {
-                    Name = $"{dress.Entry.AbilityIcon.EmoteCode} Entry ACT",
+                    Name = $"{_db.GetEmoteFromIcon(dress.Entry.AbilityIcon.Name)} Entry ACT",
                     Value = $"{dress.Entry.Description}"
                 });
             }
