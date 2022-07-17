@@ -85,6 +85,42 @@ namespace IchieBotV2.Utils
             return e.Build();
         }
 
+        public Embed LegacyToEmbedSkills(StageGirl dress)
+        {
+            var author = new EmbedAuthorBuilder()
+            {
+                IconUrl = dress.ThumbUrl,
+                Name = $"{dress.Rarity}★ {dress.Name} [{dress.Pool}]"
+            };
+
+            var description = dress.Aliases.Count > 0 ? $"Aliases: *{string.Join(", ", dress.Aliases)}*" : "*No aliases*";
+            var fields = new List<EmbedFieldBuilder>();
+            for (var i = 0; i < dress.Abilities.Count; i++)
+            {
+                fields.Add(new EmbedFieldBuilder()
+                {
+                    Name = _db.GetEmoteFromIcon(dress.Abilities[i].AbilityIcon.Name) + $" Auto-skill {i + 1} {GetAutoskillUnlock(i)}",
+                    Value = dress.Abilities[i].Description
+                });
+            }
+            fields.Add(new EmbedFieldBuilder()
+            {
+                Name = _db.GetEmoteFromIcon(dress.UnitSkill.AbilityIcon.Name) + " Unit Skill [Level 21]",
+                Value = dress.UnitSkill.Description
+            });
+
+            var e = new EmbedBuilder()
+            {
+                Author = author,
+                Description = description,
+                Fields = fields,
+                Color = GetColor(dress.Element),
+                ThumbnailUrl = dress.ThumbUrl
+            };
+
+            return e.Build();
+        }
+        
         private static string FirstCharToUpper(string s)
         {
             return s.Length switch
@@ -123,6 +159,18 @@ namespace IchieBotV2.Utils
                         "GetColor method returned default color, that's not normal"));
                     return Color.Default;
             }
+        }
+        
+        private static string GetAutoskillUnlock(int i)
+        {
+            return i switch
+            {
+                0 => "[Default]",
+                1 => "[Rank 4]",
+                2 => "[Rank 9 Panel]",
+                3 => "[Rank 9 Panel]",
+                _ => ""
+            };
         }
     }
 }
