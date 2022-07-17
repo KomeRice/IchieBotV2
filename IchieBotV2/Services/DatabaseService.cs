@@ -1,10 +1,9 @@
-using System.Collections;
 using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
-using IchieBotData.Common;
+using IchieBotData.Legacy;
 using Newtonsoft.Json;
-using OldJsonFormatParser.LegacyClass;
+using Icon = IchieBotData.Common.Icon;
 
 namespace IchieBotV2.Services;
 

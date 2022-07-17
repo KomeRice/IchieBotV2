@@ -1,9 +1,8 @@
 using Discord;
-using Discord.Commands;
 using Discord.Interactions;
+using IchieBotData.Legacy;
 using IchieBotV2.Services;
 using IchieBotV2.Utils;
-using OldJsonFormatParser.LegacyClass;
 
 namespace IchieBotV2.Modules;
 
