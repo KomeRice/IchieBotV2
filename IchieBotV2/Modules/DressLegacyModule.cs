@@ -25,7 +25,10 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         {
             var d = Database.GetFromDressId(id);
             var e = EmbedGenerator.LegacyToEmbedOverview(d);
-            await RespondAsync(embed: e);
+            var builder = new ComponentBuilder()
+                .WithButton("Overview", id + "_100", disabled: true)
+                .WithButton("Skills", id + "_101");
+            await RespondAsync(embed: e, components: builder.Build());
         }
         catch (ArgumentNullException e)
         {
