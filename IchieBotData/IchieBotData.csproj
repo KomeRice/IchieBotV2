@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="Data\*">
+      <None Update="Data\**\*">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="Legacy\json\stagegirls.json">
