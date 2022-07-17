@@ -62,10 +62,12 @@ public class CommandHandler
             case "100":
                 e = _embedGenerator.LegacyToEmbedOverview(_db.GetFromDressId(id));
                 buttons[0].IsDisabled = true;
+                buttons[0].Style = ButtonStyle.Success;
                 break;
             case "101":
                 e = _embedGenerator.LegacyToEmbedSkills(_db.GetFromDressId(id));
                 buttons[1].IsDisabled = true;
+                buttons[1].Style = ButtonStyle.Success;
                 break;
             default:
                 await component.DeferAsync();
@@ -84,7 +86,7 @@ public class CommandHandler
             message.Components = builder.Build();
         });
     }
-    
+
     private static Task SlashCommandExecuted(SlashCommandInfo arg1, IInteractionContext arg2, IResult arg3)
     {
         if (arg3.IsSuccess)
