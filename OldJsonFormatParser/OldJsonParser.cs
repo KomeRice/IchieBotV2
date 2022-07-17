@@ -2,7 +2,6 @@ using IchieBotData.Effects;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using IchieBotData.Legacy;
-using OldJsonFormatParser.LegacyClass;
 using Icon = IchieBotData.Common.Icon;
 
 namespace OldJsonFormatParser;
