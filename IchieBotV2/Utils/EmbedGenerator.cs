@@ -24,7 +24,7 @@ namespace IchieBotV2.Utils
             var author = new EmbedAuthorBuilder()
             {
                 IconUrl = dress.ThumbUrl,
-                Name = $"{dress.Rarity}★ {dress.Name} [{dress.Pool}"
+                Name = $"{dress.Rarity}★ {dress.Name} [{dress.Pool}]"
             };
             var desc = $"{_db.GetEmoteFromIcon(dress.Element.Name)} {FirstCharToUpper(dress.Element.Name)} | " +
                        $"{_db.GetEmoteFromIcon(dress.Row.Name)} {FirstCharToUpper(dress.Row.Name)} | " +
@@ -49,7 +49,7 @@ namespace IchieBotV2.Utils
                 var curMove = dress.Moves[i];
                 embedFieldBuilders.Add(new EmbedFieldBuilder()
                 {
-                    Name = $"{_db.GetEmoteFromIcon(curMove.AttackIcon.Name)} ACT{i} [{curMove.Cost}AP]{curMove.Name}",
+                    Name = $"{_db.GetEmoteFromIcon(curMove.AttackIcon.Name)} ACT{i + 1} [{curMove.Cost}AP]{curMove.Name}",
                     Value = curMove.Description
                 });
             }
