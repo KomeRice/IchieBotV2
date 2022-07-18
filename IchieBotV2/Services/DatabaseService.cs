@@ -3,6 +3,7 @@ using Discord.Interactions;
 using Discord.WebSocket;
 using IchieBotData.Legacy;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Icon = IchieBotData.Common.Icon;
 
 namespace IchieBotV2.Services;
@@ -12,10 +13,11 @@ public class DatabaseService
     private readonly DiscordSocketClient _client;
     private readonly InteractionService _commands;
     private readonly IServiceProvider _services;
-    private List<StageGirl> DressList { get; set; }
+    private List<StageGirl> DressListLegacy { get; set; }
     private Dictionary<string,StageGirl> DressDict { get; set; }
     
     private Dictionary<string,string> IconsDict { get; set; }
+    private Dictionary<string, JObject> RawData { get; set; }
 
     public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services)
     {
@@ -24,8 +26,9 @@ public class DatabaseService
         _services = services;
         DressDict = new Dictionary<string, StageGirl>();
 
-        DressList = DeserializeJson<StageGirl>(@"Legacy/json/stagegirls.json");
-        foreach(var d in DressList)
+        DressListLegacy = DeserializeJson<StageGirl>(@"Legacy/json/stagegirls.json");
+        DressListLegacy.Sort();
+        foreach(var d in DressListLegacy)
         {
             DressDict.Add(d.DressId[2..], d);
         }
@@ -35,6 +38,15 @@ public class DatabaseService
         foreach (var i in DeserializeJson<Icon>(@"Data/Icons.json"))
         {
             IconsDict[i.Name] = i.Emote;
+        }
+
+        RawData = new Dictionary<string, JObject>();
+
+        foreach (var filename in Directory.GetFiles(@"Data/Raw"))
+        {
+            var f = File.ReadAllText(filename);
+            var separators = new char[]{'/', '\\'};
+            RawData[filename.Split(separators).Last()] = JObject.Parse(f);
         }
     }
 
@@ -64,17 +76,17 @@ public class DatabaseService
 
         var keywordsSplit = keyword.Split(' ').ToList().Select(CleanString).ToList();
 
-        var perfectMatch = DressList.Where(s => CleanString(s.Name) == cleanedInput).ToList();
+        var perfectMatch = DressListLegacy.Where(s => CleanString(s.Name) == cleanedInput).ToList();
         if (perfectMatch.Count > 0)
             return perfectMatch.ToList();
 
-        var results = DressList.Where(s => CleanString(s.Name).Contains(cleanedInput) ||
+        var results = DressListLegacy.Where(s => CleanString(s.Name).Contains(cleanedInput) ||
                                            keywordsSplit.All(s.Name.ToLowerInvariant().Contains) ||
                                            s.Aliases.Any(alias => keywordsSplit.All(alias.ToLowerInvariant().Contains))).ToList();
 
         if (results.Count == 0)
         {
-            results = DressList.Where(s => keywordsSplit.All(key => s.Name.Split().Select(CleanString)
+            results = DressListLegacy.Where(s => keywordsSplit.All(key => s.Name.Split().Select(CleanString)
                                                .Any(str => GetDistance(str, key) < 2)) || 
                                            s.Aliases.Any(alias => GetDistance(CleanString(alias), cleanedInput) < 2)).ToList();
         }

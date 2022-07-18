@@ -4,7 +4,7 @@
 namespace IchieBotData.Legacy;
 
 #pragma warning disable CS8618
-public class StageGirl
+public class StageGirl : IComparable
 {
 	public int Id { get; set; }
 	public string DressId { get; set; }
@@ -29,7 +29,6 @@ public class StageGirl
 	public string AccName = "";
 	public Move AccMove { get; set; }
 
-	//TODO - Make this proper
 	private static readonly List<string> Seishou = new List<string>{"Aijo Karen","Kagura Hikari","Tsuyuzaki Mahiru","Tendo Maya",
 		"Saijo Claudine","Hoshimi Junna","Daiba Nana","Hanayagi Kaoruko","Isurugi Futaba"};
 	private static readonly List<string> Rinmeikan = new List<string>{"Tomoe Tamao","Otonashi Ichie","Akikaze Rui",
@@ -65,6 +64,13 @@ public class StageGirl
 			Special.ToString(), Climax.ToString(), UnitSkill.ToString(),
 			"{" + aliases, moves, abilities, "{" + string.Join(",", MaxStats.ToArray()) + "}"};
 		return "{" + string.Join(", ", all);
+	}
+
+	public int CompareTo(object? obj)
+	{
+		StageGirl other = obj as StageGirl ?? 
+		                  throw new InvalidOperationException("Attempted to compare StageGirl object to non StageGirl object");
+		return Id.CompareTo(other.Id) * -1;
 	}
 
 	/// <summary>
