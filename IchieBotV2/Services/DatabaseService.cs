@@ -2,6 +2,7 @@ using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
 using IchieBotData.Legacy;
+using IchieBotV2.Utils;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Icon = IchieBotData.Common.Icon;
@@ -15,15 +16,18 @@ public class DatabaseService
     private readonly IServiceProvider _services;
     private List<StageGirl> DressListLegacy { get; set; }
     private Dictionary<string,StageGirl> DressDict { get; set; }
+        
+    private StatCalculator Calculator { get; set; }
     
     private Dictionary<string,string> IconsDict { get; set; }
-    private Dictionary<string, JObject> RawData { get; set; }
+    public Dictionary<string, JObject> RawData { get; set; }
 
-    public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services)
+    public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services, StatCalculator calculator)
     {
         _client = client;
         _commands = commands;
         _services = services;
+        Calculator = calculator;
         DressDict = new Dictionary<string, StageGirl>();
 
         DressListLegacy = DeserializeJson<StageGirl>(@"Legacy/json/stagegirls.json");
@@ -50,6 +54,11 @@ public class DatabaseService
         }
     }
 
+    public bool HasRemake(string dressId)
+    {
+        return RawData["dress_remake_parameter.json"].ContainsKey(dressId);
+    }
+
     public StageGirl GetFromDressId(string other)
     {
         return DressDict[other];
@@ -59,7 +68,30 @@ public class DatabaseService
     {
         return IconsDict.ContainsKey(name) ? IconsDict[name] : "<:please_ping_if_you_see_this:670781960800698378>";
     }
-    
+
+    public List<int> GetDressStats(string dressId, int rb = 0)
+    {
+        if (rb != 0 && !HasRemake(dressId))
+            rb = 0;
+
+        var parameters = Calculator.GetDressStats(dressId, level: 80 + 5 * rb, remake: rb, friendship: 30 + 5 * rb);
+        return parameters.ToIntList();
+    }
+
+    public List<List<int>> GetAllRbStats(string dressId)
+    {
+        if (!HasRemake(dressId))
+            throw new ArgumentException("Passed dressId does not have Reproduction stats");
+
+        var ret = new List<List<int>>();
+        for (var i = 1; i < 5; i++)
+        {
+            ret.Add(GetDressStats(dressId, i));
+        }
+
+        return ret;
+    }
+
     private static List<T> DeserializeJson<T>(string path)
     {
         var f = File.ReadAllText(path);

@@ -11,7 +11,7 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
     private DatabaseService Database { get; set; }
     private EmbedGenerator EmbedGenerator { get; set; }
     
-    public DressLegacyModule(DatabaseService db, EmbedGenerator embedGenerator)
+    public DressLegacyModule(DatabaseService db, EmbedGenerator embedGenerator, StatCalculator sc)
     {
         Database = db;
         EmbedGenerator = embedGenerator;
@@ -53,6 +53,7 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         var builder = new ComponentBuilder()
             .WithButton("Overview", query + "_100", disabled: true, style: ButtonStyle.Success)
             .WithButton("Skills", query + "_101");
+
         await RespondAsync(embed: embed, components: builder.Build());
     }
 

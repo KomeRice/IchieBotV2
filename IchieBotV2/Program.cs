@@ -73,6 +73,7 @@ namespace IchieBotV2
                 .AddSingleton<DatabaseService>()
                 .AddSingleton<EmbedGenerator>()
                 .AddSingleton<DressLegacyModule.DressCompleteHandler>()
+                .AddSingleton<StatCalculator>()
                 .BuildServiceProvider();
         }
 
