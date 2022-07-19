@@ -74,6 +74,7 @@ namespace IchieBotV2
                 .AddSingleton<EmbedGenerator>()
                 .AddSingleton<DressLegacyModule.DressCompleteHandler>()
                 .AddSingleton<StatCalculator>()
+                .AddSingleton<RankingService>()
                 .BuildServiceProvider();
         }
 
