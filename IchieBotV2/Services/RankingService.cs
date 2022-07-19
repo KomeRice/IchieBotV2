@@ -3,21 +3,27 @@ namespace IchieBotV2.Services;
 public class RankingService
 {
     private readonly DatabaseService _db;
-    private List<List<int>> DressRanking = new List<List<int>>();
-    private List<List<List<int>>> RbDressRanking = new List<List<List<int>>>();
+    private readonly List<List<int>> _dressRanking = new List<List<int>>();
+    private readonly List<List<List<int>>> _rbDressRanking = new List<List<List<int>>>();
     
-    private Dictionary<string, List<int>> RankDict = new Dictionary<string, List<int>>();
- 
+    private readonly Dictionary<string, List<int>> _rankDict = new Dictionary<string, List<int>>();
+    private readonly List<List<SortedDictionary<int,string>>> _reverseRanks = new List<List<SortedDictionary<int, string>>>();
 
     public RankingService(DatabaseService db)
     {
         _db = db;
         for (var i = 0; i < 6; i++)
         {
-            DressRanking.Add(new List<int>());
-            RbDressRanking.Add(new List<List<int>>());
-            for(var j = 0; j < 4; j++)
-                RbDressRanking[i].Add(new List<int>());
+            _dressRanking.Add(new List<int>());
+            _rbDressRanking.Add(new List<List<int>>());
+            _reverseRanks.Add(new List<SortedDictionary<int, string>>());
+            _reverseRanks[i].Add(new SortedDictionary<int, string>());
+            for (var j = 0; j < 4; j++)
+            {
+                _rbDressRanking[i].Add(new List<int>());
+                _reverseRanks[i].Add(new SortedDictionary<int, string>());
+
+            }
         }
         
         Task.Run(InitializeRanking).Wait();
@@ -42,21 +48,21 @@ public class RankingService
             
             for (var i = 0; i < d.MaxStats.Count; i++)
             {
-                DressRanking[i].Add(d.MaxStats[i]);
+                _dressRanking[i].Add(d.MaxStats[i]);
                 if (!hasRemake) continue;
                 for (var j = 0; j < rbStats!.Count; j++)
                 {
-                    RbDressRanking[i][j].Add(rbStats[j]![i]);
+                    _rbDressRanking[i][j].Add(rbStats[j]![i]);
                 }
             }
         }
 
-        foreach (var list in DressRanking)
+        foreach (var list in _dressRanking)
         {
             list.Sort((a, b) => b.CompareTo(a));
         }
 
-        foreach (var list in RbDressRanking.SelectMany(rbList => rbList))
+        foreach (var list in _rbDressRanking.SelectMany(rbList => rbList))
         {
             list.Sort((a, b) => b.CompareTo(a));
         }
@@ -68,10 +74,19 @@ public class RankingService
 
             for (var i = 0; i < d.MaxStats.Count; i++)
             {
-                ranks.Add(DressRanking[i].IndexOf(d.MaxStats[i]));
+                var rank = _dressRanking[i].IndexOf(d.MaxStats[i]) + 1;
+                ranks.Add(rank);
+                if (_reverseRanks[i][0].ContainsKey(rank))
+                {
+                    _reverseRanks[i][0][rank] += $",{dressId}";
+                }
+                else
+                {
+                    _reverseRanks[i][0][rank] = dressId;
+                }
             }
 
-            RankDict[dressId] = ranks;
+            _rankDict[dressId] = ranks;
             
             if (_db.Calculator.HasRemake(d.DressId[2..]))
             {
@@ -84,13 +99,41 @@ public class RankingService
                         throw new NullReferenceException("Failed RB array stat access");
                     for (var j = 0; j < stat.Count; j++)
                     {
-                        rbRanks.Add(RbDressRanking[j][i - 1].IndexOf(stat[j]));
+                        var rank = _rbDressRanking[j][i - 1].IndexOf(stat[j]) + 1;
+                        rbRanks.Add(rank);
+                        if (_reverseRanks[j][i].ContainsKey(rank))
+                        {
+                            _reverseRanks[j][i][rank] += $",{dressId}";
+                        }
+                        else
+                        {
+                            _reverseRanks[j][i][rank] = dressId;
+ 
+                        }
                     }
-                    RankDict[dressId + $"_rb{i}"] = rbRanks;
+                    _rankDict[dressId + $"_rb{i}"] = rbRanks;
                 }
             }
         }
+    }
 
-        await Task.Delay(1);
+    public List<int> GetRanks(string dressId, int rb = 0)
+    {
+        return _rankDict[dressId + (rb != 0 ? $"rb_{rb}" : "")];
+    }
+
+    public SortedDictionary<int, string> GetRanking(Parameter p, int rb = 0)
+    {
+        return _reverseRanks[(int) p][rb];
+    }
+    
+    public enum Parameter
+    {
+        Combined = 0,
+        Hp = 1,
+        Act = 2,
+        Pdef = 3,
+        Mdef = 4,
+        Agi = 5
     }
 }
