@@ -8,11 +8,14 @@ namespace IchieBotV2.Utils
     {
         // TODO: Refine async scheme
         private readonly DatabaseService _db;
-        private static readonly List<string> _menuEntries = new List<string>() {"Overview", "Skills"};
+        private readonly RankingService _ranking;
         
-        public EmbedGenerator(DatabaseService db)
+        private static readonly List<string> _menuEntries = new List<string>() {"Overview", "Skills"};
+
+        public EmbedGenerator(DatabaseService db, RankingService ranking)
         {
             _db = db;
+            _ranking = ranking;
         }
 
         public async Task<List<ActionRowBuilder>> LegacyEmbedMenu(string uniqueId)
