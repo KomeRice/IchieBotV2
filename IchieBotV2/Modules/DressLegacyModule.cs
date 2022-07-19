@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices;
 using Discord;
 using Discord.Interactions;
 using IchieBotData.Legacy;
@@ -8,13 +9,13 @@ namespace IchieBotV2.Modules;
 
 public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
 {
-    private DatabaseService Database { get; set; }
-    private EmbedGenerator EmbedGenerator { get; set; }
+    private readonly DatabaseService _db;
+    private readonly EmbedGenerator _embedGenerator;
     
-    public DressLegacyModule(DatabaseService db, EmbedGenerator embedGenerator, StatCalculator sc)
+    public DressLegacyModule(DatabaseService db, EmbedGenerator embedGenerator)
     {
-        Database = db;
-        EmbedGenerator = embedGenerator;
+        _db = db;
+        _embedGenerator = embedGenerator;
     }
 
     [SlashCommand("dresslegacy", "Shows a Stage Girl in Legacy format")]
@@ -24,7 +25,7 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         StageGirl d;
         if (query.Any(char.IsLetter))
         {
-            var results = Database.LegacySearch(query);
+            var results = _db.LegacySearch(query);
             var stageGirls = results.ToList();
             if (stageGirls.Count == 1)
             {
@@ -40,7 +41,7 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         {
             try
             {
-                d = Database.GetFromDressId(query);
+                d = _db.GetFromDressId(query);
 
             }
             catch (ArgumentNullException e)
@@ -49,10 +50,13 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
                 return;
             }
         }
-        var embed = EmbedGenerator.LegacyToEmbedOverview(d);
-        var builder = new ComponentBuilder()
-            .WithButton("Overview", query + "_100", disabled: true, style: ButtonStyle.Success)
-            .WithButton("Skills", query + "_101");
+        
+        // TODO: Dedicated message builder
+        var embed = await _embedGenerator.LegacyToEmbedOverview(d);
+        var rows = await _embedGenerator.LegacyEmbedMenu(d.DressId[2..] + $"_100");
+
+        var builder = new ComponentBuilder().WithRows(rows);
+
 
         await RespondAsync(embed: embed, components: builder.Build());
     }
@@ -71,9 +75,9 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
             if (autocompleteInteraction.Data.Current.Name == "query" && autocompleteInteraction.Data.Current.Focused)
             {
                 var curIn = autocompleteInteraction.Data.Current.Value.ToString();
-                if (curIn is null or "")
+                if (curIn is null)
                     return AutocompletionResult.FromSuccess();
-                var o = await _databaseService.AutoCompleteFilter(curIn);
+                var o = _databaseService.AutoCompleteFilter(curIn);
                 return AutocompletionResult.FromSuccess(o);
             }
             return AutocompletionResult.FromSuccess();

@@ -4,7 +4,6 @@ using Discord.WebSocket;
 using IchieBotData.Legacy;
 using IchieBotV2.Utils;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using Icon = IchieBotData.Common.Icon;
 
 namespace IchieBotV2.Services;
@@ -62,7 +61,7 @@ public class DatabaseService
 
     public List<int> GetDressStats(string dressId, int rb = 0)
     {
-        if (rb != 0 && !HasRemake(dressId))
+        if (rb != 0 && !Calculator.HasRemake(dressId))
             rb = 0;
 
         var parameters = Calculator.GetDressStats(dressId, level: 80 + 5 * rb, remake: rb, friendship: 30 + 5 * rb);
@@ -71,7 +70,7 @@ public class DatabaseService
 
     public List<List<int>> GetAllRbStats(string dressId)
     {
-        if (!HasRemake(dressId))
+        if (!Calculator.HasRemake(dressId))
             throw new ArgumentException("Passed dressId does not have Reproduction stats");
 
         var ret = new List<List<int>>();
@@ -219,11 +218,9 @@ public class DatabaseService
         return matrix[bounds.Height - 1, bounds.Width - 1];
     }
 
-    public async Task<IEnumerable<AutocompleteResult>> AutoCompleteFilter(string other)
+    public IEnumerable<AutocompleteResult> AutoCompleteFilter(string query)
     {
-        await Program.LogAsync(new LogMessage(LogSeverity.Debug, "autocomp", "Generating autocomplete results..."));
-
-        var search = LegacySearch(other).Take(25);
+        var search = LegacySearch(query).Take(25);
         return search.Select(s => new AutocompleteResult(s.Name, s.DressId[2..]));
     }
 }

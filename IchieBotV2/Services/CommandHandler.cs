@@ -49,37 +49,20 @@ public class CommandHandler
 
         var id = options[0];
         var page = options[1];
-        Embed e;
+        var rb = page[1] - '0';
+        var d = _db.GetFromDressId(id);
 
-        var buttons = new List<ButtonBuilder>()
+        var e = page[2] switch
         {
-            new ButtonBuilder("Overview", id + "_100"),
-            new ButtonBuilder("Skills", id + "_101")
+            '0' => await _embedGenerator.LegacyToEmbedOverview(d, rb),
+            '1' => _embedGenerator.LegacyToEmbedSkills(d),
+            _ => throw new ArgumentOutOfRangeException(nameof(page))
         };
 
-        switch (page)
-        {
-            case "100":
-                e = _embedGenerator.LegacyToEmbedOverview(_db.GetFromDressId(id));
-                buttons[0].IsDisabled = true;
-                buttons[0].Style = ButtonStyle.Success;
-                break;
-            case "101":
-                e = _embedGenerator.LegacyToEmbedSkills(_db.GetFromDressId(id));
-                buttons[1].IsDisabled = true;
-                buttons[1].Style = ButtonStyle.Success;
-                break;
-            default:
-                await component.DeferAsync();
-                return;
-        }
+        var menu = await _embedGenerator.LegacyEmbedMenu(component.Data.CustomId);
 
-        var builder = new ComponentBuilder();
-        foreach (var b in buttons)
-        {
-            builder.WithButton(b);
-        }
-
+        var builder = new ComponentBuilder().WithRows(menu);
+        
         await component.UpdateAsync(message =>
         {
             message.Embed = e;

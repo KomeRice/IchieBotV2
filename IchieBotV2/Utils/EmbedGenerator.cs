@@ -6,14 +6,64 @@ namespace IchieBotV2.Utils
 {
     public class EmbedGenerator
     {
+        // TODO: Refine async scheme
         private readonly DatabaseService _db;
+        private static readonly List<string> _menuEntries = new List<string>() {"Overview", "Skills"};
         
         public EmbedGenerator(DatabaseService db)
         {
             _db = db;
         }
+
+        public async Task<List<ActionRowBuilder>> LegacyEmbedMenu(string uniqueId)
+        {
+            var split = uniqueId.Split('_');
+            var dressId = split[0];
+            var bits = split[1];
+
+            switch (bits[0])
+            {
+                case '1':
+                    var rb = bits[1] - '0';
+                    // Used because custom IDs cannot be duplicated
+                    var disabledIndex = 0;
+
+                    var rows = new List<ActionRowBuilder>();
+
+                    if (_db.Calculator.HasRemake(dressId))
+                    {
+                        var rbRow = new ActionRowBuilder();
+                        for (var i = 0; i < 5; i++)
+                        {
+                            var curRb = i == rb;
+
+                            rbRow.WithButton($"RB{i}",
+                                curRb ? $"disabled{disabledIndex++}" : dressId + $"_1{i}{bits[2]}",
+                                curRb ? ButtonStyle.Success : ButtonStyle.Primary, disabled: curRb);
+                        }
+                        rows.Add(rbRow);
+                    }
+
+                    var menuRow = new ActionRowBuilder();
+
+                    for (var i = 0; i < _menuEntries.Count; i++)
+                    {
+                        var curMenu = i == bits[2] - '0';
+
+                        menuRow.WithButton(_menuEntries[i], 
+                            curMenu ? $"disabled{disabledIndex++}": dressId + $"_1{rb}{i}",
+                            curMenu ? ButtonStyle.Success : ButtonStyle.Primary, disabled: curMenu);
+                    }
+                    rows.Add(menuRow);
+
+                    return rows;
+                default:
+                    await Program.LogAsync(new LogMessage(LogSeverity.Error, "menugen", "Got invalid first bit"));
+                    return new List<ActionRowBuilder>();
+            }
+        }
         
-        public Embed LegacyToEmbedOverview(StageGirl dress)
+        public async Task<Embed> LegacyToEmbedOverview(StageGirl dress, int rb = 0)
         {
             var tagFooter = "";
             /*
@@ -29,17 +79,32 @@ namespace IchieBotV2.Utils
                        $"{_db.GetEmoteFromIcon(dress.Row.Name)} {FirstCharToUpper(dress.Row.Name)} | " +
                        $"{TypeToDisplayString(dress.Special)}";
 
+            List<int> stats;
+            if (rb == 0 || !_db.Calculator.HasRemake(dress.DressId[2..]))
+                stats = dress.MaxStats;
+            else
+            {
+                stats = await _db.GetFromCache(dress.DressId[2..], rb) ?? throw new InvalidOperationException();
+                // TODO: Introduce combined score calculation upstream
+                var combined = (int) (Math.Floor(stats[0] / 10.0) + Math.Floor(stats[1] * 1.8)
+                                                                  + Math.Floor(stats[2] / 2.0) +
+                                                                  Math.Floor(stats[3] / 2.0) +
+                                                                  Math.Floor(stats[4] / 5.0));
+                stats = new List<int>(stats);
+                stats.Insert(0, combined);
+            }
+
             var embedFieldBuilders = new List<EmbedFieldBuilder>()
             {
                 new EmbedFieldBuilder()
                 {
                     Name = "Maximal Stats",
-                    Value = $"```Combined: {dress.MaxStats[0]}\n" +
-                            $"HP: {dress.MaxStats[1]}\n" +
-                            $"ACT Power: {dress.MaxStats[2]}\n" +
-                            $"NormDef: {dress.MaxStats[3]}\n" +
-                            $"SpDef: {dress.MaxStats[4]}\n" +
-                            $"Agility: {dress.MaxStats[5]}```"
+                    Value = $"```Combined: {stats[0]}\n" +
+                            $"HP: {stats[1]}\n" +
+                            $"ACT Power: {stats[2]}\n" +
+                            $"NormDef: {stats[3]}\n" +
+                            $"SpDef: {stats[4]}\n" +
+                            $"Agility: {stats[5]}```"
                 }
             };
 
