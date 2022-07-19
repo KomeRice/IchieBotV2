@@ -105,7 +105,6 @@ public class DatabaseService
             return GetDressStats(dressId, rb);
         }
 
-        await Program.LogAsync(new LogMessage(LogSeverity.Debug, "GetCache", "Sucessfully got card from cache"));
         return RbCache[dressId][rb - 1];
     }
 
