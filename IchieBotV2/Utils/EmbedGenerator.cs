@@ -85,13 +85,6 @@ namespace IchieBotV2.Utils
             else
             {
                 stats = await _db.GetFromCache(dress.DressId[2..], rb) ?? throw new InvalidOperationException();
-                // TODO: Introduce combined score calculation upstream
-                var combined = (int) (Math.Floor(stats[0] / 10.0) + Math.Floor(stats[1] * 1.8)
-                                                                  + Math.Floor(stats[2] / 2.0) +
-                                                                  Math.Floor(stats[3] / 2.0) +
-                                                                  Math.Floor(stats[4] / 5.0));
-                stats = new List<int>(stats);
-                stats.Insert(0, combined);
             }
 
             var embedFieldBuilders = new List<EmbedFieldBuilder>()

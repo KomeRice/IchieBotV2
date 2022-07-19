@@ -9,20 +9,35 @@ public class StatCalculator
     public class Parameter
     {
         // ReSharper disable class InconsistentNaming
+        public const string POWER = "power";
         public const string HP = "hp";
         public const string ATK = "atk";
         public const string PDEF = "pdef";
         public const string MDEF = "mdef";
         public const string AGI = "agi";
 
-        public static List<string> GetParameterNames()
+        public static List<string> GetParameterNames(bool includePowerScore = false)
         {
-            return new List<string>() {HP, ATK, PDEF, MDEF, AGI};
+            return includePowerScore ? new List<string>() {POWER, HP, ATK, PDEF, MDEF, AGI} : 
+                new List<string>() {HP, ATK, PDEF, MDEF, AGI};
         }
     }
 
     public class Parameters : Dictionary<string, int>
     {
+        public Parameters(){}
+        
+        public Parameters(IList<int> stats)
+        {
+            if (stats.Count != 5)
+                throw new ArgumentException("Collection must contain 5 integers.");
+            var paramNames = Parameter.GetParameterNames();
+            for (var i = 0; i < paramNames.Count; i++)
+            {
+                this[paramNames[i]] = stats[i];
+            }
+        }
+        
         public static Parameters operator +(Parameters a, Parameters b)
         {
             var ret = new Parameters();
@@ -69,7 +84,22 @@ public class StatCalculator
 
         public List<int> ToIntList()
         {
-            return Parameter.GetParameterNames().Select(p => this[p]).ToList();
+            return Parameter.GetParameterNames(true).Select(p => this[p]).ToList();
+        }
+
+        public int GetPowerScore()
+        {
+            var combined = (int) (Math.Floor(this[Parameter.HP] / 10.0) + 
+                                  Math.Floor(this[Parameter.ATK] * 1.8) + 
+                                  Math.Floor(this[Parameter.PDEF] / 2.0) +
+                                  Math.Floor(this[Parameter.MDEF] / 2.0) + 
+                                  Math.Floor(this[Parameter.AGI] / 5.0));
+            return combined;
+        }
+
+        public void setPowerScore()
+        {
+            this[Parameter.POWER] = GetPowerScore();
         }
     }
 
@@ -216,6 +246,7 @@ public class StatCalculator
             levelParams *= 100 + _boardRankGrowthRates[boardRank] + _rarityGrowthRates[rarity];
             levelParams /= 100;
 
+            Parameters ret;
             if (remake > 0)
             {
                 var remakeParameters = dressRemakeParameter[dressId]![remake.ToString()];
@@ -225,10 +256,14 @@ public class StatCalculator
                     remakeParametersFinal[p] = Convert.ToInt32(remakeParameters![p]!.ToString());
                 }
 
-                return levelParams + panelParameters + remakeParametersFinal;
+                ret = levelParams + panelParameters + remakeParametersFinal;
+                ret.setPowerScore();
+                return ret;
             }
 
-            return levelParams + panelParameters;
+            ret = levelParams + panelParameters;
+            ret.setPowerScore();
+            return ret;
         }
         catch (Exception e)
         {

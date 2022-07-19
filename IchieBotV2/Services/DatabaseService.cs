@@ -13,7 +13,8 @@ public class DatabaseService
     private readonly DiscordSocketClient _client;
     private readonly InteractionService _commands;
     private readonly IServiceProvider _services;
-    private List<StageGirl> DressListLegacy { get; set; }
+    
+    public List<StageGirl> DressListLegacy { get; set; }
     private Dictionary<string,StageGirl> DressDict { get; set; }
         
     public StatCalculator Calculator { get; set; }
