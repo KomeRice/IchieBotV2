@@ -36,13 +36,14 @@ public class RankingService
         foreach (var d in dressList)
         {
             List<List<int>?>? rbStats = null;
-            var hasRemake = _db.Calculator.HasRemake(d.DressId[2..]);
+            var dressId = d.DressId[2..];
+            var hasRemake = _db.Calculator.HasRemake(dressId);
             if (hasRemake)
             {
                 rbStats = new List<List<int>?>();
                 for (var j = 1; j < 5; j++)
                 {
-                    rbStats.Add(await _db.GetFromCache(d.DressId[2..], j));
+                    rbStats.Add(await _db.GetFromCache(dressId, j));
                 }
             }
             
@@ -88,7 +89,7 @@ public class RankingService
 
             _rankDict[dressId] = ranks;
             
-            if (_db.Calculator.HasRemake(d.DressId[2..]))
+            if (_db.Calculator.HasRemake(dressId))
             {
                 for (var i = 1; i < 5; i++)
                 {
