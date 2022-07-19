@@ -1,11 +1,10 @@
-using IchieBotV2.Services;
 using Newtonsoft.Json.Linq;
 
 namespace IchieBotV2.Utils;
 
 public class StatCalculator
 {
-    private DatabaseService _db { get; set; }
+    private Dictionary<string, JObject> RawData { get; set; }
 
     public class Parameter
     {
@@ -103,12 +102,18 @@ public class StatCalculator
         {8, 110},
         {9, 120},
     };
-
     private readonly bool[] defaultBordPanelMask = new bool[] {true, true, true, true, true, true, true, true};
 
-    public StatCalculator(DatabaseService db)
+    public StatCalculator()
     {
-        _db = db;
+        RawData = new Dictionary<string, JObject>();
+
+        foreach (var filename in Directory.GetFiles(@"Data/Raw"))
+        {
+            var f = File.ReadAllText(filename);
+            var separators = new char[]{'/', '\\'};
+            RawData[filename.Split(separators).Last()] = JObject.Parse(f);
+        }
     }
 
     public Parameters GetDressStats(string dressId, int rarity = 6, int level = 80, int friendship = 30, int boardRank = 9,
@@ -117,11 +122,11 @@ public class StatCalculator
         try
         {
             boardPanelMask ??= defaultBordPanelMask;
-            var dress = _db.RawData["dress.json"][dressId];
-            var dressRemakeParameter = _db.RawData["dress_remake_parameter.json"];
-            var growthBoard = _db.RawData["growth_board.json"];
-            var growthPanel = _db.RawData["growth_panel.json"];
-            var friendshipPatterns = _db.RawData["friendship_pattern.json"];
+            var dress = RawData["dress.json"][dressId];
+            var dressRemakeParameter = RawData["dress_remake_parameter.json"];
+            var growthBoard = RawData["growth_board.json"];
+            var growthPanel = RawData["growth_panel.json"];
+            var friendshipPatterns = RawData["friendship_pattern.json"];
             
             if (dress is null || dressRemakeParameter is null || growthBoard is null ||
                 growthPanel is null || friendshipPatterns is null)
@@ -231,4 +236,9 @@ public class StatCalculator
             return null!;
         }
     }
+    
+    public bool HasRemake(string dressId)
+    {
+        return RawData["dress_remake_parameter.json"].ContainsKey(dressId);
+    } 
 }

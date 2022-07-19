@@ -17,10 +17,13 @@ public class DatabaseService
     private List<StageGirl> DressListLegacy { get; set; }
     private Dictionary<string,StageGirl> DressDict { get; set; }
         
-    private StatCalculator Calculator { get; set; }
+    public StatCalculator Calculator { get; set; }
     
     private Dictionary<string,string> IconsDict { get; set; }
-    public Dictionary<string, JObject> RawData { get; set; }
+    
+    // TODO: Error checking
+    public const string CachePath = @"Data/Cache/";
+    public Dictionary<string, List<List<int>>>? RbCache;
 
     public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services, StatCalculator calculator)
     {
@@ -44,19 +47,7 @@ public class DatabaseService
             IconsDict[i.Name] = i.Emote;
         }
 
-        RawData = new Dictionary<string, JObject>();
-
-        foreach (var filename in Directory.GetFiles(@"Data/Raw"))
-        {
-            var f = File.ReadAllText(filename);
-            var separators = new char[]{'/', '\\'};
-            RawData[filename.Split(separators).Last()] = JObject.Parse(f);
-        }
-    }
-
-    public bool HasRemake(string dressId)
-    {
-        return RawData["dress_remake_parameter.json"].ContainsKey(dressId);
+        LoadReproductionCache();
     }
 
     public StageGirl GetFromDressId(string other)
@@ -90,6 +81,57 @@ public class DatabaseService
         }
 
         return ret;
+    }
+
+    public async Task<List<int>?> GetFromCache(string dressId, int rb)
+    {
+        if (!Calculator.HasRemake(dressId))
+            return null;
+        if (rb is < 1 or > 4)
+            throw new ArgumentException($"Rb level must be between 1 and 4 (Got {rb})");
+
+        if (RbCache is not null && RbCache.ContainsKey(dressId)) 
+            return RbCache[dressId][rb - 1];
+        try
+        {
+            await BuildReproductionCache();
+            if (!RbCache!.ContainsKey(dressId))
+                throw new Exception($"No entry for {dressId}");
+        }
+        catch (Exception e)
+        {
+            await Program.LogAsync(new LogMessage(LogSeverity.Critical, "dbCache",
+                $"Failed to build cache for {dressId}, falling back to recalculating.", e));
+            return GetDressStats(dressId, rb);
+        }
+
+        await Program.LogAsync(new LogMessage(LogSeverity.Debug, "GetCache", "Sucessfully got card from cache"));
+        return RbCache[dressId][rb - 1];
+    }
+
+    public void LoadReproductionCache(string path = CachePath + "rbCache.json")
+    {
+        var jsonCache = File.ReadAllText(path);
+        var cache = JsonConvert.DeserializeObject<Dictionary<string,List<List<int>>>>(jsonCache);
+        RbCache = cache;
+    }
+
+    public async Task BuildReproductionCache()
+    {
+        const string path = CachePath + "rbCache.json";
+
+        var cache = new Dictionary<string, List<List<int>>>();
+        if (cache == null) 
+            throw new ArgumentNullException(nameof(cache));
+
+        foreach (var dressId in DressDict.Keys.Where(Calculator.HasRemake))
+        {
+            cache[dressId] = GetAllRbStats(dressId);
+        }
+        var jsonCache = JsonConvert.SerializeObject(cache);
+        Directory.CreateDirectory(CachePath);
+        await File.WriteAllTextAsync(path, jsonCache);
+        RbCache = cache;
     }
 
     private static List<T> DeserializeJson<T>(string path)
