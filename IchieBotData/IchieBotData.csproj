@@ -10,6 +10,9 @@
       <None Update="Data\**\*">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="Legacy\**\*">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="Legacy\json\stagegirls.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
