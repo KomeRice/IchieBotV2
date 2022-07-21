@@ -9,14 +9,14 @@ public enum AttackType
 
 public enum Element
 {
-    NonElem = 0,
     Flower = 1,
     Wind = 2,
     Snow = 3,
     Moon = 4,
     Space = 5,
     Cloud = 6,
-    Dream = 7
+    Dream = 7,
+    NoElem = 8
 }
 
 public enum EffectType
