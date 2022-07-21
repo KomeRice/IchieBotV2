@@ -54,7 +54,6 @@ public class CommandHandler
         switch (split[0])
         {
             case "dresslegacy":
-                
                 var id = options[0];
                 var page = options[1];
                 var rb = page[1] - '0';

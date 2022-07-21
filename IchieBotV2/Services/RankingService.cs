@@ -119,7 +119,7 @@ public class RankingService
 
     public List<int> GetRanks(string dressId, int rb = 0)
     {
-        return _rankDict[dressId + (rb != 0 ? $"rb_{rb}" : "")];
+        return _rankDict[dressId + (rb != 0 ? $"_rb{rb}" : "")];
     }
 
     public SortedDictionary<int, string> GetRanking(Parameter p, int rb = 0)
