@@ -22,7 +22,6 @@ public class RankingService
             {
                 _rbDressRanking[i].Add(new List<int>());
                 _reverseRanks[i].Add(new SortedDictionary<int, string>());
-
             }
         }
         
@@ -127,14 +126,19 @@ public class RankingService
     {
         return _reverseRanks[(int) p][rb];
     }
+
+    public int GetMax(Parameter p, int rb = 0)
+    {
+        return rb == 0 ? _dressRanking[(int)p].Count : _rbDressRanking[(int)p][rb - 1].Count;
+    }
     
     public enum Parameter
     {
-        Combined = 0,
-        Hp = 1,
+        PowerScore = 0,
+        MaxHp = 1,
         Act = 2,
-        Pdef = 3,
-        Mdef = 4,
-        Agi = 5
+        NormDef = 3,
+        SpDef = 4,
+        Agility = 5
     }
 }

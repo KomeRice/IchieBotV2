@@ -13,15 +13,17 @@ public class CommandHandler
     private readonly InteractionService _commands;
     private readonly IServiceProvider _services;
     private readonly DressEmbedHelper _dressEmbedHelper;
+    private readonly RankingEmbedHelper _rankingEmbedHelper;
     private readonly DatabaseService _db;
     
-    public CommandHandler(DiscordSocketClient cl, InteractionService cm, IServiceProvider s, DressEmbedHelper dressEmbedHelper, DatabaseService db)
+    public CommandHandler(DiscordSocketClient cl, InteractionService cm, IServiceProvider s, DressEmbedHelper dressEmbedHelper, DatabaseService db, RankingEmbedHelper rankingEmbedHelper)
     {
         _client = cl;
         _commands = cm;
         _services = s;
-        _embedGenerator = embedGenerator;
+        _dressEmbedHelper = dressEmbedHelper;
         _db = db;
+        _rankingEmbedHelper = rankingEmbedHelper;
     }
 
     public async Task InitializeAsync()
@@ -40,34 +42,54 @@ public class CommandHandler
             return;
         }
 
-        var options = component.Data.CustomId.Split("_");
-        if (options.Length != 2)
+        var split = component.Data.CustomId.Split("-");
+        if (split.Length != 2)
         {
             await component.DeferAsync();
             return;
         }
-
-        var id = options[0];
-        var page = options[1];
-        var rb = page[1] - '0';
-        var d = _db.GetFromDressId(id);
-
-        var e = page[2] switch
-        {
-            '0' => await _embedGenerator.LegacyToEmbedOverview(d, rb),
-            '1' => _embedGenerator.LegacyToEmbedSkills(d),
-            _ => throw new ArgumentOutOfRangeException(nameof(page))
-        };
-
-        var menu = await _embedGenerator.LegacyEmbedMenu(component.Data.CustomId);
-
-        var builder = new ComponentBuilder().WithRows(menu);
         
-        await component.UpdateAsync(message =>
+        // TODO: Delegate to embed helpers
+        var options = split[1].Split("_");
+        switch (split[0])
         {
-            message.Embed = e;
-            message.Components = builder.Build();
-        });
+            case "dresslegacy":
+                
+                var id = options[0];
+                var page = options[1];
+                var rb = page[1] - '0';
+                var d = _db.GetFromDressId(id);
+
+                var e = page[2] switch
+                {
+                    '0' => await _dressEmbedHelper.LegacyToEmbedOverview(d, rb),
+                    '1' => _dressEmbedHelper.LegacyToEmbedSkills(d),
+                    _ => throw new ArgumentOutOfRangeException(nameof(page))
+                };
+
+                var menu = await _dressEmbedHelper.LegacyEmbedMenu(split[1]);
+
+                var builder = new ComponentBuilder().WithRows(menu);
+        
+                await component.UpdateAsync(message =>
+                {
+                    message.Embed = e;
+                    message.Components = builder.Build();
+                });
+                break;
+            case "rank":
+                var optionsInt = options.Select(s => Convert.ToInt32(s)).ToArray();
+                var rankEmbed = await _rankingEmbedHelper.RankingEmbed((RankingService.Parameter)optionsInt[0],
+                    optionsInt[2], optionsInt[1]);
+                var rankMenu = _rankingEmbedHelper.RankingMenu(split[1]);
+                var rankBuilder = new ComponentBuilder().AddRow(rankMenu);
+                await component.UpdateAsync(message =>
+                {
+                    message.Embed = rankEmbed;
+                    message.Components = rankBuilder.Build();
+                });
+                break;
+        }
     }
 
     private static Task SlashCommandExecuted(SlashCommandInfo arg1, IInteractionContext arg2, IResult arg3)

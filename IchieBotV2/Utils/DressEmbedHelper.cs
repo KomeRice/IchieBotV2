@@ -41,7 +41,7 @@ namespace IchieBotV2.Utils
                             var curRb = i == rb;
 
                             rbRow.WithButton($"RB{i}",
-                                curRb ? $"disabled{disabledIndex++}" : dressId + $"_1{i}{bits[2]}",
+                                curRb ? $"disabled-{disabledIndex++}" : $"dresslegacy-{dressId}_1{i}{bits[2]}",
                                 curRb ? ButtonStyle.Success : ButtonStyle.Primary, disabled: curRb);
                         }
                         rows.Add(rbRow);
@@ -54,7 +54,7 @@ namespace IchieBotV2.Utils
                         var curMenu = i == bits[2] - '0';
 
                         menuRow.WithButton(_menuEntries[i], 
-                            curMenu ? $"disabled{disabledIndex++}": dressId + $"_1{rb}{i}",
+                            curMenu ? $"disabled-{disabledIndex++}" : $"dresslegacy-{dressId}_1{rb}{i}",
                             curMenu ? ButtonStyle.Success : ButtonStyle.Primary, disabled: curMenu);
                     }
                     rows.Add(menuRow);
