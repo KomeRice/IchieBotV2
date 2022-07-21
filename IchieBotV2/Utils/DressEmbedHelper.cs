@@ -4,7 +4,7 @@ using IchieBotV2.Services;
 
 namespace IchieBotV2.Utils
 {
-    public class EmbedGenerator
+    public class DressEmbedHelper
     {
         // TODO: Refine async scheme
         private readonly DatabaseService _db;
@@ -12,7 +12,7 @@ namespace IchieBotV2.Utils
         
         private static readonly List<string> _menuEntries = new List<string>() {"Overview", "Skills"};
 
-        public EmbedGenerator(DatabaseService db, RankingService ranking)
+        public DressEmbedHelper(DatabaseService db, RankingService ranking)
         {
             _db = db;
             _ranking = ranking;

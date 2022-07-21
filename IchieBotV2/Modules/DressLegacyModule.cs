@@ -10,12 +10,12 @@ namespace IchieBotV2.Modules;
 public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
 {
     private readonly DatabaseService _db;
-    private readonly EmbedGenerator _embedGenerator;
+    private readonly DressEmbedHelper _embedHelper;
     
-    public DressLegacyModule(DatabaseService db, EmbedGenerator embedGenerator)
+    public DressLegacyModule(DatabaseService db, DressEmbedHelper embedHelper)
     {
         _db = db;
-        _embedGenerator = embedGenerator;
+        _embedHelper = embedHelper;
     }
 
     [SlashCommand("dresslegacy", "Shows a Stage Girl in Legacy format")]
@@ -52,8 +52,8 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         }
         
         // TODO: Dedicated message builder
-        var embed = await _embedGenerator.LegacyToEmbedOverview(d);
-        var rows = await _embedGenerator.LegacyEmbedMenu(d.DressId[2..] + $"_100");
+        var embed = await _embedHelper.LegacyToEmbedOverview(d);
+        var rows = await _embedHelper.LegacyEmbedMenu(d.DressId[2..] + "_100");
 
         var builder = new ComponentBuilder().WithRows(rows);
 

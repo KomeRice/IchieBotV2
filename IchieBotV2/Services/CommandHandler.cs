@@ -12,10 +12,10 @@ public class CommandHandler
     private readonly DiscordSocketClient _client;
     private readonly InteractionService _commands;
     private readonly IServiceProvider _services;
-    private readonly EmbedGenerator _embedGenerator;
+    private readonly DressEmbedHelper _dressEmbedHelper;
     private readonly DatabaseService _db;
     
-    public CommandHandler(DiscordSocketClient cl, InteractionService cm, IServiceProvider s, EmbedGenerator embedGenerator, DatabaseService db)
+    public CommandHandler(DiscordSocketClient cl, InteractionService cm, IServiceProvider s, DressEmbedHelper dressEmbedHelper, DatabaseService db)
     {
         _client = cl;
         _commands = cm;
