@@ -90,17 +90,19 @@ namespace IchieBotV2.Utils
                 stats = await _db.GetFromCache(dress.DressId[2..], rb) ?? throw new InvalidOperationException();
             }
 
+            var ranks = _ranking.GetRanks(dress.DressId[2..], rb);
+            
             var embedFieldBuilders = new List<EmbedFieldBuilder>()
             {
                 new EmbedFieldBuilder()
                 {
                     Name = "Maximal Stats",
-                    Value = $"```Combined: {stats[0]}\n" +
-                            $"HP: {stats[1]}\n" +
-                            $"ACT Power: {stats[2]}\n" +
-                            $"NormDef: {stats[3]}\n" +
-                            $"SpDef: {stats[4]}\n" +
-                            $"Agility: {stats[5]}```"
+                    Value = "```" + "Power Score:".PadRight(18) + $"{stats[0]}".PadRight(10) + $"[#{ranks[0]}/{_ranking.GetMax(RankingService.Parameter.PowerScore, rb)}]\n" +
+                            "MaxHP:".PadRight(18) + $"{stats[1]}".PadRight(10) + $"[#{ranks[1]}/{_ranking.GetMax(RankingService.Parameter.MaxHp, rb)}]\n" +
+                            "ACT Power:".PadRight(18) + $"{stats[2]}".PadRight(10) + $"[#{ranks[2]}/{_ranking.GetMax(RankingService.Parameter.Act, rb)}]\n" +
+                            "NormDef".PadRight(18) + $"{stats[3]}".PadRight(10) + $"[#{ranks[3]}/{_ranking.GetMax(RankingService.Parameter.NormDef, rb)}]\n" +
+                            "SpDef".PadRight(18) + $"{stats[4]}".PadRight(10) + $"[#{ranks[4]}/{_ranking.GetMax(RankingService.Parameter.SpDef, rb)}]\n" +
+                            "Agility".PadRight(18) + $"{stats[5]}".PadRight(10) + $"[#{ranks[5]}/{_ranking.GetMax(RankingService.Parameter.Agility, rb)}]```"
                 }
             };
 
