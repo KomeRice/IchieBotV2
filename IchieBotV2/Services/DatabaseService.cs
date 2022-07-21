@@ -33,6 +33,13 @@ public class DatabaseService
         Calculator = calculator;
         DressDict = new Dictionary<string, StageGirl>();
 
+        LoadJson();
+        LoadReproductionCache();
+    }
+
+    public void LoadJson()
+    {
+        DressDict = new Dictionary<string, StageGirl>();
         DressListLegacy = DeserializeJson<StageGirl>(@"Legacy/json/stagegirls.json");
         DressListLegacy.Sort();
         foreach(var d in DressListLegacy)
@@ -46,8 +53,6 @@ public class DatabaseService
         {
             IconsDict[i.Name] = i.Emote;
         }
-
-        LoadReproductionCache();
     }
 
     public StageGirl GetFromDressId(string other)
