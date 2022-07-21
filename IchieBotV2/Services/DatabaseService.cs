@@ -110,6 +110,8 @@ public class DatabaseService
 
     public void LoadReproductionCache(string path = CachePath + "rbCache.json")
     {
+        if (!File.Exists(path))
+            Task.Run(BuildReproductionCache).Wait();
         var jsonCache = File.ReadAllText(path);
         var cache = JsonConvert.DeserializeObject<Dictionary<string,List<List<int>>>>(jsonCache);
         RbCache = cache;
