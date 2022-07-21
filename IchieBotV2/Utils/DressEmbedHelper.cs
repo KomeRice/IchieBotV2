@@ -68,11 +68,8 @@ namespace IchieBotV2.Utils
         
         public async Task<Embed> LegacyToEmbedOverview(StageGirl dress, int rb = 0)
         {
-            var tagFooter = "";
-            /*
-            if (dress.RealTagList.Count > 0)
-                tagFooter += $"\nTags: {string.Join(",", dress.RealTagList)}";
-            */
+            var tagFooter = dress.RealTagList.Count > 0 ? $"\nTags: {string.Join(", ", dress.RealTagList)}" : "";
+            
             var author = new EmbedAuthorBuilder()
             {
                 IconUrl = dress.ThumbUrl,
