@@ -30,7 +30,8 @@ public class DatabaseService
     private const int MaxSearchCacheSize = 64;
 
     // Temporary plug until Karthuria updates its format
-    public JObject? ComplementJson = JObject.Parse(File.ReadAllText(@"Data/Complement.json"));
+    public Dictionary<string, ComplementJson>? DictComplements =
+        JsonConvert.DeserializeObject<Dictionary<string, ComplementJson>>(File.ReadAllText(@"Data/Complement.json"));
 
     public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services, StatCalculator calculator)
     {
@@ -262,5 +263,12 @@ public class DatabaseService
     {
         var search = LegacySearch(query).Take(25);
         return search.Select(s => new AutocompleteResult(s.Name, s.DressId[2..]));
+    }
+
+    public class ComplementJson
+    {
+        public int Cost { get; set; }
+        public int RowIndex { get; set; }
+        public Dictionary<string, int?> Release = new();
     }
 }
