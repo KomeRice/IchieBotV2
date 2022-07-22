@@ -20,7 +20,7 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
 
     [SlashCommand("dresslegacy", "Shows a Stage Girl in Legacy format")]
     public async Task LegacySearch([Autocomplete(typeof(DressCompleteHandler)),
-                                    Discord.Interactions.Summary("query","Display the dress page matching the search result")]string query)
+                                    Summary("query","Display the dress page matching the search result")]string query = "")
     {
         if (query.Length is < 3 and < 80)
         {
@@ -43,10 +43,20 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
                     d = stageGirls[0];
                     break;
                 default:
+                    stageGirls = stageGirls.OrderByDescending(s => s.Rarity).ThenBy(s => s.Name).ToList();
                     var cleanQuery = DatabaseService.CleanString(query);
-                    _db.SearchCache[cleanQuery] = stageGirls.Select(s => s.DressId[2..]).ToList();
-                    
-                    await RespondAsync("Not implemented yet");
+                    _db.CacheValue(cleanQuery, stageGirls.Select(s => s.DressId[2..]).ToList());
+                    var e = _embedHelper.MultiresultEmbed(stageGirls);
+                    var menu = _embedHelper.MultiresultMenu($"{cleanQuery}_0", stageGirls.Count);
+
+                    if (stageGirls.Count > DressEmbedHelper.MaxPageSize)
+                    {
+                        var multBuilder = new ComponentBuilder().AddRow(menu);
+                        await RespondAsync(embed: e, components: multBuilder.Build());
+                        return;
+                    }
+
+                    await RespondAsync(embed: e);
                     return;
             }
         }

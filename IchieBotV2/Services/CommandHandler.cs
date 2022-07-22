@@ -51,6 +51,7 @@ public class CommandHandler
         
         // TODO: Delegate to embed helpers
         var options = split[1].Split("_");
+        Embed? e;
         switch (split[0])
         {
             case "dresslegacy":
@@ -59,7 +60,7 @@ public class CommandHandler
                 var rb = page[1] - '0';
                 var d = _db.GetFromDressId(id);
 
-                var e = page[2] switch
+                e = page[2] switch
                 {
                     '0' => await _dressEmbedHelper.LegacyToEmbedOverview(d, rb),
                     '1' => _dressEmbedHelper.LegacyToEmbedSkills(d),
@@ -75,6 +76,19 @@ public class CommandHandler
                     message.Embed = e;
                     message.Components = builder.Build();
                 });
+                break;
+            case "multdress":
+                var curPage = options[1].Last() - '0';
+                var res = _db.SearchCache[options[0]].Select(_db.GetFromDressId).ToList();
+                e = _dressEmbedHelper.MultiresultEmbed(res, curPage);
+                var multMenu = _dressEmbedHelper.MultiresultMenu(split[1], res.Count);
+                var multBuilder = new ComponentBuilder().AddRow(multMenu);
+                await component.UpdateAsync(message =>
+                {
+                    message.Embed = e;
+                    message.Components = multBuilder.Build();
+                });
+
                 break;
             case "rank":
                 var optionsInt = options.Select(s => Convert.ToInt32(s)).ToArray();

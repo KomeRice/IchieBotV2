@@ -26,6 +26,7 @@ public class DatabaseService
     public Dictionary<string, List<List<int>>>? RbCache;
 
     public readonly Dictionary<string, List<string>> SearchCache;
+    private const int MaxSearchCacheSize = 64;
 
     public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services, StatCalculator calculator)
     {
@@ -36,7 +37,7 @@ public class DatabaseService
         DressListLegacy = new List<StageGirl>();
         IconsDict = new Dictionary<string, string>();
         DressDict = new Dictionary<string, StageGirl>();
-        SearchCache = new Dictionary<string, List<string>>();
+        SearchCache = new Dictionary<string, List<string>>(64);
 
         Refresh();
     }
@@ -46,6 +47,16 @@ public class DatabaseService
         LoadJson();
         LoadReproductionCache();
         ResetSearchCache();
+    }
+
+    public void CacheValue(string key, List<string> values)
+    {
+        if (SearchCache.Keys.Count > MaxSearchCacheSize)
+        {
+            SearchCache.Remove(SearchCache.Keys.First());
+        }
+
+        SearchCache[key] = values;
     }
 
     public void ResetSearchCache()
