@@ -42,7 +42,7 @@ public class RankingService
                 rbStats = new List<List<int>?>();
                 for (var j = 1; j < 5; j++)
                 {
-                    rbStats.Add(await _db.GetFromCache(dressId, j));
+                    rbStats.Add(await _db.GetFromReproductionCache(dressId, j));
                 }
             }
             
@@ -93,7 +93,7 @@ public class RankingService
                 for (var i = 1; i < 5; i++)
                 {
                     var rbRanks = new List<int>();
-                    var stat = await _db.GetFromCache(dressId, i);
+                    var stat = await _db.GetFromReproductionCache(dressId, i);
                     
                     if (stat == null)
                         throw new NullReferenceException("Failed RB array stat access");

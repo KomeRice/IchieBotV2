@@ -84,7 +84,7 @@ namespace IchieBotV2.Utils
                 stats = dress.MaxStats;
             else
             {
-                stats = await _db.GetFromCache(dress.DressId[2..], rb) ?? throw new InvalidOperationException();
+                stats = await _db.GetFromReproductionCache(dress.DressId[2..], rb) ?? throw new InvalidOperationException();
             }
 
             var ranks = _ranking.GetRanks(dress.DressId[2..], rb);

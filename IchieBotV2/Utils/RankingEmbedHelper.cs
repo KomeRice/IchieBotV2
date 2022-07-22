@@ -37,7 +37,7 @@ public class RankingEmbedHelper
 				}
 
 				var d = _db.GetFromDressId(entry);
-				var stat = rb == 0 ? d.MaxStats[(int) p] : (await _db.GetFromCache(d.DressId[2..], rb))![(int) p];
+				var stat = rb == 0 ? d.MaxStats[(int) p] : (await _db.GetFromReproductionCache(d.DressId[2..], rb))![(int) p];
 				s.Add($"[{rank}]".PadRight(7) + $"> ({stat}) {d.Name}");
 				count++;
 				if (count > startIndex + PageSize)

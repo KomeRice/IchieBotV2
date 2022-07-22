@@ -88,7 +88,7 @@ public class DatabaseService
         return ret;
     }
 
-    public async Task<List<int>?> GetFromCache(string dressId, int rb)
+    public async Task<List<int>?> GetFromReproductionCache(string dressId, int rb)
     {
         if (!Calculator.HasRemake(dressId))
             return null;
