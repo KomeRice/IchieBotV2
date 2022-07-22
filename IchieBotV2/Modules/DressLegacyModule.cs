@@ -22,6 +22,12 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
     public async Task LegacySearch([Autocomplete(typeof(DressCompleteHandler)),
                                     Discord.Interactions.Summary("query","Display the dress page matching the search result")]string query)
     {
+        if (query.Length is < 3 and < 80)
+        {
+            await RespondAsync("Search query must contain at least 3 characters and less than 80 characters");
+            return;
+        }
+        
         StageGirl d;
         if (query.Any(char.IsLetter))
         {
