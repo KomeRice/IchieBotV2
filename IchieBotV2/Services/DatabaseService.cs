@@ -30,8 +30,7 @@ public class DatabaseService
     private const int MaxSearchCacheSize = 64;
 
     // Temporary plug until Karthuria updates its format
-    public Dictionary<string, ComplementJson>? DictComplements =
-        JsonConvert.DeserializeObject<Dictionary<string, ComplementJson>>(File.ReadAllText(@"Data/Complement.json"));
+    public Dictionary<string, ComplementJson> DictComplements = new();
 
     public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services, StatCalculator calculator)
     {
@@ -85,6 +84,9 @@ public class DatabaseService
         {
             IconsDict[i.Name] = i.Emote;
         }
+        
+        DictComplements = JsonConvert.DeserializeObject<Dictionary<string, ComplementJson>>(File.ReadAllText(@"Data/Complement.json")) 
+                          ?? throw new InvalidOperationException();
     }
 
     public StageGirl GetFromDressId(string other)

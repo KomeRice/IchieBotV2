@@ -70,7 +70,7 @@ namespace IchieBotV2.Utils
         public async Task<Embed> LegacyToEmbedOverview(StageGirl dress, int rb = 0)
         {
             var tagFooter = dress.RealTagList.Count > 0 ? $"\nTags: {string.Join(", ", dress.RealTagList)}" : "";
-
+            
             var author = new EmbedAuthorBuilder()
             {
                 IconUrl = dress.ThumbUrl,
@@ -79,6 +79,19 @@ namespace IchieBotV2.Utils
             var desc = $"{_db.GetEmoteFromIcon(dress.Element.Name)} {FirstCharToUpper(dress.Element.Name)} | " +
                        $"{_db.GetEmoteFromIcon(dress.Row.Name)} {FirstCharToUpper(dress.Row.Name)} | " +
                        $"{TypeToDisplayString(dress.Special)}";
+            
+            if (!_db.DictComplements.ContainsKey(dress.DressId[2..]))
+                await Program.LogAsync(new LogMessage(LogSeverity.Error, "embedDressGen",
+                    "A dress failed to find its complement in Complement.json"));
+            else
+            {
+                var complement = _db.DictComplements[dress.DressId[2..]];
+                desc += $"\nCost: {complement.Cost}" +
+                        $"\nReleased (JP): <t:{complement.Release["ja"]}>";
+                if(complement.Release["ww"] is not null) 
+                    desc += $" | (WW): <t:{complement.Release["ww"]}>";
+            }
+            
 
             List<int> stats;
             if (rb == 0 || !_db.Calculator.HasRemake(dress.DressId[2..]))
