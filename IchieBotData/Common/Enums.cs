@@ -63,3 +63,13 @@ public enum School
     Siegfeld = 4,
     Seiran = 5
 }
+
+public enum Cost
+{
+    Cost6 = 6,
+    Cost9 = 9,
+    Cost12 = 12,
+    Cost13 = 13,
+    Cost14 = 14,
+    Cost15 = 15
+}

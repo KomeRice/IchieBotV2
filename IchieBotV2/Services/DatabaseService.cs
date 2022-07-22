@@ -4,6 +4,7 @@ using Discord.WebSocket;
 using IchieBotData.Legacy;
 using IchieBotV2.Utils;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Icon = IchieBotData.Common.Icon;
 
 namespace IchieBotV2.Services;
@@ -27,6 +28,9 @@ public class DatabaseService
 
     public readonly Dictionary<string, List<string>> SearchCache;
     private const int MaxSearchCacheSize = 64;
+
+    // Temporary plug until Karthuria updates its format
+    public JObject? ComplementJson = JObject.Parse(File.ReadAllText(@"Data/Complement.json"));
 
     public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services, StatCalculator calculator)
     {
