@@ -25,16 +25,23 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         StageGirl d;
         if (query.Any(char.IsLetter))
         {
+            
             var results = _db.LegacySearch(query);
             var stageGirls = results.ToList();
-            if (stageGirls.Count == 1)
+            switch (stageGirls.Count)
             {
-                d = stageGirls[0];
-            }
-            else
-            {
-                await RespondAsync("Not implemented yet");
-                return;
+                case 0:
+                    await RespondAsync("No dress matching the query has been found");
+                    return;
+                case 1:
+                    d = stageGirls[0];
+                    break;
+                default:
+                    var cleanQuery = DatabaseService.CleanString(query);
+                    _db.SearchCache[cleanQuery] = stageGirls.Select(s => s.DressId[2..]).ToList();
+                    
+                    await RespondAsync("Not implemented yet");
+                    return;
             }
         }
         else
@@ -42,7 +49,6 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
             try
             {
                 d = _db.GetFromDressId(query);
-
             }
             catch (ArgumentNullException e)
             {

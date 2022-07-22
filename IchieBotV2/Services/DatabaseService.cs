@@ -16,7 +16,7 @@ public class DatabaseService
     
     public List<StageGirl> DressListLegacy { get; set; }
     private Dictionary<string,StageGirl> DressDict { get; set; }
-        
+
     public StatCalculator Calculator { get; set; }
     
     private Dictionary<string,string> IconsDict { get; set; }
@@ -25,16 +25,32 @@ public class DatabaseService
     public const string CachePath = @"Data/Cache/";
     public Dictionary<string, List<List<int>>>? RbCache;
 
+    public readonly Dictionary<string, List<string>> SearchCache;
+
     public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services, StatCalculator calculator)
     {
         _client = client;
         _commands = commands;
         _services = services;
         Calculator = calculator;
+        DressListLegacy = new List<StageGirl>();
+        IconsDict = new Dictionary<string, string>();
         DressDict = new Dictionary<string, StageGirl>();
+        SearchCache = new Dictionary<string, List<string>>();
 
+        Refresh();
+    }
+
+    public void Refresh()
+    {
         LoadJson();
         LoadReproductionCache();
+        ResetSearchCache();
+    }
+
+    public void ResetSearchCache()
+    {
+        SearchCache.Clear();
     }
 
     public void LoadJson()
@@ -153,6 +169,8 @@ public class DatabaseService
     public IEnumerable<StageGirl> LegacySearch(string keyword)
     {
         var cleanedInput = CleanString(keyword);
+        if (SearchCache.ContainsKey(cleanedInput))
+            return SearchCache[cleanedInput].Select(id => DressDict[id]);
 
         var keywordsSplit = keyword.Split(' ').ToList().Select(CleanString).ToList();
 
