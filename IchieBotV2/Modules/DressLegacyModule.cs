@@ -37,7 +37,8 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
             switch (stageGirls.Count)
             {
                 case 0:
-                    await RespondAsync("No dress matching the name has been found");
+                    await RespondAsync(embed: new EmbedBuilder().WithDescription("No dress found matching search criteria")
+                        .Build());
                     return;
                 case 1:
                     d = stageGirls[0];
@@ -113,18 +114,25 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         var uniqueId = DatabaseService.GetUniqueId(name, element, row, pool, cost, rarity, type, school);
         var dressList = _db.TrySearch(uniqueId);
 
-        if (dressList.Count == 1)
+        switch (dressList.Count)
         {
-            var d = dressList.First();
-            var embed = await _embedHelper.LegacyToEmbedOverview(d);
-            var rows = await _embedHelper.LegacyEmbedMenu(d.DressId[2..] + "_100");
+            case 0:
+                await RespondAsync(embed: new EmbedBuilder().WithDescription("No dress found matching search criteria")
+                    .Build());
+                return;
+            case 1:
+            {
+                var d = dressList.First();
+                var embed = await _embedHelper.LegacyToEmbedOverview(d);
+                var rows = await _embedHelper.LegacyEmbedMenu(d.DressId[2..] + "_100");
 
-            builder = new ComponentBuilder().WithRows(rows);
+                builder = new ComponentBuilder().WithRows(rows);
 
-            await RespondAsync(embed: embed, components: builder.Build());
-            return;
+                await RespondAsync(embed: embed, components: builder.Build());
+                return;
+            }
         }
-        
+
         var e = _embedHelper.MultiresultEmbed(dressList);
         var menu = _embedHelper.MultiresultMenu(uniqueId + "_0", dressList.Count);
         builder = new ComponentBuilder().AddRow(menu);
