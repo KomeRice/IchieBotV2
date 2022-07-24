@@ -64,9 +64,10 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
             {
                 d = _db.GetFromDressId(name);
             }
-            catch (ArgumentNullException e)
+            catch (KeyNotFoundException)
             {
-                await RespondAsync("Nothing found");
+                await RespondAsync(embed: new EmbedBuilder().WithDescription("No dress found matching search criteria")
+                    .Build());
                 return;
             }
         }
