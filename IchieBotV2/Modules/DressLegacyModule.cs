@@ -45,9 +45,9 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
                     break;
                 default:
                     var e = _embedHelper.MultiresultEmbed(stageGirls);
-                    var menu = _embedHelper.MultiresultMenu(uniqueId + "_0", stageGirls.Count);
+                    var menu = DressEmbedHelper.MultiresultMenu(uniqueId + "_0", stageGirls.Count);
 
-                    if (stageGirls.Count > DressEmbedHelper.MaxPageSize)
+                    if (menu is not null)
                     {
                         var multBuilder = new ComponentBuilder().AddRow(menu);
                         await RespondAsync(embed: e, components: multBuilder.Build());
@@ -134,10 +134,15 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         }
 
         var e = _embedHelper.MultiresultEmbed(dressList);
-        var menu = _embedHelper.MultiresultMenu(uniqueId + "_0", dressList.Count);
-        builder = new ComponentBuilder().AddRow(menu);
+        var menu = DressEmbedHelper.MultiresultMenu(uniqueId + "_0", dressList.Count);
+        if (menu is not null)
+        {
+            var multBuilder = new ComponentBuilder().AddRow(menu);
+            await RespondAsync(embed: e, components: multBuilder.Build());
+            return;
+        }
 
-        await RespondAsync(embed: e, components: builder.Build());
+        await RespondAsync(embed: e);
     }
 
     public class DressCompleteHandler : AutocompleteHandler

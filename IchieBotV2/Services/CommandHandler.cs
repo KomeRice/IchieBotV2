@@ -82,7 +82,7 @@ public class CommandHandler
                 var uniqueId = string.Join("_", options.SkipLast(1).ToList());
                 var res = _db.TrySearch(uniqueId);
                 e = _dressEmbedHelper.MultiresultEmbed(res, curPage);
-                var multMenu = _dressEmbedHelper.MultiresultMenu(split[1], res.Count);
+                var multMenu = DressEmbedHelper.MultiresultMenu(split[1], res.Count);
                 var multBuilder = new ComponentBuilder().AddRow(multMenu);
                 await component.UpdateAsync(message =>
                 {

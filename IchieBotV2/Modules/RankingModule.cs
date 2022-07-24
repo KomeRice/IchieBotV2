@@ -19,7 +19,7 @@ public class RankingModule : InteractionModuleBase<SocketInteractionContext>
 		_embedHelper = embedHelper;
 	}
 
-	[SlashCommand("dressranking", "Displays ranking for the given parameter")]
+	[SlashCommand("ranking", "Displays ranking for the given parameter")]
 	public async Task Ranking([Discord.Interactions.Summary("stat", "Target stat")] RankingService.Parameter p,
 		[Discord.Interactions.Summary("rb", "Target RB Level")] RbLevel rb = RbLevel.RB0)
 	{

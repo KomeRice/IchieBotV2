@@ -231,8 +231,11 @@ namespace IchieBotV2.Utils
             return e;
         }
 
-        public ActionRowBuilder MultiresultMenu(string uniqueId, int resultCount)
+        public static ActionRowBuilder? MultiresultMenu(string uniqueId, int resultCount)
         {
+            if (resultCount <= MaxPageSize)
+                return null;
+            
             var split = uniqueId.Split("_");
             var prefix = $"multdress-{string.Join("_", split.SkipLast(1))}";
 
