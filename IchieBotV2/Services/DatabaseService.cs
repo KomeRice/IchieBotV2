@@ -282,6 +282,8 @@ public class DatabaseService
 
     private static bool BelongsToSchool(StageGirl d, School? s)
     {
+        if (s == School.None)
+            return d.DressId[2..].First() > '5';
         return s is null || d.DressId[2..].StartsWith(((int) s).ToString());
     }
 
