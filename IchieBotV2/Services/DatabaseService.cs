@@ -1,10 +1,10 @@
 using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
+using IchieBotData.Common;
 using IchieBotData.Legacy;
 using IchieBotV2.Utils;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using Icon = IchieBotData.Common.Icon;
 
 namespace IchieBotV2.Services;
@@ -208,6 +208,81 @@ public class DatabaseService
         }
 
         return results;
+    }
+    
+    public List<StageGirl> TrySearch(string uniqueId)
+    {
+        var split = uniqueId.Split("_");
+        var name = split[0];
+        Element? element = split[1] == "x" ? null : (Element) Convert.ToInt32(split[1]);
+        Row? row = split[2] == "x" ? null : (Row) Convert.ToInt32(split[2]);
+        Pool? pool = split[3] == "x" ? null : (Pool) Convert.ToInt32(split[3]);
+        Cost? cost = split[4] == "x" ? null : (Cost) Convert.ToInt32(split[4]);
+        Rarity? rarity = split[5] == "x" ? null : (Rarity) Convert.ToInt32(split[5]);
+        AttackType? type = split[6] == "x" ? null : (AttackType) Convert.ToInt32(split[6]) ;
+        School? school = split[7] == "x" ? null : (School) Convert.ToInt32(split[7]);
+
+        if (SearchCache.ContainsKey(uniqueId))
+        {
+            return SearchCache[uniqueId].Select(GetFromDressId).ToList();
+        }
+        
+        var dressList = LegacySearch(name).Where(d =>
+            (element is null || LegacyNameToElement(d.Element.Name) == element) &&
+            (row is null || d.Row.Name == row.ToString()?.ToLowerInvariant()) &&
+            (pool is null || d.Pool == pool.ToString()) &&
+            (cost is null || $"Cost{DictComplements[d.DressId[2..]].Cost}" == cost.ToString()) &&
+            (rarity is null || $"Star{d.Rarity}" == rarity.ToString()) &&
+            (type is null || !(type == AttackType.Special ^ d.Special)) &&
+            BelongsToSchool(d, school)).OrderByDescending(s => s.Rarity).ThenBy(s => s.Name).ToList();
+        
+        if(dressList.Count > 1)
+            CacheValue(uniqueId, dressList.Select(s => s.DressId[2..]).ToList());
+
+        return dressList;
+    }
+
+    public static string GetUniqueId(string name = "",
+        Element? element = null,
+        Row? row = null,
+        Pool? pool = null,
+        Cost? cost = null,
+        Rarity? rarity = null,
+        AttackType? type = null,
+        School? school = null)
+    {
+        var args = string.Join("_", new List<string>
+        {
+            element is null ? "x" : ((int)element).ToString(),
+            row is null ? "x" : ((int)row).ToString(),
+            pool is null ? "x" : ((int) pool).ToString(),
+            cost is null ? "x" : ((int) cost).ToString(),
+            rarity is null ? "x" : ((int) rarity).ToString(),
+            type is null ? "x" : ((int) type).ToString(),
+            school is null ? "x" : ((int) school).ToString()
+        });
+
+        return $"{CleanString(name)}_{args}";
+    }
+
+    private static Element LegacyNameToElement(string name)
+    {
+        return name switch
+        {
+            "cosmos" => Element.Space,
+            "cloud" => Element.Cloud,
+            "moon" => Element.Moon,
+            "flower" => Element.Flower,
+            "snow" => Element.Snow,
+            "wind" => Element.Wind,
+            "dream" => Element.Dream,
+            _ => Element.NoElem
+        };
+    }
+
+    private static bool BelongsToSchool(StageGirl d, School? s)
+    {
+        return s is null || d.DressId[2..].StartsWith(((int) s).ToString());
     }
 
     public static string CleanString(string s)

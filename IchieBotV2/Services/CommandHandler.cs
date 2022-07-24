@@ -78,8 +78,9 @@ public class CommandHandler
                 });
                 break;
             case "multdress":
-                var curPage = options[1].Last() - '0';
-                var res = _db.SearchCache[options[0]].Select(_db.GetFromDressId).ToList();
+                var curPage = Convert.ToInt32(options.Last());
+                var uniqueId = string.Join("_", options.SkipLast(1).ToList());
+                var res = _db.TrySearch(uniqueId);
                 e = _dressEmbedHelper.MultiresultEmbed(res, curPage);
                 var multMenu = _dressEmbedHelper.MultiresultMenu(split[1], res.Count);
                 var multBuilder = new ComponentBuilder().AddRow(multMenu);

@@ -61,7 +61,8 @@ public enum School
     Rinmeikan = 2,
     Frontier = 3,
     Siegfeld = 4,
-    Seiran = 5
+    Seiran = 5,
+    None = -1
 }
 
 public enum Cost
@@ -71,5 +72,22 @@ public enum Cost
     Cost12 = 12,
     Cost13 = 13,
     Cost14 = 14,
-    Cost15 = 15
+    Cost15 = 15,
+    Cost20 = 20
+}
+
+public enum Row
+{
+    Front = 0,
+    Middle = 1,
+    Back = 2
+}
+
+public enum Rarity
+{
+    Star1 = 1,
+    Star2 = 2,
+    Star3 = 3,
+    Star4 = 4,
+    Star5 = 5
 }

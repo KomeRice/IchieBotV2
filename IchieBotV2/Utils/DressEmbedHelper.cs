@@ -234,7 +234,7 @@ namespace IchieBotV2.Utils
         public ActionRowBuilder MultiresultMenu(string uniqueId, int resultCount)
         {
             var split = uniqueId.Split("_");
-            var prefix = $"multdress-{uniqueId.Split("_")[0]}";
+            var prefix = $"multdress-{string.Join("_", split.SkipLast(1))}";
 
             var page = Convert.ToInt32(split.Last());
 
