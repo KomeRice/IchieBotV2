@@ -10,8 +10,13 @@ namespace IchieBotV2.Utils
         private readonly DatabaseService _db;
         private readonly RankingService _ranking;
 
-        private static readonly List<string> _menuEntries = new List<string>() { "Overview", "Skills" };
+        private static readonly List<string> _menuEntries = new List<string>() { "Overview", "Skills", "Misc." };
         public const int MaxPageSize = 14;
+
+        private List<double> RelevantSpeeds = new List<double>()
+        {
+            1.42, 1.22, 1.19, 1.15, 1.12, 1.10, 1.09, 1.08, 1.0, 0.85, 0.82, 0.7
+        };
 
         public DressEmbedHelper(DatabaseService db, RankingService ranking)
         {
@@ -201,6 +206,36 @@ namespace IchieBotV2.Utils
                 Fields = fields,
                 Color = GetColor(dress.Element),
                 ThumbnailUrl = dress.ThumbUrl
+            };
+
+            return e.Build();
+        }
+
+        public async Task<Embed> LegacyToEmbedMisc(StageGirl dress, int rb = 0)
+        {
+            var author = new EmbedAuthorBuilder()
+            {
+                IconUrl = dress.ThumbUrl,
+                Name = $"{dress.Rarity}★ {dress.Name} [{dress.Pool}]"
+            };
+
+            var baseSpeed = rb == 0 ? dress.MaxStats[5] : (await _db.GetFromReproductionCache(dress.DressId[2..], rb))![5];
+
+            var s = new List<string>()
+            {
+                "**Relevant Speeds**"
+            };
+            s.AddRange(RelevantSpeeds.Select(speed => $"Speed × {speed} = {Math.Floor(baseSpeed * speed)}"));
+            
+            if(dress.Notes != "")
+                s.Add($"\n**Notes**\n{dress.Notes}");
+
+            var e = new EmbedBuilder()
+            {
+                Author = author,
+                ThumbnailUrl = dress.ThumbUrl,
+                Color = GetColor(dress.Element),
+                Description = string.Join("\n", s)
             };
 
             return e.Build();

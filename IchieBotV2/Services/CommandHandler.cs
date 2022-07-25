@@ -64,6 +64,7 @@ public class CommandHandler
                 {
                     '0' => await _dressEmbedHelper.LegacyToEmbedOverview(d, rb),
                     '1' => _dressEmbedHelper.LegacyToEmbedSkills(d),
+                    '2' => await _dressEmbedHelper.LegacyToEmbedMisc(d, rb),
                     _ => throw new ArgumentOutOfRangeException(nameof(page))
                 };
 
