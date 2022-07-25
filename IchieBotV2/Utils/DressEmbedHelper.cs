@@ -223,12 +223,13 @@ namespace IchieBotV2.Utils
 
             var s = new List<string>()
             {
-                "**Relevant Speeds**"
+                "**Relevant Speeds**```"
             };
-            s.AddRange(RelevantSpeeds.Select(speed => $"Speed × {speed} = {Math.Floor(baseSpeed * speed)}"));
+            s.AddRange(RelevantSpeeds.Select(speed => $"Speed × {speed}".PadRight(15) + $"= {Math.Floor(baseSpeed * speed)}"));
+            s[^1] += "```";
             
             if(dress.Notes != "")
-                s.Add($"\n**Notes**\n{dress.Notes}");
+                s.Add($"**Notes**\n{dress.Notes}");
 
             var e = new EmbedBuilder()
             {
