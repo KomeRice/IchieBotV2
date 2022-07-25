@@ -15,7 +15,7 @@ public class DatabaseService
     private readonly InteractionService _commands;
     private readonly IServiceProvider _services;
     
-    public List<StageGirl> DressListLegacy { get; set; }
+    public List<StageGirl> DressListLegacy { get; private set; }
     private Dictionary<string,StageGirl> DressDict { get; set; }
 
     public StatCalculator Calculator { get; set; }

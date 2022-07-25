@@ -111,7 +111,6 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
             } 
         }
 
-        ComponentBuilder? builder;
         var uniqueId = DatabaseService.GetUniqueId(name, element, row, pool, cost, rarity, type, school);
         var dressList = _db.TrySearch(uniqueId);
 
@@ -127,7 +126,7 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
                 var embed = await _embedHelper.LegacyToEmbedOverview(d);
                 var rows = await _embedHelper.LegacyEmbedMenu(d.DressId[2..] + "_100");
 
-                builder = new ComponentBuilder().WithRows(rows);
+                var builder = new ComponentBuilder().WithRows(rows);
 
                 await RespondAsync(embed: embed, components: builder.Build());
                 return;

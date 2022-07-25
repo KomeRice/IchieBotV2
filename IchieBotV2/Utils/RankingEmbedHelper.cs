@@ -10,7 +10,7 @@ public class RankingEmbedHelper
 	private readonly RankingService _rankingService;
 	private const int PageSize = 16;
 	public static readonly List<string> Parameters = new List<string>()
-		{ "Power Score", "MaxHP", "ACT Power", "NormDef", "SpDef", "Agility" };
+		{ "Power Score", "MaxHP", "ACT Power", "NormDef", "SpDef", "Agility", "Row Position" };
 	
 	public RankingEmbedHelper(DatabaseService db, RankingService rankingService)
 	{
@@ -37,8 +37,18 @@ public class RankingEmbedHelper
 				}
 
 				var d = _db.GetFromDressId(entry);
-				var stat = rb == 0 ? d.MaxStats[(int) p] : (await _db.GetFromReproductionCache(d.DressId[2..], rb))![(int) p];
-				s.Add($"[{rank}]".PadRight(7) + $"> ({stat}) {d.Name}");
+				if (p != RankingService.Parameter.RowPosition)
+				{
+					var stat = rb == 0
+						? d.MaxStats[(int)p]
+						: (await _db.GetFromReproductionCache(d.DressId[2..], rb))![(int)p];
+					s.Add($"[{rank}]".PadRight(7) + $"> ({stat}) {d.Name}");
+				}
+				else
+				{
+					s.Add($"[{rank}]".PadRight(7) + $"> {d.Name}");
+				}
+
 				count++;
 				if (count > startIndex + PageSize)
 					break;
@@ -69,13 +79,31 @@ public class RankingEmbedHelper
 		var rb = split[1];
 		var page = split[2];
 		
-		var lastPage = Math.Ceiling(_rankingService.GetMax(p, rb) / (double)PageSize);
+		var lastPage = (int) Math.Floor(_rankingService.GetMax(p, rb) / (double)PageSize);
 
 		var buttons = new ActionRowBuilder();
-		if (page - 1 >= 0)
-			buttons.WithButton("Previous page", $"rank-{(int) p}_{rb}_{page - 1}", emote: new Emoji("\U000025C0"));
-		if (page + 2 <= lastPage)
-			buttons.WithButton("Next page", $"rank-{(int)p}_{rb}_{page + 1}", emote: new Emoji("\U000025B6"));
+
+		var firstEnabled = page - 1 > 0;
+		var prevEnabled = page - 1 >= 0;
+		var nextEnabled = page + 1 < lastPage;
+		var lastEnabled = page + 1 <= lastPage;
+
+		buttons.WithButton("First page",
+			firstEnabled ? $"rank-{(int)p}_{rb}_0" : "rank-disabled0",
+			firstEnabled ? ButtonStyle.Primary : ButtonStyle.Secondary,
+			new Emoji("\U000023EE"), disabled: !firstEnabled);
+		buttons.WithButton("Previous page",
+			prevEnabled ? $"rank-{(int)p}_{rb}_{page - 1}" : "rank-disabled1",
+			prevEnabled ? ButtonStyle.Primary : ButtonStyle.Secondary,
+			new Emoji("\U000025C0"), disabled: !prevEnabled);
+		buttons.WithButton("Next page",
+			nextEnabled ? $"rank-{(int)p}_{rb}_{page + 1}" : "rank-disabled2",
+			nextEnabled ? ButtonStyle.Primary : ButtonStyle.Secondary,
+			new Emoji("\U000025B6"), disabled: !nextEnabled);
+		buttons.WithButton("Last page",
+			lastEnabled ? $"rank-{(int)p}_{rb}_{lastPage}" : "rank-disabled3",
+			lastEnabled ? ButtonStyle.Primary : ButtonStyle.Secondary,
+			new Emoji("\U000023ED"), disabled: !lastEnabled);	
 
 		return buttons;
 	}

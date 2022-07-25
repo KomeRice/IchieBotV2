@@ -109,18 +109,20 @@ namespace IchieBotV2.Utils
                 new EmbedFieldBuilder()
                 {
                     Name = "Maximal Stats",
-                    Value = "```" + "Power Score:".PadRight(18) + $"{stats[0]}".PadRight(10) +
+                    Value = "```" + "Power Score".PadRight(18) + $"{stats[0]}".PadRight(10) +
                             $"[#{ranks[0]}/{_ranking.GetMax(RankingService.Parameter.PowerScore, rb)}]\n" +
-                            "MaxHP:".PadRight(18) + $"{stats[1]}".PadRight(10) +
+                            "MaxHP".PadRight(18) + $"{stats[1]}".PadRight(10) +
                             $"[#{ranks[1]}/{_ranking.GetMax(RankingService.Parameter.MaxHp, rb)}]\n" +
-                            "ACT Power:".PadRight(18) + $"{stats[2]}".PadRight(10) +
+                            "ACT Power".PadRight(18) + $"{stats[2]}".PadRight(10) +
                             $"[#{ranks[2]}/{_ranking.GetMax(RankingService.Parameter.Act, rb)}]\n" +
                             "NormDef".PadRight(18) + $"{stats[3]}".PadRight(10) +
                             $"[#{ranks[3]}/{_ranking.GetMax(RankingService.Parameter.NormDef, rb)}]\n" +
                             "SpDef".PadRight(18) + $"{stats[4]}".PadRight(10) +
                             $"[#{ranks[4]}/{_ranking.GetMax(RankingService.Parameter.SpDef, rb)}]\n" +
                             "Agility".PadRight(18) + $"{stats[5]}".PadRight(10) +
-                            $"[#{ranks[5]}/{_ranking.GetMax(RankingService.Parameter.Agility, rb)}]```"
+                            $"[#{ranks[5]}/{_ranking.GetMax(RankingService.Parameter.Agility, rb)}]\n" +
+                            "Row Position".PadRight(18) + _ranking.GetPositionIndex(dress.DressId[2..]) + "\n" +
+                            "Ranked Frontmost to Backmost```"
                 }
             };
 

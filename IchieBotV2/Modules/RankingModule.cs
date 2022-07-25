@@ -1,5 +1,4 @@
 ﻿using Discord;
-using Discord.Commands;
 using Discord.Interactions;
 using IchieBotV2.Services;
 using IchieBotV2.Utils;
@@ -27,6 +26,14 @@ public class RankingModule : InteractionModuleBase<SocketInteractionContext>
 		{
 			await RespondAsync("RB level must be between 0 and 4.");
 			return;
+		}
+
+		if (rb != RbLevel.RB0 && p == RankingService.Parameter.RowPosition)
+		{
+			await ReplyAsync(embed: new EmbedBuilder
+			{
+				Description = "RB level ignored for Position ranking"
+			}.Build());
 		}
 
 		var e = await _embedHelper.RankingEmbed(p, rb: (int) rb);

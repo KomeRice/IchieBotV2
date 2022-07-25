@@ -8,6 +8,8 @@ public class RankingService
     
     private readonly Dictionary<string, List<int>> _rankDict = new Dictionary<string, List<int>>();
     private readonly List<List<SortedDictionary<int,string>>> _reverseRanks = new List<List<SortedDictionary<int, string>>>();
+    private readonly Dictionary<string, int> _rowIndex = new Dictionary<string, int>();
+    private readonly SortedDictionary<int, string> _reverseRowIndex = new SortedDictionary<int, string>();
 
     public RankingService(DatabaseService db)
     {
@@ -115,6 +117,16 @@ public class RankingService
                 }
             }
         }
+
+        var rowIndexSort = _db.DictComplements
+            .OrderBy(c => c.Value.RowIndex)
+            .ThenByDescending(c => c.Key).ToList();
+
+        for (var i = 0; i < rowIndexSort.Count; i++)
+        {
+            _rowIndex[rowIndexSort[i].Key] = i + 1;
+            _reverseRowIndex[i + 1] = rowIndexSort[i].Key;
+        }
     }
 
     public List<int> GetRanks(string dressId, int rb = 0)
@@ -122,13 +134,20 @@ public class RankingService
         return _rankDict[dressId + (rb != 0 ? $"_rb{rb}" : "")];
     }
 
+    public int GetPositionIndex(string dressId)
+    {
+        return _rowIndex[dressId];
+    }
+
     public SortedDictionary<int, string> GetRanking(Parameter p, int rb = 0)
     {
-        return _reverseRanks[(int) p][rb];
+        return p == Parameter.RowPosition ? _reverseRowIndex : _reverseRanks[(int) p][rb];
     }
 
     public int GetMax(Parameter p, int rb = 0)
     {
+        if (p == Parameter.RowPosition)
+            return _rowIndex.Count;
         return rb == 0 ? _dressRanking[(int)p].Count : _rbDressRanking[(int)p][rb - 1].Count;
     }
     
@@ -139,6 +158,7 @@ public class RankingService
         Act = 2,
         NormDef = 3,
         SpDef = 4,
-        Agility = 5
+        Agility = 5,
+        RowPosition = 6
     }
 }
