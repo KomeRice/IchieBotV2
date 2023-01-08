@@ -2,9 +2,9 @@
 
 public enum AttackType
 {
-    Normal = 0,
-    Special = 1,
-    None = 2
+    Normal = 1,
+    Special = 2,
+    None = 0
 }
 
 public enum Element
@@ -16,7 +16,9 @@ public enum Element
     Space = 5,
     Cloud = 6,
     Dream = 7,
-    NoElem = 8
+    Sun = 8,
+    Star = 9,
+    NoElem = 0
 }
 
 public enum EffectType
@@ -73,7 +75,9 @@ public enum Cost
     Cost13 = 13,
     Cost14 = 14,
     Cost15 = 15,
-    Cost20 = 20
+    Cost20 = 20,
+    Cost23 = 23,
+    Cost100 = 100
 }
 
 public enum Row
