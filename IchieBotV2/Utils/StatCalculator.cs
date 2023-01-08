@@ -138,7 +138,7 @@ public class StatCalculator
     {
         RawData = new Dictionary<string, JObject>();
 
-        foreach (var filename in Directory.GetFiles(@"Data/Raw"))
+        foreach (var filename in Directory.GetFiles(@"Data/Raw/jp"))
         {
             var f = File.ReadAllText(filename);
             var separators = new char[]{'/', '\\'};

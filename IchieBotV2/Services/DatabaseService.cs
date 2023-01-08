@@ -45,22 +45,22 @@ public class DatabaseService
 		_targets = LoadTargets();
 		_icons = LoadIcons();
 
-		_chara = (DeserializeJsonFile<Dictionary<string, JObject>>(DataRoot + "Raw/chara.json") as Dictionary<string, JObject>)!;
+		_chara = (DeserializeJsonFile<Dictionary<string, JObject>>(DataRoot + "Raw/jp/chara.json") as Dictionary<string, JObject>)!;
 		
-		var sequence1 = DeserializeJsonFile<Dictionary<string, JObject>>(DataRoot + "Raw/sequence.json") as Dictionary<string, JObject>;
-		var sequence2 = DeserializeJsonFile<Dictionary<string, JObject>>(DataRoot + "Raw/sequence2.json") as Dictionary<string, JObject>;
+		var sequence1 = DeserializeJsonFile<Dictionary<string, JObject>>(DataRoot + "Raw/jp/sequence.json") as Dictionary<string, JObject>;
+		var sequence2 = DeserializeJsonFile<Dictionary<string, JObject>>(DataRoot + "Raw/jp/sequence2.json") as Dictionary<string, JObject>;
 		_sequence = MergeDicts(sequence1!, sequence2!);
 		
-		var s1 = LoadActs(DataRoot + "Raw/skill.json");
-		var s2 = LoadActs(DataRoot + "Raw/skill2.json");
+		var s1 = LoadActs(DataRoot + "Raw/jp/skill.json");
+		var s2 = LoadActs(DataRoot + "Raw/jp/skill2.json");
 		_acts = MergeDicts(s1, s2);
 		
-		_startSkills = LoadSkills(DataRoot + "Raw/start_skill.json", false);
-		_passiveSkills = LoadSkills(DataRoot + "Raw/passive_skill.json", true);
-		_partySkills = LoadSkills(DataRoot + "Raw/party_skill.json", true);
-		_entrySkills = LoadSkills(DataRoot + "Raw/entry_skill.json", false, true);
+		_startSkills = LoadSkills(DataRoot + "Raw/jp/start_skill.json", false);
+		_passiveSkills = LoadSkills(DataRoot + "Raw/jp/passive_skill.json", true);
+		_partySkills = LoadSkills(DataRoot + "Raw/jp/party_skill.json", true);
+		_entrySkills = LoadSkills(DataRoot + "Raw/jp/entry_skill.json", false, true);
 		
-		_dresses = LoadDresses(DataRoot + "Raw/dress.json");
+		_dresses = LoadDresses(DataRoot + "Raw/jp/dress.json");
 		Console.WriteLine("a");
 	}
 
