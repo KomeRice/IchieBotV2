@@ -1,0 +1,6530 @@
+{
+  "1": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 1,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "2": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "増加防御力無視"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 1,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "3": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "バリア無視"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 1,
+    "skill_option_filter_id2": 0,
+    "time_override": 1,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "4": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 1,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "5": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "自身のHPが低いほど威力が増加"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 2,
+    "skill_option_filter_id2": 0,
+    "time_override": 1,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "6": {
+    "effect_description": {
+      "ja": "HP回復(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 6,
+    "param1": 0,
+    "skill_option_filter_id": 3,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 2,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "7": {
+    "effect_description": {
+      "ja": "HP回復(%value%)"
+    },
+    "extra_description": {
+      "ja": "回復量は対象の最大HPに依存する"
+    },
+    "icon_id": 6,
+    "param1": 0,
+    "skill_option_filter_id": 3,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 2,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "8": {
+    "effect_description": {
+      "ja": "ACTパワーアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 8,
+    "param1": 1,
+    "skill_option_filter_id": 4,
+    "skill_option_filter_id2": 100001,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "9": {
+    "effect_description": {
+      "ja": "ACTパワーダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 9,
+    "param1": 2,
+    "skill_option_filter_id": 5,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 6,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "10": {
+    "effect_description": {
+      "ja": "通常防御力アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10,
+    "param1": 3,
+    "skill_option_filter_id": 6,
+    "skill_option_filter_id2": 100002,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "11": {
+    "effect_description": {
+      "ja": "通常防御力ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 11,
+    "param1": 4,
+    "skill_option_filter_id": 7,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 6,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "12": {
+    "effect_description": {
+      "ja": "特殊防御力アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 12,
+    "param1": 5,
+    "skill_option_filter_id": 8,
+    "skill_option_filter_id2": 100002,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "13": {
+    "effect_description": {
+      "ja": "特殊防御力ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 13,
+    "param1": 6,
+    "skill_option_filter_id": 9,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 6,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "14": {
+    "effect_description": {
+      "ja": "すばやさアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 14,
+    "param1": 7,
+    "skill_option_filter_id": 10,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "15": {
+    "effect_description": {
+      "ja": "すばやさダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 15,
+    "param1": 8,
+    "skill_option_filter_id": 11,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 6,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "16": {
+    "effect_description": {
+      "ja": "命中率アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 16,
+    "param1": 9,
+    "skill_option_filter_id": 12,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "17": {
+    "effect_description": {
+      "ja": "命中率ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 17,
+    "param1": 10,
+    "skill_option_filter_id": 13,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 6,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "18": {
+    "effect_description": {
+      "ja": "回避率アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 18,
+    "param1": 11,
+    "skill_option_filter_id": 14,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "19": {
+    "effect_description": {
+      "ja": "回避率ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 19,
+    "param1": 12,
+    "skill_option_filter_id": 15,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 6,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "20": {
+    "effect_description": {
+      "ja": "クリティカル率アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 20,
+    "param1": 13,
+    "skill_option_filter_id": 16,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "21": {
+    "effect_description": {
+      "ja": "クリティカル率ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 21,
+    "param1": 14,
+    "skill_option_filter_id": 17,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 6,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "22": {
+    "effect_description": {
+      "ja": "クリティカル威力アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 22,
+    "param1": 15,
+    "skill_option_filter_id": 18,
+    "skill_option_filter_id2": 100001,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "23": {
+    "effect_description": {
+      "ja": "クリティカル威力ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 23,
+    "param1": 16,
+    "skill_option_filter_id": 19,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 6,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "24": {
+    "effect_description": {
+      "ja": "最大HPアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 223,
+    "param1": 17,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 100002,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "25": {
+    "effect_description": {
+      "ja": "最大HPダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 25,
+    "param1": 18,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 6,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "26": {
+    "effect_description": {
+      "ja": "継続マイナス効果耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 26,
+    "param1": 19,
+    "skill_option_filter_id": 20,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "27": {
+    "effect_description": {
+      "ja": "継続マイナス効果耐性ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 27,
+    "param1": 20,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "28": {
+    "effect_description": {
+      "ja": "毎ターンHP回復(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 28,
+    "param1": 21,
+    "skill_option_filter_id": 21,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "29": {
+    "effect_description": {
+      "ja": "毎ターンキラめき回復(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 29,
+    "param1": 22,
+    "skill_option_filter_id": 22,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "30": {
+    "effect_description": {
+      "ja": "通常バリア(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 30,
+    "param1": 23,
+    "skill_option_filter_id": 23,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "31": {
+    "effect_description": {
+      "ja": "特殊バリア(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 31,
+    "param1": 24,
+    "skill_option_filter_id": 24,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "32": {
+    "effect_description": {
+      "ja": "通常ダメージ反射(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 32,
+    "param1": 25,
+    "skill_option_filter_id": 25,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "33": {
+    "effect_description": {
+      "ja": "特殊ダメージ反射(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 33,
+    "param1": 26,
+    "skill_option_filter_id": 26,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "34": {
+    "effect_description": {
+      "ja": "回避"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 34,
+    "param1": 27,
+    "skill_option_filter_id": 27,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 3,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "35": {
+    "effect_description": {
+      "ja": "必中"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 35,
+    "param1": 28,
+    "skill_option_filter_id": 28,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "36": {
+    "effect_description": {
+      "ja": "不屈"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 36,
+    "param1": 29,
+    "skill_option_filter_id": 29,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 3,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "37": {
+    "effect_description": {
+      "ja": "通常防御力アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10,
+    "param1": 30,
+    "skill_option_filter_id": 6,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "38": {
+    "effect_description": {
+      "ja": "特殊防御力アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 11,
+    "param1": 31,
+    "skill_option_filter_id": 8,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "39": {
+    "effect_description": {
+      "ja": "有利属性ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 39,
+    "param1": 32,
+    "skill_option_filter_id": 30,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "40": {
+    "effect_description": {
+      "ja": "クライマックスACT威力アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 40,
+    "param1": 33,
+    "skill_option_filter_id": 31,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "41": {
+    "effect_description": {
+      "ja": "被クリティカルダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 41,
+    "param1": 34,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "42": {
+    "effect_description": {
+      "ja": "ACTパワーアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 8,
+    "param1": 35,
+    "skill_option_filter_id": 4,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "44": {
+    "effect_description": {
+      "ja": "吸収(%value%)"
+    },
+    "extra_description": {
+      "ja": "吸収量は与ダメージに依存する"
+    },
+    "icon_id": 44,
+    "param1": 37,
+    "skill_option_filter_id": 32,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "45": {
+    "effect_description": {
+      "ja": "カウンターヒール(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 45,
+    "param1": 38,
+    "skill_option_filter_id": 33,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "46": {
+    "effect_description": {
+      "ja": "属性特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": "花属性の敵役に特攻"
+    },
+    "icon_id": 73,
+    "param1": 39,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "47": {
+    "effect_description": {
+      "ja": "属性特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": "風属性の敵役に特攻"
+    },
+    "icon_id": 74,
+    "param1": 40,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "48": {
+    "effect_description": {
+      "ja": "属性特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": "雪属性の敵役に特攻"
+    },
+    "icon_id": 75,
+    "param1": 41,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "49": {
+    "effect_description": {
+      "ja": "属性特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": "月属性の敵役に特攻"
+    },
+    "icon_id": 76,
+    "param1": 42,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "50": {
+    "effect_description": {
+      "ja": "属性特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": "宙属性の敵役に特攻"
+    },
+    "icon_id": 77,
+    "param1": 43,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "51": {
+    "effect_description": {
+      "ja": "属性特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": "雲属性の敵役に特攻"
+    },
+    "icon_id": 78,
+    "param1": 44,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "52": {
+    "effect_description": {
+      "ja": "属性特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": "夢属性の敵役に特攻"
+    },
+    "icon_id": 79,
+    "param1": 45,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "53": {
+    "effect_description": {
+      "ja": "ボス特攻を付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10008,
+    "param1": 46,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "54": {
+    "effect_description": {
+      "ja": "毒(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 54,
+    "param1": 47,
+    "skill_option_filter_id": 34,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 9,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "55": {
+    "effect_description": {
+      "ja": "火傷(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 55,
+    "param1": 48,
+    "skill_option_filter_id": 35,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 9,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "56": {
+    "effect_description": {
+      "ja": "挑発"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 56,
+    "param1": 49,
+    "skill_option_filter_id": 36,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "57": {
+    "effect_description": {
+      "ja": "スタン"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 57,
+    "param1": 50,
+    "skill_option_filter_id": 37,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 10,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "58": {
+    "effect_description": {
+      "ja": "睡眠"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 58,
+    "param1": 51,
+    "skill_option_filter_id": 38,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 11,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "59": {
+    "effect_description": {
+      "ja": "混乱"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 59,
+    "param1": 52,
+    "skill_option_filter_id": 39,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 10,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "60": {
+    "effect_description": {
+      "ja": "ストップ"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 60,
+    "param1": 53,
+    "skill_option_filter_id": 40,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 11,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "61": {
+    "effect_description": {
+      "ja": "凍結"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 61,
+    "param1": 54,
+    "skill_option_filter_id": 41,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 11,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "62": {
+    "effect_description": {
+      "ja": "暗闇"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 62,
+    "param1": 55,
+    "skill_option_filter_id": 42,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "65": {
+    "effect_description": {
+      "ja": "HP回復量ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 65,
+    "param1": 58,
+    "skill_option_filter_id": 43,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "66": {
+    "effect_description": {
+      "ja": "花属性被ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 66,
+    "param1": 59,
+    "skill_option_filter_id": 44,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "67": {
+    "effect_description": {
+      "ja": "風属性被ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 67,
+    "param1": 60,
+    "skill_option_filter_id": 45,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "68": {
+    "effect_description": {
+      "ja": "雪属性被ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 68,
+    "param1": 61,
+    "skill_option_filter_id": 46,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "69": {
+    "effect_description": {
+      "ja": "月属性被ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 69,
+    "param1": 62,
+    "skill_option_filter_id": 47,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "70": {
+    "effect_description": {
+      "ja": "宙属性被ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 70,
+    "param1": 63,
+    "skill_option_filter_id": 48,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "71": {
+    "effect_description": {
+      "ja": "雲属性被ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 71,
+    "param1": 64,
+    "skill_option_filter_id": 49,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "72": {
+    "effect_description": {
+      "ja": "夢属性被ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 72,
+    "param1": 65,
+    "skill_option_filter_id": 50,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "73": {
+    "effect_description": {
+      "ja": "花属性与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 73,
+    "param1": 66,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "74": {
+    "effect_description": {
+      "ja": "風属性与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 74,
+    "param1": 67,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "75": {
+    "effect_description": {
+      "ja": "雪属性与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 75,
+    "param1": 68,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "76": {
+    "effect_description": {
+      "ja": "月属性与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 76,
+    "param1": 69,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "77": {
+    "effect_description": {
+      "ja": "宙属性与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 77,
+    "param1": 70,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "78": {
+    "effect_description": {
+      "ja": "雲属性与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 78,
+    "param1": 71,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "79": {
+    "effect_description": {
+      "ja": "夢属性与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 79,
+    "param1": 72,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "80": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 2,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "81": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 3,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 3,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "82": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 4,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 4,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "83": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 5,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 5,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "84": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 6,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 6,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "85": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 7,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 7,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "86": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 8,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 8,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "87": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 9,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 9,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "88": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 10,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 10,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "89": {
+    "effect_description": {
+      "ja": "キラめき回復(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 89,
+    "param1": 0,
+    "skill_option_filter_id": 51,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 3,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "90": {
+    "effect_description": {
+      "ja": "行動制限・行動不能耐性アップ自動獲得"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 73,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "91": {
+    "effect_description": {
+      "ja": "毒耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 91,
+    "param1": 75,
+    "skill_option_filter_id": 52,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "92": {
+    "effect_description": {
+      "ja": "火傷耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 92,
+    "param1": 76,
+    "skill_option_filter_id": 53,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "93": {
+    "effect_description": {
+      "ja": "挑発耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 93,
+    "param1": 77,
+    "skill_option_filter_id": 54,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "94": {
+    "effect_description": {
+      "ja": "スタン耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 94,
+    "param1": 78,
+    "skill_option_filter_id": 55,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "95": {
+    "effect_description": {
+      "ja": "睡眠耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 95,
+    "param1": 79,
+    "skill_option_filter_id": 56,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "96": {
+    "effect_description": {
+      "ja": "混乱耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 96,
+    "param1": 80,
+    "skill_option_filter_id": 57,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "97": {
+    "effect_description": {
+      "ja": "ストップ耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 97,
+    "param1": 81,
+    "skill_option_filter_id": 58,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "98": {
+    "effect_description": {
+      "ja": "凍結耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 98,
+    "param1": 82,
+    "skill_option_filter_id": 59,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "99": {
+    "effect_description": {
+      "ja": "暗闇耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 99,
+    "param1": 83,
+    "skill_option_filter_id": 60,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "100": {
+    "effect_description": {
+      "ja": "HP回復量ダウン耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 100,
+    "param1": 84,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "101": {
+    "effect_description": {
+      "ja": "ステータスアップ効果解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10006,
+    "param1": 0,
+    "skill_option_filter_id": 61,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 12,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "102": {
+    "effect_description": {
+      "ja": "ステータスダウン効果解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 0,
+    "skill_option_filter_id": 62,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 13,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "103": {
+    "effect_description": {
+      "ja": "毒解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 47,
+    "skill_option_filter_id": 63,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "104": {
+    "effect_description": {
+      "ja": "火傷解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 48,
+    "skill_option_filter_id": 64,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "105": {
+    "effect_description": {
+      "ja": "挑発解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 49,
+    "skill_option_filter_id": 65,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "106": {
+    "effect_description": {
+      "ja": "スタン解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 50,
+    "skill_option_filter_id": 66,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "107": {
+    "effect_description": {
+      "ja": "睡眠解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 51,
+    "skill_option_filter_id": 67,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "108": {
+    "effect_description": {
+      "ja": "混乱解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 52,
+    "skill_option_filter_id": 68,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "109": {
+    "effect_description": {
+      "ja": "ストップ解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 53,
+    "skill_option_filter_id": 69,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "110": {
+    "effect_description": {
+      "ja": "凍結解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 54,
+    "skill_option_filter_id": 70,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "111": {
+    "effect_description": {
+      "ja": "暗闇解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 55,
+    "skill_option_filter_id": 71,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "112": {
+    "effect_description": {
+      "ja": "HP回復量ダウン解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 58,
+    "skill_option_filter_id": 72,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "113": {
+    "effect_description": {
+      "ja": "ソルジャー特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 85,
+    "skill_option_filter_id": 73,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "114": {
+    "effect_description": {
+      "ja": "ランサー特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 86,
+    "skill_option_filter_id": 74,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "115": {
+    "effect_description": {
+      "ja": "フェンサー特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 87,
+    "skill_option_filter_id": 75,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "116": {
+    "effect_description": {
+      "ja": "マジシャン特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 88,
+    "skill_option_filter_id": 76,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "117": {
+    "effect_description": {
+      "ja": "シールダー特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 89,
+    "skill_option_filter_id": 77,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "118": {
+    "effect_description": {
+      "ja": "ガンナー特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 90,
+    "skill_option_filter_id": 78,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "119": {
+    "effect_description": {
+      "ja": "奇術師特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 91,
+    "skill_option_filter_id": 79,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "120": {
+    "effect_description": {
+      "ja": "ビースト特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 92,
+    "skill_option_filter_id": 80,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "121": {
+    "effect_description": {
+      "ja": "？？？特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 93,
+    "skill_option_filter_id": 81,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "122": {
+    "effect_description": {
+      "ja": "マテリアル特攻(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 94,
+    "skill_option_filter_id": 82,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "123": {
+    "effect_description": {
+      "ja": "与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 111,
+    "param1": 95,
+    "skill_option_filter_id": 83,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "124": {
+    "effect_description": {
+      "ja": "与ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 112,
+    "param1": 96,
+    "skill_option_filter_id": 84,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "125": {
+    "effect_description": {
+      "ja": "被ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 113,
+    "param1": 97,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "126": {
+    "effect_description": {
+      "ja": "被ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 114,
+    "param1": 98,
+    "skill_option_filter_id": 86,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "127": {
+    "effect_description": {
+      "ja": "継続プラス効果解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10006,
+    "param1": 0,
+    "skill_option_filter_id": 87,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 14,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "128": {
+    "effect_description": {
+      "ja": "継続マイナス効果解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 0,
+    "skill_option_filter_id": 88,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "130": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "防御力無視"
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 2,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "131": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "防御力無視"
+    },
+    "icon_id": 1,
+    "param1": 3,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 3,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "132": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "防御力無視"
+    },
+    "icon_id": 1,
+    "param1": 4,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 4,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "133": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "防御力無視"
+    },
+    "icon_id": 1,
+    "param1": 5,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 5,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "134": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "防御力無視"
+    },
+    "icon_id": 1,
+    "param1": 6,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 6,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "135": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "バリア無視"
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 1,
+    "skill_option_filter_id2": 0,
+    "time_override": 2,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "136": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "バリア無視"
+    },
+    "icon_id": 1,
+    "param1": 3,
+    "skill_option_filter_id": 1,
+    "skill_option_filter_id2": 0,
+    "time_override": 3,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "137": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "バリア無視"
+    },
+    "icon_id": 1,
+    "param1": 4,
+    "skill_option_filter_id": 1,
+    "skill_option_filter_id2": 0,
+    "time_override": 4,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "138": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "バリア無視"
+    },
+    "icon_id": 1,
+    "param1": 5,
+    "skill_option_filter_id": 1,
+    "skill_option_filter_id2": 0,
+    "time_override": 5,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "139": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "バリア無視"
+    },
+    "icon_id": 1,
+    "param1": 6,
+    "skill_option_filter_id": 1,
+    "skill_option_filter_id2": 0,
+    "time_override": 6,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "140": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 2,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "141": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 3,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 3,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "142": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 4,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 4,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "143": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 5,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 5,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "144": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 6,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 6,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "145": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "自身のHPが低いほど威力が増加"
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 2,
+    "skill_option_filter_id2": 0,
+    "time_override": 2,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "146": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "自身のHPが低いほど威力が増加"
+    },
+    "icon_id": 1,
+    "param1": 3,
+    "skill_option_filter_id": 2,
+    "skill_option_filter_id2": 0,
+    "time_override": 3,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "147": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "自身のHPが低いほど威力が増加"
+    },
+    "icon_id": 1,
+    "param1": 4,
+    "skill_option_filter_id": 2,
+    "skill_option_filter_id2": 0,
+    "time_override": 4,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "148": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "自身のHPが低いほど威力が増加"
+    },
+    "icon_id": 1,
+    "param1": 5,
+    "skill_option_filter_id": 2,
+    "skill_option_filter_id2": 0,
+    "time_override": 5,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "149": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "自身のHPが低いほど威力が増加"
+    },
+    "icon_id": 1,
+    "param1": 6,
+    "skill_option_filter_id": 2,
+    "skill_option_filter_id2": 0,
+    "time_override": 6,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "150": {
+    "effect_description": {
+      "ja": "刻印"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 150,
+    "param1": 99,
+    "skill_option_filter_id": 89,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "151": {
+    "effect_description": {
+      "ja": "マイナス効果反転(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 151,
+    "param1": 0,
+    "skill_option_filter_id": 90,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 18,
+    "value_override": 0,
+    "value_unit": 3
+  },
+  "152": {
+    "effect_description": {
+      "ja": "ターゲット固定"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 152,
+    "param1": 101,
+    "skill_option_filter_id": 91,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "153": {
+    "effect_description": {
+      "ja": "ターゲット固定耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 153,
+    "param1": 102,
+    "skill_option_filter_id": 92,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "154": {
+    "effect_description": {
+      "ja": "ターゲット固定解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 101,
+    "skill_option_filter_id": 93,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "155": {
+    "effect_description": {
+      "ja": "退場回避"
+    },
+    "extra_description": {
+      "ja": "発動時に効果解除"
+    },
+    "icon_id": 155,
+    "param1": 103,
+    "skill_option_filter_id": 94,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "156": {
+    "effect_description": {
+      "ja": "無敵"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 156,
+    "param1": 104,
+    "skill_option_filter_id": 95,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "157": {
+    "effect_description": {
+      "ja": "AP減少"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 157,
+    "param1": 105,
+    "skill_option_filter_id": 96,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "224": {
+    "effect_description": {
+      "ja": "AP増加"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 173,
+    "param1": 106,
+    "skill_option_filter_id": 97,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "225": {
+    "effect_description": {
+      "ja": "AP増加耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 244,
+    "param1": 107,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "229": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 1,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "230": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに20%の確率でストップを1ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 53,
+    "skill_option_filter_id": 40,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "231": {
+    "effect_description": {
+      "ja": "AP増加"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 173,
+    "param1": 110,
+    "skill_option_filter_id": 97,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "232": {
+    "effect_description": {
+      "ja": "スタン"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 57,
+    "param1": 111,
+    "skill_option_filter_id": 37,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "233": {
+    "effect_description": {
+      "ja": "毎ターンHP回復(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 28,
+    "param1": 112,
+    "skill_option_filter_id": 21,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "234": {
+    "effect_description": {
+      "ja": "ストップ"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 60,
+    "param1": 113,
+    "skill_option_filter_id": 40,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "235": {
+    "effect_description": {
+      "ja": "カウンターヒール(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 45,
+    "param1": 114,
+    "skill_option_filter_id": 33,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "238": {
+    "effect_description": {
+      "ja": "行動制限・行動不能耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 74,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "239": {
+    "effect_description": {
+      "ja": "継続効果解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 174,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 22,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "240": {
+    "effect_description": {
+      "ja": "全効果耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 174,
+    "param1": 117,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 23,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "241": {
+    "effect_description": {
+      "ja": "カウンターヒール(%value%)"
+    },
+    "extra_description": {
+      "ja": "回復量は対象の最大HPに依存する"
+    },
+    "icon_id": 45,
+    "param1": 38,
+    "skill_option_filter_id": 33,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "242": {
+    "effect_description": {
+      "ja": "通常バリア(%value%)"
+    },
+    "extra_description": {
+      "ja": "効果値は対象の最大HPに依存する"
+    },
+    "icon_id": 30,
+    "param1": 23,
+    "skill_option_filter_id": 23,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "243": {
+    "effect_description": {
+      "ja": "特殊バリア(%value%)"
+    },
+    "extra_description": {
+      "ja": "効果値は対象の最大HPに依存する"
+    },
+    "icon_id": 31,
+    "param1": 24,
+    "skill_option_filter_id": 24,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "244": {
+    "effect_description": {
+      "ja": "毎ターンHP回復(%value%)"
+    },
+    "extra_description": {
+      "ja": "回復量は対象の最大HPに依存する"
+    },
+    "icon_id": 28,
+    "param1": 21,
+    "skill_option_filter_id": 21,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "245": {
+    "effect_description": {
+      "ja": "猛毒(%value%)"
+    },
+    "extra_description": {
+      "ja": "ダメージ量は対象の最大HPに依存する"
+    },
+    "icon_id": 54,
+    "param1": 47,
+    "skill_option_filter_id": 34,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 9,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "246": {
+    "effect_description": {
+      "ja": "大火傷(%value%)"
+    },
+    "extra_description": {
+      "ja": "ダメージ量は対象の最大HPに依存する"
+    },
+    "icon_id": 55,
+    "param1": 48,
+    "skill_option_filter_id": 35,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 9,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "247": {
+    "effect_description": {
+      "ja": "ステータスアップ"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10007,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "248": {
+    "effect_description": {
+      "ja": "刻印耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 175,
+    "param1": 118,
+    "skill_option_filter_id": 98,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "249": {
+    "effect_description": {
+      "ja": "イベントボス被ダメージダウン"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10008,
+    "param1": 119,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "250": {
+    "effect_description": {
+      "ja": "ACT1封印"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 178,
+    "param1": 120,
+    "skill_option_filter_id": 99,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "251": {
+    "effect_description": {
+      "ja": "ACT2封印"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 178,
+    "param1": 121,
+    "skill_option_filter_id": 100,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "252": {
+    "effect_description": {
+      "ja": "ACT3封印"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 178,
+    "param1": 122,
+    "skill_option_filter_id": 101,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "253": {
+    "effect_description": {
+      "ja": "ACT1封印耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 123,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "254": {
+    "effect_description": {
+      "ja": "ACT2封印耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 124,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "255": {
+    "effect_description": {
+      "ja": "ACT3封印耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 125,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "256": {
+    "effect_description": {
+      "ja": "ACT1封印解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 120,
+    "skill_option_filter_id": 102,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "257": {
+    "effect_description": {
+      "ja": "ACT2封印解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 121,
+    "skill_option_filter_id": 103,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "258": {
+    "effect_description": {
+      "ja": "ACT3封印解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 122,
+    "skill_option_filter_id": 104,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "259": {
+    "effect_description": {
+      "ja": "キラめき獲得ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 192,
+    "param1": 126,
+    "skill_option_filter_id": 105,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "260": {
+    "effect_description": {
+      "ja": "キラめき獲得ダウン耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 127,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "261": {
+    "effect_description": {
+      "ja": "キラめき獲得ダウン解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 126,
+    "skill_option_filter_id": 106,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "262": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに20%の確率でスタンを2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 50,
+    "skill_option_filter_id": 37,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "263": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに20%の確率で睡眠を2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 51,
+    "skill_option_filter_id": 38,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "264": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに20%の確率で混乱を2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 52,
+    "skill_option_filter_id": 39,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "265": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに20%の確率で凍結を2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 54,
+    "skill_option_filter_id": 41,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "266": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに20%の確率で暗闇を2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 55,
+    "skill_option_filter_id": 42,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "267": {
+    "effect_description": {
+      "ja": "DoT/行動制限/行動不能耐性を複数指定付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "268": {
+    "effect_description": {
+      "ja": "毒耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 91,
+    "param1": 128,
+    "skill_option_filter_id": 52,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "269": {
+    "effect_description": {
+      "ja": "火傷耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 92,
+    "param1": 129,
+    "skill_option_filter_id": 53,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "270": {
+    "effect_description": {
+      "ja": "スタン耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 94,
+    "param1": 130,
+    "skill_option_filter_id": 55,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "271": {
+    "effect_description": {
+      "ja": "睡眠耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 95,
+    "param1": 131,
+    "skill_option_filter_id": 56,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "272": {
+    "effect_description": {
+      "ja": "混乱耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 96,
+    "param1": 132,
+    "skill_option_filter_id": 57,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "273": {
+    "effect_description": {
+      "ja": "ストップ耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 97,
+    "param1": 133,
+    "skill_option_filter_id": 58,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "274": {
+    "effect_description": {
+      "ja": "凍結耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 98,
+    "param1": 134,
+    "skill_option_filter_id": 59,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "275": {
+    "effect_description": {
+      "ja": "暗闇耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 99,
+    "param1": 135,
+    "skill_option_filter_id": 60,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "276": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "毒状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 47,
+    "skill_option_filter_id": 107,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "277": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "火傷状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 48,
+    "skill_option_filter_id": 108,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "278": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "挑発状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 49,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "279": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "スタン状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 50,
+    "skill_option_filter_id": 109,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "280": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "睡眠状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 51,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "281": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "混乱状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 52,
+    "skill_option_filter_id": 110,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "282": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "ストップ状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 53,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "283": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "凍結状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 54,
+    "skill_option_filter_id": 111,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "284": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "暗闇状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 55,
+    "skill_option_filter_id": 112,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "285": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "HP回復量ダウン状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 58,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "286": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "刻印状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 99,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "287": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "ターゲット固定状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 101,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "288": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "AP増加状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 106,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "289": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "ACT1封印状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 120,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "290": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "ACT2封印状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 121,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "291": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "ACT3封印状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 122,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "292": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "キラめき獲得ダウン状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 126,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "293": {
+    "effect_description": {
+      "ja": "ACTチェンジ"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 140,
+    "param1": 136,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 3,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "294": {
+    "effect_description": {
+      "ja": "ACTチェンジ減少"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 141,
+    "param1": 136,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 1,
+    "time_unit": 3,
+    "type": 14,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "295": {
+    "effect_description": {
+      "ja": "ACTチェンジ解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 141,
+    "param1": 136,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 14,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "296": {
+    "effect_description": {
+      "ja": "ACTチェンジ"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 140,
+    "param1": 137,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "297": {
+    "effect_description": {
+      "ja": "ACTチェンジ解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 141,
+    "param1": 137,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 14,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "298": {
+    "effect_description": {
+      "ja": "混乱"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 59,
+    "param1": 138,
+    "skill_option_filter_id": 39,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "299": {
+    "effect_description": {
+      "ja": "不倒"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 194,
+    "param1": 139,
+    "skill_option_filter_id": 113,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "300": {
+    "effect_description": {
+      "ja": "毒(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 54,
+    "param1": 140,
+    "skill_option_filter_id": 34,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "301": {
+    "effect_description": {
+      "ja": "火傷(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 55,
+    "param1": 141,
+    "skill_option_filter_id": 35,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "302": {
+    "effect_description": {
+      "ja": "暗闇"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 62,
+    "param1": 142,
+    "skill_option_filter_id": 42,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "303": {
+    "effect_description": {
+      "ja": "猛毒(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可、ダメージ量は対象の最大HPに依存する"
+    },
+    "icon_id": 54,
+    "param1": 140,
+    "skill_option_filter_id": 34,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "304": {
+    "effect_description": {
+      "ja": "大火傷(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可、ダメージ量は対象の最大HPに依存する"
+    },
+    "icon_id": 55,
+    "param1": 141,
+    "skill_option_filter_id": 35,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "305": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "ACTタイプ[通常]の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 114,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "306": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "ACTタイプ[通常]の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 114,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "307": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "ACTタイプ[特殊]の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 115,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "308": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "ACTタイプ[特殊]の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 115,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "309": {
+    "effect_description": {
+      "ja": "退場解除(%value%)"
+    },
+    "extra_description": {
+      "ja": "回復量は対象の最大HPに依存する"
+    },
+    "icon_id": 197,
+    "param1": 0,
+    "skill_option_filter_id": 116,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 18,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "310": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "必中、無敵・反射・バリアを無視"
+    },
+    "icon_id": 1,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "311": {
+    "effect_description": {
+      "ja": "HP回復量ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 65,
+    "param1": 143,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "312": {
+    "effect_description": {
+      "ja": "継続ダメージ解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "313": {
+    "effect_description": {
+      "ja": "継続ダメージ耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 199,
+    "param1": 144,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "314": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 7,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 7,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "315": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 8,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 8,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "316": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 9,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 9,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "317": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "固定値ダメージ(属性の影響は受ける)"
+    },
+    "icon_id": 1,
+    "param1": 10,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 10,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "318": {
+    "effect_description": {
+      "ja": "猛毒耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 54,
+    "param1": 145,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "319": {
+    "effect_description": {
+      "ja": "大火傷耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 55,
+    "param1": 146,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "320": {
+    "effect_description": {
+      "ja": "無属性攻撃(%value%)"
+    },
+    "extra_description": {
+      "ja": "完全固定値ダメージ"
+    },
+    "icon_id": 1,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "321": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "不屈を無視"
+    },
+    "icon_id": 1,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "322": {
+    "effect_description": {
+      "ja": "無属性攻撃(%value%)"
+    },
+    "extra_description": {
+      "ja": "完全固定値ダメージ、この攻撃でHPが0になった敵役は退場する"
+    },
+    "icon_id": 1,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "323": {
+    "effect_description": {
+      "ja": "プラス効果反転(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 151,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 19,
+    "value_override": 0,
+    "value_unit": 3
+  },
+  "324": {
+    "effect_description": {
+      "ja": "花属性被ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 200,
+    "param1": 147,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "325": {
+    "effect_description": {
+      "ja": "風属性被ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 201,
+    "param1": 148,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "326": {
+    "effect_description": {
+      "ja": "雪属性被ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 202,
+    "param1": 149,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "327": {
+    "effect_description": {
+      "ja": "月属性被ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 203,
+    "param1": 150,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "328": {
+    "effect_description": {
+      "ja": "宙属性被ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 204,
+    "param1": 151,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "329": {
+    "effect_description": {
+      "ja": "雲属性被ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 205,
+    "param1": 152,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "330": {
+    "effect_description": {
+      "ja": "夢属性被ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 206,
+    "param1": 153,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "331": {
+    "effect_description": {
+      "ja": "花属性与ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 207,
+    "param1": 154,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "332": {
+    "effect_description": {
+      "ja": "風属性与ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 208,
+    "param1": 155,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "333": {
+    "effect_description": {
+      "ja": "雪属性与ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 209,
+    "param1": 156,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "334": {
+    "effect_description": {
+      "ja": "月属性与ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 210,
+    "param1": 157,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "335": {
+    "effect_description": {
+      "ja": "宙属性与ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 211,
+    "param1": 158,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "336": {
+    "effect_description": {
+      "ja": "雲属性与ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 212,
+    "param1": 159,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "337": {
+    "effect_description": {
+      "ja": "夢属性与ダメージダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 213,
+    "param1": 160,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "338": {
+    "effect_description": {
+      "ja": "プラス効果解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10006,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 14,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "339": {
+    "effect_description": {
+      "ja": "クライマックスACT威力ダウン(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 220,
+    "param1": 161,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "340": {
+    "effect_description": {
+      "ja": "恋わずらい"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 221,
+    "param1": 162,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 10,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "341": {
+    "effect_description": {
+      "ja": "恋わずらい"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 221,
+    "param1": 163,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "342": {
+    "effect_description": {
+      "ja": "恋わずらい耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 246,
+    "param1": 164,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "343": {
+    "effect_description": {
+      "ja": "恋わずらい耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 246,
+    "param1": 165,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "344": {
+    "effect_description": {
+      "ja": "恋わずらい解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 162,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "345": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "恋わずらい状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 162,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "346": {
+    "effect_description": {
+      "ja": "継続マイナス効果耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 26,
+    "param1": 166,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "347": {
+    "effect_description": {
+      "ja": "キラめき減少(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 222,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 4,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "348": {
+    "effect_description": {
+      "ja": "クライマックスACT封印"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 178,
+    "param1": 167,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "349": {
+    "effect_description": {
+      "ja": "クライマックスACT封印"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 178,
+    "param1": 168,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "350": {
+    "effect_description": {
+      "ja": "継続マイナス効果耐性解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10006,
+    "param1": 19,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 14,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "351": {
+    "effect_description": {
+      "ja": "継続マイナス効果耐性ダウン解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10006,
+    "param1": 20,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "352": {
+    "effect_description": {
+      "ja": "感電(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 227,
+    "param1": 169,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 10,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "353": {
+    "effect_description": {
+      "ja": "感電(%value%)"
+    },
+    "extra_description": {
+      "ja": "ダメージ量は対象の最大HPに依存する"
+    },
+    "icon_id": 227,
+    "param1": 169,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "354": {
+    "effect_description": {
+      "ja": "感電(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 227,
+    "param1": 170,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "355": {
+    "effect_description": {
+      "ja": "感電(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可、ダメージ量は対象の最大HPに依存する"
+    },
+    "icon_id": 227,
+    "param1": 170,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "356": {
+    "effect_description": {
+      "ja": "感電耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 245,
+    "param1": 171,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "357": {
+    "effect_description": {
+      "ja": "感電耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 245,
+    "param1": 172,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "358": {
+    "effect_description": {
+      "ja": "感電を解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10005,
+    "param1": 169,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "359": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "感電状態の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 169,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "360": {
+    "effect_description": {
+      "ja": "起死回生(%value%)"
+    },
+    "extra_description": {
+      "ja": "回復量は対象の最大HPに依存する"
+    },
+    "icon_id": 228,
+    "param1": 173,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 3,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "361": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "聖翔音楽学園の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "362": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "凛明館女学校の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "363": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "フロンティア芸術学校の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 3,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "364": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "シークフェルト音楽学院の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 4,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "365": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "青嵐総合芸術院の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 5,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "366": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "聖翔音楽学園の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "367": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "凛明館女学校の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "368": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "フロンティア芸術学校の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 3,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "369": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "シークフェルト音楽学院の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 4,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "370": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "青嵐総合芸術院の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 5,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "371": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに33%の確率でストップを1ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 53,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "372": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに33%の確率でスタンを2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 50,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "373": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに33%の確率で睡眠を2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 51,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "374": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに33%の確率で混乱を2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 52,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "375": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに33%の確率で凍結を2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 54,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "376": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに33%の確率で暗闇を2ターン付与"
+    },
+    "icon_id": 1,
+    "param1": 55,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "377": {
+    "effect_description": {
+      "ja": "悪夢(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 234,
+    "param1": 174,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 11,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "378": {
+    "effect_description": {
+      "ja": "悪夢(%value%)"
+    },
+    "extra_description": {
+      "ja": "ダメージ量は対象の最大HPに依存する"
+    },
+    "icon_id": 234,
+    "param1": 174,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 11,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "379": {
+    "effect_description": {
+      "ja": "継続プラス効果耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 235,
+    "param1": 175,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "380": {
+    "effect_description": {
+      "ja": "継続プラス効果耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 235,
+    "param1": 176,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "381": {
+    "effect_description": {
+      "ja": "プラス効果耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 235,
+    "param1": 177,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "382": {
+    "effect_description": {
+      "ja": "プラス効果耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 235,
+    "param1": 178,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "383": {
+    "effect_description": {
+      "ja": "回数プラス効果解除"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 10006,
+    "param1": 0,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 14,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "384": {
+    "effect_description": {
+      "ja": "錯乱"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 236,
+    "param1": 179,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 3,
+    "type": 10,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "385": {
+    "effect_description": {
+      "ja": "慢心(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 237,
+    "param1": 180,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 3,
+    "type": 11,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "386": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "必中、無敵・反射・バリアを無視、聖翔音楽学園の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "387": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "必中、無敵・反射・バリアを無視、凛明館女学校の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 2,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "388": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "必中、無敵・反射・バリアを無視、フロンティア芸術学校の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 3,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "389": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "必中、無敵・反射・バリアを無視、シークフェルト音楽学院の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 4,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "390": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "必中、無敵・反射・バリアを無視、青嵐総合芸術院の敵役に特攻"
+    },
+    "icon_id": 1,
+    "param1": 5,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "391": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに33%の確率で慢心(5000)を1回付与"
+    },
+    "icon_id": 1,
+    "param1": 180,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "392": {
+    "effect_description": {
+      "ja": "希望"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 238,
+    "param1": 181,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 3,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "393": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "1HITごとに33%の確率で錯乱を1回付与"
+    },
+    "icon_id": 1,
+    "param1": 179,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 21,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "394": {
+    "effect_description": {
+      "ja": "急所"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 240,
+    "param1": 182,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 3,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "395": {
+    "effect_description": {
+      "ja": "すばやさアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 14,
+    "param1": 183,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "396": {
+    "effect_description": {
+      "ja": "最大HPアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 24,
+    "param1": 184,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "397": {
+    "effect_description": {
+      "ja": "%attr%属性攻撃(威力%value%)"
+    },
+    "extra_description": {
+      "ja": "アルカナ・アルカディアの舞台少女に特攻"
+    },
+    "icon_id": 1,
+    "param1": 1,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 1,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "398": {
+    "effect_description": {
+      "ja": "凍傷(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 241,
+    "param1": 185,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 11,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "399": {
+    "effect_description": {
+      "ja": "与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "聖翔音楽学園に対してのみ有効"
+    },
+    "icon_id": 111,
+    "param1": 186,
+    "skill_option_filter_id": 83,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "400": {
+    "effect_description": {
+      "ja": "与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "凛明館女学校に対してのみ有効"
+    },
+    "icon_id": 111,
+    "param1": 187,
+    "skill_option_filter_id": 83,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "401": {
+    "effect_description": {
+      "ja": "与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "フロンティア芸術学校に対してのみ有効"
+    },
+    "icon_id": 111,
+    "param1": 188,
+    "skill_option_filter_id": 83,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "402": {
+    "effect_description": {
+      "ja": "与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "シークフェルト音楽学院に対してのみ有効"
+    },
+    "icon_id": 111,
+    "param1": 189,
+    "skill_option_filter_id": 83,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "403": {
+    "effect_description": {
+      "ja": "与ダメージアップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "青嵐総合芸術院に対してのみ有効"
+    },
+    "icon_id": 111,
+    "param1": 190,
+    "skill_option_filter_id": 83,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "404": {
+    "effect_description": {
+      "ja": "愛城華恋からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 191,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "405": {
+    "effect_description": {
+      "ja": "神楽ひかりからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 192,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "406": {
+    "effect_description": {
+      "ja": "露崎まひるからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 193,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "407": {
+    "effect_description": {
+      "ja": "西條クロディーヌからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 194,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "408": {
+    "effect_description": {
+      "ja": "天堂真矢からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 195,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "409": {
+    "effect_description": {
+      "ja": "星見純那からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 196,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "410": {
+    "effect_description": {
+      "ja": "大場ななからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 197,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "411": {
+    "effect_description": {
+      "ja": "石動双葉からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 198,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "412": {
+    "effect_description": {
+      "ja": "花柳香子からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 199,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "413": {
+    "effect_description": {
+      "ja": "巴珠緒からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 200,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "414": {
+    "effect_description": {
+      "ja": "音無いちえからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 201,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "415": {
+    "effect_description": {
+      "ja": "夢大路文からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 202,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "416": {
+    "effect_description": {
+      "ja": "秋風塁からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 203,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "417": {
+    "effect_description": {
+      "ja": "田中ゆゆ子からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 204,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "418": {
+    "effect_description": {
+      "ja": "大月あるるからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 205,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "419": {
+    "effect_description": {
+      "ja": "叶美空からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 206,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "420": {
+    "effect_description": {
+      "ja": "野々宮ララフィンからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 207,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "421": {
+    "effect_description": {
+      "ja": "恵比寿つかさからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 208,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "422": {
+    "effect_description": {
+      "ja": "胡蝶静羽からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 209,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "423": {
+    "effect_description": {
+      "ja": "雪代晶からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 210,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "424": {
+    "effect_description": {
+      "ja": "鳳ミチルからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 211,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "425": {
+    "effect_description": {
+      "ja": "リュウ・メイファンからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 212,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "426": {
+    "effect_description": {
+      "ja": "夢大路栞からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 213,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "427": {
+    "effect_description": {
+      "ja": "鶴姫やちよからの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 214,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "428": {
+    "effect_description": {
+      "ja": "柳小春からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 215,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "429": {
+    "effect_description": {
+      "ja": "南風涼からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 216,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "430": {
+    "effect_description": {
+      "ja": "穂波氷雨からの被ダメージアップを付与"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 0,
+    "param1": 217,
+    "skill_option_filter_id": 85,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "431": {
+    "effect_description": {
+      "ja": "悶絶"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 242,
+    "param1": 218,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 11,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "432": {
+    "effect_description": {
+      "ja": "ターゲット固定"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 152,
+    "param1": 219,
+    "skill_option_filter_id": 91,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "433": {
+    "effect_description": {
+      "ja": "ACT1封印"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 178,
+    "param1": 220,
+    "skill_option_filter_id": 99,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "434": {
+    "effect_description": {
+      "ja": "ACT2封印"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 178,
+    "param1": 221,
+    "skill_option_filter_id": 100,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "435": {
+    "effect_description": {
+      "ja": "ACT3封印"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 178,
+    "param1": 222,
+    "skill_option_filter_id": 101,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "436": {
+    "effect_description": {
+      "ja": "通常バリア(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 30,
+    "param1": 223,
+    "skill_option_filter_id": 23,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "437": {
+    "effect_description": {
+      "ja": "特殊バリア(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 31,
+    "param1": 224,
+    "skill_option_filter_id": 24,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "438": {
+    "effect_description": {
+      "ja": "神がかり"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 247,
+    "param1": 225,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "439": {
+    "effect_description": {
+      "ja": "神がかり"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 247,
+    "param1": 226,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "440": {
+    "effect_description": {
+      "ja": "AP減少"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 157,
+    "param1": 227,
+    "skill_option_filter_id": 96,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "441": {
+    "effect_description": {
+      "ja": "クリティカル威力アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 22,
+    "param1": 228,
+    "skill_option_filter_id": 18,
+    "skill_option_filter_id2": 100001,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "442": {
+    "effect_description": {
+      "ja": "幕引き"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 248,
+    "param1": 229,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "443": {
+    "effect_description": {
+      "ja": "幕引き"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 248,
+    "param1": 230,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "444": {
+    "effect_description": {
+      "ja": "回数マイナス効果減少(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 249,
+    "param1": 230,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 15,
+    "value_override": 0,
+    "value_unit": 3
+  },
+  "445": {
+    "effect_description": {
+      "ja": "回数マイナス効果耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 250,
+    "param1": 231,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "446": {
+    "effect_description": {
+      "ja": "回数マイナス効果耐性アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 250,
+    "param1": 232,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "447": {
+    "effect_description": {
+      "ja": "キラめき獲得アップ(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 251,
+    "param1": 233,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "448": {
+    "effect_description": {
+      "ja": "不倒"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 194,
+    "param1": 234,
+    "skill_option_filter_id": 113,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "449": {
+    "effect_description": {
+      "ja": "AP増加2"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 173,
+    "param1": 235,
+    "skill_option_filter_id": 235,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 17,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "450": {
+    "effect_description": {
+      "ja": "AP増加2"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 173,
+    "param1": 236,
+    "skill_option_filter_id": 236,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 999,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "451": {
+    "effect_description": {
+      "ja": "AP減少2"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 157,
+    "param1": 237,
+    "skill_option_filter_id": 235,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "452": {
+    "effect_description": {
+      "ja": "AP減少2"
+    },
+    "extra_description": {
+      "ja": "解除不可"
+    },
+    "icon_id": 157,
+    "param1": 238,
+    "skill_option_filter_id": 236,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 998,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "453": {
+    "effect_description": {
+      "ja": "回数プラス効果減少(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 252,
+    "param1": 230,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 14,
+    "value_override": 0,
+    "value_unit": 3
+  },
+  "454": {
+    "effect_description": {
+      "ja": "起死回生減少(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 265,
+    "param1": 173,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 0,
+    "type": 14,
+    "value_override": 0,
+    "value_unit": 3
+  },
+  "455": {
+    "effect_description": {
+      "ja": "カットインスキル発動準備ターン短縮(%value%)"
+    },
+    "extra_description": {
+      "ja": ""
+    },
+    "icon_id": 266,
+    "param1": 239,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 16,
+    "value_override": 0,
+    "value_unit": 0
+  },
+  "456": {
+    "effect_description": {
+      "ja": "ACTパワーアップ(開幕時味方の舞台上にいる%attr%属性舞台少女1体につき%value%)"
+    },
+    "extra_description": {
+      "ja": "最大40％"
+    },
+    "icon_id": 267,
+    "param1": 1,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "457": {
+    "effect_description": {
+      "ja": "最大HPアップ(開幕時味方の舞台上にいる%attr%属性舞台少女1体につき%value%)"
+    },
+    "extra_description": {
+      "ja": "最大40％"
+    },
+    "icon_id": 268,
+    "param1": 17,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "458": {
+    "effect_description": {
+      "ja": "ACTパワーアップ(開幕時味方の舞台上にいる%attr%属性舞台少女1体につき%value%)"
+    },
+    "extra_description": {
+      "ja": "最大100％"
+    },
+    "icon_id": 267,
+    "param1": 1,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  },
+  "459": {
+    "effect_description": {
+      "ja": "最大HPアップ(開幕時味方の舞台上にいる%attr%属性舞台少女1体につき%value%)"
+    },
+    "extra_description": {
+      "ja": "最大150％"
+    },
+    "icon_id": 268,
+    "param1": 17,
+    "skill_option_filter_id": 0,
+    "skill_option_filter_id2": 0,
+    "time_override": 0,
+    "time_unit": 2,
+    "type": 5,
+    "value_override": 0,
+    "value_unit": 1
+  }
+}

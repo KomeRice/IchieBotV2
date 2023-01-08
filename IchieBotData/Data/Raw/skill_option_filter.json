@@ -1,0 +1,828 @@
+{
+  "1": {
+    "icon_id": 3,
+    "name": {
+      "ja": "バリア無視"
+    },
+    "priority": 4650
+  },
+  "2": {
+    "icon_id": 5,
+    "name": {
+      "ja": "HPが低い程威力アップ"
+    },
+    "priority": 4640
+  },
+  "3": {
+    "icon_id": 6,
+    "name": {
+      "ja": "HP回復"
+    },
+    "priority": 4660
+  },
+  "4": {
+    "icon_id": 8,
+    "name": {
+      "ja": "ACTパワーアップ"
+    },
+    "priority": 4790
+  },
+  "5": {
+    "icon_id": 9,
+    "name": {
+      "ja": "ACTパワーダウン"
+    },
+    "priority": 50
+  },
+  "6": {
+    "icon_id": 10,
+    "name": {
+      "ja": "通常防御力アップ"
+    },
+    "priority": 4770
+  },
+  "7": {
+    "icon_id": 11,
+    "name": {
+      "ja": "通常防御力ダウン"
+    },
+    "priority": 48
+  },
+  "8": {
+    "icon_id": 12,
+    "name": {
+      "ja": "特殊防御力アップ"
+    },
+    "priority": 4760
+  },
+  "9": {
+    "icon_id": 13,
+    "name": {
+      "ja": "特殊防御力ダウン"
+    },
+    "priority": 47
+  },
+  "10": {
+    "icon_id": 14,
+    "name": {
+      "ja": "すばやさアップ"
+    },
+    "priority": 4780
+  },
+  "11": {
+    "icon_id": 15,
+    "name": {
+      "ja": "すばやさダウン"
+    },
+    "priority": 49
+  },
+  "12": {
+    "icon_id": 16,
+    "name": {
+      "ja": "命中率アップ"
+    },
+    "priority": 4730
+  },
+  "13": {
+    "icon_id": 17,
+    "name": {
+      "ja": "命中率ダウン"
+    },
+    "priority": 44
+  },
+  "14": {
+    "icon_id": 18,
+    "name": {
+      "ja": "回避率アップ"
+    },
+    "priority": 4720
+  },
+  "15": {
+    "icon_id": 19,
+    "name": {
+      "ja": "回避率ダウン"
+    },
+    "priority": 43
+  },
+  "16": {
+    "icon_id": 20,
+    "name": {
+      "ja": "クリティカル率アップ"
+    },
+    "priority": 4750
+  },
+  "17": {
+    "icon_id": 21,
+    "name": {
+      "ja": "クリティカル率ダウン"
+    },
+    "priority": 46
+  },
+  "18": {
+    "icon_id": 22,
+    "name": {
+      "ja": "クリティカル威力アップ"
+    },
+    "priority": 4740
+  },
+  "19": {
+    "icon_id": 23,
+    "name": {
+      "ja": "クリティカル威力ダウン"
+    },
+    "priority": 45
+  },
+  "20": {
+    "icon_id": 26,
+    "name": {
+      "ja": "継続マイナス効果耐性"
+    },
+    "priority": 3501
+  },
+  "21": {
+    "icon_id": 28,
+    "name": {
+      "ja": "毎ターンHP回復"
+    },
+    "priority": 4670
+  },
+  "22": {
+    "icon_id": 29,
+    "name": {
+      "ja": "毎ターンキラめき獲得"
+    },
+    "priority": 6100
+  },
+  "23": {
+    "icon_id": 30,
+    "name": {
+      "ja": "通常バリア"
+    },
+    "priority": 4890
+  },
+  "24": {
+    "icon_id": 31,
+    "name": {
+      "ja": "特殊バリア"
+    },
+    "priority": 4880
+  },
+  "25": {
+    "icon_id": 32,
+    "name": {
+      "ja": "通常ダメージ反射"
+    },
+    "priority": 5950
+  },
+  "26": {
+    "icon_id": 33,
+    "name": {
+      "ja": "特殊ダメージ反射"
+    },
+    "priority": 5940
+  },
+  "27": {
+    "icon_id": 34,
+    "name": {
+      "ja": "回避"
+    },
+    "priority": 5980
+  },
+  "28": {
+    "icon_id": 35,
+    "name": {
+      "ja": "必中"
+    },
+    "priority": 5970
+  },
+  "29": {
+    "icon_id": 36,
+    "name": {
+      "ja": "不屈"
+    },
+    "priority": 5990
+  },
+  "30": {
+    "icon_id": 39,
+    "name": {
+      "ja": "有利属性ダメージアップ"
+    },
+    "priority": 4690
+  },
+  "31": {
+    "icon_id": 40,
+    "name": {
+      "ja": "クライマックスACT威力アップ"
+    },
+    "priority": 4680
+  },
+  "32": {
+    "icon_id": 44,
+    "name": {
+      "ja": "吸収"
+    },
+    "priority": 5960
+  },
+  "33": {
+    "icon_id": 45,
+    "name": {
+      "ja": "カウンターヒール"
+    },
+    "priority": 5930
+  },
+  "34": {
+    "icon_id": 54,
+    "name": {
+      "ja": "毒"
+    },
+    "priority": 1299
+  },
+  "35": {
+    "icon_id": 55,
+    "name": {
+      "ja": "火傷"
+    },
+    "priority": 1298
+  },
+  "36": {
+    "icon_id": 56,
+    "name": {
+      "ja": "挑発"
+    },
+    "priority": 1297
+  },
+  "37": {
+    "icon_id": 57,
+    "name": {
+      "ja": "スタン"
+    },
+    "priority": 1296
+  },
+  "38": {
+    "icon_id": 58,
+    "name": {
+      "ja": "睡眠"
+    },
+    "priority": 1295
+  },
+  "39": {
+    "icon_id": 59,
+    "name": {
+      "ja": "混乱"
+    },
+    "priority": 1294
+  },
+  "40": {
+    "icon_id": 60,
+    "name": {
+      "ja": "ストップ"
+    },
+    "priority": 1293
+  },
+  "41": {
+    "icon_id": 61,
+    "name": {
+      "ja": "凍結"
+    },
+    "priority": 1292
+  },
+  "42": {
+    "icon_id": 62,
+    "name": {
+      "ja": "暗闇"
+    },
+    "priority": 1291
+  },
+  "43": {
+    "icon_id": 65,
+    "name": {
+      "ja": "HP回復量低下"
+    },
+    "priority": 1275
+  },
+  "44": {
+    "icon_id": 10,
+    "name": {
+      "ja": "花属性からの被ダメージダウン"
+    },
+    "priority": 4590
+  },
+  "45": {
+    "icon_id": 10,
+    "name": {
+      "ja": "風属性からの被ダメージダウン"
+    },
+    "priority": 4580
+  },
+  "46": {
+    "icon_id": 10,
+    "name": {
+      "ja": "雪属性からの被ダメージダウン"
+    },
+    "priority": 4570
+  },
+  "47": {
+    "icon_id": 10,
+    "name": {
+      "ja": "月属性からの被ダメージダウン"
+    },
+    "priority": 4560
+  },
+  "48": {
+    "icon_id": 10,
+    "name": {
+      "ja": "宙属性からの被ダメージダウン"
+    },
+    "priority": 4550
+  },
+  "49": {
+    "icon_id": 10,
+    "name": {
+      "ja": "雲属性からの被ダメージダウン"
+    },
+    "priority": 4540
+  },
+  "50": {
+    "icon_id": 10,
+    "name": {
+      "ja": "夢属性からの被ダメージダウン"
+    },
+    "priority": 4530
+  },
+  "51": {
+    "icon_id": 89,
+    "name": {
+      "ja": "キラめき獲得"
+    },
+    "priority": 6110
+  },
+  "52": {
+    "icon_id": 91,
+    "name": {
+      "ja": "毒耐性"
+    },
+    "priority": 3499
+  },
+  "53": {
+    "icon_id": 92,
+    "name": {
+      "ja": "火傷耐性"
+    },
+    "priority": 3498
+  },
+  "54": {
+    "icon_id": 93,
+    "name": {
+      "ja": "挑発耐性"
+    },
+    "priority": 3497
+  },
+  "55": {
+    "icon_id": 94,
+    "name": {
+      "ja": "スタン耐性"
+    },
+    "priority": 3496
+  },
+  "56": {
+    "icon_id": 95,
+    "name": {
+      "ja": "睡眠耐性"
+    },
+    "priority": 3495
+  },
+  "57": {
+    "icon_id": 96,
+    "name": {
+      "ja": "混乱耐性"
+    },
+    "priority": 3494
+  },
+  "58": {
+    "icon_id": 97,
+    "name": {
+      "ja": "ストップ耐性"
+    },
+    "priority": 3493
+  },
+  "59": {
+    "icon_id": 98,
+    "name": {
+      "ja": "凍結耐性"
+    },
+    "priority": 3492
+  },
+  "60": {
+    "icon_id": 99,
+    "name": {
+      "ja": "暗闇耐性"
+    },
+    "priority": 3491
+  },
+  "61": {
+    "icon_id": 10006,
+    "name": {
+      "ja": "ステータス上昇効果解除"
+    },
+    "priority": 39
+  },
+  "62": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "ステータス低下効果解除"
+    },
+    "priority": 2400
+  },
+  "63": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "毒解除"
+    },
+    "priority": 2399
+  },
+  "64": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "火傷解除"
+    },
+    "priority": 2398
+  },
+  "65": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "挑発解除"
+    },
+    "priority": 2397
+  },
+  "66": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "スタン解除"
+    },
+    "priority": 2396
+  },
+  "67": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "睡眠解除"
+    },
+    "priority": 2395
+  },
+  "68": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "混乱解除"
+    },
+    "priority": 2394
+  },
+  "69": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "ストップ解除"
+    },
+    "priority": 2393
+  },
+  "70": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "凍結解除"
+    },
+    "priority": 2392
+  },
+  "71": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "暗闇解除"
+    },
+    "priority": 2391
+  },
+  "72": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "HP回復量低下解除"
+    },
+    "priority": 38
+  },
+  "73": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "ソルジャー特攻"
+    },
+    "priority": 110
+  },
+  "74": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "ランサー特攻"
+    },
+    "priority": 109
+  },
+  "75": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "フェンサー特攻"
+    },
+    "priority": 108
+  },
+  "76": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "マジシャン特攻"
+    },
+    "priority": 107
+  },
+  "77": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "シールダー特攻"
+    },
+    "priority": 106
+  },
+  "78": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "ガンナー特攻"
+    },
+    "priority": 105
+  },
+  "79": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "奇術師特攻"
+    },
+    "priority": 104
+  },
+  "80": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "ビースト特攻"
+    },
+    "priority": 103
+  },
+  "81": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "？？？特攻"
+    },
+    "priority": 102
+  },
+  "82": {
+    "icon_id": 10007,
+    "name": {
+      "ja": "マテリアル特攻"
+    },
+    "priority": 101
+  },
+  "83": {
+    "icon_id": 8,
+    "name": {
+      "ja": "与ダメージアップ"
+    },
+    "priority": 4710
+  },
+  "84": {
+    "icon_id": 9,
+    "name": {
+      "ja": "与ダメージダウン"
+    },
+    "priority": 42
+  },
+  "85": {
+    "icon_id": 11,
+    "name": {
+      "ja": "被ダメージアップ"
+    },
+    "priority": 41
+  },
+  "86": {
+    "icon_id": 10,
+    "name": {
+      "ja": "被ダメージダウン"
+    },
+    "priority": 4700
+  },
+  "87": {
+    "icon_id": 10006,
+    "name": {
+      "ja": "継続プラス効果解除"
+    },
+    "priority": 40
+  },
+  "88": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "継続マイナス効果解除"
+    },
+    "priority": 2401
+  },
+  "89": {
+    "icon_id": 150,
+    "name": {
+      "ja": "刻印"
+    },
+    "priority": 1290
+  },
+  "90": {
+    "icon_id": 151,
+    "name": {
+      "ja": "マイナス効果反転"
+    },
+    "priority": 5890
+  },
+  "91": {
+    "icon_id": 152,
+    "name": {
+      "ja": "ターゲット固定"
+    },
+    "priority": 1289
+  },
+  "92": {
+    "icon_id": 153,
+    "name": {
+      "ja": "ターゲット固定耐性"
+    },
+    "priority": 3489
+  },
+  "93": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "ターゲット固定解除"
+    },
+    "priority": 2389
+  },
+  "94": {
+    "icon_id": 155,
+    "name": {
+      "ja": "退場回避"
+    },
+    "priority": 5880
+  },
+  "95": {
+    "icon_id": 156,
+    "name": {
+      "ja": "無敵"
+    },
+    "priority": 5920
+  },
+  "96": {
+    "icon_id": 157,
+    "name": {
+      "ja": "AP減少"
+    },
+    "priority": 5900
+  },
+  "97": {
+    "icon_id": 173,
+    "name": {
+      "ja": "AP増加"
+    },
+    "priority": 1285
+  },
+  "98": {
+    "icon_id": 175,
+    "name": {
+      "ja": "刻印耐性"
+    },
+    "priority": 3490
+  },
+  "99": {
+    "icon_id": 178,
+    "name": {
+      "ja": "ACT1封印"
+    },
+    "priority": 1284
+  },
+  "100": {
+    "icon_id": 178,
+    "name": {
+      "ja": "ACT2封印"
+    },
+    "priority": 1283
+  },
+  "101": {
+    "icon_id": 178,
+    "name": {
+      "ja": "ACT3封印"
+    },
+    "priority": 1282
+  },
+  "102": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "ACT1封印解除"
+    },
+    "priority": 2384
+  },
+  "103": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "ACT2封印解除"
+    },
+    "priority": 2383
+  },
+  "104": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "ACT3封印解除"
+    },
+    "priority": 2382
+  },
+  "105": {
+    "icon_id": 192,
+    "name": {
+      "ja": "キラめき獲得減少"
+    },
+    "priority": 1281
+  },
+  "106": {
+    "icon_id": 10005,
+    "name": {
+      "ja": "キラめき獲得減少解除"
+    },
+    "priority": 2381
+  },
+  "107": {
+    "icon_id": 158,
+    "name": {
+      "ja": "毒特攻"
+    },
+    "priority": 149
+  },
+  "108": {
+    "icon_id": 182,
+    "name": {
+      "ja": "火傷特攻"
+    },
+    "priority": 148
+  },
+  "109": {
+    "icon_id": 184,
+    "name": {
+      "ja": "スタン特攻"
+    },
+    "priority": 147
+  },
+  "110": {
+    "icon_id": 186,
+    "name": {
+      "ja": "混乱特攻"
+    },
+    "priority": 146
+  },
+  "111": {
+    "icon_id": 188,
+    "name": {
+      "ja": "凍結特攻"
+    },
+    "priority": 145
+  },
+  "112": {
+    "icon_id": 189,
+    "name": {
+      "ja": "暗闇特攻"
+    },
+    "priority": 144
+  },
+  "113": {
+    "icon_id": 194,
+    "name": {
+      "ja": "不倒"
+    },
+    "priority": 5910
+  },
+  "114": {
+    "icon_id": 195,
+    "name": {
+      "ja": "通常タイプ特攻"
+    },
+    "priority": 159
+  },
+  "115": {
+    "icon_id": 196,
+    "name": {
+      "ja": "特殊タイプ特攻"
+    },
+    "priority": 158
+  },
+  "116": {
+    "icon_id": 197,
+    "name": {
+      "ja": "退場解除"
+    },
+    "priority": 5870
+  },
+  "100001": {
+    "icon_id": 1,
+    "name": {
+      "ja": "攻撃強化"
+    },
+    "priority": 0
+  },
+  "100002": {
+    "icon_id": 2,
+    "name": {
+      "ja": "防御強化"
+    },
+    "priority": 1
+  }
+}

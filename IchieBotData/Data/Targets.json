@@ -1,0 +1,434 @@
+{
+  "1001": {
+    "DescriptionJp": "自身",
+    "Description": "Self"
+  },
+  "2011": {
+    "DescriptionJp": "前から1番目の敵役",
+    "Description": "Frontmost enemy"
+  },
+  "2003": {
+    "DescriptionJp": "前グループの敵役",
+    "Description": "Frontmost enemy Group"
+  },
+  "2002": {
+    "DescriptionJp": "敵役全体",
+    "Description": "All enemies"
+  },
+  "1002": {
+    "DescriptionJp": "味方全体",
+    "Description": "All allies"
+  },
+  "2123": {
+    "DescriptionJp": "後ろから3体の敵役",
+    "Description": "3 Backmost enemies"
+  },
+  "2113": {
+    "DescriptionJp": "前から3体の敵役",
+    "Description": "3 Frontmost enemies"
+  },
+  "2146": {
+    "DescriptionJp": "ACTパワーが1番高い敵役",
+    "Description": "Highest ACT enemy"
+  },
+  "1133": {
+    "DescriptionJp": "前から3体の味方",
+    "Description": "3 Frontmost allies"
+  },
+  "6010": {
+    "DescriptionJp": "敵役全体から1HITごとにランダムに1体",
+    "Description": "1 Random enemy"
+  },
+  "2177": {
+    "DescriptionJp": "挑発・ターゲット固定を無視し、前から3体の敵役",
+    "Description": "Ignoring Provoke & Aggro, All enemies"
+  },
+  "1143": {
+    "DescriptionJp": "後ろから3体の味方",
+    "Description": "3 Backmost allies"
+  },
+  "2051": {
+    "DescriptionJp": "ACTパワーが1番高い敵役",
+    "Description": "Highest ACT enemy"
+  },
+  "2112": {
+    "DescriptionJp": "前から2体の敵役",
+    "Description": "2 Frontmost enemies"
+  },
+  "1127": {
+    "DescriptionJp": "ACTパワーが高い2体の味方",
+    "Description": "2 Highest ACT allies"
+  },
+  "2021": {
+    "DescriptionJp": "後ろから1番目の敵役",
+    "Description": "Backmost enemy"
+  },
+  "2121": {
+    "DescriptionJp": "後ろから1番目の敵役",
+    "Description": "Backmost enemy"
+  },
+  "1135": {
+    "DescriptionJp": "前から5体の味方",
+    "Description": "Frontmost enemy"
+  },
+  "4069": {
+    "DescriptionJp": "立ち位置後の敵役",
+    "Description": "Enemy Back Row"
+  },
+  "4001": {
+    "DescriptionJp": "味方の聖翔音楽学園",
+    "Description": "All Seisho allies"
+  },
+  "1132": {
+    "DescriptionJp": "前から2体の味方",
+    "Description": "2 Frontmost allies"
+  },
+  "2052": {
+    "DescriptionJp": "ACTパワーが2番目に高い敵役",
+    "Description": "2nd Highest ACT enemy"
+  },
+  "2091": {
+    "DescriptionJp": "特殊防御力が1番高い敵役",
+    "Description": "Highest SpDef enemy"
+  },
+  "2133": {
+    "DescriptionJp": "HP割合が高い3体の敵役",
+    "Description": "3 Highest CurHP% enemies"
+  },
+  "2142": {
+    "DescriptionJp": "HP割合が低い2体の敵役",
+    "Description": "2 Lowest CurHP% enemies"
+  },
+  "1145": {
+    "DescriptionJp": "後ろから5体の味方",
+    "Description": "5 Backmost allies"
+  },
+  "1128": {
+    "DescriptionJp": "ACTパワーが高い3体の味方",
+    "Description": "3 Highest ACT allies"
+  },
+  "2402": {
+    "DescriptionJp": "敵役の凛明館女学校",
+    "Description": "All Rinmeikan enemies"
+  },
+  "2122": {
+    "DescriptionJp": "後ろから2体の敵役",
+    "Description": "2 Backmost enemies"
+  },
+  "1122": {
+    "DescriptionJp": "HP割合が低い2体の味方",
+    "Description": "2 Lowest CurHP% allies"
+  },
+  "1003": {
+    "DescriptionJp": "前グループの味方",
+    "Description": "Frontmost ally Group"
+  },
+  "1142": {
+    "DescriptionJp": "後ろから2体の味方",
+    "Description": "2 Backmost allies"
+  },
+  "2004": {
+    "DescriptionJp": "後ろグループの敵役",
+    "Description": "Backmost enemy Group"
+  },
+  "1041": {
+    "DescriptionJp": "HP割合が1番低い味方",
+    "Description": "Lowest CurHP% ally"
+  },
+  "1011": {
+    "DescriptionJp": "前から1番目の味方",
+    "Description": "Frontmost ally"
+  },
+  "2041": {
+    "DescriptionJp": "HP割合が1番低い敵役",
+    "Description": "Lowest CurHP% enemy"
+  },
+  "2143": {
+    "DescriptionJp": "HP割合が低い3体の敵役",
+    "Description": "3 lowest CurHP% enemies"
+  },
+  "2505": {
+    "DescriptionJp": "味方の天堂真矢",
+    "Description": "All Tendo Maya allies"
+  },
+  "4083": {
+    "DescriptionJp": "敵役のACTタイプ[通常]",
+    "Description": "All Normal-Type enemies"
+  },
+  "22002": {
+    "DescriptionJp": "挑発・ターゲット固定を無視し、敵役全体",
+    "Description": "Ignoring Provoke & Aggro, All enemies"
+  },
+  "2504": {
+    "DescriptionJp": "味方の西條クロディーヌ",
+    "Description": "All Saijo Claudine allies"
+  },
+  "2161": {
+    "DescriptionJp": "通常防御力が1番低い敵役",
+    "Description": "Lowest NormDef enemy"
+  },
+  "4068": {
+    "DescriptionJp": "立ち位置中の敵役",
+    "Description": "Enemy Mid Row"
+  },
+  "2507": {
+    "DescriptionJp": "味方の大場なな",
+    "Description": "All Daiba Nana allies"
+  },
+  "2506": {
+    "DescriptionJp": "味方の星見純那",
+    "Description": "All Hoshimi Junna allies"
+  },
+  "2401": {
+    "DescriptionJp": "敵役の聖翔音楽学園",
+    "Description": "All Seisho enemies"
+  },
+  "2081": {
+    "DescriptionJp": "通常防御力が1番低い敵役",
+    "Description": "Lowest NormDef enemy"
+  },
+  "1004": {
+    "DescriptionJp": "後ろグループの味方",
+    "Description": "Backmost ally Group"
+  },
+  "2031": {
+    "DescriptionJp": "HP割合が1番高い敵役",
+    "Description": "Highest CurHP% enemy"
+  },
+  "2509": {
+    "DescriptionJp": "味方の花柳香子",
+    "Description": "All Hanayagi Kaoruko allies"
+  },
+  "2141": {
+    "DescriptionJp": "HP割合が1番低い敵役",
+    "Description": "Lowest CurHP% enemy"
+  },
+  "2115": {
+    "DescriptionJp": "前から5体の敵役",
+    "Description": "5 Frontmost enemies"
+  },
+  "1141": {
+    "DescriptionJp": "後ろから1番目の味方",
+    "Description": "Backmost ally"
+  },
+  "2071": {
+    "DescriptionJp": "通常防御力が1番高い敵役",
+    "Description": "Highest NormDef enemy"
+  },
+  "2158": {
+    "DescriptionJp": "通常防御力が高い3体の敵役",
+    "Description": "3 Highest NormDef enemies"
+  },
+  "4002": {
+    "DescriptionJp": "味方の凛明館女学校",
+    "Description": "All Rinmeikan allies"
+  },
+  "2512": {
+    "DescriptionJp": "味方の夢大路文",
+    "Description": "All Yumeoji Fumi allies"
+  },
+  "2513": {
+    "DescriptionJp": "味方の秋風塁",
+    "Description": "All Akikaze Rui allies"
+  },
+  "4012": {
+    "DescriptionJp": "味方の宙属性",
+    "Description": "All Space allies"
+  },
+  "2171": {
+    "DescriptionJp": "特殊防御力が1番低い敵役",
+    "Description": "Lowest SpDef enemy"
+  },
+  "11011": {
+    "DescriptionJp": "退場した中で、前から1番目の味方",
+    "Description": "Frontmost Exited ally"
+  },
+  "2514": {
+    "DescriptionJp": "味方の田中ゆゆ子",
+    "Description": "All Tanaka Yuyuko allies"
+  },
+  "2510": {
+    "DescriptionJp": "味方の巴珠緒",
+    "Description": "All Tomoe Tamao allies"
+  },
+  "4071": {
+    "DescriptionJp": "敵役のアルカナ・アルカディア",
+    "Description": "All 'Arcana Arcadia' enemies"
+  },
+  "4070": {
+    "DescriptionJp": "味方のアルカナ・アルカディア",
+    "Description": "All 'Arcana Arcadia' allies"
+  },
+  "1012": {
+    "DescriptionJp": "前から2番目の味方",
+    "Description": "2 Frontmost allies"
+  },
+  "4003": {
+    "DescriptionJp": "味方のフロンティア芸術学校",
+    "Description": "All Frontier allies"
+  },
+  "2516": {
+    "DescriptionJp": "味方の叶美空",
+    "Description": "All Kano Misora allies"
+  },
+  "2519": {
+    "DescriptionJp": "味方の胡蝶静羽",
+    "Description": "Placeholder"
+  },
+  "2176": {
+    "DescriptionJp": "挑発・ターゲット固定を無視し、ACTパワーが1番高い敵役",
+    "Description": "Ignoring Provoke & Aggro, Highest ACT enemy"
+  },
+  "4004": {
+    "DescriptionJp": "味方のシークフェルト音楽学院",
+    "Description": "All Siegfeld allies"
+  },
+  "11012": {
+    "DescriptionJp": "退場した中で、後ろから1番目の味方",
+    "Description": "Backmost Exited ally"
+  },
+  "2521": {
+    "DescriptionJp": "味方の鳳ミチル",
+    "Description": "All Otori Michiru allies"
+  },
+  "2524": {
+    "DescriptionJp": "味方の鶴姫やちよ",
+    "Description": "All Tsuruhime Yachiyo allies"
+  },
+  "2522": {
+    "DescriptionJp": "味方のリュウ・メイファン",
+    "Description": "All Liu Mei Fan allies"
+  },
+  "1126": {
+    "DescriptionJp": "ACTパワーが高い1体の味方",
+    "Description": "Highest ACT ally"
+  },
+  "1123": {
+    "DescriptionJp": "HP割合が低い3体の味方",
+    "Description": "3 Lowest CurHP% allies"
+  },
+  "4013": {
+    "DescriptionJp": "味方の雲属性",
+    "Description": "All Cloud allies"
+  },
+  "4011": {
+    "DescriptionJp": "味方の月属性",
+    "Description": "All Moon-Elemeny enemies"
+  },
+  "4008": {
+    "DescriptionJp": "味方の花属性",
+    "Description": "All Flower allies"
+  },
+  "4009": {
+    "DescriptionJp": "味方の風属性",
+    "Description": "All Wind allies"
+  },
+  "4059": {
+    "DescriptionJp": "味方の青嵐総合芸術院",
+    "Description": "All Seiran allies"
+  },
+  "4072": {
+    "DescriptionJp": "味方の青嵐総合芸術院",
+    "Description": "All Seiran allies"
+  },
+  "4073": {
+    "DescriptionJp": "後ろから1番目の聖翔音楽学園の敵役",
+    "Description": "Frontmost Seisho enemy"
+  },
+  "4032": {
+    "DescriptionJp": "フロンティア芸術学校の風属性",
+    "Description": "Wind Frontier"
+  },
+  "4033": {
+    "DescriptionJp": "フロンティア芸術学校の雪属性",
+    "Description": "Snow Frontier"
+  },
+  "4036": {
+    "DescriptionJp": "フロンティア芸術学校の雲属性",
+    "Description": "Cloud Frontier"
+  },
+  "4038": {
+    "DescriptionJp": "シークフェルト音楽学院の花属性",
+    "Description": "Flower Siegfeld"
+  },
+  "4041": {
+    "DescriptionJp": "シークフェルト音楽学院の月属性",
+    "Description": "Moon Siegfeld"
+  },
+  "4042": {
+    "DescriptionJp": "シークフェルト音楽学院の宙属性",
+    "Description": "Space Siegfeld"
+  },
+  "4046": {
+    "DescriptionJp": "風属性のACTタイプ[通常]",
+    "Description": "Wind Normal-Type"
+  },
+  "4047": {
+    "DescriptionJp": "雪属性のACTタイプ[通常]",
+    "Description": "Snow Normal-Type"
+  },
+  "4048": {
+    "DescriptionJp": "月属性のACTタイプ[通常]",
+    "Description": "Moon Normal-Type"
+  },
+  "4052": {
+    "DescriptionJp": "花属性のACTタイプ[特殊]",
+    "Description": "Flower Special-Type"
+  },
+  "4056": {
+    "DescriptionJp": "宙属性のACTタイプ[特殊]",
+    "Description": "Space Special-Type"
+  },
+  "4057": {
+    "DescriptionJp": "雲属性のACTタイプ[特殊]",
+    "Description": "Cloud Special-Type"
+  },
+  "4006": {
+    "DescriptionJp": "味方の立ち位置中",
+    "Description": "Ally Mid Row"
+  },
+  "4007": {
+    "DescriptionJp": "味方の立ち位置後",
+    "Description": "Ally Back Row"
+  },
+  "4010": {
+    "DescriptionJp": "味方の雪属性",
+    "Description": "All Cloud allies"
+  },
+  "4014": {
+    "DescriptionJp": "味方の夢属性",
+    "Description": "All Dream allies"
+  },
+  "4015": {
+    "DescriptionJp": "味方のACTタイプ[通常]",
+    "Description": "All Normal-Type allies"
+  },
+  "4016": {
+    "DescriptionJp": "味方のACTタイプ[特殊]",
+    "Description": "All Special-Type allies"
+  },
+  "4017": {
+    "DescriptionJp": "聖翔音楽学園の花属性",
+    "Description": "Flower Seisho"
+  },
+  "4018": {
+    "DescriptionJp": "聖翔音楽学園の風属性",
+    "Description": "Wind Seisho"
+  },
+  "4019": {
+    "DescriptionJp": "聖翔音楽学園の雪属性",
+    "Description": "Snow Seisho"
+  },
+  "4020": {
+    "DescriptionJp": "聖翔音楽学園の月属性",
+    "Description": "Moon Seisho"
+  },
+  "4028": {
+    "DescriptionJp": "凛明館女学校の宙属性",
+    "Description": "Space Rinmeikan"
+  },
+  "4029": {
+    "DescriptionJp": "凛明館女学校の雲属性",
+    "Description": "Cloud Rinmeikan"
+  }
+}

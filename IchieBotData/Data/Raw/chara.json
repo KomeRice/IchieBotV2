@@ -1,0 +1,1874 @@
+{
+    "101": {
+        "birth_day": 27,
+        "birth_month": 9,
+        "cv": {
+            "ja": "小山百代"
+        },
+        "cv_first": {
+            "ja": "百代"
+        },
+        "cv_last": {
+            "ja": "小山"
+        },
+        "department_1": {
+            "ja": "聖翔音楽学園 99期"
+        },
+        "department_2": {
+            "ja": "俳優育成科"
+        },
+        "dislike_foods": {
+            "ja": "グリーンピース"
+        },
+        "dislikes": {
+            "ja": "落ち着くこと/柔軟体操"
+        },
+        "first_name": {
+            "ja": "華恋"
+        },
+        "id": 101,
+        "introduction": {
+            "ja": "幼い日に見たレヴュー『スタァライト』に心を奪われ、舞台の道を走り出した舞台少女。いつでも元気、声も大きめ、でも早朝レッスンは超苦手。幼い日に『運命』を交換したひかりと共に、謎のレヴューに参加する。"
+        },
+        "last_name": {
+            "ja": "愛城"
+        },
+        "like_foods": {
+            "ja": "梅干し"
+        },
+        "likes": {
+            "ja": "惰眠/練習後の半身浴"
+        },
+        "name": {
+            "ja": "愛城華恋"
+        },
+        "name_ruby": {
+            "ja": "Karen Aijo"
+        },
+        "school_id": 1
+    },
+    "102": {
+        "birth_day": 8,
+        "birth_month": 1,
+        "cv": {
+            "ja": "三森すずこ"
+        },
+        "cv_first": {
+            "ja": "すずこ"
+        },
+        "cv_last": {
+            "ja": "三森"
+        },
+        "department_1": {
+            "ja": "聖翔音楽学園 99期"
+        },
+        "department_2": {
+            "ja": "俳優育成科（転入）"
+        },
+        "dislike_foods": {
+            "ja": "プルプルしているもの（プリン・豆腐）"
+        },
+        "dislikes": {
+            "ja": "整理整頓"
+        },
+        "first_name": {
+            "ja": "ひかり"
+        },
+        "id": 102,
+        "introduction": {
+            "ja": "華恋の幼馴染みで、イギリスの演劇学校に留学していた天性の舞台少女。レヴュー『スタァライト』を共に観劇した華恋と『運命』を交換した。華恋と再会し、何かに駆り立てられるように謎のレヴューに参加する。"
+        },
+        "last_name": {
+            "ja": "神楽"
+        },
+        "like_foods": {
+            "ja": "チョコレート/讃岐うどん"
+        },
+        "likes": {
+            "ja": "くらげ/ミスターホワイト"
+        },
+        "name": {
+            "ja": "神楽ひかり"
+        },
+        "name_ruby": {
+            "ja": "Hikari Kagura"
+        },
+        "school_id": 1
+    },
+    "103": {
+        "birth_day": 4,
+        "birth_month": 5,
+        "cv": {
+            "ja": "岩田陽葵"
+        },
+        "cv_first": {
+            "ja": "陽葵"
+        },
+        "cv_last": {
+            "ja": "岩田"
+        },
+        "department_1": {
+            "ja": "聖翔音楽学園 99期"
+        },
+        "department_2": {
+            "ja": "俳優育成科"
+        },
+        "dislike_foods": {
+            "ja": "そら豆"
+        },
+        "dislikes": {
+            "ja": "ババ抜き/哀しい話"
+        },
+        "first_name": {
+            "ja": "まひる"
+        },
+        "id": 103,
+        "introduction": {
+            "ja": "舞台の上では溌剌と歌って踊るが、普段は大人しくて引っ込み思案な舞台少女。華恋のルームメイトで、彼女の明るさ、前向きさにずっと憧れている。だがひかりという華恋の幼馴染みの出現に、心中複雑で……"
+        },
+        "last_name": {
+            "ja": "露崎"
+        },
+        "like_foods": {
+            "ja": "じゃがいも"
+        },
+        "likes": {
+            "ja": "バトン/野球観戦/整理整頓・掃除"
+        },
+        "name": {
+            "ja": "露崎まひる"
+        },
+        "name_ruby": {
+            "ja": "Mahiru Tsuyuzaki"
+        },
+        "school_id": 1
+    },
+    "104": {
+        "birth_day": 1,
+        "birth_month": 8,
+        "cv": {
+            "ja": "相羽あいな"
+        },
+        "cv_first": {
+            "ja": "あいな"
+        },
+        "cv_last": {
+            "ja": "相羽"
+        },
+        "department_1": {
+            "ja": "聖翔音楽学園 99期"
+        },
+        "department_2": {
+            "ja": "俳優育成科"
+        },
+        "dislike_foods": {
+            "ja": "漬物（梅干し）"
+        },
+        "dislikes": {
+            "ja": "怖い話（特にジャパニーズホラー映画）"
+        },
+        "first_name": {
+            "ja": "クロディーヌ"
+        },
+        "id": 104,
+        "introduction": {
+            "ja": "日本人の父とフランス人の母を持つハーフ。豊かな才能を持ち、子役として何度も舞台に出演してきた舞台少女。だが入学して真矢という強烈な輝きを放つ存在と初めて出会い、以来ずっと彼女をライバル視している。"
+        },
+        "last_name": {
+            "ja": "西條"
+        },
+        "like_foods": {
+            "ja": "お刺身"
+        },
+        "likes": {
+            "ja": "映画・舞台鑑賞/自主トレ・筋トレ"
+        },
+        "name": {
+            "ja": "西條クロディーヌ"
+        },
+        "name_ruby": {
+            "ja": "Claudine Saijo"
+        },
+        "school_id": 1
+    },
+    "105": {
+        "birth_day": 24,
+        "birth_month": 7,
+        "cv": {
+            "ja": "富田麻帆"
+        },
+        "cv_first": {
+            "ja": "麻帆"
+        },
+        "cv_last": {
+            "ja": "富田"
+        },
+        "department_1": {
+            "ja": "聖翔音楽学園 99期"
+        },
+        "department_2": {
+            "ja": "俳優育成科"
+        },
+        "dislike_foods": {
+            "ja": "生トマト"
+        },
+        "dislikes": {
+            "ja": "絵画/怖い話"
+        },
+        "first_name": {
+            "ja": "真矢"
+        },
+        "id": 105,
+        "introduction": {
+            "ja": "高名な舞台俳優とプリマドンナを両親に持つ演劇界のサラブレッド。恵まれた体躯、高く通る声。天賦の才に恵まれながらも、決してあぐらをかくことなく、さらなる高みを目指して努力を続ける孤高の舞台少女。真矢様。"
+        },
+        "last_name": {
+            "ja": "天堂"
+        },
+        "like_foods": {
+            "ja": "バウムクーヘン"
+        },
+        "likes": {
+            "ja": "映画・舞台鑑賞/自主トレ・筋トレ"
+        },
+        "name": {
+            "ja": "天堂真矢"
+        },
+        "name_ruby": {
+            "ja": "Maya Tendo"
+        },
+        "school_id": 1
+    },
+    "106": {
+        "birth_day": 1,
+        "birth_month": 10,
+        "cv": {
+            "ja": "佐藤日向"
+        },
+        "cv_first": {
+            "ja": "日向"
+        },
+        "cv_last": {
+            "ja": "佐藤"
+        },
+        "department_1": {
+            "ja": "聖翔音楽学園 99期"
+        },
+        "department_2": {
+            "ja": "俳優育成科"
+        },
+        "dislike_foods": {
+            "ja": "セロリ"
+        },
+        "dislikes": {
+            "ja": "球技・水泳/怖い話"
+        },
+        "first_name": {
+            "ja": "純那"
+        },
+        "id": 106,
+        "introduction": {
+            "ja": "学年一の才女で学級委員も務める優等生。判断力、分析力に優れるがそれゆえ考えすぎることも。両親の反対を押し切って舞台の道を選んだが、天性の才能を持つ真矢達との差に悩みもがいている舞台少女。"
+        },
+        "last_name": {
+            "ja": "星見"
+        },
+        "like_foods": {
+            "ja": "肉じゃが/しいたけ"
+        },
+        "likes": {
+            "ja": "読書/お風呂・温泉/メガネ"
+        },
+        "name": {
+            "ja": "星見純那"
+        },
+        "name_ruby": {
+            "ja": "Junna Hoshimi"
+        },
+        "school_id": 1
+    },
+    "107": {
+        "birth_day": 12,
+        "birth_month": 7,
+        "cv": {
+            "ja": "小泉萌香"
+        },
+        "cv_first": {
+            "ja": "萌香"
+        },
+        "cv_last": {
+            "ja": "小泉"
+        },
+        "department_1": {
+            "ja": "聖翔音楽学園 99期"
+        },
+        "department_2": {
+            "ja": "俳優育成科"
+        },
+        "dislike_foods": {
+            "ja": "激辛全般"
+        },
+        "dislikes": {
+            "ja": "ひとりになること"
+        },
+        "first_name": {
+            "ja": "なな"
+        },
+        "id": 107,
+        "introduction": {
+            "ja": "大きな優しさでみんなを包み込む９９期生の「お母さん」的舞台少女。ニックネームは「ばなな」。踊りや歌だけでなく舞台演出にも優れた才能を見せる。１年次にみんなで演じた「スタァライト」が今でもお気に入り。"
+        },
+        "last_name": {
+            "ja": "大場"
+        },
+        "like_foods": {
+            "ja": "豚汁"
+        },
+        "likes": {
+            "ja": "カエルグッズ集め/料理・お菓子作り"
+        },
+        "name": {
+            "ja": "大場なな"
+        },
+        "name_ruby": {
+            "ja": "Nana Daiba"
+        },
+        "school_id": 1
+    },
+    "108": {
+        "birth_day": 17,
+        "birth_month": 4,
+        "cv": {
+            "ja": "生田輝"
+        },
+        "cv_first": {
+            "ja": "輝"
+        },
+        "cv_last": {
+            "ja": "生田"
+        },
+        "department_1": {
+            "ja": "聖翔音楽学園 99期"
+        },
+        "department_2": {
+            "ja": "俳優育成科"
+        },
+        "dislike_foods": {
+            "ja": "魚"
+        },
+        "dislikes": {
+            "ja": "ひま"
+        },
+        "first_name": {
+            "ja": "双葉"
+        },
+        "id": 108,
+        "introduction": {
+            "ja": "香子の幼馴染みで、彼女に付き添って聖翔音楽学園に入学してきた異端の舞台少女。口は悪いが根は優しく、文句を言いつつ香子の事が最優先。小柄ながらも身体能力は高く、実戦仕込み（？）の殺陣を得意とする。"
+        },
+        "last_name": {
+            "ja": "石動"
+        },
+        "like_foods": {
+            "ja": "肉/駄菓子・甘い物"
+        },
+        "likes": {
+            "ja": "バイク/細かい作業"
+        },
+        "name": {
+            "ja": "石動双葉"
+        },
+        "name_ruby": {
+            "ja": "Futaba Isurugi"
+        },
+        "school_id": 1
+    },
+    "109": {
+        "birth_day": 3,
+        "birth_month": 3,
+        "cv": {
+            "ja": "伊藤彩沙"
+        },
+        "cv_first": {
+            "ja": "彩沙"
+        },
+        "cv_last": {
+            "ja": "伊藤"
+        },
+        "department_1": {
+            "ja": "聖翔音楽学園 99期"
+        },
+        "department_2": {
+            "ja": "俳優育成科"
+        },
+        "dislike_foods": {
+            "ja": "ネギ"
+        },
+        "dislikes": {
+            "ja": "家事全般"
+        },
+        "first_name": {
+            "ja": "香子"
+        },
+        "id": 109,
+        "introduction": {
+            "ja": "日本舞踊の家元の孫娘。卓越した歌謡と舞踊の才を持つ和の舞台少女。生粋のお嬢様で、生活のほとんどは双葉に頼りっきり。いつも笑顔を絶やさないが、実は誰よりも計算高い。はんなりとした京都弁が特徴。"
+        },
+        "last_name": {
+            "ja": "花柳"
+        },
+        "like_foods": {
+            "ja": "和菓子・駄菓子・甘い物"
+        },
+        "likes": {
+            "ja": "香水集め（香袋、お香含む）"
+        },
+        "name": {
+            "ja": "花柳香子"
+        },
+        "name_ruby": {
+            "ja": "Kaoruko Hanayagi"
+        },
+        "school_id": 1
+    },
+    "201": {
+        "birth_day": 2,
+        "birth_month": 12,
+        "cv": {
+            "ja": "楠木ともり"
+        },
+        "cv_first": {
+            "ja": "ともり"
+        },
+        "cv_last": {
+            "ja": "楠木"
+        },
+        "department_1": {
+            "ja": "凛明館女学校"
+        },
+        "department_2": {
+            "ja": "演劇科"
+        },
+        "dislike_foods": {
+            "ja": "レバー"
+        },
+        "dislikes": {
+            "ja": "書道"
+        },
+        "first_name": {
+            "ja": "珠緒"
+        },
+        "id": 201,
+        "introduction": {
+            "ja": "気立てがよく誰にでも優しい、大和撫子然とした舞台少女。学校の伝統に恥じぬよう校訓である『強く・優しく・麗しく』を胸に日々稽古に励む。祖母、母も凛明館女学校の卒業生であり、学校への思いは誰よりも強い。"
+        },
+        "last_name": {
+            "ja": "巴"
+        },
+        "like_foods": {
+            "ja": "お寿司/あんみつ"
+        },
+        "likes": {
+            "ja": "料理/園芸"
+        },
+        "name": {
+            "ja": "巴珠緒"
+        },
+        "name_ruby": {
+            "ja": "Tamao Tomoe"
+        },
+        "school_id": 2
+    },
+    "202": {
+        "birth_day": 19,
+        "birth_month": 3,
+        "cv": {
+            "ja": "和氣あず未"
+        },
+        "cv_first": {
+            "ja": "あず未"
+        },
+        "cv_last": {
+            "ja": "和氣"
+        },
+        "department_1": {
+            "ja": "凛明館女学校"
+        },
+        "department_2": {
+            "ja": "演劇科"
+        },
+        "dislike_foods": {
+            "ja": "ゴーヤ"
+        },
+        "dislikes": {
+            "ja": "頭を使うゲーム"
+        },
+        "first_name": {
+            "ja": "いちえ"
+        },
+        "id": 202,
+        "introduction": {
+            "ja": "『音無(おとなし)』という名字に反しいつも賑やかなムード＆トラブルメーカー。深く考えない性質だが、前向きな考えで周囲を引っ張ることも多い。中学生時代はアイドルを目指していたこともあってダンス・歌唱には自信アリ。文と仲良く喧嘩することが日課。"
+        },
+        "last_name": {
+            "ja": "音無"
+        },
+        "like_foods": {
+            "ja": "ハンバーガー/缶入りドロップス"
+        },
+        "likes": {
+            "ja": "文へのいたずら/鼻歌"
+        },
+        "name": {
+            "ja": "音無いちえ"
+        },
+        "name_ruby": {
+            "ja": "Ichie Otonashi"
+        },
+        "school_id": 2
+    },
+    "203": {
+        "birth_day": 3,
+        "birth_month": 2,
+        "cv": {
+            "ja": "倉知玲鳳"
+        },
+        "cv_first": {
+            "ja": "玲鳳"
+        },
+        "cv_last": {
+            "ja": "倉知"
+        },
+        "department_1": {
+            "ja": "凛明館女学校"
+        },
+        "department_2": {
+            "ja": "演劇科"
+        },
+        "dislike_foods": {
+            "ja": "固形のチーズ"
+        },
+        "dislikes": {
+            "ja": "細かい作業"
+        },
+        "first_name": {
+            "ja": "文"
+        },
+        "id": 203,
+        "introduction": {
+            "ja": "かつては名門シークフェルト音楽学院で優秀な成績を修めていたが、とある事情から凛明館女学校に転入した舞台少女。誰もが認める世話焼き体質だが、本人は否定的。好きな調味料はポン酢。"
+        },
+        "last_name": {
+            "ja": "夢大路"
+        },
+        "like_foods": {
+            "ja": "ポン酢にあう食べ物"
+        },
+        "likes": {
+            "ja": "節約術/ティータイム"
+        },
+        "name": {
+            "ja": "夢大路文"
+        },
+        "name_ruby": {
+            "ja": "Fumi Yumeoji"
+        },
+        "school_id": 2
+    },
+    "204": {
+        "birth_day": 20,
+        "birth_month": 11,
+        "cv": {
+            "ja": "紡木吏佐"
+        },
+        "cv_first": {
+            "ja": "吏佐"
+        },
+        "cv_last": {
+            "ja": "紡木"
+        },
+        "department_1": {
+            "ja": "凛明館女学校"
+        },
+        "department_2": {
+            "ja": "演劇科"
+        },
+        "dislike_foods": {
+            "ja": "しいたけ"
+        },
+        "dislikes": {
+            "ja": "大きな生き物/かみなり"
+        },
+        "first_name": {
+            "ja": "塁"
+        },
+        "id": 204,
+        "introduction": {
+            "ja": "中学生時代、珠緒の演技に一目惚れしたことをきっかけに舞台の世界を志した舞台少女。あがり症で極端にプレッシャーに弱かったが珠緒との特訓の末に徐々に改善されつつある。自分を導いてくれた恩人として、珠緒に強い憧れを抱く。"
+        },
+        "last_name": {
+            "ja": "秋風"
+        },
+        "like_foods": {
+            "ja": "ドーナツ"
+        },
+        "likes": {
+            "ja": "剣道/珠緒と話すこと"
+        },
+        "name": {
+            "ja": "秋風塁"
+        },
+        "name_ruby": {
+            "ja": "Rui Akikaze"
+        },
+        "school_id": 2
+    },
+    "205": {
+        "birth_day": 5,
+        "birth_month": 6,
+        "cv": {
+            "ja": "佐伯伊織"
+        },
+        "cv_first": {
+            "ja": "伊織"
+        },
+        "cv_last": {
+            "ja": "佐伯"
+        },
+        "department_1": {
+            "ja": "凛明館女学校"
+        },
+        "department_2": {
+            "ja": "演劇科"
+        },
+        "dislike_foods": {
+            "ja": "ピクルス"
+        },
+        "dislikes": {
+            "ja": "早起き"
+        },
+        "first_name": {
+            "ja": "ゆゆ子"
+        },
+        "id": 205,
+        "introduction": {
+            "ja": "夜更かし朝寝坊が大好き、いつも眠たげな舞台少女。努力している姿を人に見られるのが苦手で隠れて練習を行う癖がある。日本の伝統芸能全般、特に落語が好きで音楽プレイヤーの中身はほぼ落語で構成されている。"
+        },
+        "last_name": {
+            "ja": "田中"
+        },
+        "like_foods": {
+            "ja": "トマト"
+        },
+        "likes": {
+            "ja": "落語/夜更かし"
+        },
+        "name": {
+            "ja": "田中ゆゆ子"
+        },
+        "name_ruby": {
+            "ja": "Yuyuko Tanaka"
+        },
+        "school_id": 2
+    },
+    "301": {
+        "birth_day": 29,
+        "birth_month": 5,
+        "cv": {
+            "ja": "潘めぐみ"
+        },
+        "cv_first": {
+            "ja": "めぐみ"
+        },
+        "cv_last": {
+            "ja": "潘"
+        },
+        "department_1": {
+            "ja": "フロンティア芸術学校"
+        },
+        "department_2": {
+            "ja": "舞台表現コース"
+        },
+        "dislike_foods": {
+            "ja": "生のにんにく"
+        },
+        "dislikes": {
+            "ja": "悲しい演技"
+        },
+        "first_name": {
+            "ja": "あるる"
+        },
+        "id": 301,
+        "introduction": {
+            "ja": "いつもニコニコ、元気な笑顔の舞台少女。天性の明るさを持ち、どんな時も決して落ち込まない。入学するまでは舞台経験ゼロの素人だったが持ち前のまっすぐさと、周囲を巻き込む行動力で急成長中。自分は運がいいと思っている。"
+        },
+        "last_name": {
+            "ja": "大月"
+        },
+        "like_foods": {
+            "ja": "カレー"
+        },
+        "likes": {
+            "ja": "クロスワードパズル/お絵かき"
+        },
+        "name": {
+            "ja": "大月あるる"
+        },
+        "name_ruby": {
+            "ja": "Aruru Otsuki"
+        },
+        "school_id": 3
+    },
+    "302": {
+        "birth_day": 10,
+        "birth_month": 10,
+        "cv": {
+            "ja": "竹達彩奈"
+        },
+        "cv_first": {
+            "ja": "彩奈"
+        },
+        "cv_last": {
+            "ja": "竹達"
+        },
+        "department_1": {
+            "ja": "フロンティア芸術学校"
+        },
+        "department_2": {
+            "ja": "舞台表現コース"
+        },
+        "dislike_foods": {
+            "ja": "洋酒の効いたお菓子"
+        },
+        "dislikes": {
+            "ja": "空腹"
+        },
+        "first_name": {
+            "ja": "美空"
+        },
+        "id": 302,
+        "introduction": {
+            "ja": "あるるの幼馴染で良き理解者(？)。劇団を営む両親の元に育ち、幼い頃から舞台に深く接してきた舞台少女。あるるの無謀な行動に幾度となく付き合ううちに疲れ知らずの体力・精神力を持つようになった。動く分よく食べ、その食欲は周囲をたびたび驚かせるほど。"
+        },
+        "last_name": {
+            "ja": "叶"
+        },
+        "like_foods": {
+            "ja": "ふりかけ/メンチカツ"
+        },
+        "likes": {
+            "ja": "スポーツ全般"
+        },
+        "name": {
+            "ja": "叶美空"
+        },
+        "name_ruby": {
+            "ja": "Misora Kano"
+        },
+        "school_id": 3
+    },
+    "303": {
+        "birth_day": 5,
+        "birth_month": 4,
+        "cv": {
+            "ja": "富田美憂"
+        },
+        "cv_first": {
+            "ja": "美憂"
+        },
+        "cv_last": {
+            "ja": "富田"
+        },
+        "department_1": {
+            "ja": "フロンティア芸術学校"
+        },
+        "department_2": {
+            "ja": "舞台表現コース"
+        },
+        "dislike_foods": {
+            "ja": "焼きたまねぎ"
+        },
+        "dislikes": {
+            "ja": "地図を読むこと"
+        },
+        "first_name": {
+            "ja": "ララフィン"
+        },
+        "id": 303,
+        "introduction": {
+            "ja": "天真爛漫、小動物系な舞台少女。子どもの頃から、モデル・子役として活動していたが芸の幅を広げるためフロンティア芸術学校に入学した。入学後は舞台の虜となり、夢中でレッスンに取り組む。新体操の経験があり、身体能力を活かしたダイナミックなアクションが得意。アニメや漫画、特撮好きの一面も。"
+        },
+        "last_name": {
+            "ja": "野々宮"
+        },
+        "like_foods": {
+            "ja": "ハンバーグ"
+        },
+        "likes": {
+            "ja": "アニメ鑑賞/アクロバット"
+        },
+        "name": {
+            "ja": "野々宮ララフィン"
+        },
+        "name_ruby": {
+            "ja": "Lalafin Nonomiya"
+        },
+        "school_id": 3
+    },
+    "304": {
+        "birth_day": 14,
+        "birth_month": 1,
+        "cv": {
+            "ja": "加藤英美里"
+        },
+        "cv_first": {
+            "ja": "英美里"
+        },
+        "cv_last": {
+            "ja": "加藤"
+        },
+        "department_1": {
+            "ja": "フロンティア芸術学校"
+        },
+        "department_2": {
+            "ja": "舞台表現コース"
+        },
+        "dislike_foods": {
+            "ja": "パクチー"
+        },
+        "dislikes": {
+            "ja": "高いところ"
+        },
+        "first_name": {
+            "ja": "つかさ"
+        },
+        "id": 304,
+        "introduction": {
+            "ja": "見た目やノリは軽そうに見えるが、舞台の実力は確かで学校トップクラスの静羽と肩を並べるほど。仲間を大切に思う気持ちが人一倍強い舞台少女。厳しい家庭環境に育ったため寮生活では今まで出来なかったオシャレや駄菓子の買い食いを満喫している。"
+        },
+        "last_name": {
+            "ja": "恵比寿"
+        },
+        "like_foods": {
+            "ja": "駄菓子、縁日の食べ物"
+        },
+        "likes": {
+            "ja": "読書/ＤＩＹ"
+        },
+        "name": {
+            "ja": "恵比寿つかさ"
+        },
+        "name_ruby": {
+            "ja": "Tsukasa Ebisu"
+        },
+        "school_id": 3
+    },
+    "305": {
+        "birth_day": 16,
+        "birth_month": 8,
+        "cv": {
+            "ja": "佐々木未来"
+        },
+        "cv_first": {
+            "ja": "未来"
+        },
+        "cv_last": {
+            "ja": "佐々木"
+        },
+        "department_1": {
+            "ja": "フロンティア芸術学校"
+        },
+        "department_2": {
+            "ja": "舞台表現コース"
+        },
+        "dislike_foods": {
+            "ja": "特になし"
+        },
+        "dislikes": {
+            "ja": "絶叫系アトラクション"
+        },
+        "first_name": {
+            "ja": "静羽"
+        },
+        "id": 305,
+        "introduction": {
+            "ja": "細やかな気配りと穏やかな笑顔を欠かさぬ、理想のお姉ちゃん的舞台少女。スタイル・演技力共に抜群で中学生の頃から注目を浴びていたフロンティア芸術学校舞台表現コースの顔的存在。健康志向が強く、お手製の健康ドリンクをよく振る舞うがみんなからの評判は……。"
+        },
+        "last_name": {
+            "ja": "胡蝶"
+        },
+        "like_foods": {
+            "ja": "フルーツ全般"
+        },
+        "likes": {
+            "ja": "健康ドリンク作り/早口言葉"
+        },
+        "name": {
+            "ja": "胡蝶静羽"
+        },
+        "name_ruby": {
+            "ja": "Shizuha Kocho"
+        },
+        "school_id": 3
+    },
+    "401": {
+        "birth_day": 14,
+        "birth_month": 12,
+        "cv": {
+            "ja": "野本ほたる"
+        },
+        "cv_first": {
+            "ja": "ほたる"
+        },
+        "cv_last": {
+            "ja": "野本"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "舞台俳優学科"
+        },
+        "dislike_foods": {
+            "ja": "なす"
+        },
+        "dislikes": {
+            "ja": "デジタル機器の使用"
+        },
+        "first_name": {
+            "ja": "晶"
+        },
+        "id": 401,
+        "introduction": {
+            "ja": "名門シークフェルト音楽学院で過去最高の天才と言われる舞台少女。\nクールかつ妥協を許さない性格のため周囲との軋轢を生むことも多いが、いずれも圧倒的な実力でねじ伏せて来た。"
+        },
+        "last_name": {
+            "ja": "雪代"
+        },
+        "like_foods": {
+            "ja": "激辛カレー、激辛スナック"
+        },
+        "likes": {
+            "ja": "アイススケート/自主トレ・筋トレ"
+        },
+        "name": {
+            "ja": "雪代晶"
+        },
+        "name_ruby": {
+            "ja": "Akira Yukishiro"
+        },
+        "school_id": 4
+    },
+    "402": {
+        "birth_day": 15,
+        "birth_month": 2,
+        "cv": {
+            "ja": "尾崎由香"
+        },
+        "cv_first": {
+            "ja": "由香"
+        },
+        "cv_last": {
+            "ja": "尾崎"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "舞台俳優学科"
+        },
+        "dislike_foods": {
+            "ja": "なまこ"
+        },
+        "dislikes": {
+            "ja": "詮索されること"
+        },
+        "first_name": {
+            "ja": "ミチル"
+        },
+        "id": 402,
+        "introduction": {
+            "ja": "いつも晶を補佐する相棒的存在の舞台少女。歌、ダンス、演技の実力は晶に匹敵すると言われるが、自身がスタァになることと同じかそれ以上に、晶たちが成長することを望み行動する。人当たりがよく学内のファンも多い。"
+        },
+        "last_name": {
+            "ja": "鳳"
+        },
+        "like_foods": {
+            "ja": "くるみ"
+        },
+        "likes": {
+            "ja": "音楽鑑賞/格闘技観戦"
+        },
+        "name": {
+            "ja": "鳳ミチル"
+        },
+        "name_ruby": {
+            "ja": "Michiru Otori"
+        },
+        "school_id": 4
+    },
+    "403": {
+        "birth_day": 11,
+        "birth_month": 9,
+        "cv": {
+            "ja": "竹内夢"
+        },
+        "cv_first": {
+            "ja": "夢"
+        },
+        "cv_last": {
+            "ja": "竹内"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "舞台俳優学科"
+        },
+        "dislike_foods": {
+            "ja": "卵かけごはん"
+        },
+        "dislikes": {
+            "ja": "嘘をつくこと/ごまかすこと"
+        },
+        "first_name": {
+            "ja": "メイファン"
+        },
+        "id": 403,
+        "introduction": {
+            "ja": "中国からの留学生。故郷では子役時代から名を馳せていた舞台少女。礼儀正しく、先輩思いである一方、晶を超えるべき壁として強く意識している。占い好きだが、悪い結果ほど当たるというジンクスをもつため最近は誰も占わせてくれない。"
+        },
+        "last_name": {
+            "ja": "リュウ"
+        },
+        "like_foods": {
+            "ja": "するめ/あんこのお菓子"
+        },
+        "likes": {
+            "ja": "トイカプセル巡り/占い"
+        },
+        "name": {
+            "ja": "リュウ・メイファン"
+        },
+        "name_ruby": {
+            "ja": "MeiFan Liu"
+        },
+        "school_id": 4
+    },
+    "404": {
+        "birth_day": 21,
+        "birth_month": 6,
+        "cv": {
+            "ja": "遠野ひかる"
+        },
+        "cv_first": {
+            "ja": "ひかる"
+        },
+        "cv_last": {
+            "ja": "遠野"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "中等部"
+        },
+        "dislike_foods": {
+            "ja": "納豆"
+        },
+        "dislikes": {
+            "ja": "長距離走・柔軟体操"
+        },
+        "first_name": {
+            "ja": "栞"
+        },
+        "id": 404,
+        "introduction": {
+            "ja": "元々は身体が弱く、長時間のレッスンが出来なかったが身体の成長とともに克服し、頭角を現した舞台少女。個性溢れるシークフェルトの面々の中では比較的に良識派のため苦労人ポジションになることが多い。姉の文が理由も告げず転校し、自らの元を去ったことに対し、わだかまりを抱いている。"
+        },
+        "last_name": {
+            "ja": "夢大路"
+        },
+        "like_foods": {
+            "ja": "紅茶/シフォンケーキ"
+        },
+        "likes": {
+            "ja": "ティータイム/乗馬"
+        },
+        "name": {
+            "ja": "夢大路栞"
+        },
+        "name_ruby": {
+            "ja": "Shiori Yumeoji"
+        },
+        "school_id": 4
+    },
+    "405": {
+        "birth_day": 9,
+        "birth_month": 11,
+        "cv": {
+            "ja": "工藤晴香"
+        },
+        "cv_first": {
+            "ja": "晴香"
+        },
+        "cv_last": {
+            "ja": "工藤"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "舞台俳優学科"
+        },
+        "dislike_foods": {
+            "ja": "酢豚のパイナップル"
+        },
+        "dislikes": {
+            "ja": "急な予定が入ること"
+        },
+        "first_name": {
+            "ja": "やちよ"
+        },
+        "id": 405,
+        "introduction": {
+            "ja": "本心をあまり見せない、つかみどころのない舞台少女。イタズラめいた言動が多いため、晶やメイファンを怒らせることもしばしば。服飾や裁縫が得意で、スタァになって自作の衣裳を着て大舞台に立つことが夢。"
+        },
+        "last_name": {
+            "ja": "鶴姫"
+        },
+        "like_foods": {
+            "ja": "コーヒー/フルーツサンド"
+        },
+        "likes": {
+            "ja": "裁縫/生地屋巡り"
+        },
+        "name": {
+            "ja": "鶴姫やちよ"
+        },
+        "name_ruby": {
+            "ja": "Yachiyo Tsuruhime"
+        },
+        "school_id": 4
+    },
+    "406": {
+        "birth_day": 5,
+        "birth_month": 9,
+        "cv": {
+            "ja": "青木陽菜"
+        },
+        "cv_first": {
+            "ja": "陽菜"
+        },
+        "cv_last": {
+            "ja": "青木"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "中等部"
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": "ステラ"
+        },
+        "id": 406,
+        "introduction": {
+            "ja": "シークフェルト音楽学院の学院長を祖母に持ち、ドイツからシークフェルト音楽学院中等部に転入してきた名門のお嬢様。\n名家の誇りを守ろうという気概はあるものの、幼馴染の詩呂に甘えがち。\n過去の失敗を乗り越え、自分を変えたいと思っている。"
+        },
+        "last_name": {
+            "ja": "高千穂"
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "高千穂ステラ"
+        },
+        "name_ruby": {
+            "ja": "Stella Takachiho"
+        },
+        "school_id": 4
+    },
+    "407": {
+        "birth_day": 20,
+        "birth_month": 5,
+        "cv": {
+            "ja": "松澤可苑"
+        },
+        "cv_first": {
+            "ja": "可苑"
+        },
+        "cv_last": {
+            "ja": "松澤"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "中等部"
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": "詩呂"
+        },
+        "id": 407,
+        "introduction": {
+            "ja": "ステラの幼馴染であり、世話役として仕える本人曰く「いわゆるメイド」。\nシークフェルト家のメイドとしての誇りを持ち、完璧を目指す。\n豊富な知識や経験を兼ね備え、底が知れないミステリアスさを持つ。\nときにステラに対して毒を吐くのは愛情の裏返し。"
+        },
+        "last_name": {
+            "ja": "大賀美"
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "大賀美詩呂"
+        },
+        "name_ruby": {
+            "ja": "Shiro Ogami"
+        },
+        "school_id": 4
+    },
+    "408": {
+        "birth_day": 4,
+        "birth_month": 7,
+        "cv": {
+            "ja": "深川瑠華"
+        },
+        "cv_first": {
+            "ja": "瑠華"
+        },
+        "cv_last": {
+            "ja": "深川"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "中等部"
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": "良子"
+        },
+        "id": 408,
+        "introduction": {
+            "ja": "シークフェルト音楽学院中等部の劣等生。補欠合格で入学し、周りのレベルの高さに苦しみつつも日々稽古に励んでいる。\n自信を持てないでいるが、負けん気や根性は人一倍。\n実家はきょうだいが多い大家族のため、自分がスタァになって家族の生活を助けたいと考えている。"
+        },
+        "last_name": {
+            "ja": "小鳩"
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "小鳩良子"
+        },
+        "name_ruby": {
+            "ja": "Ryoko Kobato"
+        },
+        "school_id": 4
+    },
+    "409": {
+        "birth_day": 26,
+        "birth_month": 6,
+        "cv": {
+            "ja": "久家心"
+        },
+        "cv_first": {
+            "ja": "心"
+        },
+        "cv_last": {
+            "ja": "久家"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "中等部"
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": "みんく"
+        },
+        "id": 409,
+        "introduction": {
+            "ja": "いつもふわふわ、我が道を行くシークフェルトの異端児。\n歌、ダンスともに実力はあるが、自由すぎる表現やアドリブのため成績はいまいち。\n良子とは補習仲間であり、一緒にいることが多い。\nどんな舞台少女になりたいか現在模索中。"
+        },
+        "last_name": {
+            "ja": "海辺"
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "海辺みんく"
+        },
+        "name_ruby": {
+            "ja": "Minku Umibe"
+        },
+        "school_id": 4
+    },
+    "410": {
+        "birth_day": 25,
+        "birth_month": 11,
+        "cv": {
+            "ja": "佐當友莉亜"
+        },
+        "cv_first": {
+            "ja": "友莉亜"
+        },
+        "cv_last": {
+            "ja": "佐當"
+        },
+        "department_1": {
+            "ja": "シークフェルト音楽学院"
+        },
+        "department_2": {
+            "ja": "中等部"
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": "クイナ"
+        },
+        "id": 410,
+        "introduction": {
+            "ja": "ステラたちのクラスの学級委員長。努力家で常にトップの成績を収める。\n『エーデル（気高き君）』を尊敬し、特に晶を神格化している。\n自分こそが未来の『フラウ・プラティーン（白金の君）』だと、日々稽古に励む。\nみんくとは幼馴染だが、自由すぎる態度に困らされている。"
+        },
+        "last_name": {
+            "ja": "森保"
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "森保クイナ"
+        },
+        "name_ruby": {
+            "ja": "Kuina Moriyasu"
+        },
+        "school_id": 4
+    },
+    "501": {
+        "birth_day": 10,
+        "birth_month": 3,
+        "cv": {
+            "ja": "七木奏音"
+        },
+        "cv_first": {
+            "ja": "奏音"
+        },
+        "cv_last": {
+            "ja": "七木"
+        },
+        "department_1": {
+            "ja": "青嵐総合芸術院"
+        },
+        "department_2": {
+            "ja": "舞台学科　ステージ専攻"
+        },
+        "dislike_foods": {
+            "ja": "チョコレート"
+        },
+        "dislikes": {
+            "ja": "バレンタインデー"
+        },
+        "first_name": {
+            "ja": "小春"
+        },
+        "id": 501,
+        "introduction": {
+            "ja": "青嵐総合芸術院　舞台学科　ステージ専攻　チーフ。\n『青嵐の天才』として知られた存在であり、真矢も一目置いている。何を考えているか読めないミステリアスな雰囲気を漂わせているが、心の中には静かな闘志を秘めている。"
+        },
+        "last_name": {
+            "ja": "柳"
+        },
+        "like_foods": {
+            "ja": "春雨/春菊"
+        },
+        "likes": {
+            "ja": "朝刊のコラムを声に出して読むこと/お花見"
+        },
+        "name": {
+            "ja": "柳小春"
+        },
+        "name_ruby": {
+            "ja": "Koharu Yanagi"
+        },
+        "school_id": 5
+    },
+    "502": {
+        "birth_day": 26,
+        "birth_month": 8,
+        "cv": {
+            "ja": "佃井皆美"
+        },
+        "cv_first": {
+            "ja": "皆美"
+        },
+        "cv_last": {
+            "ja": "佃井"
+        },
+        "department_1": {
+            "ja": "青嵐総合芸術院"
+        },
+        "department_2": {
+            "ja": "舞台学科　ステージ専攻"
+        },
+        "dislike_foods": {
+            "ja": "なし"
+        },
+        "dislikes": {
+            "ja": "漢字"
+        },
+        "first_name": {
+            "ja": "涼"
+        },
+        "id": 502,
+        "introduction": {
+            "ja": "青嵐総合芸術院　舞台学科　ステージ専攻　サブチーフ。\nまひるの中学時代の同級生。まひるの親友であり、ライバル。まひるとの練習中に事故を起こしてしまい、そのことがきっかけで二人は離れ離れになってしまう。"
+        },
+        "last_name": {
+            "ja": "南風"
+        },
+        "like_foods": {
+            "ja": "フライドポテト/コーラ"
+        },
+        "likes": {
+            "ja": "海水浴/あだ名をつけること"
+        },
+        "name": {
+            "ja": "南風涼"
+        },
+        "name_ruby": {
+            "ja": "Suzu Minase"
+        },
+        "school_id": 5
+    },
+    "503": {
+        "birth_day": 28,
+        "birth_month": 12,
+        "cv": {
+            "ja": "門山葉子"
+        },
+        "cv_first": {
+            "ja": "葉子"
+        },
+        "cv_last": {
+            "ja": "門山"
+        },
+        "department_1": {
+            "ja": "青嵐総合芸術院"
+        },
+        "department_2": {
+            "ja": "舞台学科　ステージ専攻"
+        },
+        "dislike_foods": {
+            "ja": "スイカ"
+        },
+        "dislikes": {
+            "ja": "料理/走ること"
+        },
+        "first_name": {
+            "ja": "氷雨"
+        },
+        "id": 503,
+        "introduction": {
+            "ja": "青嵐総合芸術院　舞台学科　ステージ専攻　サブチーフ。\nななの中学時代の同級生。ななと一緒に舞台を創ろうとしていたが、当時所属していた合唱部のメンバーから不興を買い、二人が同じ舞台に立つことは叶わなかった。"
+        },
+        "last_name": {
+            "ja": "穂波"
+        },
+        "like_foods": {
+            "ja": "十割そば/ワサビ"
+        },
+        "likes": {
+            "ja": "歌唱/ピアノ"
+        },
+        "name": {
+            "ja": "穂波氷雨"
+        },
+        "name_ruby": {
+            "ja": "Hisame Honami"
+        },
+        "school_id": 5
+    },
+    "801": {
+        "birth_day": 0,
+        "birth_month": 0,
+        "cv": {
+            "ja": ""
+        },
+        "cv_first": {
+            "ja": ""
+        },
+        "cv_last": {
+            "ja": ""
+        },
+        "department_1": {
+            "ja": ""
+        },
+        "department_2": {
+            "ja": ""
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": ""
+        },
+        "id": 801,
+        "introduction": {
+            "ja": ""
+        },
+        "last_name": {
+            "ja": ""
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "キリン"
+        },
+        "name_ruby": {
+            "ja": ""
+        },
+        "school_id": 0
+    },
+    "802": {
+        "birth_day": 0,
+        "birth_month": 0,
+        "cv": {
+            "ja": ""
+        },
+        "cv_first": {
+            "ja": ""
+        },
+        "cv_last": {
+            "ja": ""
+        },
+        "department_1": {
+            "ja": ""
+        },
+        "department_2": {
+            "ja": ""
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": ""
+        },
+        "id": 802,
+        "introduction": {
+            "ja": ""
+        },
+        "last_name": {
+            "ja": ""
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "える"
+        },
+        "name_ruby": {
+            "ja": ""
+        },
+        "school_id": 0
+    },
+    "803": {
+        "birth_day": 0,
+        "birth_month": 0,
+        "cv": {
+            "ja": ""
+        },
+        "cv_first": {
+            "ja": ""
+        },
+        "cv_last": {
+            "ja": ""
+        },
+        "department_1": {
+            "ja": ""
+        },
+        "department_2": {
+            "ja": ""
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": ""
+        },
+        "id": 803,
+        "introduction": {
+            "ja": ""
+        },
+        "last_name": {
+            "ja": ""
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "アンドリュー"
+        },
+        "name_ruby": {
+            "ja": ""
+        },
+        "school_id": 0
+    },
+    "804": {
+        "birth_day": 0,
+        "birth_month": 0,
+        "cv": {
+            "ja": ""
+        },
+        "cv_first": {
+            "ja": ""
+        },
+        "cv_last": {
+            "ja": ""
+        },
+        "department_1": {
+            "ja": ""
+        },
+        "department_2": {
+            "ja": ""
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": ""
+        },
+        "id": 804,
+        "introduction": {
+            "ja": ""
+        },
+        "last_name": {
+            "ja": ""
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "初音ミク"
+        },
+        "name_ruby": {
+            "ja": ""
+        },
+        "school_id": 0
+    },
+    "901": {
+        "birth_day": 28,
+        "birth_month": 7,
+        "cv": {
+            "ja": "横山智佐"
+        },
+        "cv_first": {
+            "ja": "智佐"
+        },
+        "cv_last": {
+            "ja": "横山"
+        },
+        "department_1": {
+            "ja": ""
+        },
+        "department_2": {
+            "ja": ""
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": "さくら"
+        },
+        "id": 901,
+        "introduction": {
+            "ja": ""
+        },
+        "last_name": {
+            "ja": "真宮寺"
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "真宮寺さくら"
+        },
+        "name_ruby": {
+            "ja": "Sakura Shinguji"
+        },
+        "school_id": 9
+    },
+    "902": {
+        "birth_day": 15,
+        "birth_month": 8,
+        "cv": {
+            "ja": "日髙のり子"
+        },
+        "cv_first": {
+            "ja": "のり子"
+        },
+        "cv_last": {
+            "ja": "日髙"
+        },
+        "department_1": {
+            "ja": ""
+        },
+        "department_2": {
+            "ja": ""
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": "フォンティーヌ"
+        },
+        "id": 902,
+        "introduction": {
+            "ja": ""
+        },
+        "last_name": {
+            "ja": "エリカ"
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "エリカ・フォンティーヌ"
+        },
+        "name_ruby": {
+            "ja": "Erika Fontaine"
+        },
+        "school_id": 9
+    },
+    "903": {
+        "birth_day": 21,
+        "birth_month": 6,
+        "cv": {
+            "ja": "小林沙苗"
+        },
+        "cv_first": {
+            "ja": "沙苗"
+        },
+        "cv_last": {
+            "ja": "小林"
+        },
+        "department_1": {
+            "ja": ""
+        },
+        "department_2": {
+            "ja": ""
+        },
+        "dislike_foods": {
+            "ja": ""
+        },
+        "dislikes": {
+            "ja": ""
+        },
+        "first_name": {
+            "ja": "サンライズ"
+        },
+        "id": 903,
+        "introduction": {
+            "ja": ""
+        },
+        "last_name": {
+            "ja": "ジェミニ"
+        },
+        "like_foods": {
+            "ja": ""
+        },
+        "likes": {
+            "ja": ""
+        },
+        "name": {
+            "ja": "ジェミニ・サンライズ"
+        },
+        "name_ruby": {
+            "ja": "Gemie Sunrise"
+        },
+        "school_id": 9
+    }
+}

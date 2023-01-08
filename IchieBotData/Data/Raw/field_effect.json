@@ -1,0 +1,1211 @@
+{
+  "1": {
+    "buff_type1_value_list": {
+      "1": 30,
+      "2": 40,
+      "3": 50,
+      "4": 60,
+      "5": 70
+    },
+    "buff_type2_value_list": {
+      "1": 10,
+      "2": 15,
+      "3": 20,
+      "4": 25,
+      "5": 30
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方全体の舞台少女のACTパワーアップ%buff_type1_value%%、クリティカル率アップ%buff_type2_value%%、クリティカル威力アップ%buff_type3_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 1,
+    "name": {
+      "ja": "勇気の灯"
+    }
+  },
+  "2": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の花属性の舞台少女のACTパワーアップ%buff_type1_value%%、通常防御力アップ%buff_type2_value%%、特殊防御力アップ%buff_type3_value%%、風属性への与ダメージアップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 2,
+    "name": {
+      "ja": "私たちはもう舞台の上（花）"
+    }
+  },
+  "3": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の風属性の舞台少女のACTパワーアップ%buff_type1_value%%、通常防御力アップ%buff_type2_value%%、特殊防御力アップ%buff_type3_value%%、雪属性への与ダメージアップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 3,
+    "name": {
+      "ja": "私たちはもう舞台の上（風）"
+    }
+  },
+  "4": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の雪属性の舞台少女のACTパワーアップ%buff_type1_value%%、通常防御力アップ%buff_type2_value%%、特殊防御力アップ%buff_type3_value%%、花属性への与ダメージアップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 4,
+    "name": {
+      "ja": "私たちはもう舞台の上（雪）"
+    }
+  },
+  "5": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の月属性の舞台少女のACTパワーアップ%buff_type1_value%%、通常防御力アップ%buff_type2_value%%、特殊防御力アップ%buff_type3_value%%、宙属性への与ダメージアップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 5,
+    "name": {
+      "ja": "私たちはもう舞台の上（月）"
+    }
+  },
+  "6": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の宙属性の舞台少女のACTパワーアップ%buff_type1_value%%、通常防御力アップ%buff_type2_value%%、特殊防御力アップ%buff_type3_value%%、雲属性への与ダメージアップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 6,
+    "name": {
+      "ja": "私たちはもう舞台の上（宙）"
+    }
+  },
+  "7": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の雲属性の舞台少女のACTパワーアップ%buff_type1_value%%、通常防御力アップ%buff_type2_value%%、特殊防御力アップ%buff_type3_value%%、月属性への与ダメージアップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 7,
+    "name": {
+      "ja": "私たちはもう舞台の上（雲）"
+    }
+  },
+  "8": {
+    "buff_type1_value_list": {
+      "1": 30,
+      "2": 40,
+      "3": 50,
+      "4": 60,
+      "5": 70
+    },
+    "buff_type2_value_list": {
+      "1": 30,
+      "2": 35,
+      "3": 40,
+      "4": 45,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 30,
+      "2": 35,
+      "3": 40,
+      "4": 45,
+      "5": 50
+    },
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "敵役全体にACTパワーダウン%buff_type1_value%%、通常防御力ダウン%buff_type2_value%%、特殊防御力ダウン%buff_type3_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 8,
+    "name": {
+      "ja": "落日の音色"
+    }
+  },
+  "9": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 35,
+      "5": 40
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 30,
+      "3": 40,
+      "4": 50,
+      "5": 60
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 35,
+      "5": 40
+    },
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "敵役全体の舞台少女のすばやさダウン%buff_type1_value%%、ACTパワーダウン%buff_type2_value%%、クリティカル率ダウン%buff_type3_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 9,
+    "name": {
+      "ja": "昏迷の影"
+    }
+  },
+  "10": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 35,
+      "5": 40
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 30,
+      "3": 40,
+      "4": 50,
+      "5": 60
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 35,
+      "5": 40
+    },
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方全体の舞台少女のすばやさアップ%buff_type1_value%%、ACTパワーアップ%buff_type2_value%%、クリティカル率アップ%buff_type3_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 10,
+    "name": {
+      "ja": "電光影裏"
+    }
+  },
+  "11": {
+    "buff_type1_value_list": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 30,
+      "3": 40,
+      "4": 50,
+      "5": 60
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "前から3体の味方の舞台少女に無敵、ACTパワーアップ%buff_type2_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 11,
+    "name": {
+      "ja": "鉄壁の守備"
+    }
+  },
+  "12": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 35,
+      "5": 40
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 30,
+      "3": 40,
+      "4": 50,
+      "5": 60
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方全体の舞台少女の通常防御力アップ%buff_type1_value%%、特殊防御力アップ%buff_type2_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 12,
+    "name": {
+      "ja": "ガッツ"
+    }
+  },
+  "13": {
+    "buff_type1_value_list": {
+      "1": 7500,
+      "2": 7500,
+      "3": 7500,
+      "4": 7500,
+      "5": 7500
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 30,
+      "3": 40,
+      "4": 50,
+      "5": 60
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "敵役全体に感電、ACTパワーダウン%buff_type2_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 13,
+    "name": {
+      "ja": "雷鳴"
+    }
+  },
+  "14": {
+    "buff_type1_value_list": {
+      "1": 10,
+      "2": 15,
+      "3": 20,
+      "4": 25,
+      "5": 30
+    },
+    "buff_type2_value_list": {
+      "1": 10,
+      "2": 15,
+      "3": 20,
+      "4": 25,
+      "5": 30
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方全体の舞台少女に被ダメージダウン%buff_type1_value%%、クリティカル率アップ%buff_type2_value%%、クリティカル威力アップ%buff_type3_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 14,
+    "name": {
+      "ja": "勝負根性"
+    }
+  },
+  "15": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の雲属性の敵にACTパワーダウン%buff_type1_value%%、通常防御力ダウン%buff_type2_value%%、特殊防御力ダウン%buff_type3_value%%、宙属性からの被ダメージアップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 15,
+    "name": {
+      "ja": "本日も集中あるのみ（宙）"
+    }
+  },
+  "16": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の雪属性の敵にACTパワーダウン%buff_type1_value%%、通常防御力ダウン%buff_type2_value%%、特殊防御力ダウン%buff_type3_value%%、風属性からの被ダメージアップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 16,
+    "name": {
+      "ja": "本日も集中あるのみ（風）"
+    }
+  },
+  "17": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の花属性の敵にACTパワーダウン%buff_type1_value%%、通常防御力ダウン%buff_type2_value%%、特殊防御力ダウン%buff_type3_value%%、雪属性からの被ダメージアップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 17,
+    "name": {
+      "ja": "本日も集中あるのみ（雪）"
+    }
+  },
+  "18": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 30,
+      "3": 40,
+      "4": 50,
+      "5": 60
+    },
+    "buff_type2_value_list": {
+      "1": 30,
+      "2": 35,
+      "3": 40,
+      "4": 45,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 30,
+      "2": 35,
+      "3": 40,
+      "4": 45,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 35,
+      "5": 40
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "敵役の聖翔音楽学園にACTパワーダウン%buff_type1_value%%、通常防御力ダウン%buff_type2_value%%、特殊防御力ダウン%buff_type3_value%%、クリティカル威力ダウン%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 18,
+    "name": {
+      "ja": "露か涙か"
+    }
+  },
+  "19": {
+    "buff_type1_value_list": {
+      "1": 15000,
+      "2": 17000,
+      "3": 19000,
+      "4": 22000,
+      "5": 25000
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 30,
+      "3": 40,
+      "4": 50,
+      "5": 60
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方全体の舞台少女に毎ターンHP回復%buff_type1_value%、ACTパワーアップ%buff_type2_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 19,
+    "name": {
+      "ja": "戦神の護り"
+    }
+  },
+  "20": {
+    "buff_type1_value_list": {
+      "1": 20,
+      "2": 30,
+      "3": 40,
+      "4": 50,
+      "5": 60
+    },
+    "buff_type2_value_list": {
+      "1": 30,
+      "2": 35,
+      "3": 40,
+      "4": 45,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 30,
+      "2": 35,
+      "3": 40,
+      "4": 45,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 35,
+      "5": 40
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方のフロンティア芸術学校にACTパワーアップ%buff_type1_value%%、通常防御力アップ%buff_type2_value%%、特殊防御力アップ%buff_type3_value%%、クリティカル威力アップ%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 20,
+    "name": {
+      "ja": "希望の荒野"
+    }
+  },
+  "21": {
+    "buff_type1_value_list": {
+      "1": 3000,
+      "2": 3500,
+      "3": 4000,
+      "4": 4500,
+      "5": 5000
+    },
+    "buff_type2_value_list": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "敵役全体に高威力の火傷%buff_type1_value%、暗闇、通常防御力ダウン%buff_type3_value%%、特殊防御力ダウン%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 21,
+    "name": {
+      "ja": "火煙轟々"
+    }
+  },
+  "22": {
+    "buff_type1_value_list": {
+      "1": 30,
+      "2": 35,
+      "3": 40,
+      "4": 45,
+      "5": 50
+    },
+    "buff_type2_value_list": {
+      "1": 30,
+      "2": 35,
+      "3": 40,
+      "4": 45,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 30,
+      "2": 35,
+      "3": 40,
+      "4": 45,
+      "5": 50
+    },
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方全体に被ダメージダウン%buff_type1_value%%、通常防御力アップ%buff_type2_value%%、特殊防御力アップ%buff_type3_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 22,
+    "name": {
+      "ja": "天使のほほえみ"
+    }
+  },
+  "23": {
+    "buff_type1_value_list": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type3_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 40,
+      "5": 50
+    },
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "敵役全体にスタン、通常防御力ダウン%buff_type2_value%%、特殊防御力ダウン%buff_type3_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 23,
+    "name": {
+      "ja": "自縄自縛"
+    }
+  },
+  "24": {
+    "buff_type1_value_list": {
+      "1": 3000,
+      "2": 3500,
+      "3": 4000,
+      "4": 4500,
+      "5": 5000
+    },
+    "buff_type2_value_list": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "buff_type3_value_list": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "敵役全体に火傷%buff_type1_value%、暗闇、混乱"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 24,
+    "name": {
+      "ja": "災禍の呼び声"
+    }
+  },
+  "25": {
+    "buff_type1_value_list": {
+      "1": 5,
+      "2": 10,
+      "3": 15,
+      "4": 20,
+      "5": 25
+    },
+    "buff_type2_value_list": {
+      "1": 5,
+      "2": 10,
+      "3": 15,
+      "4": 20,
+      "5": 25
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "相手プレイヤーに暗中模索、敵全体に通常防御力ダウン%buff_type1_value%%、特殊防御力ダウン%buff_type2_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 25,
+    "name": {
+      "ja": "死の口づけ"
+    }
+  },
+  "26": {
+    "buff_type1_value_list": {
+      "1": 80,
+      "2": 80,
+      "3": 80,
+      "4": 80,
+      "5": 80
+    },
+    "buff_type2_value_list": {
+      "1": 5,
+      "2": 10,
+      "3": 15,
+      "4": 20,
+      "5": 25
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "立ち位置中の敵にキラめき獲得減少%buff_type1_value%%、敵全体にすばやさダウン%buff_type2_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 26,
+    "name": {
+      "ja": "悲壮の奏"
+    }
+  },
+  "27": {
+    "buff_type1_value_list": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100
+    },
+    "buff_type2_value_list": {
+      "1": 15000,
+      "2": 17000,
+      "3": 19000,
+      "4": 22000,
+      "5": 25000
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方全体の舞台少女のクリティカル率アップ%buff_type1_value%%、毎ターンHP回復%buff_type2_value%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 27,
+    "name": {
+      "ja": "百花繚乱"
+    }
+  },
+  "28": {
+    "buff_type1_value_list": {
+      "1": 5,
+      "2": 10,
+      "3": 15,
+      "4": 20,
+      "5": 25
+    },
+    "buff_type2_value_list": {
+      "1": 5,
+      "2": 10,
+      "3": 15,
+      "4": 20,
+      "5": 25
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "相手プレイヤーに厄魂、敵全体に通常防御力ダウン%buff_type1_value%%、特殊防御力ダウン%buff_type2_value%%"
+    },
+    "effect_name": "hit_stage_effect02",
+    "icon_id": 28,
+    "name": {
+      "ja": "幽世の試練"
+    }
+  },
+  "29": {
+    "buff_type1_value_list": {
+      "1": 25,
+      "2": 50,
+      "3": 55,
+      "4": 60,
+      "5": 65
+    },
+    "buff_type2_value_list": {
+      "1": 25,
+      "2": 50,
+      "3": 55,
+      "4": 60,
+      "5": 65
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方全体の舞台少女のクリティカル率アップ%buff_type1_value%%、クリティカル威力アップ%buff_type2_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 29,
+    "name": {
+      "ja": "星見純那が主役の舞台"
+    }
+  },
+  "30": {
+    "buff_type1_value_list": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "buff_type2_value_list": {
+      "1": 25,
+      "2": 50,
+      "3": 55,
+      "4": 60,
+      "5": 65
+    },
+    "buff_type3_value_list": {
+      "1": 25,
+      "2": 50,
+      "3": 55,
+      "4": 60,
+      "5": 65
+    },
+    "buff_type4_value_list": {
+      "1": 25,
+      "2": 50,
+      "3": 55,
+      "4": 60,
+      "5": 65
+    },
+    "buff_type5_value_list": {
+      "1": 10,
+      "2": 20,
+      "3": 25,
+      "4": 30,
+      "5": 35
+    },
+    "description": {
+      "ja": "味方の西條クロディーヌと天堂真矢のAP減少、クライマックスACT威力アップ%buff_type2_value%%、クリティカル率アップ%buff_type3_value%%、クリティカル威力アップ%buff_type4_value%%、すばやさアップ%buff_type5_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 30,
+    "name": {
+      "ja": "英雄には試練を、聖者には誘惑を"
+    }
+  },
+  "31": {
+    "buff_type1_value_list": {
+      "1": 50,
+      "2": 60,
+      "3": 70,
+      "4": 80,
+      "5": 90
+    },
+    "buff_type2_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 35,
+      "5": 40
+    },
+    "buff_type3_value_list": {},
+    "buff_type4_value_list": {},
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方全体の舞台少女の継続マイナス効果耐性%buff_type1_value%、有利属性ダメージアップ%buff_type2_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 31,
+    "name": {
+      "ja": "甘美なひととき"
+    }
+  },
+  "32": {
+    "buff_type1_value_list": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "buff_type2_value_list": {
+      "1": 25,
+      "2": 50,
+      "3": 55,
+      "4": 60,
+      "5": 65
+    },
+    "buff_type3_value_list": {
+      "1": 25,
+      "2": 50,
+      "3": 55,
+      "4": 60,
+      "5": 65
+    },
+    "buff_type4_value_list": {
+      "1": 10,
+      "2": 15,
+      "3": 20,
+      "4": 25,
+      "5": 30
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の西條クロディーヌと天堂真矢のAP減少、クリティカル率アップ%buff_type2_value%%、クリティカル威力アップ%buff_type3_value%%、毎ターンキラめき回復%buff_type4_value%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 32,
+    "name": {
+      "ja": "共に堕ちていく焔"
+    }
+  },
+  "33": {
+    "buff_type1_value_list": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "buff_type2_value_list": {
+      "1": 30,
+      "2": 60,
+      "3": 80,
+      "4": 90,
+      "5": 100
+    },
+    "buff_type3_value_list": {
+      "1": 30,
+      "2": 60,
+      "3": 80,
+      "4": 90,
+      "5": 100
+    },
+    "buff_type4_value_list": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の花柳香子のAP減少、クリティカル率アップ%buff_type2_value%%、クリティカル威力アップ%buff_type3_value%%、継続マイナス効果耐性%buff_type4_value%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 33,
+    "name": {
+      "ja": "これにて縁切り"
+    }
+  },
+  "34": {
+    "buff_type1_value_list": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "buff_type2_value_list": {
+      "1": 30,
+      "2": 60,
+      "3": 80,
+      "4": 90,
+      "5": 100
+    },
+    "buff_type3_value_list": {
+      "1": 30,
+      "2": 60,
+      "3": 80,
+      "4": 90,
+      "5": 100
+    },
+    "buff_type4_value_list": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20
+    },
+    "buff_type5_value_list": {},
+    "description": {
+      "ja": "味方の石動双葉と花柳香子にAP減少、クリティカル率アップ%buff_type2_value%%、クリティカル威力アップ%buff_type3_value%%、カウンターヒール%buff_type4_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 34,
+    "name": {
+      "ja": "しょうもないあたしたち"
+    }
+  },
+  "35": {
+    "buff_type1_value_list": {
+      "1": 30,
+      "2": 60,
+      "3": 80,
+      "4": 90,
+      "5": 100
+    },
+    "buff_type2_value_list": {
+      "1": 30,
+      "2": 60,
+      "3": 80,
+      "4": 90,
+      "5": 100
+    },
+    "buff_type3_value_list": {
+      "1": 30,
+      "2": 60,
+      "3": 80,
+      "4": 90,
+      "5": 100
+    },
+    "buff_type4_value_list": {
+      "1": 30,
+      "2": 60,
+      "3": 80,
+      "4": 90,
+      "5": 100
+    },
+    "buff_type5_value_list": {
+      "1": 20,
+      "2": 25,
+      "3": 30,
+      "4": 35,
+      "5": 40
+    },
+    "description": {
+      "ja": "味方の聖翔音楽学園にACTパワーアップ%buff_type1_value%%、クリティカル率アップ%buff_type2_value%%、クリティカル威力アップ%buff_type3_value%%、すばやさアップ%buff_type4_value%%、有利属性ダメージアップ%buff_type5_value%%"
+    },
+    "effect_name": "hit_stage_effect01",
+    "icon_id": 35,
+    "name": {
+      "ja": "キラめく舞台"
+    }
+  }
+}

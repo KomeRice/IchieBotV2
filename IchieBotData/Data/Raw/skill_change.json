@@ -1,0 +1,37 @@
+{
+  "5": {
+    "buff_type": 136,
+    "change_skill_ids": {
+      "1": 1585
+    },
+    "skill_id": 1580
+  },
+  "6": {
+    "buff_type": 136,
+    "change_skill_ids": {
+      "1": 1586
+    },
+    "skill_id": 1581
+  },
+  "7": {
+    "buff_type": 136,
+    "change_skill_ids": {
+      "1": 1587
+    },
+    "skill_id": 1582
+  },
+  "8": {
+    "buff_type": 136,
+    "change_skill_ids": {
+      "1": 1668
+    },
+    "skill_id": 1664
+  },
+  "9": {
+    "buff_type": 136,
+    "change_skill_ids": {
+      "1": 1669
+    },
+    "skill_id": 1665
+  }
+}

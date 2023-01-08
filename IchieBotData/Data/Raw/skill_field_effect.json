@@ -1,0 +1,622 @@
+{
+  "2246": {
+    "field_effect1_id": 7,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2293": {
+    "field_effect1_id": 2,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2298": {
+    "field_effect1_id": 3,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2303": {
+    "field_effect1_id": 6,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2422": {
+    "field_effect1_id": 4,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2427": {
+    "field_effect1_id": 2,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2704": {
+    "field_effect1_id": 5,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2788": {
+    "field_effect1_id": 7,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2931": {
+    "field_effect1_id": 15,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2971": {
+    "field_effect1_id": 16,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "2976": {
+    "field_effect1_id": 17,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "3474": {
+    "field_effect1_id": 5,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "3680": {
+    "field_effect1_id": 1,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "3778": {
+    "field_effect1_id": 8,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "3794": {
+    "field_effect1_id": 9,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "3921": {
+    "field_effect1_id": 10,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "3956": {
+    "field_effect1_id": 11,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 1,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "3961": {
+    "field_effect1_id": 12,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "3971": {
+    "field_effect1_id": 13,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "3991": {
+    "field_effect1_id": 14,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4030": {
+    "field_effect1_id": 1,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4035": {
+    "field_effect1_id": 18,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4060": {
+    "field_effect1_id": 9,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4068": {
+    "field_effect1_id": 19,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4209": {
+    "field_effect1_id": 8,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4224": {
+    "field_effect1_id": 20,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4256": {
+    "field_effect1_id": 21,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4405": {
+    "field_effect1_id": 22,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4420": {
+    "field_effect1_id": 23,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4450": {
+    "field_effect1_id": 24,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4470": {
+    "field_effect1_id": 25,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4535": {
+    "field_effect1_id": 26,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4542": {
+    "field_effect1_id": 22,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4567": {
+    "field_effect1_id": 10,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4694": {
+    "field_effect1_id": 23,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4704": {
+    "field_effect1_id": 26,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4719": {
+    "field_effect1_id": 13,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4720": {
+    "field_effect1_id": 11,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 1,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4846": {
+    "field_effect1_id": 27,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "4851": {
+    "field_effect1_id": 28,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 5,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5036": {
+    "field_effect1_id": 25,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5043": {
+    "field_effect1_id": 27,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5141": {
+    "field_effect1_id": 23,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5143": {
+    "field_effect1_id": 29,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5173": {
+    "field_effect1_id": 24,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5291": {
+    "field_effect1_id": 13,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5293": {
+    "field_effect1_id": 30,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5296": {
+    "field_effect1_id": 20,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 6,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5303": {
+    "field_effect1_id": 27,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5306": {
+    "field_effect1_id": 31,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5379": {
+    "field_effect1_id": 31,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5384": {
+    "field_effect1_id": 23,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5386": {
+    "field_effect1_id": 31,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5389": {
+    "field_effect1_id": 13,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5396": {
+    "field_effect1_id": 32,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5411": {
+    "field_effect1_id": 27,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5531": {
+    "field_effect1_id": 33,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5558": {
+    "field_effect1_id": 23,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5560": {
+    "field_effect1_id": 27,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5621": {
+    "field_effect1_id": 34,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5625": {
+    "field_effect1_id": 21,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 2,
+    "field_effect1_turn": 2,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  },
+  "5626": {
+    "field_effect1_id": 35,
+    "field_effect1_level": 1,
+    "field_effect1_target_type": 1,
+    "field_effect1_turn": 3,
+    "field_effect2_id": 0,
+    "field_effect2_level": 0,
+    "field_effect2_target_type": 0,
+    "field_effect2_turn": 0
+  }
+}

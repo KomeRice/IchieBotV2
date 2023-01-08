@@ -1,0 +1,3257 @@
+{
+  "1001": {
+    "description": {
+      "ja": "自身"
+    },
+    "skill_target_filter_ids": {
+      "1": 18
+    }
+  },
+  "1002": {
+    "description": {
+      "ja": "味方全体"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1003": {
+    "description": {
+      "ja": "前グループの味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1004": {
+    "description": {
+      "ja": "後ろグループの味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1011": {
+    "description": {
+      "ja": "前から1番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1012": {
+    "description": {
+      "ja": "前から2番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1013": {
+    "description": {
+      "ja": "前から3番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1014": {
+    "description": {
+      "ja": "前から4番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1015": {
+    "description": {
+      "ja": "前から5番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1021": {
+    "description": {
+      "ja": "後ろから1番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1022": {
+    "description": {
+      "ja": "後ろから2番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1023": {
+    "description": {
+      "ja": "後ろから3番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1024": {
+    "description": {
+      "ja": "後ろから4番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1025": {
+    "description": {
+      "ja": "後ろから5番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1031": {
+    "description": {
+      "ja": "HP割合が1番高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1032": {
+    "description": {
+      "ja": "HP割合が2番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1033": {
+    "description": {
+      "ja": "HP割合が3番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1034": {
+    "description": {
+      "ja": "HP割合が4番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1035": {
+    "description": {
+      "ja": "HP割合が5番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1041": {
+    "description": {
+      "ja": "HP割合が1番低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1042": {
+    "description": {
+      "ja": "HP割合が2番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1043": {
+    "description": {
+      "ja": "HP割合が3番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1044": {
+    "description": {
+      "ja": "HP割合が4番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1045": {
+    "description": {
+      "ja": "HP割合が5番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1051": {
+    "description": {
+      "ja": "ACTパワーが1番高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1052": {
+    "description": {
+      "ja": "ACTパワーが2番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1053": {
+    "description": {
+      "ja": "ACTパワーが3番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1054": {
+    "description": {
+      "ja": "ACTパワーが4番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1055": {
+    "description": {
+      "ja": "ACTパワーが5番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1061": {
+    "description": {
+      "ja": "ACTパワーが1番低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1062": {
+    "description": {
+      "ja": "ACTパワーが2番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1063": {
+    "description": {
+      "ja": "ACTパワーが3番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1064": {
+    "description": {
+      "ja": "ACTパワーが4番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1065": {
+    "description": {
+      "ja": "ACTパワーが5番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1071": {
+    "description": {
+      "ja": "通常防御力が1番高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1072": {
+    "description": {
+      "ja": "通常防御力が2番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1073": {
+    "description": {
+      "ja": "通常防御力が3番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1074": {
+    "description": {
+      "ja": "通常防御力が4番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1075": {
+    "description": {
+      "ja": "通常防御力が5番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1081": {
+    "description": {
+      "ja": "通常防御力が1番低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1082": {
+    "description": {
+      "ja": "通常防御力が2番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1083": {
+    "description": {
+      "ja": "通常防御力が3番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1084": {
+    "description": {
+      "ja": "通常防御力が4番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1085": {
+    "description": {
+      "ja": "通常防御力が5番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1091": {
+    "description": {
+      "ja": "特殊防御力が1番高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1092": {
+    "description": {
+      "ja": "特殊防御力が2番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1093": {
+    "description": {
+      "ja": "特殊防御力が3番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1094": {
+    "description": {
+      "ja": "特殊防御力が4番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1095": {
+    "description": {
+      "ja": "特殊防御力が5番目に高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1101": {
+    "description": {
+      "ja": "特殊防御力が1番低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1102": {
+    "description": {
+      "ja": "特殊防御力が2番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1103": {
+    "description": {
+      "ja": "特殊防御力が3番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1104": {
+    "description": {
+      "ja": "特殊防御力が4番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1105": {
+    "description": {
+      "ja": "特殊防御力が5番目に低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1111": {
+    "description": {
+      "ja": "HP割合が1番高い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1112": {
+    "description": {
+      "ja": "HP割合が高い2体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1113": {
+    "description": {
+      "ja": "HP割合が高い3体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1114": {
+    "description": {
+      "ja": "HP割合が高い4体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1115": {
+    "description": {
+      "ja": "HP割合が高い5体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1121": {
+    "description": {
+      "ja": "HP割合が1番低い味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1122": {
+    "description": {
+      "ja": "HP割合が低い2体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1123": {
+    "description": {
+      "ja": "HP割合が低い3体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1124": {
+    "description": {
+      "ja": "HP割合が低い4体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1125": {
+    "description": {
+      "ja": "HP割合が低い5体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1126": {
+    "description": {
+      "ja": "ACTパワーが高い1体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1127": {
+    "description": {
+      "ja": "ACTパワーが高い2体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1128": {
+    "description": {
+      "ja": "ACTパワーが高い3体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1129": {
+    "description": {
+      "ja": "ACTパワーが高い4体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1130": {
+    "description": {
+      "ja": "ACTパワーが高い5体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1131": {
+    "description": {
+      "ja": "前から1番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1132": {
+    "description": {
+      "ja": "前から2体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1133": {
+    "description": {
+      "ja": "前から3体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1134": {
+    "description": {
+      "ja": "前から4体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1135": {
+    "description": {
+      "ja": "前から5体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1141": {
+    "description": {
+      "ja": "後ろから1番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1142": {
+    "description": {
+      "ja": "後ろから2体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1143": {
+    "description": {
+      "ja": "後ろから3体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1144": {
+    "description": {
+      "ja": "後ろから4体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1145": {
+    "description": {
+      "ja": "後ろから5体の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1181": {
+    "description": {
+      "ja": "HP割合が10%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1182": {
+    "description": {
+      "ja": "HP割合が20%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1183": {
+    "description": {
+      "ja": "HP割合が30%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1184": {
+    "description": {
+      "ja": "HP割合が40%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1185": {
+    "description": {
+      "ja": "HP割合が50%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1186": {
+    "description": {
+      "ja": "HP割合が60%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1187": {
+    "description": {
+      "ja": "HP割合が70%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1188": {
+    "description": {
+      "ja": "HP割合が80%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1189": {
+    "description": {
+      "ja": "HP割合が90%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1190": {
+    "description": {
+      "ja": "HP割合が100%以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1191": {
+    "description": {
+      "ja": "HP割合が10%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1192": {
+    "description": {
+      "ja": "HP割合が20%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1193": {
+    "description": {
+      "ja": "HP割合が30%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1194": {
+    "description": {
+      "ja": "HP割合が40%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1195": {
+    "description": {
+      "ja": "HP割合が50%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1196": {
+    "description": {
+      "ja": "HP割合が60%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1197": {
+    "description": {
+      "ja": "HP割合が70%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1198": {
+    "description": {
+      "ja": "HP割合が80%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1199": {
+    "description": {
+      "ja": "HP割合が90%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1200": {
+    "description": {
+      "ja": "HP割合が100%未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1201": {
+    "description": {
+      "ja": "キラめきゲージが10以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1202": {
+    "description": {
+      "ja": "キラめきゲージが20以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1203": {
+    "description": {
+      "ja": "キラめきゲージが30以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1204": {
+    "description": {
+      "ja": "キラめきゲージが40以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1205": {
+    "description": {
+      "ja": "キラめきゲージが50以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1206": {
+    "description": {
+      "ja": "キラめきゲージが60以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1207": {
+    "description": {
+      "ja": "キラめきゲージが70以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1208": {
+    "description": {
+      "ja": "キラめきゲージが80以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1209": {
+    "description": {
+      "ja": "キラめきゲージが90以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1210": {
+    "description": {
+      "ja": "キラめきゲージが100以上の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1211": {
+    "description": {
+      "ja": "キラめきゲージが10未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1212": {
+    "description": {
+      "ja": "キラめきゲージが20未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1213": {
+    "description": {
+      "ja": "キラめきゲージが30未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1214": {
+    "description": {
+      "ja": "キラめきゲージが40未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1215": {
+    "description": {
+      "ja": "キラめきゲージが50未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1216": {
+    "description": {
+      "ja": "キラめきゲージが60未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1217": {
+    "description": {
+      "ja": "キラめきゲージが70未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1218": {
+    "description": {
+      "ja": "キラめきゲージが80未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1219": {
+    "description": {
+      "ja": "キラめきゲージが90未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1220": {
+    "description": {
+      "ja": "キラめきゲージが100未満の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1301": {
+    "description": {
+      "ja": "味方の1番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1302": {
+    "description": {
+      "ja": "味方の2番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1303": {
+    "description": {
+      "ja": "味方の3番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1304": {
+    "description": {
+      "ja": "味方の4番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "1305": {
+    "description": {
+      "ja": "味方の5番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2002": {
+    "description": {
+      "ja": "敵役全体"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2003": {
+    "description": {
+      "ja": "前グループの敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2004": {
+    "description": {
+      "ja": "後ろグループの敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2011": {
+    "description": {
+      "ja": "前から1番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2012": {
+    "description": {
+      "ja": "前から2番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2013": {
+    "description": {
+      "ja": "前から3番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2014": {
+    "description": {
+      "ja": "前から4番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2015": {
+    "description": {
+      "ja": "前から5番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2021": {
+    "description": {
+      "ja": "後ろから1番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2022": {
+    "description": {
+      "ja": "後ろから2番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2023": {
+    "description": {
+      "ja": "後ろから3番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2024": {
+    "description": {
+      "ja": "後ろから4番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2025": {
+    "description": {
+      "ja": "後ろから5番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2031": {
+    "description": {
+      "ja": "HP割合が1番高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2032": {
+    "description": {
+      "ja": "HP割合が2番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2033": {
+    "description": {
+      "ja": "HP割合が3番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2034": {
+    "description": {
+      "ja": "HP割合が4番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2035": {
+    "description": {
+      "ja": "HP割合が5番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2041": {
+    "description": {
+      "ja": "HP割合が1番低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2042": {
+    "description": {
+      "ja": "HP割合が2番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2043": {
+    "description": {
+      "ja": "HP割合が3番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2044": {
+    "description": {
+      "ja": "HP割合が4番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2045": {
+    "description": {
+      "ja": "HP割合が5番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2051": {
+    "description": {
+      "ja": "ACTパワーが1番高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2052": {
+    "description": {
+      "ja": "ACTパワーが2番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2053": {
+    "description": {
+      "ja": "ACTパワーが3番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2054": {
+    "description": {
+      "ja": "ACTパワーが4番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2055": {
+    "description": {
+      "ja": "ACTパワーが5番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2061": {
+    "description": {
+      "ja": "ACTパワーが1番低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2062": {
+    "description": {
+      "ja": "ACTパワーが2番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2063": {
+    "description": {
+      "ja": "ACTパワーが3番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2064": {
+    "description": {
+      "ja": "ACTパワーが4番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2065": {
+    "description": {
+      "ja": "ACTパワーが5番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2071": {
+    "description": {
+      "ja": "通常防御力が1番高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2072": {
+    "description": {
+      "ja": "通常防御力が2番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2073": {
+    "description": {
+      "ja": "通常防御力が3番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2074": {
+    "description": {
+      "ja": "通常防御力が4番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2075": {
+    "description": {
+      "ja": "通常防御力が5番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2081": {
+    "description": {
+      "ja": "通常防御力が1番低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2082": {
+    "description": {
+      "ja": "通常防御力が2番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2083": {
+    "description": {
+      "ja": "通常防御力が3番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2084": {
+    "description": {
+      "ja": "通常防御力が4番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2085": {
+    "description": {
+      "ja": "通常防御力が5番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2091": {
+    "description": {
+      "ja": "特殊防御力が1番高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2092": {
+    "description": {
+      "ja": "特殊防御力が2番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2093": {
+    "description": {
+      "ja": "特殊防御力が3番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2094": {
+    "description": {
+      "ja": "特殊防御力が4番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2095": {
+    "description": {
+      "ja": "特殊防御力が5番目に高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2101": {
+    "description": {
+      "ja": "特殊防御力が1番低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2102": {
+    "description": {
+      "ja": "特殊防御力が2番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2103": {
+    "description": {
+      "ja": "特殊防御力が3番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2104": {
+    "description": {
+      "ja": "特殊防御力が4番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2105": {
+    "description": {
+      "ja": "特殊防御力が5番目に低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2111": {
+    "description": {
+      "ja": "前から1番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2112": {
+    "description": {
+      "ja": "前から2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2113": {
+    "description": {
+      "ja": "前から3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2114": {
+    "description": {
+      "ja": "前から4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2115": {
+    "description": {
+      "ja": "前から5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2121": {
+    "description": {
+      "ja": "後ろから1番目の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2122": {
+    "description": {
+      "ja": "後ろから2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2123": {
+    "description": {
+      "ja": "後ろから3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2124": {
+    "description": {
+      "ja": "後ろから4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2125": {
+    "description": {
+      "ja": "後ろから5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2131": {
+    "description": {
+      "ja": "HP割合が1番高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2132": {
+    "description": {
+      "ja": "HP割合が高い2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2133": {
+    "description": {
+      "ja": "HP割合が高い3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2134": {
+    "description": {
+      "ja": "HP割合が高い4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2135": {
+    "description": {
+      "ja": "HP割合が高い5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2141": {
+    "description": {
+      "ja": "HP割合が1番低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2142": {
+    "description": {
+      "ja": "HP割合が低い2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2143": {
+    "description": {
+      "ja": "HP割合が低い3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2144": {
+    "description": {
+      "ja": "HP割合が低い4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2145": {
+    "description": {
+      "ja": "HP割合が低い5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2146": {
+    "description": {
+      "ja": "ACTパワーが1番高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2147": {
+    "description": {
+      "ja": "ACTパワーが高い2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2148": {
+    "description": {
+      "ja": "ACTパワーが高い3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2149": {
+    "description": {
+      "ja": "ACTパワーが高い4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2150": {
+    "description": {
+      "ja": "ACTパワーが高い5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2151": {
+    "description": {
+      "ja": "ACTパワーが1番低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2152": {
+    "description": {
+      "ja": "ACTパワーが低い2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2153": {
+    "description": {
+      "ja": "ACTパワーが低い3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2154": {
+    "description": {
+      "ja": "ACTパワーが低い4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2155": {
+    "description": {
+      "ja": "ACTパワーが低い5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2156": {
+    "description": {
+      "ja": "通常防御力が1番高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2157": {
+    "description": {
+      "ja": "通常防御力が高い2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2158": {
+    "description": {
+      "ja": "通常防御力が高い3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2159": {
+    "description": {
+      "ja": "通常防御力が高い4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2160": {
+    "description": {
+      "ja": "通常防御力が高い5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2161": {
+    "description": {
+      "ja": "通常防御力が1番低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2162": {
+    "description": {
+      "ja": "通常防御力が低い2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2163": {
+    "description": {
+      "ja": "通常防御力が低い3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2164": {
+    "description": {
+      "ja": "通常防御力が低い4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2165": {
+    "description": {
+      "ja": "通常防御力が低い5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2166": {
+    "description": {
+      "ja": "特殊防御力が1番高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2167": {
+    "description": {
+      "ja": "特殊防御力が高い2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2168": {
+    "description": {
+      "ja": "特殊防御力が高い3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2169": {
+    "description": {
+      "ja": "特殊防御力が高い4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2170": {
+    "description": {
+      "ja": "特殊防御力が高い5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2171": {
+    "description": {
+      "ja": "特殊防御力が1番低い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2172": {
+    "description": {
+      "ja": "特殊防御力が低い2体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2173": {
+    "description": {
+      "ja": "特殊防御力が低い3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2174": {
+    "description": {
+      "ja": "特殊防御力が低い4体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2175": {
+    "description": {
+      "ja": "特殊防御力が低い5体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2176": {
+    "description": {
+      "ja": "挑発・ターゲット固定を無視し、ACTパワーが1番高い敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2177": {
+    "description": {
+      "ja": "挑発・ターゲット固定を無視し、前から3体の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2181": {
+    "description": {
+      "ja": "HP割合が10%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2182": {
+    "description": {
+      "ja": "HP割合が20%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2183": {
+    "description": {
+      "ja": "HP割合が30%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2184": {
+    "description": {
+      "ja": "HP割合が40%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2185": {
+    "description": {
+      "ja": "HP割合が50%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2186": {
+    "description": {
+      "ja": "HP割合が60%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2187": {
+    "description": {
+      "ja": "HP割合が70%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2188": {
+    "description": {
+      "ja": "HP割合が80%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2189": {
+    "description": {
+      "ja": "HP割合が90%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2190": {
+    "description": {
+      "ja": "HP割合が100%以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2191": {
+    "description": {
+      "ja": "HP割合が10%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2192": {
+    "description": {
+      "ja": "HP割合が20%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2193": {
+    "description": {
+      "ja": "HP割合が30%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2194": {
+    "description": {
+      "ja": "HP割合が40%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2195": {
+    "description": {
+      "ja": "HP割合が50%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2196": {
+    "description": {
+      "ja": "HP割合が60%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2197": {
+    "description": {
+      "ja": "HP割合が70%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2198": {
+    "description": {
+      "ja": "HP割合が80%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2199": {
+    "description": {
+      "ja": "HP割合が90%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2200": {
+    "description": {
+      "ja": "HP割合が100%未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2201": {
+    "description": {
+      "ja": "キラめきゲージが10以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2202": {
+    "description": {
+      "ja": "キラめきゲージが20以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2203": {
+    "description": {
+      "ja": "キラめきゲージが30以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2204": {
+    "description": {
+      "ja": "キラめきゲージが40以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2205": {
+    "description": {
+      "ja": "キラめきゲージが50以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2206": {
+    "description": {
+      "ja": "キラめきゲージが60以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2207": {
+    "description": {
+      "ja": "キラめきゲージが70以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2208": {
+    "description": {
+      "ja": "キラめきゲージが80以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2209": {
+    "description": {
+      "ja": "キラめきゲージが90以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2210": {
+    "description": {
+      "ja": "キラめきゲージが100以上の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2211": {
+    "description": {
+      "ja": "キラめきゲージが10未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2212": {
+    "description": {
+      "ja": "キラめきゲージが20未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2213": {
+    "description": {
+      "ja": "キラめきゲージが30未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2214": {
+    "description": {
+      "ja": "キラめきゲージが40未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2215": {
+    "description": {
+      "ja": "キラめきゲージが50未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2216": {
+    "description": {
+      "ja": "キラめきゲージが60未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2217": {
+    "description": {
+      "ja": "キラめきゲージが70未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2218": {
+    "description": {
+      "ja": "キラめきゲージが80未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2219": {
+    "description": {
+      "ja": "キラめきゲージが90未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2220": {
+    "description": {
+      "ja": "キラめきゲージが100未満の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2301": {
+    "description": {
+      "ja": "敵役の1番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2302": {
+    "description": {
+      "ja": "敵役の2番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2303": {
+    "description": {
+      "ja": "敵役の3番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2304": {
+    "description": {
+      "ja": "敵役の4番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2305": {
+    "description": {
+      "ja": "敵役の5番目のACT実行者"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2401": {
+    "description": {
+      "ja": "敵役の聖翔音楽学園"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2402": {
+    "description": {
+      "ja": "敵役の凛明館女学校"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2403": {
+    "description": {
+      "ja": "敵役のフロンティア芸術学校"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2404": {
+    "description": {
+      "ja": "敵役のシークフェルト音楽学院"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2405": {
+    "description": {
+      "ja": "敵役の青嵐総合芸術院"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2501": {
+    "description": {
+      "ja": "味方の愛城華恋"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2502": {
+    "description": {
+      "ja": "味方の神楽ひかり"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2503": {
+    "description": {
+      "ja": "味方の露崎まひる"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2504": {
+    "description": {
+      "ja": "味方の西條クロディーヌ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2505": {
+    "description": {
+      "ja": "味方の天堂真矢"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2506": {
+    "description": {
+      "ja": "味方の星見純那"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2507": {
+    "description": {
+      "ja": "味方の大場なな"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2508": {
+    "description": {
+      "ja": "味方の石動双葉"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2509": {
+    "description": {
+      "ja": "味方の花柳香子"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2510": {
+    "description": {
+      "ja": "味方の巴珠緒"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2511": {
+    "description": {
+      "ja": "味方の音無いちえ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2512": {
+    "description": {
+      "ja": "味方の夢大路文"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2513": {
+    "description": {
+      "ja": "味方の秋風塁"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2514": {
+    "description": {
+      "ja": "味方の田中ゆゆ子"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2515": {
+    "description": {
+      "ja": "味方の大月あるる"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2516": {
+    "description": {
+      "ja": "味方の叶美空"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2517": {
+    "description": {
+      "ja": "味方の野々宮ララフィン"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2518": {
+    "description": {
+      "ja": "味方の恵比寿つかさ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2519": {
+    "description": {
+      "ja": "味方の胡蝶静羽"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2520": {
+    "description": {
+      "ja": "味方の雪代晶"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2521": {
+    "description": {
+      "ja": "味方の鳳ミチル"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2522": {
+    "description": {
+      "ja": "味方のリュウ・メイファン"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2523": {
+    "description": {
+      "ja": "味方の夢大路栞"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2524": {
+    "description": {
+      "ja": "味方の鶴姫やちよ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2525": {
+    "description": {
+      "ja": "味方の柳小春"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2526": {
+    "description": {
+      "ja": "味方の南風涼"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2527": {
+    "description": {
+      "ja": "味方の穂波氷雨"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2601": {
+    "description": {
+      "ja": "敵役の愛城華恋"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2602": {
+    "description": {
+      "ja": "敵役の神楽ひかり"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2603": {
+    "description": {
+      "ja": "敵役の露崎まひる"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2604": {
+    "description": {
+      "ja": "敵役の西條クロディーヌ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2605": {
+    "description": {
+      "ja": "敵役の天堂真矢"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2606": {
+    "description": {
+      "ja": "敵役の星見純那"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2607": {
+    "description": {
+      "ja": "敵役の大場なな"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2608": {
+    "description": {
+      "ja": "敵役の石動双葉"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2609": {
+    "description": {
+      "ja": "敵役の花柳香子"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2610": {
+    "description": {
+      "ja": "敵役の巴珠緒"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2611": {
+    "description": {
+      "ja": "敵役の音無いちえ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2612": {
+    "description": {
+      "ja": "敵役の夢大路文"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2613": {
+    "description": {
+      "ja": "敵役の秋風塁"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2614": {
+    "description": {
+      "ja": "敵役の田中ゆゆ子"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2615": {
+    "description": {
+      "ja": "敵役の大月あるる"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2616": {
+    "description": {
+      "ja": "敵役の叶美空"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2617": {
+    "description": {
+      "ja": "敵役の野々宮ララフィン"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2618": {
+    "description": {
+      "ja": "敵役の恵比寿つかさ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2619": {
+    "description": {
+      "ja": "敵役の胡蝶静羽"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2620": {
+    "description": {
+      "ja": "敵役の雪代晶"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2621": {
+    "description": {
+      "ja": "敵役の鳳ミチル"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2622": {
+    "description": {
+      "ja": "敵役のリュウ・メイファン"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2623": {
+    "description": {
+      "ja": "敵役の夢大路栞"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2624": {
+    "description": {
+      "ja": "敵役の鶴姫やちよ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2625": {
+    "description": {
+      "ja": "敵役の柳小春"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2626": {
+    "description": {
+      "ja": "敵役の南風涼"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "2627": {
+    "description": {
+      "ja": "敵役の穂波氷雨"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3001": {
+    "description": {
+      "ja": "聖翔音楽学園の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3002": {
+    "description": {
+      "ja": "聖翔音楽学園の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3003": {
+    "description": {
+      "ja": "聖翔音楽学園の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3011": {
+    "description": {
+      "ja": "凛明館女学校の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3012": {
+    "description": {
+      "ja": "凛明館女学校の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3013": {
+    "description": {
+      "ja": "凛明館女学校の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3021": {
+    "description": {
+      "ja": "フロンティア芸術学校の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3022": {
+    "description": {
+      "ja": "フロンティア芸術学校の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3023": {
+    "description": {
+      "ja": "フロンティア芸術学校の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3031": {
+    "description": {
+      "ja": "シークフェルト音楽学院の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3032": {
+    "description": {
+      "ja": "シークフェルト音楽学院の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3033": {
+    "description": {
+      "ja": "シークフェルト音楽学院の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3041": {
+    "description": {
+      "ja": "月属性の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3042": {
+    "description": {
+      "ja": "月属性の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3043": {
+    "description": {
+      "ja": "月属性の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3051": {
+    "description": {
+      "ja": "花属性の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3052": {
+    "description": {
+      "ja": "花属性の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3053": {
+    "description": {
+      "ja": "花属性の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3061": {
+    "description": {
+      "ja": "雪属性の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3062": {
+    "description": {
+      "ja": "雪属性の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3063": {
+    "description": {
+      "ja": "雪属性の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3071": {
+    "description": {
+      "ja": "風属性の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3072": {
+    "description": {
+      "ja": "風属性の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3073": {
+    "description": {
+      "ja": "風属性の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3081": {
+    "description": {
+      "ja": "宙属性の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3082": {
+    "description": {
+      "ja": "宙属性の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3083": {
+    "description": {
+      "ja": "宙属性の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3091": {
+    "description": {
+      "ja": "雲属性の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3092": {
+    "description": {
+      "ja": "雲属性の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3093": {
+    "description": {
+      "ja": "雲属性の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3101": {
+    "description": {
+      "ja": "夢属性の立ち位置前"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3102": {
+    "description": {
+      "ja": "夢属性の立ち位置中"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3103": {
+    "description": {
+      "ja": "夢属性の立ち位置後"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3111": {
+    "description": {
+      "ja": "神楽ひかりと星見純那"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3112": {
+    "description": {
+      "ja": "愛城華恋と星見純那"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3113": {
+    "description": {
+      "ja": "愛城華恋と天堂真矢"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3114": {
+    "description": {
+      "ja": "愛城華恋と露崎まひる"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3115": {
+    "description": {
+      "ja": "花柳香子と石動双葉"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3116": {
+    "description": {
+      "ja": "神楽ひかりと大場なな"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3117": {
+    "description": {
+      "ja": "愛城華恋と大場なな"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3118": {
+    "description": {
+      "ja": "愛城華恋と神楽ひかり"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3119": {
+    "description": {
+      "ja": "雪代晶と夢大路栞"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3120": {
+    "description": {
+      "ja": "夢大路文と秋風塁"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3130": {
+    "description": {
+      "ja": "大月あるると叶美空"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3140": {
+    "description": {
+      "ja": "愛城華恋と神楽ひかりと雪代晶"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3150": {
+    "description": {
+      "ja": "石動双葉と花柳香子と巴珠緒と秋風塁"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3160": {
+    "description": {
+      "ja": "純那とゆゆ子とララフィンとメイファン"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3170": {
+    "description": {
+      "ja": "クロディーヌと文と栞"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3180": {
+    "description": {
+      "ja": "真矢・なな・つかさ・静羽・ミチル・やちよ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3190": {
+    "description": {
+      "ja": "まひるといちえとあるると美空"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3200": {
+    "description": {
+      "ja": "華恋とひかりと珠緒とあるると晶"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3210": {
+    "description": {
+      "ja": "青嵐総合芸術院"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3220": {
+    "description": {
+      "ja": "純那と香子と塁とゆゆ子"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3230": {
+    "description": {
+      "ja": "クロディーヌと真矢"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3240": {
+    "description": {
+      "ja": "華恋と双葉とミチルと栞"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3250": {
+    "description": {
+      "ja": "まひるとななといちえと文"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3260": {
+    "description": {
+      "ja": "フロンティア芸術学校"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3261": {
+    "description": {
+      "ja": "ひかりとクロディーヌと珠緒と晶とメイファン"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3262": {
+    "description": {
+      "ja": "味方の西條クロディーヌと天堂真矢"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3263": {
+    "description": {
+      "ja": "シークフェルト音楽学院"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "3264": {
+    "description": {
+      "ja": "味方の石動双葉と花柳香子"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4001": {
+    "description": {
+      "ja": "味方の聖翔音楽学園"
+    },
+    "skill_target_filter_ids": {
+      "1": 8
+    }
+  },
+  "4002": {
+    "description": {
+      "ja": "味方の凛明館女学校"
+    },
+    "skill_target_filter_ids": {
+      "1": 9
+    }
+  },
+  "4003": {
+    "description": {
+      "ja": "味方のフロンティア芸術学校"
+    },
+    "skill_target_filter_ids": {
+      "1": 10
+    }
+  },
+  "4004": {
+    "description": {
+      "ja": "味方のシークフェルト音楽学院"
+    },
+    "skill_target_filter_ids": {
+      "1": 11
+    }
+  },
+  "4005": {
+    "description": {
+      "ja": "味方の立ち位置前"
+    },
+    "skill_target_filter_ids": {
+      "1": 15
+    }
+  },
+  "4006": {
+    "description": {
+      "ja": "味方の立ち位置中"
+    },
+    "skill_target_filter_ids": {
+      "1": 16
+    }
+  },
+  "4007": {
+    "description": {
+      "ja": "味方の立ち位置後"
+    },
+    "skill_target_filter_ids": {
+      "1": 17
+    }
+  },
+  "4008": {
+    "description": {
+      "ja": "味方の花属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 1
+    }
+  },
+  "4009": {
+    "description": {
+      "ja": "味方の風属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 2
+    }
+  },
+  "4010": {
+    "description": {
+      "ja": "味方の雪属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 3
+    }
+  },
+  "4011": {
+    "description": {
+      "ja": "味方の月属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 4
+    }
+  },
+  "4012": {
+    "description": {
+      "ja": "味方の宙属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 5
+    }
+  },
+  "4013": {
+    "description": {
+      "ja": "味方の雲属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 6
+    }
+  },
+  "4014": {
+    "description": {
+      "ja": "味方の夢属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 7
+    }
+  },
+  "4015": {
+    "description": {
+      "ja": "味方のACTタイプ[通常]"
+    },
+    "skill_target_filter_ids": {
+      "1": 13
+    }
+  },
+  "4016": {
+    "description": {
+      "ja": "味方のACTタイプ[特殊]"
+    },
+    "skill_target_filter_ids": {
+      "1": 14
+    }
+  },
+  "4017": {
+    "description": {
+      "ja": "聖翔音楽学園の花属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 8,
+      "2": 1
+    }
+  },
+  "4018": {
+    "description": {
+      "ja": "聖翔音楽学園の風属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 8,
+      "2": 2
+    }
+  },
+  "4019": {
+    "description": {
+      "ja": "聖翔音楽学園の雪属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 8,
+      "2": 3
+    }
+  },
+  "4020": {
+    "description": {
+      "ja": "聖翔音楽学園の月属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 8,
+      "2": 4
+    }
+  },
+  "4021": {
+    "description": {
+      "ja": "聖翔音楽学園の宙属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 8,
+      "2": 5
+    }
+  },
+  "4022": {
+    "description": {
+      "ja": "聖翔音楽学園の雲属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 8,
+      "2": 6
+    }
+  },
+  "4023": {
+    "description": {
+      "ja": "聖翔音楽学園の夢属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 8,
+      "2": 7
+    }
+  },
+  "4024": {
+    "description": {
+      "ja": "凛明館女学校の花属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 9,
+      "2": 1
+    }
+  },
+  "4025": {
+    "description": {
+      "ja": "凛明館女学校の風属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 9,
+      "2": 2
+    }
+  },
+  "4026": {
+    "description": {
+      "ja": "凛明館女学校の雪属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 9,
+      "2": 3
+    }
+  },
+  "4027": {
+    "description": {
+      "ja": "凛明館女学校の月属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 9,
+      "2": 4
+    }
+  },
+  "4028": {
+    "description": {
+      "ja": "凛明館女学校の宙属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 9,
+      "2": 5
+    }
+  },
+  "4029": {
+    "description": {
+      "ja": "凛明館女学校の雲属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 9,
+      "2": 6
+    }
+  },
+  "4030": {
+    "description": {
+      "ja": "凛明館女学校の夢属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 9,
+      "2": 7
+    }
+  },
+  "4031": {
+    "description": {
+      "ja": "フロンティア芸術学校の花属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 10,
+      "2": 1
+    }
+  },
+  "4032": {
+    "description": {
+      "ja": "フロンティア芸術学校の風属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 10,
+      "2": 2
+    }
+  },
+  "4033": {
+    "description": {
+      "ja": "フロンティア芸術学校の雪属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 10,
+      "2": 3
+    }
+  },
+  "4034": {
+    "description": {
+      "ja": "フロンティア芸術学校の月属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 10,
+      "2": 4
+    }
+  },
+  "4035": {
+    "description": {
+      "ja": "フロンティア芸術学校の宙属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 10,
+      "2": 5
+    }
+  },
+  "4036": {
+    "description": {
+      "ja": "フロンティア芸術学校の雲属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 10,
+      "2": 6
+    }
+  },
+  "4037": {
+    "description": {
+      "ja": "フロンティア芸術学校の夢属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 10,
+      "2": 7
+    }
+  },
+  "4038": {
+    "description": {
+      "ja": "シークフェルト音楽学院の花属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 11,
+      "2": 1
+    }
+  },
+  "4039": {
+    "description": {
+      "ja": "シークフェルト音楽学院の風属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 11,
+      "2": 2
+    }
+  },
+  "4040": {
+    "description": {
+      "ja": "シークフェルト音楽学院の雪属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 11,
+      "2": 3
+    }
+  },
+  "4041": {
+    "description": {
+      "ja": "シークフェルト音楽学院の月属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 11,
+      "2": 4
+    }
+  },
+  "4042": {
+    "description": {
+      "ja": "シークフェルト音楽学院の宙属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 11,
+      "2": 5
+    }
+  },
+  "4043": {
+    "description": {
+      "ja": "シークフェルト音楽学院の雲属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 11,
+      "2": 6
+    }
+  },
+  "4044": {
+    "description": {
+      "ja": "シークフェルト音楽学院の夢属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 11,
+      "2": 7
+    }
+  },
+  "4045": {
+    "description": {
+      "ja": "花属性のACTタイプ[通常]"
+    },
+    "skill_target_filter_ids": {
+      "1": 1,
+      "2": 13
+    }
+  },
+  "4046": {
+    "description": {
+      "ja": "風属性のACTタイプ[通常]"
+    },
+    "skill_target_filter_ids": {
+      "1": 2,
+      "2": 13
+    }
+  },
+  "4047": {
+    "description": {
+      "ja": "雪属性のACTタイプ[通常]"
+    },
+    "skill_target_filter_ids": {
+      "1": 3,
+      "2": 13
+    }
+  },
+  "4048": {
+    "description": {
+      "ja": "月属性のACTタイプ[通常]"
+    },
+    "skill_target_filter_ids": {
+      "1": 4,
+      "2": 13
+    }
+  },
+  "4049": {
+    "description": {
+      "ja": "宙属性のACTタイプ[通常]"
+    },
+    "skill_target_filter_ids": {
+      "1": 5,
+      "2": 13
+    }
+  },
+  "4050": {
+    "description": {
+      "ja": "雲属性のACTタイプ[通常]"
+    },
+    "skill_target_filter_ids": {
+      "1": 6,
+      "2": 13
+    }
+  },
+  "4051": {
+    "description": {
+      "ja": "夢属性のACTタイプ[通常]"
+    },
+    "skill_target_filter_ids": {
+      "1": 7,
+      "2": 13
+    }
+  },
+  "4052": {
+    "description": {
+      "ja": "花属性のACTタイプ[特殊]"
+    },
+    "skill_target_filter_ids": {
+      "1": 1,
+      "2": 14
+    }
+  },
+  "4053": {
+    "description": {
+      "ja": "風属性のACTタイプ[特殊]"
+    },
+    "skill_target_filter_ids": {
+      "1": 2,
+      "2": 14
+    }
+  },
+  "4054": {
+    "description": {
+      "ja": "雪属性のACTタイプ[特殊]"
+    },
+    "skill_target_filter_ids": {
+      "1": 3,
+      "2": 14
+    }
+  },
+  "4055": {
+    "description": {
+      "ja": "月属性のACTタイプ[特殊]"
+    },
+    "skill_target_filter_ids": {
+      "1": 4,
+      "2": 14
+    }
+  },
+  "4056": {
+    "description": {
+      "ja": "宙属性のACTタイプ[特殊]"
+    },
+    "skill_target_filter_ids": {
+      "1": 5,
+      "2": 14
+    }
+  },
+  "4057": {
+    "description": {
+      "ja": "雲属性のACTタイプ[特殊]"
+    },
+    "skill_target_filter_ids": {
+      "1": 6,
+      "2": 14
+    }
+  },
+  "4058": {
+    "description": {
+      "ja": "夢属性のACTタイプ[特殊]"
+    },
+    "skill_target_filter_ids": {
+      "1": 7,
+      "2": 14
+    }
+  },
+  "4059": {
+    "description": {
+      "ja": "味方の青嵐総合芸術院"
+    },
+    "skill_target_filter_ids": {
+      "1": 12
+    }
+  },
+  "4060": {
+    "description": {
+      "ja": "青嵐総合芸術院の花属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 12,
+      "2": 1
+    }
+  },
+  "4061": {
+    "description": {
+      "ja": "青嵐総合芸術院の風属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 12,
+      "2": 2
+    }
+  },
+  "4062": {
+    "description": {
+      "ja": "青嵐総合芸術院の雪属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 12,
+      "2": 3
+    }
+  },
+  "4063": {
+    "description": {
+      "ja": "青嵐総合芸術院の月属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 12,
+      "2": 4
+    }
+  },
+  "4064": {
+    "description": {
+      "ja": "青嵐総合芸術院の宙属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 12,
+      "2": 5
+    }
+  },
+  "4065": {
+    "description": {
+      "ja": "青嵐総合芸術院の雲属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 12,
+      "2": 6
+    }
+  },
+  "4066": {
+    "description": {
+      "ja": "青嵐総合芸術院の夢属性"
+    },
+    "skill_target_filter_ids": {
+      "1": 12,
+      "2": 7
+    }
+  },
+  "4067": {
+    "description": {
+      "ja": "立ち位置前の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4068": {
+    "description": {
+      "ja": "立ち位置中の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4069": {
+    "description": {
+      "ja": "立ち位置後の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4070": {
+    "description": {
+      "ja": "味方のアルカナ・アルカディア"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4071": {
+    "description": {
+      "ja": "敵役のアルカナ・アルカディア"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4072": {
+    "description": {
+      "ja": "味方の青嵐総合芸術院"
+    },
+    "skill_target_filter_ids": {
+      "1": 12
+    }
+  },
+  "4073": {
+    "description": {
+      "ja": "後ろから1番目の聖翔音楽学園の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4074": {
+    "description": {
+      "ja": "後ろから1番目の凛明館女学校の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4075": {
+    "description": {
+      "ja": "後ろから1番目のフロンティア芸術学校の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4076": {
+    "description": {
+      "ja": "後ろから1番目のシークフェルト音楽学院の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4077": {
+    "description": {
+      "ja": "後ろから1番目の青嵐総合芸術院の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4078": {
+    "description": {
+      "ja": "前から1番目の聖翔音楽学園の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4079": {
+    "description": {
+      "ja": "前から1番目の凛明館女学校の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4080": {
+    "description": {
+      "ja": "前から1番目のフロンティア芸術学校の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4081": {
+    "description": {
+      "ja": "前から1番目のシークフェルト音楽学院の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4082": {
+    "description": {
+      "ja": "前から1番目の青嵐総合芸術院の敵役"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "4083": {
+    "description": {
+      "ja": "敵役のACTタイプ[通常]"
+    },
+    "skill_target_filter_ids": {
+      "1": 13
+    }
+  },
+  "4084": {
+    "description": {
+      "ja": "敵役のACTタイプ[特殊]"
+    },
+    "skill_target_filter_ids": {
+      "1": 14
+    }
+  },
+  "5001": {
+    "description": {
+      "ja": "味方全体から1HITごとにランダムに1体"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "6001": {
+    "description": {
+      "ja": "敵役全体から1HITごとにランダムに1体"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "6010": {
+    "description": {
+      "ja": "敵役全体から1HITごとにランダムに1体"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7101": {
+    "description": {
+      "ja": "自身かつ愛城華恋"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7102": {
+    "description": {
+      "ja": "自身かつ神楽ひかり"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7103": {
+    "description": {
+      "ja": "自身かつ露崎まひる"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7104": {
+    "description": {
+      "ja": "自身かつ西條クロディーヌ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7105": {
+    "description": {
+      "ja": "自身かつ天堂真矢"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7106": {
+    "description": {
+      "ja": "自身かつ星見純那"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7107": {
+    "description": {
+      "ja": "自身かつ大場なな"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7108": {
+    "description": {
+      "ja": "自身かつ石動双葉"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7109": {
+    "description": {
+      "ja": "自身かつ花柳香子"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7201": {
+    "description": {
+      "ja": "自身かつ巴珠緒"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7202": {
+    "description": {
+      "ja": "自身かつ音無いちえ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7203": {
+    "description": {
+      "ja": "自身かつ夢大路文"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7204": {
+    "description": {
+      "ja": "自身かつ秋風塁"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7205": {
+    "description": {
+      "ja": "自身かつ田中ゆゆ子"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7301": {
+    "description": {
+      "ja": "自身かつ大月あるる"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7302": {
+    "description": {
+      "ja": "自身かつ叶美空"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7303": {
+    "description": {
+      "ja": "自身かつ野々宮ララフィン"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7304": {
+    "description": {
+      "ja": "自身かつ恵比寿つかさ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7305": {
+    "description": {
+      "ja": "自身かつ胡蝶静羽"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7401": {
+    "description": {
+      "ja": "自身かつ雪代晶"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7402": {
+    "description": {
+      "ja": "自身かつ鳳ミチル"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7403": {
+    "description": {
+      "ja": "自身かつリュウ・メイファン"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7404": {
+    "description": {
+      "ja": "自身かつ夢大路栞"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7405": {
+    "description": {
+      "ja": "自身かつ鶴姫やちよ"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7501": {
+    "description": {
+      "ja": "自身かつ柳小春"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7502": {
+    "description": {
+      "ja": "自身かつ南風涼"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "7503": {
+    "description": {
+      "ja": "自身かつ穂波氷雨"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "11011": {
+    "description": {
+      "ja": "退場した中で、前から1番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "11012": {
+    "description": {
+      "ja": "退場した中で、後ろから1番目の味方"
+    },
+    "skill_target_filter_ids": {}
+  },
+  "22002": {
+    "description": {
+      "ja": "挑発・ターゲット固定を無視し、敵役全体"
+    },
+    "skill_target_filter_ids": {}
+  }
+}
