@@ -8,7 +8,8 @@ public class NonDamageEffect : Effect
     public EffectType Type { get; set; }
     public string Explanation { get; set; }
 
-    public NonDamageEffect(string name, string jpName, List<string> altNames, int iconId, string verbose, EffectQuality quality, EffectType type, string explanation) : base(name, jpName, altNames, iconId, verbose)
+    public NonDamageEffect(int id, string name, string jpName, List<string> altNames, int iconId, string verbose, EffectQuality quality, EffectType type, string explanation, string extraVerbose)
+        : base(id, name, jpName, altNames, iconId, verbose, extraVerbose)
     {
         Quality = quality;
         Type = type;

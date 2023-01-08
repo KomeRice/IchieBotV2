@@ -5,13 +5,13 @@ namespace IchieBotData.Effects;
 public class DamageEffectInst : EffectInst
 {
     public int HitCount { get; set; }
-    public string EffectName { get; set; }
     public Element Element { get; set; }
+    public DamageEffect Effect;
 
-    public DamageEffectInst(string target, int accuracy, int magntiude, List<string> optionsList, int hitCount, string effectName, Element element) : base(target, accuracy, magntiude, optionsList)
+    public DamageEffectInst(DamageEffect effect, string target, int accuracy, List<int> amplitudes, List<int> magnitudes, int hitCount, Element element) : base(target, accuracy, magnitudes, amplitudes)
     {
+        Effect = effect;
         HitCount = hitCount;
-        EffectName = effectName;
         Element = element;
     }
 }

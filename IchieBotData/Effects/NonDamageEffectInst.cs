@@ -2,12 +2,10 @@ namespace IchieBotData.Effects;
 
 public class NonDamageEffectInst : EffectInst
 {
-    public int Amplitude { get; set; }
-    public string EffectName { get; set; }
-
-    public NonDamageEffectInst(string target, int accuracy, int magntiude, List<string> optionsList, int amplitude, string effectName) : base(target, accuracy, magntiude, optionsList)
+    public NonDamageEffect Effect;
+    
+    public NonDamageEffectInst(NonDamageEffect effect, string target, int accuracy, List<int> magnitudes, List<int> amplitudes) : base(target, accuracy, magnitudes, amplitudes)
     {
-        Amplitude = amplitude;
-        EffectName = effectName;
+        Effect = effect;
     }
 }

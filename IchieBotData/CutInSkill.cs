@@ -11,7 +11,7 @@ public class CutInSkill : Skill
     public int NormalCooldown { get; set; }
     public int UsageLimit { get; set; }
 
-    public CutInSkill(List<EffectInst> effects, Condition condition, string trigger, int cost, int initialCooldown, int normalCooldown, int usageLimit) : base(effects, condition)
+    public CutInSkill(List<EffectInst> effects, Condition condition, string trigger, int cost, int initialCooldown, int normalCooldown, int usageLimit) : base(effects, condition, "-1")
     {
         Trigger = trigger;
         Cost = cost;

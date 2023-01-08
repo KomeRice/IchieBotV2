@@ -18,7 +18,7 @@ public class StageGirl : IComparable
 	public Ability UnitSkill { get; set; }
 	public List<string> Aliases { get; set; }
 	public List<Move> Moves { get; set; }
-	public Ability Entry { get; set; }
+	public Ability? Entry { get; set; }
 	public List<Ability> Abilities { get; set; }
 	public List<int> MaxStats { get; set; }
 	public string Pool { get; set; }

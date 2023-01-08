@@ -6,18 +6,24 @@ namespace IchieBotData.Effects;
 
 public abstract class Effect
 {
+    public int Id { get; set; }
     public string Name { get; set; }
     public string JpName { get; set; }
     public List<string> AltNames { get; set; }
     public int IconId { get; set; }
     public string Verbose { get; set; }
+    public string ExtraVerbose { get; set; }
+    
+    public List<string> Tags { get; set; }
 
-    protected Effect(string name, string jpName, List<string> altNames, int iconId, string verbose)
+    protected Effect(int id, string name, string jpName, List<string> altNames, int iconId, string verbose, string extraVerbose)
     {
+        Id = id;
         Name = name;
         JpName = jpName;
         AltNames = altNames;
         IconId = iconId;
         Verbose = verbose;
+        ExtraVerbose = extraVerbose;
     }
 }
