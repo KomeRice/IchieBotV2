@@ -9,7 +9,7 @@ using Icon = IchieBotData.Common.Icon;
 
 namespace IchieBotV2.Services;
 
-public class DatabaseService
+public class DatabaseLegacyService
 {
     private readonly DiscordSocketClient _client;
     private readonly InteractionService _commands;
@@ -32,7 +32,7 @@ public class DatabaseService
     // Temporary plug until Karthuria updates its format
     public Dictionary<string, ComplementJson> DictComplements = new();
 
-    public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services, StatCalculator calculator)
+    public DatabaseLegacyService(DiscordSocketClient client, InteractionService commands, IServiceProvider services, StatCalculator calculator)
     {
         _client = client;
         _commands = commands;

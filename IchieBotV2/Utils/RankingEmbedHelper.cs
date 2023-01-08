@@ -6,13 +6,13 @@ namespace IchieBotV2.Utils;
 
 public class RankingEmbedHelper
 {
-	private readonly DatabaseService _db;
+	private readonly DatabaseLegacyService _db;
 	private readonly RankingService _rankingService;
 	private const int PageSize = 16;
 	public static readonly List<string> Parameters = new List<string>()
 		{ "Power Score", "MaxHP", "ACT Power", "NormDef", "SpDef", "Agility", "Row Position" };
 	
-	public RankingEmbedHelper(DatabaseService db, RankingService rankingService)
+	public RankingEmbedHelper(DatabaseLegacyService db, RankingService rankingService)
 	{
 		_db = db;
 		_rankingService = rankingService;

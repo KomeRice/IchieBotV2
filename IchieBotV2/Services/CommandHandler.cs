@@ -14,9 +14,9 @@ public class CommandHandler
     private readonly IServiceProvider _services;
     private readonly DressEmbedHelper _dressEmbedHelper;
     private readonly RankingEmbedHelper _rankingEmbedHelper;
-    private readonly DatabaseService _db;
+    private readonly DatabaseLegacyService _db;
     
-    public CommandHandler(DiscordSocketClient cl, InteractionService cm, IServiceProvider s, DressEmbedHelper dressEmbedHelper, DatabaseService db, RankingEmbedHelper rankingEmbedHelper)
+    public CommandHandler(DiscordSocketClient cl, InteractionService cm, IServiceProvider s, DressEmbedHelper dressEmbedHelper, DatabaseLegacyService db, RankingEmbedHelper rankingEmbedHelper)
     {
         _client = cl;
         _commands = cm;
@@ -78,6 +78,7 @@ public class CommandHandler
                     message.Components = builder.Build();
                 });
                 break;
+            
             case "multdress":
                 var curPage = Convert.ToInt32(options.Last());
                 var uniqueId = string.Join("_", options.SkipLast(1).ToList());
@@ -90,8 +91,8 @@ public class CommandHandler
                     message.Embed = e;
                     message.Components = multBuilder.Build();
                 });
-
                 break;
+            
             case "rank":
                 var optionsInt = options.Select(s => Convert.ToInt32(s)).ToArray();
                 var rankEmbed = await _rankingEmbedHelper.RankingEmbed((RankingService.Parameter)optionsInt[0],

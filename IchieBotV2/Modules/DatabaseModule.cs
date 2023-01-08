@@ -6,11 +6,13 @@ namespace IchieBotV2.Modules;
 
 public class DatabaseModule : InteractionModuleBase<SocketInteractionContext>
 {
-    private readonly DatabaseService _db;
+    private readonly DatabaseLegacyService _db;
+    private readonly DatabaseService _dbtest;
 
-    public DatabaseModule(DatabaseService db)
+    public DatabaseModule(DatabaseLegacyService db, DatabaseService dbtest)
     {
         _db = db;
+        _dbtest = dbtest;
     }
 
     [RequireOwner, SlashCommand("buildrbcache", "Builds RB Cache")]

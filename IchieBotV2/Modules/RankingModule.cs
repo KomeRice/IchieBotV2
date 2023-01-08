@@ -8,10 +8,10 @@ namespace IchieBotV2.Modules;
 public class RankingModule : InteractionModuleBase<SocketInteractionContext>
 {
 	private RankingService _ranking;
-	private DatabaseService _db;
+	private DatabaseLegacyService _db;
 	private readonly RankingEmbedHelper _embedHelper;
 	
-	public RankingModule(RankingService ranking, DatabaseService db, RankingEmbedHelper embedHelper)
+	public RankingModule(RankingService ranking, DatabaseLegacyService db, RankingEmbedHelper embedHelper)
 	{
 		_ranking = ranking;
 		_db = db;

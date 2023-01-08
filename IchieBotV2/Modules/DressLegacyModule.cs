@@ -9,10 +9,10 @@ namespace IchieBotV2.Modules;
 
 public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
 {
-    private readonly DatabaseService _db;
+    private readonly DatabaseLegacyService _db;
     private readonly DressEmbedHelper _embedHelper;
     
-    public DressLegacyModule(DatabaseService db, DressEmbedHelper embedHelper)
+    public DressLegacyModule(DatabaseLegacyService db, DressEmbedHelper embedHelper)
     {
         _db = db;
         _embedHelper = embedHelper;
@@ -32,7 +32,7 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         StageGirl d;
         if (name.Any(char.IsLetter))
         {
-            var uniqueId = DatabaseService.GetUniqueId(name);
+            var uniqueId = DatabaseLegacyService.GetUniqueId(name);
             var stageGirls = _db.TrySearch(uniqueId);
             switch (stageGirls.Count)
             {
@@ -111,7 +111,7 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
             } 
         }
 
-        var uniqueId = DatabaseService.GetUniqueId(name, element, row, pool, cost, rarity, type, school);
+        var uniqueId = DatabaseLegacyService.GetUniqueId(name, element, row, pool, cost, rarity, type, school);
         var dressList = _db.TrySearch(uniqueId);
 
         switch (dressList.Count)
@@ -147,10 +147,10 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
 
     public class DressCompleteHandler : AutocompleteHandler
     {
-        private readonly DatabaseService _databaseService;
-        public DressCompleteHandler(DatabaseService databaseService)
+        private readonly DatabaseLegacyService _databaseLegacyService;
+        public DressCompleteHandler(DatabaseLegacyService databaseLegacyService)
         {
-            _databaseService = databaseService;
+            _databaseLegacyService = databaseLegacyService;
         }
         
         public override async Task<AutocompletionResult> GenerateSuggestionsAsync(IInteractionContext context, IAutocompleteInteraction autocompleteInteraction,
@@ -161,7 +161,7 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
                 var curIn = autocompleteInteraction.Data.Current.Value.ToString();
                 if (curIn is null)
                     return AutocompletionResult.FromSuccess();
-                var o = _databaseService.AutoCompleteFilter(curIn);
+                var o = _databaseLegacyService.AutoCompleteFilter(curIn);
                 return AutocompletionResult.FromSuccess(o);
             }
             return AutocompletionResult.FromSuccess();

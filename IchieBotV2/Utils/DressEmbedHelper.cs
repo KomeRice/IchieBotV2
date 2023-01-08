@@ -7,7 +7,7 @@ namespace IchieBotV2.Utils
     public class DressEmbedHelper
     {
         // TODO: Refine async scheme
-        private readonly DatabaseService _db;
+        private readonly DatabaseLegacyService _db;
         private readonly RankingService _ranking;
 
         private static readonly List<string> _menuEntries = new List<string>() { "Overview", "Skills", "Misc." };
@@ -18,7 +18,7 @@ namespace IchieBotV2.Utils
             1.42, 1.22, 1.19, 1.15, 1.12, 1.10, 1.09, 1.08, 1.0, 0.85, 0.82, 0.7
         };
 
-        public DressEmbedHelper(DatabaseService db, RankingService ranking)
+        public DressEmbedHelper(DatabaseLegacyService db, RankingService ranking)
         {
             _db = db;
             _ranking = ranking;

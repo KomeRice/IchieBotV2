@@ -70,7 +70,7 @@ namespace IchieBotV2
                 .AddSingleton<DiscordSocketClient>()
                 .AddSingleton(x => new InteractionService(x.GetRequiredService<DiscordSocketClient>()))
                 .AddSingleton<CommandHandler>()
-                .AddSingleton<DatabaseService>()
+                .AddSingleton<DatabaseLegacyService>()
                 .AddSingleton<DressEmbedHelper>()
                 .AddSingleton<DressLegacyModule.DressCompleteHandler>()
                 .AddSingleton<StatCalculator>()
