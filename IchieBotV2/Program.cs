@@ -76,6 +76,7 @@ namespace IchieBotV2
                 .AddSingleton<StatCalculator>()
                 .AddSingleton<RankingEmbedHelper>()
                 .AddSingleton<RankingService>()
+                .AddSingleton<DatabaseService>()
                 .BuildServiceProvider();
         }
 
