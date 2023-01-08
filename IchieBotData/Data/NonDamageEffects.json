@@ -1,498 +1,2062 @@
-[
-  {
-    "Name": "",
-    "JpName": "",
-    "altNames": [],
-    "IconId": "",
-    "Verbose": "",
-    "Quality": -1,
-    "Type": -1,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased MaxHP",
-    "JpName": "最大HPアップ",
-    "altNames": [],
-    "IconId": "223",
-    "Verbose": "$mgn$% increased MaxHP $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced MaxHP",
-    "JpName": "最大HPダウン",
-    "altNames": [],
-    "IconId": "224",
-    "Verbose": "$mgn$% reduced MaxHP $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased ACT",
-    "JpName": "ACTアップ",
-    "altNames": [],
-    "IconId": "8",
-    "Verbose": "$mgn$% increased ACT $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced ACT",
-    "JpName": "ACTダウン",
-    "altNames": [],
-    "IconId": "9",
-    "Verbose": "$mgn$% reduced ACT $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased NormDef",
-    "JpName": "通常防御アップ",
-    "altNames": [
-      "Increased PhysDef"
-    ],
-    "IconId": "9",
-    "Verbose": "$mgn$% increased NormDef $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced NormDef",
-    "JpName": "通常防御ダウン",
-    "altNames": [
-      "Reduced PhysDef"
-    ],
-    "IconId": "11",
-    "Verbose": "$mgn$% reduced NormDef $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased SpDef",
-    "JpName": "特殊防御アップ",
-    "altNames": [],
-    "IconId": "13",
-    "Verbose": "$mgn$% increased SpDef $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },  
-  {
-    "Name": "Reduced SpDef",
-    "JpName": "特殊防御ダウン",
-    "altNames": [],
-    "IconId": "13",
-    "Verbose": "$mgn$% reduced SpDef $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased Agility",
-    "JpName": "すばやさアップ",
-    "altNames": [
-      "Speed Up"
-    ],
-    "IconId": "14",
-    "Verbose": "$mgn$% increased Agility $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced Agility",
-    "JpName": "すばやさダウン",
-    "altNames": [
-      "Speed Down"
-    ],
-    "IconId": "15",
-    "Verbose": "$mgn$% reduced Agility $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased Crit Rate",
-    "JpName": "クリティカル率アップ",
-    "altNames": [
-      "Dexterity Up"
-    ],
-    "IconId": "20",
-    "Verbose": "+$mgn$% to Crit Rate $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced Crit Rate",
-    "JpName": "クリティカル率ダウン",
-    "altNames": [
-      "Dexterity Down"
-    ],
-    "IconId": "21",
-    "Verbose": "-$mgn$% to Crit Rate $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased Crit Dmg",
-    "JpName": "クリティカル威力アップ",
-    "altNames": [
-      "Critical Up"
-    ],
-    "IconId": "22",
-    "Verbose": "+$mgn$% to Crit Dmg $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced Crit Dmg",
-    "JpName": "クリティカル威力ダウン",
-    "altNames": [
-      "Critical Down"
-    ],
-    "IconId": "23",
-    "Verbose": "-$mgn$% to Crit Dmg $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced AP Cost",
-    "JpName": "AP減少",
-    "altNames": [
-      "AP Reduction"
-    ],
-    "IconId": "157",
-    "Verbose": "$mgn$ AP Reduction $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased AP Cost",
-    "JpName": "AP増加",
-    "altNames": [
-      "AP Increase"
-    ],
-    "IconId": "173",
-    "Verbose": "$mgn$ AP Increase $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased Accuracy",
-    "JpName": "命中率アップ",
-    "altNames": [],
-    "IconId": "16",
-    "Verbose": "+$mgn$% to Accuracy $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced Accuracy",
-    "JpName": "命中率ダウン",
-    "altNames": [],
-    "IconId": "17",
-    "Verbose": "-$mgn$% to Accuracy $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased Evasion",
-    "JpName": "回避率アップ",
-    "altNames": [],
-    "IconId": "18",
-    "Verbose": "+$mgn$% to Evasion $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced Evasion",
-    "JpName": "回避率ダウン",
-    "altNames": [],
-    "IconId": "19",
-    "Verbose": "-$mgn$% to Evasion $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Increased Damage",
+{
+  "123": {
+    "Id": "123",
+    "Name": "Generic Damage Up",
     "JpName": "与ダメージアップ",
-    "altNames": [],
     "IconId": "111",
-    "Verbose": "$mgn$% increased Damage $turns$",
+    "Verbose": "%value%% increased Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
     "Quality": 0,
     "Type": 0,
-    "Explanation": ""
+    "Explanation": "ExplPlaceHolder"
   },
-  {
-    "Name": "Reduced Damage Taken",
+  "113": {
+    "Id": "113",
+    "Name": "Damage Up against Korosu (Soldier)",
+    "JpName": "ソルジャー特攻",
+    "IconId": "10007",
+    "Verbose": "%value%% increased Damage against Soldier-type Korosu",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "126": {
+    "Id": "126",
+    "Name": "Generic Damage Taken Down",
     "JpName": "被ダメージダウン",
-    "altNames": [],
     "IconId": "114",
-    "Verbose": "$mgn$% reduced Damage taken $turns$",
+    "Verbose": "%value%% reduced Damage taken",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
     "Quality": 0,
     "Type": 0,
-    "Explanation": ""
+    "Explanation": "ExplPlaceHolder"
   },
-  {
-    "Name": "Increased Brilliance Recovery",
-    "JpName": "キラめき獲得アップ",
-    "altNames": [],
-    "IconId": "251",
-    "Verbose": "$mgn$% increased Brilliance recovery $turns$",
-    "Quality": 0,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced Brilliance Gain",
-    "JpName": "キラめき獲得ダウン",
-    "altNames": [],
-    "IconId": "192",
-    "Verbose": "$mgn$% reduced Brilliance recovery $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Reduced HP Recovery",
-    "JpName": "HP回復量ダウン",
-    "altNames": [],
-    "IconId": "65",
-    "Verbose": "$mgn$% reduced HP recovery $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Flat HP Heal",
-    "JpName": "HP回復",
-    "altNames": [],
-    "IconId": "6",
-    "Verbose": "Heal $mgn$ HP",
-    "Quality": 2,
-    "Type": 2,
-    "Explanation": ""
-  },
-  {
-    "Name": "Relative HP Heal",
-    "JpName": "HP回復",
-    "altNames": [],
-    "IconId": "6",
-    "Verbose": "Heal $mgn$% of MaxHP",
-    "Quality": 2,
-    "Type": 2,
-    "Explanation": ""
-  },
-  {
-    "Name": "Brilliance Gain",
+  "89": {
+    "Id": "89",
+    "Name": "Kirameki Gain",
     "JpName": "キラめき回復",
-    "altNames": [],
     "IconId": "89",
-    "Verbose": "Gain $mgn$ Brilliance",
+    "Verbose": "Gain %value% Kirameki",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
     "Quality": 2,
     "Type": 2,
-    "Explanation": ""
+    "Explanation": "ExplPlaceHolder"
   },
-  {
-    "Name": "Brilliance Loss",
-    "JpName": "キラめき減少",
-    "altNames": [],
-    "IconId": "89",
-    "Verbose": "Lose $mgn$ Brilliance",
-    "Quality": 2,
-    "Type": 2,
-    "Explanation": ""
-  },
-  {
+  "30": {
+    "Id": "30",
     "Name": "Normal Barrier",
     "JpName": "通常バリア",
-    "altNames": [],
     "IconId": "30",
-    "Verbose": "$mgn$ Normal Barrier $turns$",
+    "Verbose": "%value% Normal Barrier",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
     "Quality": 0,
     "Type": 0,
-    "Explanation": ""
+    "Explanation": "ExplPlaceHolder"
   },
-  {
-    "Name": "Special Barrier",
-    "JpName": "特殊バリア",
-    "altNames": [],
-    "IconId": "31",
-    "Verbose": "$mgn$ Special Barrier $turns$",
+  "11": {
+    "Id": "11",
+    "Name": "Normal Defense Down",
+    "JpName": "通常防御力ダウン",
+    "IconId": "11",
+    "Verbose": "%value%% reduced Normal Defense",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "119": {
+    "Id": "119",
+    "Name": "Damage Up against Korosu (Joker)",
+    "JpName": "奇術師特攻",
+    "IconId": "10007",
+    "Verbose": "%value%% increased Damage against Joker-type Korosu",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
     "Quality": 0,
     "Type": 0,
-    "Explanation": ""
+    "Explanation": "ExplPlaceHolder"
   },
-  {
-    "Name": "Provoke",
-    "JpName": "挑発",
-    "altNames": [
-      "Taunt"
-    ],
-    "IconId": "56",
-    "Verbose": "Taunt $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Aggro",
-    "JpName": "ターゲット固定",
-    "altNames": [
-      "Fix Target"
-    ],
-    "IconId": "152",
-    "Verbose": "Aggro $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Poison",
-    "JpName": "毒",
-    "altNames": [],
-    "IconId": "54",
-    "Verbose": "$mgn$ Poison $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Strong Poison",
-    "JpName": "猛毒",
-    "altNames": [],
-    "IconId": "54",
-    "Verbose": "$mgn$% of MaxHP Poison $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Burn",
-    "JpName": "火傷",
-    "altNames": [],
-    "IconId": "55",
-    "Verbose": "$mgn$% Burn $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Heavy Burn",
-    "JpName": "大火傷",
-    "altNames": [],
-    "IconId": "54",
-    "Verbose": "$mgn$% of MaxHP Burn $turns$",
-    "Quality": 1,
-    "Type": 0,
-    "Explanation": ""
-  },
-  {
-    "Name": "Continuous Positive Effects removal",
-    "JpName": "永続プラス効果を解除",
-    "altNames": [],
-    "IconId": "10006",
-    "Verbose": "Remove all Continuous Positive Effects",
-    "Quality": 2,
-    "Type": 2,
-    "Explanation": ""
-  },
-  {
-    "Name": "Continuous Negative Effects removal",
-    "JpName": "永続マイナス効果を解除",
-    "altNames": [],
-    "IconId": "10005",
-    "Verbose": "Remove all Continuous Negative Effects",
-    "Quality": 2,
-    "Type": 2,
-    "Explanation": ""
-  },
-  {
-    "Name": "Stat buff removal",
-    "JpName": "ステータス上昇を解除",
-    "altNames": [],
-    "IconId": "10006",
-    "Verbose": "Remove all Stat buffs",
-    "Quality": 2,
-    "Type": 2,
-    "Explanation": ""
-  },
-  {
-    "Name": "Total Countable Positive Effects removal",
-    "JpName": "回数プラス効果を解除",
-    "altNames": [],
-    "IconId": "10006",
-    "Verbose": "Remove all Stacks of all Countable Positive Effects",
-    "Quality": 2,
-    "Type": 2,
-    "Explanation": ""
-  },
-  {
-    "Name": "Limited Countable Positive Effects removal",
-    "JpName": "回数プラス効果を解除",
-    "altNames": [],
-    "IconId": "252",
-    "Verbose": "-$mgn$ to a Countable Positive Effect",
-    "Quality": 2,
-    "Type": 2,
-    "Explanation": ""
-  },
-  {
-    "Name": "Limited Countable Negative Effects removal",
-    "JpName": "回数マイナス効果を解除",
-    "altNames": [],
-    "IconId": "249",
-    "Verbose": "-$mgn$ to a Countable Negative Effect",
-    "Quality": 2,
-    "Type": 2,
-    "Explanation": ""
-  },
-  {
-    "Name": "Perfect Aim",
-    "JpName": "必中",
-    "altNames": [
-      "Focus"
-    ],
-    "IconId": "35",
-    "Verbose": "Perfect Aim $turns$",
+  "71": {
+    "Id": "71",
+    "Name": "Cloud Damage Taken Down",
+    "JpName": "雲属性被ダメージダウン",
+    "IconId": "71",
+    "Verbose": "%value%% reduced Cloud Damage taken",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
     "Quality": 0,
     "Type": 0,
-    "Explanation": ""
+    "Explanation": "ExplPlaceHolder"
   },
-  {
+  "20": {
+    "Id": "20",
+    "Name": "Critical Strike Chance Up",
+    "JpName": "クリティカル率アップ",
+    "IconId": "20",
+    "Verbose": "+%value%% to Critical Strike Chance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "34": {
+    "Id": "34",
     "Name": "Evasion",
     "JpName": "回避",
-    "altNames": [],
     "IconId": "34",
-    "Verbose": "+$mgn$ Evasion",
+    "Verbose": "%value% Evasion",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
     "Quality": 0,
     "Type": 1,
-    "Explanation": ""
+    "Explanation": "ExplPlaceHolder"
   },
-  {
+  "36": {
+    "Id": "36",
     "Name": "Fortitude",
     "JpName": "不屈",
-    "altNames": [],
     "IconId": "36",
-    "Verbose": "+$mgn$ Fortitude",
+    "Verbose": "%value% Fortitude",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
     "Quality": 0,
     "Type": 1,
-    "Explanation": ""
+    "Explanation": "ExplPlaceHolder"
+  },
+  "13": {
+    "Id": "13",
+    "Name": "Special Defense Down",
+    "JpName": "特殊防御力ダウン",
+    "IconId": "13",
+    "Verbose": "%value%% reduced Special Defense",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "29": {
+    "Id": "29",
+    "Name": "Kirameki Regen",
+    "JpName": "毎ターンキラめき回復",
+    "IconId": "29",
+    "Verbose": "%value% Kirameki Regen",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "40": {
+    "Id": "40",
+    "Name": "Climax ACT Power Up",
+    "JpName": "クライマックスACT威力アップ",
+    "IconId": "40",
+    "Verbose": "%value%% increased Climax ACT Power",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "57": {
+    "Id": "57",
+    "Name": "Stun",
+    "JpName": "スタン",
+    "IconId": "57",
+    "Verbose": "Stun",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "241": {
+    "Id": "241",
+    "Name": "Counter-Heal",
+    "JpName": "カウンターヒール",
+    "IconId": "45",
+    "Verbose": "%value%% Counter-Heal",
+    "ExtraVerbose": "Amount Healed is based off target's MaxHP",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "31": {
+    "Id": "31",
+    "Name": "Special Barrier",
+    "JpName": "特殊バリア",
+    "IconId": "31",
+    "Verbose": "%value% Special Barrier",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "66": {
+    "Id": "66",
+    "Name": "Flower Damage Taken Down",
+    "JpName": "花属性被ダメージダウン",
+    "IconId": "66",
+    "Verbose": "%value%% reduced Flower Damage taken",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "9": {
+    "Id": "9",
+    "Name": "ACT Power Down",
+    "JpName": "ACTパワーダウン",
+    "IconId": "9",
+    "Verbose": "%value%% reduced ACT Power",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "55": {
+    "Id": "55",
+    "Name": "Burn",
+    "JpName": "火傷",
+    "IconId": "55",
+    "Verbose": "%value% Burn",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "damageOverTime"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "35": {
+    "Id": "35",
+    "Name": "Perfect Aim",
+    "JpName": "必中",
+    "IconId": "35",
+    "Verbose": "Perfect Aim",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "59": {
+    "Id": "59",
+    "Name": "Confusion",
+    "JpName": "混乱",
+    "IconId": "59",
+    "Verbose": "Confusion",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "39": {
+    "Id": "39",
+    "Name": "Effective Damage Up",
+    "JpName": "有利属性ダメージアップ",
+    "IconId": "39",
+    "Verbose": "%value%% increased Effective Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "99": {
+    "Id": "99",
+    "Name": "Blind Resistance Up",
+    "JpName": "暗闇耐性アップ",
+    "IconId": "99",
+    "Verbose": "+%value%% to Blind Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "150": {
+    "Id": "150",
+    "Name": "Marked",
+    "JpName": "刻印",
+    "IconId": "150",
+    "Verbose": "Marked",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "127": {
+    "Id": "127",
+    "Name": "Timed Positive Effect Removal",
+    "JpName": "継続プラス効果解除",
+    "IconId": "10006",
+    "Verbose": "Remove all Timed Positive Effects",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "28": {
+    "Id": "28",
+    "Name": "HP Regen",
+    "JpName": "毎ターンHP回復",
+    "IconId": "28",
+    "Verbose": "%value% HP Regen",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "152": {
+    "Id": "152",
+    "Name": "Aggro",
+    "JpName": "ターゲット固定",
+    "IconId": "152",
+    "Verbose": "Aggro",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "18": {
+    "Id": "18",
+    "Name": "Evasion Chance Up",
+    "JpName": "回避率アップ(%value%)",
+    "IconId": "18",
+    "Verbose": "+%value%% to Evasion Chance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "94": {
+    "Id": "94",
+    "Name": "Stun Resistance Up",
+    "JpName": "スタン耐性アップ",
+    "IconId": "94",
+    "Verbose": "",
+    "ExtraVerbose": "+%value%% to Stun Resistance",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "157": {
+    "Id": "157",
+    "Name": "AP Reduction",
+    "JpName": "AP減少",
+    "IconId": "157",
+    "Verbose": "1 AP Reduction",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "26": {
+    "Id": "26",
+    "Name": "Timed Negative Effect Resistance Up",
+    "JpName": "継続マイナス効果耐性アップ",
+    "IconId": "26",
+    "Verbose": "+%value%% to Timed Negative Effect Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "24": {
+    "Id": "24",
+    "Name": "MaxHP Up",
+    "JpName": "最大HPアップ",
+    "IconId": "223",
+    "Verbose": "%value%% increased MaxHP",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "58": {
+    "Id": "58",
+    "Name": "Sleep",
+    "JpName": "睡眠",
+    "IconId": "58",
+    "Verbose": "Sleep",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "224": {
+    "Id": "224",
+    "Name": "AP Increase",
+    "JpName": "AP増加",
+    "IconId": "173",
+    "Verbose": "1 AP Increase",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "377": {
+    "Id": "377",
+    "Name": "Nightmare",
+    "JpName": "悪夢",
+    "IconId": "234",
+    "Verbose": "%value% Nightmare",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "10": {
+    "Id": "10",
+    "Name": "Normal Defense Up",
+    "JpName": "通常防御力アップ",
+    "IconId": "10",
+    "Verbose": "%value%% increased Normal Defense",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "12": {
+    "Id": "12",
+    "Name": "Special Defense Up",
+    "JpName": "特殊防御力アップ",
+    "IconId": "12",
+    "Verbose": "%value%% increased Special Defense",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "347": {
+    "Id": "347",
+    "Name": "Kirameki Loss",
+    "JpName": "キラめき減少",
+    "IconId": "222",
+    "Verbose": "Lose %value% Kirameki",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "8": {
+    "Id": "8",
+    "Name": "ACT Power Up",
+    "JpName": "ACTパワーアップ",
+    "IconId": "8",
+    "Verbose": "%value%% increased ACT Power",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "128": {
+    "Id": "128",
+    "Name": "Timed Negative Effect Removal",
+    "JpName": "継続マイナス効果解除",
+    "IconId": "10005",
+    "Verbose": "Remove all Timed Negative Effects",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "299": {
+    "Id": "299",
+    "Name": "Resilience",
+    "JpName": "不倒",
+    "IconId": "194",
+    "Verbose": "Resilience",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "360": {
+    "Id": "360",
+    "Name": "Revive",
+    "JpName": "起死回生",
+    "IconId": "228",
+    "Verbose": "%value%% Revive",
+    "ExtraVerbose": "Amount Healed is based off target's MaxHP",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 1,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "445": {
+    "Id": "445",
+    "Name": "Stack Negative Effect Resistance Up",
+    "JpName": "回数マイナス効果耐性アップ",
+    "IconId": "250",
+    "Verbose": "+%value%% to Stack Negative Effect Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "385": {
+    "Id": "385",
+    "Name": "Impudence",
+    "JpName": "慢心",
+    "IconId": "237",
+    "Verbose": "%value% Impudence",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 1,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "444": {
+    "Id": "444",
+    "Name": "Stack Negative Effect Reduction",
+    "JpName": "回数マイナス効果減少",
+    "IconId": "249",
+    "Verbose": "Reduce Stack of a Negative Effect",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "32": {
+    "Id": "32",
+    "Name": "Normal Damage Reflection",
+    "JpName": "通常ダメージ反射",
+    "IconId": "32",
+    "Verbose": "Reflect %value%% of Normal Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "33": {
+    "Id": "33",
+    "Name": "Special Damage Reflection",
+    "JpName": "特殊ダメージ反射",
+    "IconId": "33",
+    "Verbose": "Reflect %value%% of Special Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "454": {
+    "Id": "454",
+    "Name": "Revive Removal",
+    "JpName": "起死回生減少",
+    "IconId": "265",
+    "Verbose": "Remove Stacks of Revive",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "114": {
+    "Id": "114",
+    "Name": "Damage Up against Korosu (Lancer)",
+    "JpName": "ランサー特攻(%value%)",
+    "IconId": "10007",
+    "Verbose": "%value%% increased Damage against Lancer-type Korosu",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "21": {
+    "Id": "21",
+    "Name": "Critical Strike Chance Down",
+    "JpName": "クリティカル率ダウン",
+    "IconId": "21",
+    "Verbose": "-%value%% to Critical Strike Chance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "62": {
+    "Id": "62",
+    "Name": "Blind",
+    "JpName": "暗闇",
+    "IconId": "62",
+    "Verbose": "Blind",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "22": {
+    "Id": "22",
+    "Name": "Critical Strike Damage Up",
+    "JpName": "クリティカル威力アップ(%value%)",
+    "IconId": "22",
+    "Verbose": "+%value%% to Critical Strike Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "70": {
+    "Id": "70",
+    "Name": "Space Damage Taken Down",
+    "JpName": "宙属性被ダメージダウン",
+    "IconId": "70",
+    "Verbose": "%value%% reduced Space Damage taken",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "156": {
+    "Id": "156",
+    "Name": "Invincible",
+    "JpName": "無敵",
+    "IconId": "156",
+    "Verbose": "Invincible",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "67": {
+    "Id": "67",
+    "Name": "Wind Damage Taken Down",
+    "JpName": "風属性被ダメージダウン(%value%)",
+    "IconId": "67",
+    "Verbose": "%value%% reduced Wind Damage taken",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "56": {
+    "Id": "56",
+    "Name": "Provoke",
+    "JpName": "挑発",
+    "IconId": "56",
+    "Verbose": "Provoke",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "7": {
+    "Id": "7",
+    "Name": "MaxHP Heal",
+    "JpName": "HP回復",
+    "IconId": "6",
+    "Verbose": "Heal %value%% of MaxHP",
+    "ExtraVerbose": "Amount Healed is based off target's MaxHP",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "245": {
+    "Id": "245",
+    "Name": "Strong Poison",
+    "JpName": "猛毒",
+    "IconId": "54",
+    "Verbose": "%value%% of MaxHP Poison",
+    "ExtraVerbose": "Damage taken is based off target's MaxHP",
+    "AltNames": [],
+    "Tags": [
+      "damageOverTime"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "251": {
+    "Id": "251",
+    "Name": "Seal ACT2",
+    "JpName": "ACT2封印",
+    "IconId": "178",
+    "Verbose": "Seal ACT2",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "15": {
+    "Id": "15",
+    "Name": "Agility Down",
+    "JpName": "すばやさダウン",
+    "IconId": "15",
+    "Verbose": "%value%% reduced Agility",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "14": {
+    "Id": "14",
+    "Name": "Agility Up",
+    "JpName": "すばやさアップ",
+    "IconId": "14",
+    "Verbose": "%value%% increased Agility",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "92": {
+    "Id": "92",
+    "Name": "Burn Resistance Up",
+    "JpName": "火傷耐性アップ",
+    "IconId": "92",
+    "Verbose": "+%value%% to Burn Resistance",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "104": {
+    "Id": "104",
+    "Name": "Burn Removal",
+    "JpName": "火傷解除",
+    "IconId": "10005",
+    "Verbose": "Remove Burn",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "60": {
+    "Id": "60",
+    "Name": "Stop",
+    "JpName": "ストップ",
+    "IconId": "60",
+    "Verbose": "Stop",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "259": {
+    "Id": "259",
+    "Name": "Kirameki Gain Down",
+    "JpName": "キラめき獲得ダウン",
+    "IconId": "192",
+    "Verbose": "%value%% reduced Kirameki Gain",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "384": {
+    "Id": "384",
+    "Name": "Daze",
+    "JpName": "錯乱",
+    "IconId": "236",
+    "Verbose": "Daze",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 1,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "448": {
+    "Id": "448",
+    "Name": "Resilience",
+    "JpName": "不倒",
+    "IconId": "194",
+    "Verbose": "Resilience",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "394": {
+    "Id": "394",
+    "Name": "Weak Spot",
+    "JpName": "急所",
+    "IconId": "240",
+    "Verbose": "Weak Spot",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 1,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "339": {
+    "Id": "339",
+    "Name": "Climax ACT Power Down",
+    "JpName": "クライマックスACT威力ダウン",
+    "IconId": "220",
+    "Verbose": "%value%% Reduced Climax ACT Power",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "115": {
+    "Id": "115",
+    "Name": "Damage Up against Korosu (Fencer)",
+    "JpName": "フェンサー特攻",
+    "IconId": "10007",
+    "Verbose": "%value%% increased Damage against Fencer-type Korosu",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "6": {
+    "Id": "6",
+    "Name": "HP Heal",
+    "JpName": "HP回復",
+    "IconId": "6",
+    "Verbose": "Heal %value% HP",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "44": {
+    "Id": "44",
+    "Name": "Drain",
+    "JpName": "吸収",
+    "IconId": "44",
+    "Verbose": "%value%% Drain",
+    "ExtraVerbose": "Amount Healed is based off Damage Dealt",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "252": {
+    "Id": "252",
+    "Name": "Seal ACT3",
+    "JpName": "ACT3封印",
+    "IconId": "178",
+    "Verbose": "Seal ACT3",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "302": {
+    "Id": "302",
+    "Name": "Blind",
+    "JpName": "暗闇",
+    "IconId": "62",
+    "Verbose": "Blind",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "61": {
+    "Id": "61",
+    "Name": "Freeze",
+    "JpName": "凍結",
+    "IconId": "61",
+    "Verbose": "Freeze",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "96": {
+    "Id": "96",
+    "Name": "Confusion Resistance Up",
+    "JpName": "混乱耐性アップ",
+    "IconId": "96",
+    "Verbose": "+%value%% to Confusion Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "95": {
+    "Id": "95",
+    "Name": "Sleep Resistance Up",
+    "JpName": "睡眠耐性アップ",
+    "IconId": "95",
+    "Verbose": "+%value%% to Sleep Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "98": {
+    "Id": "98",
+    "Name": "Freeze Resistance Up",
+    "JpName": "凍結耐性アップ",
+    "IconId": "98",
+    "Verbose": "+%value%% to Freeze Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "17": {
+    "Id": "17",
+    "Name": "Accuracy Down",
+    "JpName": "命中率ダウン",
+    "IconId": "17",
+    "Verbose": "-%value%% to Accuracy",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "155": {
+    "Id": "155",
+    "Name": "Exit Evade",
+    "JpName": "退場回避",
+    "IconId": "155",
+    "Verbose": "Exit Evade",
+    "ExtraVerbose": "Removed on Activation",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "231": {
+    "Id": "231",
+    "Name": "AP Increase",
+    "JpName": "AP増加",
+    "IconId": "173",
+    "Verbose": "1 AP Increase",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "451": {
+    "Id": "451",
+    "Name": "2 AP Reduction",
+    "JpName": "AP減少2",
+    "IconId": "157",
+    "Verbose": "2 AP Reduction",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "437": {
+    "Id": "437",
+    "Name": "Special Barrier",
+    "JpName": "特殊バリア",
+    "IconId": "31",
+    "Verbose": "%value% Special Barrier",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "116": {
+    "Id": "116",
+    "Name": "Damage Up against Korosu (Magician)",
+    "JpName": "マジシャン特攻",
+    "IconId": "10007",
+    "Verbose": "%value%% increased Damage against Magician-type Korosu",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "69": {
+    "Id": "69",
+    "Name": "Moon Damage Taken Down",
+    "JpName": "月属性被ダメージダウン",
+    "IconId": "69",
+    "Verbose": "%value%% reduced Moon Damage taken",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "23": {
+    "Id": "23",
+    "Name": "Critical Strike Damage Down",
+    "JpName": "クリティカル威力ダウン",
+    "IconId": "23",
+    "Verbose": "-%value%% to Critical Strike Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "65": {
+    "Id": "65",
+    "Name": "HP Recovery Rate Down",
+    "JpName": "HP回復量ダウン",
+    "IconId": "65",
+    "Verbose": "%value%% reduced HP Recovery Rate",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "120": {
+    "Id": "120",
+    "Name": "Damage Up against Korosu (Beast)",
+    "JpName": "ビースト特攻",
+    "IconId": "10007",
+    "Verbose": "%value%% increased Damage against Beast-type Korosu",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "153": {
+    "Id": "153",
+    "Name": "Aggro Resistance Up",
+    "JpName": "ターゲット固定耐性アップ",
+    "IconId": "153",
+    "Verbose": "+%value%% to Aggro Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "346": {
+    "Id": "346",
+    "Name": "Timed Negative Effect Resistance Up",
+    "JpName": "継続マイナス効果耐性アップ",
+    "IconId": "26",
+    "Verbose": "+%value%% to Timed Negative Effect Resistance",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "340": {
+    "Id": "340",
+    "Name": "Lovesickness",
+    "JpName": "恋わずらい",
+    "IconId": "221",
+    "Verbose": "Lovesickness",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "54": {
+    "Id": "54",
+    "Name": "Poison",
+    "JpName": "毒",
+    "IconId": "54",
+    "Verbose": "%value% Poison",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "damageOverTime"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "383": {
+    "Id": "383",
+    "Name": "Stack Positive Effect Removal",
+    "JpName": "回数プラス効果解除",
+    "IconId": "10006",
+    "Verbose": "Remove all Stack Positive Effects",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "273": {
+    "Id": "273",
+    "Name": "Stop Resistance Up",
+    "JpName": "ストップ耐性アップ",
+    "IconId": "97",
+    "Verbose": "+%value%% to Stop Resistance",
+    "ExtraVerbose": "解除不可",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "431": {
+    "Id": "431",
+    "Name": "Agony",
+    "JpName": "悶絶",
+    "IconId": "242",
+    "Verbose": "Agony",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "453": {
+    "Id": "453",
+    "Name": "Stack Positive Effect Reduction",
+    "JpName": "回数プラス効果減少",
+    "IconId": "252",
+    "Verbose": "Reduce Stack of a Positive Effect",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "117": {
+    "Id": "117",
+    "Name": "Damage Up against Korosu (Shielder)",
+    "JpName": "シールダー特攻",
+    "IconId": "10007",
+    "Verbose": "%value%% increased Damage against Shielder-type Korosu",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "246": {
+    "Id": "246",
+    "Name": "Heavy Burn",
+    "JpName": "大火傷",
+    "IconId": "55",
+    "Verbose": "%value%% of MaxHP Burn",
+    "ExtraVerbose": "Damage taken is based off target's MaxHP",
+    "AltNames": [],
+    "Tags": [
+      "damageOverTime"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "293": {
+    "Id": "293",
+    "Name": "ACT Change",
+    "JpName": "ACTチェンジ",
+    "IconId": "140",
+    "Verbose": "ACT Change",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 1,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "250": {
+    "Id": "250",
+    "Name": "Seal ACT1",
+    "JpName": "ACT1封印",
+    "IconId": "178",
+    "Verbose": "Seal ACT1",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "447": {
+    "Id": "447",
+    "Name": "Kirameki Gain Up",
+    "JpName": "キラめき獲得アップ(%value%)",
+    "IconId": "251",
+    "Verbose": "%value%% increased Kirameki Gain",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "118": {
+    "Id": "118",
+    "Name": "Damage Up against Korosu (Gunner)",
+    "JpName": "ガンナー特攻(%value%)",
+    "IconId": "10007",
+    "Verbose": "%value%% increased Damage against Gunner-type Korosu",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "101": {
+    "Id": "101",
+    "Name": "Stat Buff Removal",
+    "JpName": "ステータスアップ効果解除",
+    "IconId": "10006",
+    "Verbose": "Remove all Stat Buffs",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "239": {
+    "Id": "239",
+    "Name": "Timed Effect Removal",
+    "JpName": "継続効果解除",
+    "IconId": "174",
+    "Verbose": "Remove all Timed Effects",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "240": {
+    "Id": "240",
+    "Name": "All Effects Resistance Up",
+    "JpName": "全効果耐性アップ(%value%)",
+    "IconId": "174",
+    "Verbose": "+%value%% to All Effects Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "68": {
+    "Id": "68",
+    "Name": "Snow Damage Taken Down",
+    "JpName": "雪属性被ダメージダウン",
+    "IconId": "68",
+    "Verbose": "%value%% reduced Snow Damage taken",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "91": {
+    "Id": "91",
+    "Name": "Poison Resistance Up",
+    "JpName": "毒耐性アップ",
+    "IconId": "91",
+    "Verbose": "+%value%% to Poison Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "303": {
+    "Id": "303",
+    "Name": "Strong Poison",
+    "JpName": "猛毒",
+    "IconId": "54",
+    "Verbose": "%value%% of MaxHP Poison",
+    "ExtraVerbose": "Unremovable, Damage taken is based off target's MaxHP",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "323": {
+    "Id": "323",
+    "Name": "Flip Positive Effects",
+    "JpName": "プラス効果反転",
+    "IconId": "151",
+    "Verbose": "Flip %value% latest Eligible Positive Effects",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "439": {
+    "Id": "439",
+    "Name": "Possession",
+    "JpName": "神がかり",
+    "IconId": "247",
+    "Verbose": "Possession",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "440": {
+    "Id": "440",
+    "Name": "AP Reduction",
+    "JpName": "AP減少",
+    "IconId": "157",
+    "Verbose": "1 AP Reduction",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "441": {
+    "Id": "441",
+    "Name": "Critical Strike Damage Up",
+    "JpName": "クリティカル威力アップ",
+    "IconId": "22",
+    "Verbose": "+%value%% to Critical Strike Damage",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "244": {
+    "Id": "244",
+    "Name": "HP Regen",
+    "JpName": "毎ターンHP回復",
+    "IconId": "28",
+    "Verbose": "%value%% of MaxHP Regen",
+    "ExtraVerbose": "Amount Healed is based off target's MaxHP",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "349": {
+    "Id": "349",
+    "Name": "Seal Climax ACT",
+    "JpName": "クライマックスACT封印",
+    "IconId": "178",
+    "Verbose": "Seal Climax ACT",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "97": {
+    "Id": "97",
+    "Name": "Stop Resistance Up",
+    "JpName": "ストップ耐性アップ",
+    "IconId": "97",
+    "Verbose": "+%value%% to Stop Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "232": {
+    "Id": "232",
+    "Name": "Stun",
+    "JpName": "スタン",
+    "IconId": "57",
+    "Verbose": "Stun",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "399": {
+    "Id": "399",
+    "Name": "Generic Damage Up",
+    "JpName": "与ダメージアップ",
+    "IconId": "111",
+    "Verbose": "%value%% increased Damage",
+    "ExtraVerbose": "Only against Seisho Targets",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "392": {
+    "Id": "392",
+    "Name": "Hope",
+    "JpName": "希望",
+    "IconId": "238",
+    "Verbose": "Hope",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 1,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "382": {
+    "Id": "382",
+    "Name": "Timed Positive Effect Resistance Up",
+    "JpName": "プラス効果耐性アップ(%value%)",
+    "IconId": "235",
+    "Verbose": "+%value%% to Positive Effect Resistance",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "442": {
+    "Id": "442",
+    "Name": "Curtains Closed",
+    "JpName": "幕引き",
+    "IconId": "248",
+    "Verbose": "Curtains Closed",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "122": {
+    "Id": "122",
+    "Name": "Damage Up against Korosu (Material)",
+    "JpName": "マテリアル特攻",
+    "IconId": "10007",
+    "Verbose": "%value%% increased Damage against Material-type Korosu",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "312": {
+    "Id": "312",
+    "Name": "Damage over Time Effects Removal",
+    "JpName": "継続ダメージ解除",
+    "IconId": "10005",
+    "Verbose": "Remove all Damage over Time Effects",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "313": {
+    "Id": "313",
+    "Name": "Damage over Time Effects Resistance",
+    "JpName": "継続ダメージ耐性アップ(%value%)",
+    "IconId": "199",
+    "Verbose": "+%value%% to Damage over Time Effects Resistance",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "338": {
+    "Id": "338",
+    "Name": "Positive Effects Removal",
+    "JpName": "プラス効果解除",
+    "IconId": "10006",
+    "Verbose": "Remove all Positive Effects",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "398": {
+    "Id": "398",
+    "Name": "Frostbite",
+    "JpName": "凍傷",
+    "IconId": "241",
+    "Verbose": "%value% Frostbite",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "436": {
+    "Id": "436",
+    "Name": "Normal Barrier",
+    "JpName": "通常バリア",
+    "IconId": "30",
+    "Verbose": "%value% Normal Barrier",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "352": {
+    "Id": "352",
+    "Name": "Electric Shock",
+    "JpName": "感電",
+    "IconId": "227",
+    "Verbose": "%value% Electric Shock",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "449": {
+    "Id": "449",
+    "Name": "2 AP Increase",
+    "JpName": "AP増加2",
+    "IconId": "173",
+    "Verbose": "2 AP Increase",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "304": {
+    "Id": "304",
+    "Name": "Heavy Burn",
+    "JpName": "大火傷",
+    "IconId": "55",
+    "Verbose": "%value%% of MaxHP Burn",
+    "ExtraVerbose": "Unremovable, Damage taken is based off target's MaxHP",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "298": {
+    "Id": "298",
+    "Name": "Confusion",
+    "JpName": "混乱",
+    "IconId": "59",
+    "Verbose": "Confusion",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "309": {
+    "Id": "309",
+    "Name": "Exit Removal",
+    "JpName": "退場解除",
+    "IconId": "197",
+    "Verbose": "Remove Exit and Heal %value%% of MaxHP",
+    "ExtraVerbose": "Amount Healed is based off target's MaxHP",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "401": {
+    "Id": "401",
+    "Name": "Generic Damage Up",
+    "JpName": "与ダメージアップ",
+    "IconId": "111",
+    "Verbose": "%value%% increased Damage",
+    "ExtraVerbose": "Only against Frontier Targets",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "106": {
+    "Id": "106",
+    "Name": "Stun Removal",
+    "JpName": "スタン解除",
+    "IconId": "10005",
+    "Verbose": "Remove Stun",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "103": {
+    "Id": "103",
+    "Name": "Poison Removal",
+    "JpName": "毒解除",
+    "IconId": "10005",
+    "Verbose": "Remove Poison",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "341": {
+    "Id": "341",
+    "Name": "Lovesickness",
+    "JpName": "恋わずらい",
+    "IconId": "221",
+    "Verbose": "Lovesickness",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "151": {
+    "Id": "151",
+    "Name": "Flip Negative Effects",
+    "JpName": "マイナス効果反転",
+    "IconId": "151",
+    "Verbose": "Flip %value% latest Eligible Negative Effects",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "108": {
+    "Id": "108",
+    "Name": "Confusion Removal",
+    "JpName": "混乱解除",
+    "IconId": "10005",
+    "Verbose": "Remove Confusion",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "354": {
+    "Id": "354",
+    "Name": "Electric Shock",
+    "JpName": "感電",
+    "IconId": "227",
+    "Verbose": "%value% Electric Shock",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "102": {
+    "Id": "102",
+    "Name": "Stat Debuff Removal",
+    "JpName": "ステータスダウン効果解除",
+    "IconId": "10005",
+    "Verbose": "Remove all Stat Debuffs",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "432": {
+    "Id": "432",
+    "Name": "Aggro",
+    "JpName": "ターゲット固定",
+    "IconId": "152",
+    "Verbose": "Aggro",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "435": {
+    "Id": "435",
+    "Name": "Seal ACT3",
+    "JpName": "ACT3封印",
+    "IconId": "178",
+    "Verbose": "Seal ACT3",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "456": {
+    "Id": "456",
+    "Name": "ACT Power Up",
+    "JpName": "ACTパワーアップ(開幕時味方の舞台上にいる○○属性舞台少女1体につき○○)",
+    "IconId": "267",
+    "Verbose": "%attr% Allies have %value%% increased ACT",
+    "ExtraVerbose": "Up to 40％",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "458": {
+    "Id": "458",
+    "Name": "ACT Power Up",
+    "JpName": "ACTパワーアップ(開幕時味方の舞台上にいる○○属性舞台少女1体につき○○)",
+    "IconId": "267",
+    "Verbose": "%attr% Allies have %value%% increased ACT",
+    "ExtraVerbose": "Up to 100％",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "455": {
+    "Id": "455",
+    "Name": "Cut-In Skill First Activation Turn Reduction",
+    "JpName": "カットインスキル発動準備ターン短縮",
+    "IconId": "266",
+    "Verbose": "Equipped Cut-In Skill have -%value% to First Activation Turn",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "457": {
+    "Id": "457",
+    "Name": "MaxHP Up",
+    "JpName": "最大HPアップ(開幕時味方の舞台上にいる○○属性舞台少女1体につき○○)",
+    "IconId": "268",
+    "Verbose": "%attr% Allies have %value%% increased MaxHP",
+    "ExtraVerbose": "Up to 40％",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "459": {
+    "Id": "459",
+    "Name": "MaxHP Up",
+    "JpName": "最大HPアップ(開幕時味方の舞台上にいる○○属性舞台少女1体につき○○)",
+    "IconId": "268",
+    "Verbose": "%attr% Allies have %value%% increased MaxHP",
+    "ExtraVerbose": "Up to 150％",
+    "AltNames": [],
+    "Tags": [
+      "statChange"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "446": {
+    "Id": "446",
+    "Name": "Stack Negative Effect Resistance",
+    "JpName": "回数マイナス効果耐性アップ",
+    "IconId": "250",
+    "Verbose": "+%value%% to Stack Negative Effect Resistance",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 0,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "443": {
+    "Id": "443",
+    "Name": "Curtains Closed",
+    "JpName": "幕引き",
+    "IconId": "248",
+    "Verbose": "Curtains Closed",
+    "ExtraVerbose": "Unremovable",
+    "AltNames": [],
+    "Tags": [
+      "unremovable"
+    ],
+    "Quality": 1,
+    "Type": 0,
+    "Explanation": "ExplPlaceHolder"
+  },
+  "154": {
+    "Id": "154",
+    "Name": "Aggro Removal",
+    "JpName": "ターゲット固定解除",
+    "IconId": "10005",
+    "Verbose": "Remove Aggro",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": [],
+    "Quality": 2,
+    "Type": 2,
+    "Explanation": "ExplPlaceHolder"
   }
-]
+}

@@ -1,16 +1,392 @@
-[
-  {
-    "Name": "Damage",
-    "JpName": "",
-    "AltNames": [],
+{
+  "1": {
+    "Id": "1",
+    "Name": "Elemental Damage",
+    "JpName": "○○属性攻撃",
     "IconId": "1",
-    "Verbose": "Deal $amp$*{$mgn$/$amp$}% ($mgn$)% of $elem$ damage"
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": []
   },
-  {
-    "Name": "Fixed Damage",
-    "JpName": "固定ダメージ",
-    "AltNames": [],
+  "81": {
+    "Id": "81",
+    "Name": "Elemental Damage",
+    "JpName": "○○属性攻撃",
     "IconId": "1",
-    "Verbose": "Deal $amp$*{$mgn$/$amp$} ($mgn$) of Fixed $elem$ damage"
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": []
+  },
+  "80": {
+    "Id": "80",
+    "Name": "Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": []
+  },
+  "306": {
+    "Id": "306",
+    "Name": "Normal-Type Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Normal-Type Targets",
+    "AltNames": [],
+    "Tags": []
+  },
+  "305": {
+    "Id": "305",
+    "Name": "Normal-Type Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Normal-Type Targets",
+    "AltNames": [],
+    "Tags": []
+  },
+  "230": {
+    "Id": "230",
+    "Name": "Random Hit Stop Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Each Hit has 20% Chance of Stop (1t)",
+    "AltNames": [],
+    "Tags": []
+  },
+  "310": {
+    "Id": "310",
+    "Name": "Effect Ignore Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Perfect Aim - Ignores Invincible, Reflect & Barriers",
+    "AltNames": [],
+    "Tags": []
+  },
+  "82": {
+    "Id": "82",
+    "Name": "Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": []
+  },
+  "83": {
+    "Id": "83",
+    "Name": "Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": []
+  },
+  "84": {
+    "Id": "84",
+    "Name": "Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "",
+    "AltNames": [],
+    "Tags": []
+  },
+  "137": {
+    "Id": "137",
+    "Name": "Barrier Ignoring Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Ignores Barriers",
+    "AltNames": [],
+    "Tags": []
+  },
+  "308": {
+    "Id": "308",
+    "Name": "Special-Type Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Special-Type Targets",
+    "AltNames": [],
+    "Tags": []
+  },
+  "3": {
+    "Id": "3",
+    "Name": "Barrier Ignoring Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "バリア無視",
+    "AltNames": [],
+    "Tags": []
+  },
+  "276": {
+    "Id": "276",
+    "Name": "Poison Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Targets with Poison",
+    "AltNames": [],
+    "Tags": []
+  },
+  "136": {
+    "Id": "136",
+    "Name": "Barrier Ignoring Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Ignores Barriers",
+    "AltNames": [],
+    "Tags": []
+  },
+  "279": {
+    "Id": "279",
+    "Name": "Stun Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Targets with Stun",
+    "AltNames": [],
+    "Tags": []
+  },
+  "262": {
+    "Id": "262",
+    "Name": "Random Hit Stun Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Each Hit has 20% Chance of Stun (2t)",
+    "AltNames": [],
+    "Tags": []
+  },
+  "307": {
+    "Id": "307",
+    "Name": "Special-Type Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Special-Type Targets",
+    "AltNames": [],
+    "Tags": []
+  },
+  "322": {
+    "Id": "322",
+    "Name": "Non-Elemental Damage",
+    "JpName": "無属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of Non-Elemental Damage",
+    "ExtraVerbose": "Fixed Damage - Causes Exit if this ACT drops HP to 0 or below",
+    "AltNames": [],
+    "Tags": []
+  },
+  "391": {
+    "Id": "391",
+    "Name": "Random Hit Impudence Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Each Hit has 33% Chance of 5000 Impudence (1 Stack)",
+    "AltNames": [],
+    "Tags": []
+  },
+  "5": {
+    "Id": "5",
+    "Name": "Enmity Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals increased Damage the lower the User's CurHP% is",
+    "AltNames": [],
+    "Tags": []
+  },
+  "146": {
+    "Id": "146",
+    "Name": "Enmity Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals increased Damage the lower the User's CurHP% is",
+    "AltNames": [],
+    "Tags": []
+  },
+  "284": {
+    "Id": "284",
+    "Name": "Blind Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Targets with Blind",
+    "AltNames": [],
+    "Tags": []
+  },
+  "361": {
+    "Id": "361",
+    "Name": "Seisho Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Seisho Targets",
+    "AltNames": [],
+    "Tags": []
+  },
+  "386": {
+    "Id": "386",
+    "Name": "Seisho Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Perfect Aim - Ignores Invincible, Reflect & Barriers - Deals additional Damage to Seisho Targets",
+    "AltNames": [],
+    "Tags": []
+  },
+  "2": {
+    "Id": "2",
+    "Name": "Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Ignores Defense Increases",
+    "AltNames": [],
+    "Tags": []
+  },
+  "393": {
+    "Id": "393",
+    "Name": "Random Hit Daze Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Each Hit has 33% Chance of Daze (1 Stack)",
+    "AltNames": [],
+    "Tags": []
+  },
+  "277": {
+    "Id": "277",
+    "Name": "Burn Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Targets with Burn",
+    "AltNames": [],
+    "Tags": []
+  },
+  "266": {
+    "Id": "266",
+    "Name": "Random Hit Blind Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Each Hit has 20% Chance of Blind (2t)",
+    "AltNames": [],
+    "Tags": []
+  },
+  "364": {
+    "Id": "364",
+    "Name": "Siegfeld Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Siegfeld Targets",
+    "AltNames": [],
+    "Tags": []
+  },
+  "371": {
+    "Id": "371",
+    "Name": "Random Hit Stop Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Each Hit has 33% Chance of Stop (1t)",
+    "AltNames": [],
+    "Tags": []
+  },
+  "283": {
+    "Id": "283",
+    "Name": "Freeze Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Targets with Freeze",
+    "AltNames": [],
+    "Tags": []
+  },
+  "320": {
+    "Id": "320",
+    "Name": "Non-Elemental Damage",
+    "JpName": "無属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Fixed Damage",
+    "AltNames": [],
+    "Tags": []
+  },
+  "281": {
+    "Id": "281",
+    "Name": "Confusion Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Targets with Confusion",
+    "AltNames": [],
+    "Tags": []
+  },
+  "135": {
+    "Id": "135",
+    "Name": "Barrier Ignoring Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Ignores Barriers",
+    "AltNames": [],
+    "Tags": []
+  },
+  "359": {
+    "Id": "359",
+    "Name": "Electric Shock Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Targets with Electric Shock",
+    "AltNames": [],
+    "Tags": []
+  },
+  "345": {
+    "Id": "345",
+    "Name": "Lovesickness Amp Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals additional Damage to Targets with Lovesickness",
+    "AltNames": [],
+    "Tags": []
+  },
+  "147": {
+    "Id": "147",
+    "Name": "Enmity Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Deals increased Damage the lower the User's CurHP% is",
+    "AltNames": [],
+    "Tags": []
+  },
+  "376": {
+    "Id": "376",
+    "Name": "Random Hit Blind Elemental Damage",
+    "JpName": "○○属性攻撃",
+    "IconId": "1",
+    "Verbose": "Deal %value%% of %attr% Damage",
+    "ExtraVerbose": "Each Hit has 33% Chance of Blind (2t)",
+    "AltNames": [],
+    "Tags": []
   }
-]
+}
