@@ -530,7 +530,7 @@
     "Emote": "<:resurrection:859411404154339348>"
   },
   {
-    "Id": "228",
+    "Id": "240",
     "Name": "weakspot",
     "Emote": "<:weakspot:911051826726596638>"
   },
@@ -633,26 +633,6 @@
     "Id": "positionMiddle",
     "Name": "middle",
     "Emote": "<:icon_position_middle:670780625581506621>"
-  },
-  {
-    "Id": "36",
-    "Name": "frontier",
-    "Emote": "<:please_ping_if_you_see_this:670781960800698378>"
-  },
-  {
-    "Id": "1018",
-    "Name": "rinmeikan",
-    "Emote": "<:please_ping_if_you_see_this:670781960800698378>"
-  },
-  {
-    "Id": "155",
-    "Name": "siegfeld",
-    "Emote": "<:please_ping_if_you_see_this:670781960800698378>"
-  },
-  {
-    "Id": "36",
-    "Name": "seisho",
-    "Emote": "<:please_ping_if_you_see_this:670781960800698378>"
   },
   {
     "Id": "159",
