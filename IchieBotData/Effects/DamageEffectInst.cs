@@ -21,11 +21,29 @@ public class DamageEffectInst : EffectInst
         var dividedMagnitudes = Magnitudes.Select(i => Math.Round(i / (float) HitCount, 2)).ToList();
         if (shortString)
         {
-            verbose = verbose.Replace("%value%", dividedMagnitudes.Last().ToString(CultureInfo.InvariantCulture));
+            if (HitCount > 1)
+            {
+                verbose = Effect.Tags.Contains("fixedDamage") ? 
+                    verbose.Replace("%value%", $"{HitCount}*{dividedMagnitudes.Last()} ({Magnitudes.Last()})") : 
+                    verbose.Replace("%value%%", $"{HitCount}*{dividedMagnitudes.Last()}% ({Magnitudes.Last()}%)");
+            }
+            else
+            {
+                verbose = verbose.Replace("%value%", Magnitudes.Last().ToString(CultureInfo.InvariantCulture));
+            }
         }
         else
         {
-            verbose = verbose.Replace("%value%", $"({dividedMagnitudes.First()}-{dividedMagnitudes.Last()})");
+            if (HitCount > 1)
+            {
+                verbose = Effect.Tags.Contains("fixedDamage") ? 
+                    verbose.Replace("%value%", $"{HitCount}*({dividedMagnitudes.First()}-{dividedMagnitudes.Last()}) ({Magnitudes.First()}-{Magnitudes.Last()})") : 
+                    verbose.Replace("%value%%", $"{HitCount}*({dividedMagnitudes.First()}%-{dividedMagnitudes.Last()}%) ({Magnitudes.First()}%-{Magnitudes.Last()}%)");
+            }
+            else
+            {
+                verbose = verbose.Replace("%value%", Magnitudes.Last().ToString(CultureInfo.InvariantCulture));
+            }
         }
 
         verbose = verbose.Replace("%attr%", Element.ToString());

@@ -16,7 +16,7 @@ public abstract class Effect
     
     public List<string> Tags { get; set; }
 
-    protected Effect(int id, string name, string jpName, List<string> altNames, int iconId, string verbose, string extraVerbose)
+    protected Effect(int id, string name, string jpName, List<string> altNames, int iconId, string verbose, string extraVerbose, List<string> tags)
     {
         Id = id;
         Name = name;
@@ -25,5 +25,6 @@ public abstract class Effect
         IconId = iconId;
         Verbose = verbose;
         ExtraVerbose = extraVerbose;
+        Tags = tags;
     }
 }

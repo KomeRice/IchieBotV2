@@ -184,10 +184,12 @@
     "Name": "Non-Elemental Damage",
     "JpName": "無属性攻撃",
     "IconId": "1",
-    "Verbose": "Deal %value%% of Non-Elemental Damage",
+    "Verbose": "Deal %value% of Non-Elemental Damage",
     "ExtraVerbose": "Fixed Damage - Causes Exit if this ACT drops HP to 0 or below",
     "AltNames": [],
-    "Tags": []
+    "Tags": [
+      "fixedDamage"
+    ]
   },
   "391": {
     "Id": "391",
@@ -324,10 +326,12 @@
     "Name": "Non-Elemental Damage",
     "JpName": "無属性攻撃",
     "IconId": "1",
-    "Verbose": "Deal %value%% of %attr% Damage",
+    "Verbose": "Deal %value% of %attr% Damage",
     "ExtraVerbose": "Fixed Damage",
     "AltNames": [],
-    "Tags": []
+    "Tags": [
+      "fixedDamage"
+    ]
   },
   "281": {
     "Id": "281",
