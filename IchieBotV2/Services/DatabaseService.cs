@@ -18,18 +18,18 @@ public class DatabaseService
     public StatCalculator Calculator { get; set; }
     private const string DataRoot = @"Data/";
 
-    private Dictionary<string, DamageEffect> _damageEffects;
-    private Dictionary<string, NonDamageEffect> _nonDamageEffects;
-    private Dictionary<string, Target> _targets;
-    public readonly Dictionary<string, Icon> _icons;
-    private Dictionary<string, JObject> _sequence;
-    private Dictionary<string, Act> _acts;
-    public Dictionary<string, Dress> Dresses;
-    private Dictionary<string, JObject> _chara;
-    private Dictionary<string, Skill> _entrySkills;
-    private Dictionary<string, Skill> _startSkills;
-    private Dictionary<string, Skill> _passiveSkills;
-    private Dictionary<string, Skill> _partySkills;
+    private readonly Dictionary<string, DamageEffect> _damageEffects;
+    private readonly Dictionary<string, NonDamageEffect> _nonDamageEffects;
+    private readonly Dictionary<string, Target> _targets;
+    private readonly Dictionary<string, Icon> _icons;
+    private readonly Dictionary<string, JObject> _sequence;
+    private readonly Dictionary<string, Act> _acts;
+    public readonly Dictionary<string, Dress> Dresses;
+    private readonly Dictionary<string, JObject> _chara;
+    private readonly Dictionary<string, Skill> _entrySkills;
+    private readonly Dictionary<string, Skill> _startSkills;
+    private readonly Dictionary<string, Skill> _passiveSkills;
+    private readonly Dictionary<string, Skill> _partySkills;
     private Dictionary<string, Skill> _equipSkills;
 
 	public DatabaseService(DiscordSocketClient client, InteractionService commands, IServiceProvider services,
@@ -288,10 +288,10 @@ public class DatabaseService
 				    switch (jObj[$"auto_skill{i}_type"]!.ToString())
 				    {
 					    case "2":
-						    autos.Add(_startSkills[autoId]);
+						    autos.Add(_startSkills[autoId].CloneWithElement(attribute));
 						    break;
 					    case "1":
-						    autos.Add(_passiveSkills[autoId]);
+						    autos.Add(_passiveSkills[autoId].CloneWithElement(attribute));
 						    break;
 				    }
 			    }
@@ -354,7 +354,6 @@ public class DatabaseService
         return ret;
     }
     
-
     private static List<int> JObjectToList(JObject obj)
     {
 	    var outList = new List<int>();
@@ -390,6 +389,12 @@ public class DatabaseService
 	    var sequence = _sequence[sequenceId][$"option_{optionNumber}_damage_frame"] as JObject;
 
 	    return sequence?.Count ?? 0;
+    }
+
+    public string GetIconEmote(string id)
+    {
+	    return _icons.TryGetValue(id, out var res) ? res.Emote : 
+		    "<:please_ping_if_you_see_this:670781960800698378>";
     }
     
     public class Target

@@ -151,7 +151,7 @@ public class DressEmbedHelper
         {
             fields.Add(new EmbedFieldBuilder()
             {
-                Name = $"{_db._icons[dress.UnitSkill.Icon].Emote} Unit Skill [Level 21]",
+                Name = $"{_db.GetIconEmote(dress.UnitSkill.Icon)} Unit Skill [Level 21]",
                 Value = GetSkillDescription(dress.UnitSkill)
             });
         }
@@ -202,8 +202,8 @@ public class DressEmbedHelper
         return new EmbedFieldBuilder()
         {
             //TODO: Make effect icon strings instead of int
-            Name = cx ? $"{_db._icons[act.Skill.Icon].Emote} CA [{act.Cost}AP]{act.Name}" :
-                $"{_db._icons[act.Skill.Icon].Emote} ACT{actNumber} [{act.Cost}AP]{act.Name}",
+            Name = cx ? $"{_db.GetIconEmote(act.Skill.Icon)} CA [{act.Cost}AP]{act.Name}" :
+                $"{_db.GetIconEmote(act.Skill.Icon)} ACT{actNumber} [{act.Cost}AP]{act.Name}",
             Value = GetSkillDescription(act.Skill)
         };
     }
@@ -227,7 +227,7 @@ public class DressEmbedHelper
             if (!targets.ContainsKey(effect.Target))
                 targets[effect.Target] = new List<Tuple<string, string>>();
             targets[effect.Target].Add(new Tuple<string, string>(
-                $"{_db._icons[effect.GetEffect().IconId.ToString()].Emote} {effect.Description(firstLevel: firstLevel)}", 
+                $"{_db.GetIconEmote(effect.GetEffect().IconId.ToString())} {effect.Description(firstLevel: firstLevel)}", 
                 effect.ExtraDescription()));
         }
 
