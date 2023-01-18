@@ -4,23 +4,23 @@ using IchieBotV2.Services;
 
 namespace IchieBotV2.Utils;
 
-public class RankingEmbedHelper
+public class RankingLegacyEmbedHelper
 {
 	private readonly DatabaseLegacyService _db;
-	private readonly RankingService _rankingService;
+	private readonly RankingLegacyService _rankingLegacyService;
 	private const int PageSize = 16;
 	public static readonly List<string> Parameters = new List<string>()
 		{ "Power Score", "MaxHP", "ACT Power", "NormDef", "SpDef", "Agility", "Row Position" };
 	
-	public RankingEmbedHelper(DatabaseLegacyService db, RankingService rankingService)
+	public RankingLegacyEmbedHelper(DatabaseLegacyService db, RankingLegacyService rankingLegacyService)
 	{
 		_db = db;
-		_rankingService = rankingService;
+		_rankingLegacyService = rankingLegacyService;
 	}
 
-	public async Task<Embed> RankingEmbed(RankingService.Parameter p, int page = 0, int rb = 0)
+	public async Task<Embed> RankingEmbed(RankingLegacyService.Parameter p, int page = 0, int rb = 0)
 	{
-		var entries = _rankingService.GetRanking(p, rb);
+		var entries = _rankingLegacyService.GetRanking(p, rb);
 
 		var startIndex = page * PageSize;
 
@@ -37,7 +37,7 @@ public class RankingEmbedHelper
 				}
 
 				var d = _db.GetFromDressId(entry);
-				if (p != RankingService.Parameter.RowPosition)
+				if (p != RankingLegacyService.Parameter.RowPosition)
 				{
 					var stat = rb == 0
 						? d.MaxStats[(int)p]
@@ -65,7 +65,7 @@ public class RankingEmbedHelper
 			Footer = new EmbedFooterBuilder
 			{
 				Text =
-					$"Page {page + 1} / {Math.Ceiling(_rankingService.GetMax(p, rb) / (double)PageSize).ToString(CultureInfo.InvariantCulture)}"
+					$"Page {page + 1} / {Math.Ceiling(_rankingLegacyService.GetMax(p, rb) / (double)PageSize).ToString(CultureInfo.InvariantCulture)}"
 			}
 		}.Build();
 
@@ -75,11 +75,11 @@ public class RankingEmbedHelper
 	public ActionRowBuilder RankingMenu(string uniqueId)
 	{
 		var split = uniqueId.Split("_").Select(s => Convert.ToInt32(s)).ToArray();
-		var p = (RankingService.Parameter) split[0];
+		var p = (RankingLegacyService.Parameter) split[0];
 		var rb = split[1];
 		var page = split[2];
 		
-		var lastPage = (int) Math.Floor(_rankingService.GetMax(p, rb) / (double)PageSize);
+		var lastPage = (int) Math.Floor(_rankingLegacyService.GetMax(p, rb) / (double)PageSize);
 
 		var buttons = new ActionRowBuilder();
 

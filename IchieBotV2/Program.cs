@@ -1,4 +1,5 @@
-﻿using Discord;
+﻿using System.Reflection;
+using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
 using IchieBotV2.Modules;
@@ -12,7 +13,7 @@ namespace IchieBotV2
     public class Program
     {
         private DiscordSocketClient _client;
-        private IServiceCollection _services;
+        private IServiceProvider _services;
         private InteractionService _commands;
 
         public static Task Main(string[] args) => new Program().MainAsync();
@@ -39,6 +40,7 @@ namespace IchieBotV2
 
             using (var services = ConfigureServices())
             {
+                _services = services;
                 var client = services.GetRequiredService<DiscordSocketClient>();
                 var commands = services.GetRequiredService<InteractionService>();
                 _client = client;
@@ -71,24 +73,27 @@ namespace IchieBotV2
                 .AddSingleton(x => new InteractionService(x.GetRequiredService<DiscordSocketClient>()))
                 .AddSingleton<CommandHandler>()
                 .AddSingleton<DatabaseLegacyService>()
-                .AddSingleton<DressEmbedHelper>()
+                .AddSingleton<DressLegacyEmbedHelper>()
                 .AddSingleton<DressLegacyModule.DressCompleteHandler>()
                 .AddSingleton<StatCalculator>()
-                .AddSingleton<RankingEmbedHelper>()
-                .AddSingleton<RankingService>()
+                .AddSingleton<RankingLegacyEmbedHelper>()
+                .AddSingleton<RankingLegacyService>()
                 .AddSingleton<DatabaseService>()
+                .AddSingleton<RankingService>()
+                .AddSingleton<DressEmbedHelper>()
                 .BuildServiceProvider();
         }
 
         private async Task ReadyAsync()
         {
+            await _commands.AddModulesAsync(Assembly.GetEntryAssembly(), _services);
 #if DEBUG
             try
             {
                 var f = await File.ReadAllTextAsync("./secret.json");
                 var testGuild = JObject.Parse(f)["testServerSnowflake"];
                 if (testGuild == null)
-                    throw new FormatException("Could not get test guild snowflake from 'secret.json'");
+                    throw new FormatException("Could not get test guild snowflake from 'secret.json'"); 
                 var testGuildSnowflake = testGuild.ToObject<ulong>();
                 await _commands.RegisterCommandsToGuildAsync(testGuildSnowflake);
             }

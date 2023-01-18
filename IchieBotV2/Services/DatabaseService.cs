@@ -21,10 +21,10 @@ public class DatabaseService
     private Dictionary<string, DamageEffect> _damageEffects;
     private Dictionary<string, NonDamageEffect> _nonDamageEffects;
     private Dictionary<string, Target> _targets;
-    private Dictionary<string, Icon> _icons;
+    public readonly Dictionary<string, Icon> _icons;
     private Dictionary<string, JObject> _sequence;
     private Dictionary<string, Act> _acts;
-    private Dictionary<string, Dress> _dresses;
+    public Dictionary<string, Dress> Dresses;
     private Dictionary<string, JObject> _chara;
     private Dictionary<string, Skill> _entrySkills;
     private Dictionary<string, Skill> _startSkills;
@@ -60,8 +60,7 @@ public class DatabaseService
 		_partySkills = LoadSkills(DataRoot + "Raw/jp/party_skill.json", true);
 		_entrySkills = LoadSkills(DataRoot + "Raw/jp/entry_skill.json", false, true);
 		
-		_dresses = LoadDresses(DataRoot + "Raw/jp/dress.json");
-		Console.WriteLine("a");
+		Dresses = LoadDresses(DataRoot + "Raw/jp/dress.json");
 	}
 
 	private Dictionary<string, NonDamageEffect> LoadNonDamageEffects()
@@ -139,8 +138,8 @@ public class DatabaseService
 		    }
 		    catch (Exception e)
 		    {
-			    Program.LogAsync(new LogMessage(LogSeverity.Error, "loadActs",
-				    $"Failed to load act id {prop.Name}", e));
+			    //Program.LogAsync(new LogMessage(LogSeverity.Error, "loadActs",
+				//    $"Failed to load act id {prop.Name}", e));
 		    }
 	    }
 
@@ -174,8 +173,8 @@ public class DatabaseService
 		    }
 		    catch (Exception e)
 		    {
-			    Program.LogAsync(new LogMessage(LogSeverity.Error, "loadSkills",
-				    $"Failed to load skill id {prop.Name}", e));
+			    //Program.LogAsync(new LogMessage(LogSeverity.Error, "loadSkills",
+				//    $"Failed to load skill id {prop.Name}", e));
 		    }
 	    }
 	    
@@ -223,7 +222,7 @@ public class DatabaseService
 			if (_nonDamageEffects.ContainsKey(optionId))
 			{
 				var inst = new NonDamageEffectInst(_nonDamageEffects[optionId], optionTarget.Description,
-					optionHitRate, optionValues, optionTimes);
+					optionHitRate, optionValues, optionTimes, attribute);
 				effects.Add(inst);
 			}
 			else if (_damageEffects.ContainsKey(optionId))
@@ -235,8 +234,8 @@ public class DatabaseService
 			}
 			else
 			{
-				Program.LogAsync(new LogMessage(LogSeverity.Error, "loadActs",
-					$"Ignored skill {optionId} in act {debugId}"));
+				//Program.LogAsync(new LogMessage(LogSeverity.Error, "loadActs",
+				//	$"Ignored skill {optionId} in act {debugId}"));
 			}
 		}
 
@@ -269,6 +268,7 @@ public class DatabaseService
 			    var stats = GetAllStats(id);
 			    var rowIndex = int.Parse(jObj["role_index"]!.ToString());
 			    var releasedJp = int.Parse(jObj["published_at"]!.ToString());
+			    var hasRemake = Calculator.HasRemake(id);
 
 			    var actIds = new List<string>();
 			    for (var i = 1; i < 4; i++)
@@ -318,7 +318,7 @@ public class DatabaseService
 
 			    var newDress = new Dress(id, thumbUrl, dressName, attribute, stats, rowIndex, type, -1,
 				    releasedJp, basics, autos, cx, unitSkill, entrySkill, aliases, cost, rarity,
-				    pool, notes);
+				    pool, notes, hasRemake);
 			    outDict[id] = newDress;
 		    }
 		    catch (Exception e)
@@ -353,6 +353,7 @@ public class DatabaseService
 
         return ret;
     }
+    
 
     private static List<int> JObjectToList(JObject obj)
     {

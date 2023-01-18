@@ -10,15 +10,15 @@ namespace IchieBotV2.Modules;
 public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
 {
     private readonly DatabaseLegacyService _db;
-    private readonly DressEmbedHelper _embedHelper;
+    private readonly DressLegacyEmbedHelper _legacyEmbedHelper;
     
-    public DressLegacyModule(DatabaseLegacyService db, DressEmbedHelper embedHelper)
+    public DressLegacyModule(DatabaseLegacyService db, DressLegacyEmbedHelper legacyEmbedHelper)
     {
         _db = db;
-        _embedHelper = embedHelper;
+        _legacyEmbedHelper = legacyEmbedHelper;
     }
 
-    [SlashCommand("dress", "Shows a Stage Girl in Legacy format")]
+    [SlashCommand("dresslegacy", "Shows a Stage Girl in Legacy format")]
     public async Task LegacySearch([Autocomplete(typeof(DressCompleteHandler)),
                                     Summary("name","Attempts to match name or aliases")]string name)
     {
@@ -44,8 +44,8 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
                     d = stageGirls[0];
                     break;
                 default:
-                    var e = _embedHelper.MultiresultEmbed(stageGirls);
-                    var menu = DressEmbedHelper.MultiresultMenu(uniqueId + "_0", stageGirls.Count);
+                    var e = _legacyEmbedHelper.MultiresultEmbed(stageGirls);
+                    var menu = DressLegacyEmbedHelper.MultiresultMenu(uniqueId + "_0", stageGirls.Count);
 
                     if (menu is not null)
                     {
@@ -73,8 +73,8 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
         }
         
         // TODO: Dedicated message builder
-        var embed = await _embedHelper.LegacyToEmbedOverview(d);
-        var rows = await _embedHelper.LegacyEmbedMenu(d.DressId[2..] + "_100");
+        var embed = await _legacyEmbedHelper.LegacyToEmbedOverview(d);
+        var rows = await _legacyEmbedHelper.LegacyEmbedMenu(d.DressId[2..] + "_100");
 
         var builder = new ComponentBuilder().WithRows(rows);
 
@@ -123,8 +123,8 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
             case 1:
             {
                 var d = dressList.First();
-                var embed = await _embedHelper.LegacyToEmbedOverview(d);
-                var rows = await _embedHelper.LegacyEmbedMenu(d.DressId[2..] + "_100");
+                var embed = await _legacyEmbedHelper.LegacyToEmbedOverview(d);
+                var rows = await _legacyEmbedHelper.LegacyEmbedMenu(d.DressId[2..] + "_100");
 
                 var builder = new ComponentBuilder().WithRows(rows);
 
@@ -133,8 +133,8 @@ public class DressLegacyModule : InteractionModuleBase<SocketInteractionContext>
             }
         }
 
-        var e = _embedHelper.MultiresultEmbed(dressList);
-        var menu = DressEmbedHelper.MultiresultMenu(uniqueId + "_0", dressList.Count);
+        var e = _legacyEmbedHelper.MultiresultEmbed(dressList);
+        var menu = DressLegacyEmbedHelper.MultiresultMenu(uniqueId + "_0", dressList.Count);
         if (menu is not null)
         {
             var multBuilder = new ComponentBuilder().AddRow(menu);

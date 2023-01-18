@@ -23,8 +23,9 @@ public class Dress
     public int BaseRarity { get; set; }
     public Pool Pool { get; set; }
     public string Notes { get; set; }
+    public bool HasRemake { get; set; }
 
-    public Dress(string dressId, string thumbUrl, string name, Element element, List<List<int>> stats, int rowIndex, AttackType type, int releaseWw, int releaseJp, List<Act> basicActs, List<Skill> autoSkills, Act climaxAct, Skill? unitSkill, Skill? entrySkill, List<string> aliases, int cost, int baseRarity, Pool pool, string notes)
+    public Dress(string dressId, string thumbUrl, string name, Element element, List<List<int>> stats, int rowIndex, AttackType type, int releaseWw, int releaseJp, List<Act> basicActs, List<Skill> autoSkills, Act climaxAct, Skill? unitSkill, Skill? entrySkill, List<string> aliases, int cost, int baseRarity, Pool pool, string notes, bool hasRemake)
     {
         DressId = dressId;
         ThumbUrl = thumbUrl;
@@ -45,5 +46,6 @@ public class Dress
         BaseRarity = baseRarity;
         Pool = pool;
         Notes = notes;
+        HasRemake = hasRemake;
     }
 }

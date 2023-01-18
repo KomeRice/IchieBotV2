@@ -1,6 +1,6 @@
 namespace IchieBotV2.Services;
 
-public class RankingService
+public class RankingLegacyService
 {
     private readonly DatabaseLegacyService _db;
     private readonly List<List<int>> _dressRanking = new List<List<int>>();
@@ -11,7 +11,7 @@ public class RankingService
     private readonly Dictionary<string, int> _rowIndex = new Dictionary<string, int>();
     private readonly SortedDictionary<int, string> _reverseRowIndex = new SortedDictionary<int, string>();
 
-    public RankingService(DatabaseLegacyService db)
+    public RankingLegacyService(DatabaseLegacyService db)
     {
         _db = db;
         for (var i = 0; i < 6; i++)

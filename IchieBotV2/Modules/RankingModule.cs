@@ -7,19 +7,19 @@ namespace IchieBotV2.Modules;
 
 public class RankingModule : InteractionModuleBase<SocketInteractionContext>
 {
-	private RankingService _ranking;
+	private RankingLegacyService _rankingLegacy;
 	private DatabaseLegacyService _db;
-	private readonly RankingEmbedHelper _embedHelper;
+	private readonly RankingLegacyEmbedHelper _legacyEmbedHelper;
 	
-	public RankingModule(RankingService ranking, DatabaseLegacyService db, RankingEmbedHelper embedHelper)
+	public RankingModule(RankingLegacyService rankingLegacy, DatabaseLegacyService db, RankingLegacyEmbedHelper legacyEmbedHelper)
 	{
-		_ranking = ranking;
+		_rankingLegacy = rankingLegacy;
 		_db = db;
-		_embedHelper = embedHelper;
+		_legacyEmbedHelper = legacyEmbedHelper;
 	}
 
 	[SlashCommand("ranking", "Displays ranking for the given parameter")]
-	public async Task Ranking([Discord.Interactions.Summary("stat", "Target stat")] RankingService.Parameter p,
+	public async Task Ranking([Discord.Interactions.Summary("stat", "Target stat")] RankingLegacyService.Parameter p,
 		[Discord.Interactions.Summary("rb", "Target RB Level")] RbLevel rb = RbLevel.RB0)
 	{
 		if ((int) rb is < 0 or > 4)
@@ -28,7 +28,7 @@ public class RankingModule : InteractionModuleBase<SocketInteractionContext>
 			return;
 		}
 
-		if (rb != RbLevel.RB0 && p == RankingService.Parameter.RowPosition)
+		if (rb != RbLevel.RB0 && p == RankingLegacyService.Parameter.RowPosition)
 		{
 			await ReplyAsync(embed: new EmbedBuilder
 			{
@@ -36,8 +36,8 @@ public class RankingModule : InteractionModuleBase<SocketInteractionContext>
 			}.Build());
 		}
 
-		var e = await _embedHelper.RankingEmbed(p, rb: (int) rb);
-		var menu = _embedHelper.RankingMenu($"{(int)p}_{(int) rb}_0");
+		var e = await _legacyEmbedHelper.RankingEmbed(p, rb: (int) rb);
+		var menu = _legacyEmbedHelper.RankingMenu($"{(int)p}_{(int) rb}_0");
 		var builder = new ComponentBuilder().AddRow(menu);
 		await RespondAsync(embed: e, components: builder.Build());
 	}
